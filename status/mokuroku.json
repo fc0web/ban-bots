@@ -2,13 +2,28 @@
   "alert": false,
   "alert_count": 0,
   "color": "green",
-  "generated_at": "2026-11-17T10:30:43+09:00",
+  "generated_at": "2026-11-17T10:31:55+09:00",
   "ng": 0,
-  "ok": 5,
-  "problems": [],
+  "ok": 3,
+  "problems": [
+    {
+      "ban": "kyoiku",
+      "checked_at": "2026-11-17T10:31:42+09:00",
+      "freq": "daily",
+      "reason": "new_today=0 (after_filter=30)",
+      "status": "warn"
+    },
+    {
+      "ban": "uranai",
+      "checked_at": "2026-11-17T10:31:45+09:00",
+      "freq": "daily",
+      "reason": "new_today=0 (after_filter=15)",
+      "status": "warn"
+    }
+  ],
   "problems_truncated": 0,
   "ran_today": 2,
   "stale": 0,
   "total": 5,
-  "warn": 0
+  "warn": 2
 }
