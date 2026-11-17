@@ -1,10 +1,10 @@
 {
   "ban": "kokoku-ban",
   "fetch_stats": {
-    "after_filter": 2,
+    "after_filter": 1,
     "by_source": {
       "rss": {
-        "after_filter": 2,
+        "after_filter": 1,
         "raw": 159
       }
     },
@@ -13,7 +13,7 @@
     "raw_fetched": 159,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T18:52:33+09:00",
+  "fetched_at": "2026-11-17T22:49:42+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",

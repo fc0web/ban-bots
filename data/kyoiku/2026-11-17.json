@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 76,
-    "newly_added_this_run": 4,
+    "new_today": 86,
+    "newly_added_this_run": 10,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T18:53:07+09:00",
+  "fetched_at": "2026-11-17T22:49:44+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -1053,6 +1053,134 @@
       "source": "zenodo",
       "title": "Replication package (1 of 2), code and workflow: From reclassified administrative records to transparent hiring scenarios: a reproducible probabilistic framework for three-year workforce planning in Italian universities",
       "url": "https://zenodo.org/records/24303830"
+    },
+    {
+      "authors": [
+        "Díaz-Galán, Ana"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-16",
+      "id": "24289451",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Ejemplario de complementación verbal en inglés del alumnado de Gramática Inglesa I en el marco del Proyecto de Innovación y Transferencia Educativa APIA-HALSE de la ULL",
+      "url": "https://zenodo.org/records/24289451"
+    },
+    {
+      "authors": [
+        "Díaz-Galán, Ana"
+      ],
+      "category": "Lesson",
+      "date": "2026-11-17",
+      "id": "24304468",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Material de formación básica en el uso de Sketch Engine para el alumnado de Gramática Inglesa I (ULL) en el marco del Proyecto de Innovación y Transferencia Educativa APIA-HALSE de la ULL",
+      "url": "https://zenodo.org/records/24304468"
+    },
+    {
+      "authors": [
+        "Yoonsu Lee"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24310951",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Totality Theorem: Resolution of the Closed Universe Paradox through Observer-Universe Equivalence",
+      "url": "https://zenodo.org/records/24310951"
+    },
+    {
+      "authors": [
+        "Habinger, Sophie Gabriele",
+        "Koch, Béla",
+        "Krömer, Cora Felicitas"
+      ],
+      "category": "Presentation",
+      "date": "2026-11-17",
+      "id": "24311812",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The bwFDM-Helpdesk – Building a Participative RDM Support Infrastructure for Baden-Württemberg",
+      "url": "https://zenodo.org/records/24311812"
+    },
+    {
+      "authors": [
+        "Abdusattorov Sanjar Alisher o'g'li",
+        "Rusana Ruslanovna Sinjapova"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24311443",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE INFLUENCE OF TECHNOLOGY ON THE ENGLISH LANGUAGE",
+      "url": "https://zenodo.org/records/24311443"
+    },
+    {
+      "authors": [
+        "Mahfuza O. Shamsiyeva",
+        "Sunatullo A. Gafforov",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24310953",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "EFFECTIVENESS OF A COMPREHENSIVE TREATMENT AND PREVENTION PROGRAMME ON CARIES INCREMENT, PERIODONTAL STATUS AND LOCAL ORAL IMMUNITY IN CHILDREN WITH SPASTIC CEREBRAL PALSY",
+      "url": "https://zenodo.org/records/24310953"
+    },
+    {
+      "authors": [
+        "Kazokova, Dilnoza Bobirovna"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "id": "24311185",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "KPI-BASED MANAGEMENT OF FACULTY PERFORMANCE IN HIGHER EDUCATION INSTITUTIONS: A FRAMEWORK FOR UZBEKISTAN",
+      "url": "https://zenodo.org/records/24311185"
+    },
+    {
+      "authors": [
+        "Nabibullayeva, Raxshona Zayliddinovna"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "id": "24310982",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PROBLEMS IN ORGANISING EDUCATION ON THE \"GREEN ECONOMY\" AND INTRODUCING RENEWABLE ENERGY SOURCES",
+      "url": "https://zenodo.org/records/24310982"
+    },
+    {
+      "authors": [
+        "Gómez-Gonzalvo, Fernando",
+        "Lores-Gómez, Beatriz"
+      ],
+      "category": "Other",
+      "date": "2026-11-17",
+      "id": "24310649",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Cuestionario sobre evaluación educativa en tiempos de confinamiento",
+      "url": "https://zenodo.org/records/24310649"
+    },
+    {
+      "authors": [
+        "Anyanwu, Chioma Jacinta",
+        "Izegede, Barnabas Ekiegini",
+        "Ishioro, Bernhard O."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-06",
+      "id": "24310345",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF A COUNSELOR IN MODIFYING HYPERACTIVE BEHAVIOURS AMONG UPPER PRIMARY SCHOOL PUPILS IN OSHIMILI SOUTH L.G.A, ASABA DELTA STATE.",
+      "url": "https://zenodo.org/records/24310345"
     }
   ],
   "source": "arxiv+zenodo"

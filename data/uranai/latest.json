@@ -1,8 +1,8 @@
 {
   "ban": "uranai",
   "cap": 50,
-  "count": 17,
-  "generated_at": "2026-11-17T18:53:12+09:00",
+  "count": 18,
+  "generated_at": "2026-11-17T22:49:59+09:00",
   "records": [
     {
       "authors": [
@@ -331,7 +331,23 @@
       "source": "pubmed",
       "title": "Sleep disturbance and anxiety in female garment workers with tinnitus: An ENT outpatient study.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43014072/"
+    },
+    {
+      "authors": [
+        "Gibson N",
+        "Wilson NLW"
+      ],
+      "category": "SSM - population health",
+      "date": "2026 Dec",
+      "first_seen_date": "2026-11-17",
+      "id": "pubmed:43041215",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Racial residential segregation and food insecurity: Examining disparities in Black-White food insecurity across U.S. metropolitan areas.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041215/"
     }
   ],
-  "total_before_cap": 17
+  "total_before_cap": 18
 }

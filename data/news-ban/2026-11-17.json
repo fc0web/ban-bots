@@ -8,12 +8,12 @@
         "raw": 159
       }
     },
-    "new_today": 60,
-    "newly_added_this_run": 0,
+    "new_today": 63,
+    "newly_added_this_run": 3,
     "raw_fetched": 159,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T18:53:07+09:00",
+  "fetched_at": "2026-11-17T22:49:48+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",
@@ -864,6 +864,48 @@
       "source": "rss",
       "title": "町村長を対象とした「全国防災・危機管理トップセミナー」の開催",
       "url": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001311.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000148.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「AIによるリスク」の検討ワーキンググループ（第3回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02tsushin06_04000148.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00979.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和8年度地方財政審議会（11月13日）議事要旨",
+      "url": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00979.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/singi/senkyoku/02gyosei14_04000274.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第17回衆議院議員選挙区画定審議会",
+      "url": "https://www.soumu.go.jp/main_sosiki/singi/senkyoku/02gyosei14_04000274.html"
     }
   ],
   "source": "rss"

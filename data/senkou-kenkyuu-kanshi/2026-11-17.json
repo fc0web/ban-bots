@@ -1,0 +1,571 @@
+{
+  "ban": "senkou-kenkyuu-kanshi",
+  "fetch_stats": {
+    "after_filter": 36,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "openalex": {
+        "after_filter": 6,
+        "raw": 6
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 36,
+    "newly_added_this_run": 36,
+    "raw_fetched": 36,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T22:49:57+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.IT",
+        "cs.PL",
+        "cs.CC"
+      ],
+      "limit": 20,
+      "reldate": 30
+    },
+    "openalex": {
+      "limit_per_phrase": 10,
+      "reldate": 30,
+      "title_phrases": [
+        "algorithmic statistics",
+        "Kolmogorov structure function",
+        "Wyner-Ziv",
+        "emergent communication",
+        "non-termination",
+        "stochastic thermodynamics of computation",
+        "minimum description length",
+        "agreement theorem"
+      ]
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "theoretical computer science"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Roberto Longo"
+      ],
+      "category": "math.OA",
+      "date": "2026-11-16T18:31:12Z",
+      "id": "http://arxiv.org/abs/2611.21549v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21549v1",
+      "source": "arxiv",
+      "title": "Axioms for relative entropy",
+      "url": "https://arxiv.org/abs/2611.21549v1"
+    },
+    {
+      "authors": [
+        "Subhankar Banerjee",
+        "Sennur Ulukus"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T18:31:04Z",
+      "id": "http://arxiv.org/abs/2611.21547v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21547v1",
+      "source": "arxiv",
+      "title": "Fundamental Tradeoffs in Sampling, Transmission and Information Freshness: Instantaneous Feedback",
+      "url": "https://arxiv.org/abs/2611.21547v1"
+    },
+    {
+      "authors": [
+        "Burhan Gülbahar"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T18:00:35Z",
+      "id": "http://arxiv.org/abs/2611.21500v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21500v1",
+      "source": "arxiv",
+      "title": "Exponential Quantum Memory Advantage for Late-Graph Smoothness and Spectral Estimation",
+      "url": "https://arxiv.org/abs/2611.21500v1"
+    },
+    {
+      "authors": [
+        "Ali Mohammadi Ruzbahani",
+        "Abbas Yazdinejad",
+        "Hadis Karimipour"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T17:50:31Z",
+      "id": "http://arxiv.org/abs/2611.21477v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21477v1",
+      "source": "arxiv",
+      "title": "Knowledge Fermentation: Learning from Shared Variation in Few-Shot Classification",
+      "url": "https://arxiv.org/abs/2611.21477v1"
+    },
+    {
+      "authors": [
+        "Vijay Nagarajan"
+      ],
+      "category": "cs.AR",
+      "date": "2026-11-16T17:00:02Z",
+      "id": "http://arxiv.org/abs/2611.21406v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21406v1",
+      "source": "arxiv",
+      "title": "Do Apple M-Series Processors Enforce the Compound Memory Model? Sequential and Parallel Composition of Arm and TSO",
+      "url": "https://arxiv.org/abs/2611.21406v1"
+    },
+    {
+      "authors": [
+        "Terence Viaud",
+        "Ioannis Kontoyiannis"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T16:50:17Z",
+      "id": "http://arxiv.org/abs/2611.21395v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21395v1",
+      "source": "arxiv",
+      "title": "The Sample Complexity of Channel Coding",
+      "url": "https://arxiv.org/abs/2611.21395v1"
+    },
+    {
+      "authors": [
+        "Kenta Kasai"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T16:48:21Z",
+      "id": "http://arxiv.org/abs/2611.21389v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21389v1",
+      "source": "arxiv",
+      "title": "Vanishing Relative Distance of Uniformly Random CSS LDPC Codes Built from Permutation Matrices",
+      "url": "https://arxiv.org/abs/2611.21389v1"
+    },
+    {
+      "authors": [
+        "Amirhossein Shekofteh",
+        "Rémi A. Chou"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T16:31:13Z",
+      "id": "http://arxiv.org/abs/2611.21359v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21359v1",
+      "source": "arxiv",
+      "title": "K-out-of-N Oblivious Transfer over Erasure Channels: Capacity and Reductions",
+      "url": "https://arxiv.org/abs/2611.21359v1"
+    },
+    {
+      "authors": [
+        "Jayanaka Dantanarayana",
+        "Savini Kashmira",
+        "Xiaoyu Ma",
+        "Malitha",
+        "Malitha Prabhashana",
+        "Lingjia Tang",
+        "Jason Mars"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-16T16:01:06Z",
+      "id": "http://arxiv.org/abs/2611.21298v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21298v1",
+      "source": "arxiv",
+      "title": "Agent-Native by Design: A Programming Language for Agentic Applications",
+      "url": "https://arxiv.org/abs/2611.21298v1"
+    },
+    {
+      "authors": [
+        "Runqing Qiu",
+        "Shixin Zhu",
+        "Yang Li",
+        "San Ling"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T15:45:16Z",
+      "id": "http://arxiv.org/abs/2611.21275v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21275v1",
+      "source": "arxiv",
+      "title": "Optimal Ordering-Free Two-Dimensional Insdel Reed-Solomon Codes via Cross-Ratios",
+      "url": "https://arxiv.org/abs/2611.21275v1"
+    },
+    {
+      "authors": [
+        "Leonardo Roque",
+        "Louis-Adrien Dufrène",
+        "Quentin Lampin",
+        "Grégoire Lefebvre",
+        "Mohamad Assaad"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T15:23:07Z",
+      "id": "http://arxiv.org/abs/2611.21238v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21238v1",
+      "source": "arxiv",
+      "title": "Recursive Spectral Graph Partitioning Coding for Index Assignment in Semantic Communications",
+      "url": "https://arxiv.org/abs/2611.21238v1"
+    },
+    {
+      "authors": [
+        "Stavan Jain",
+        "Nithin Raveendran",
+        "Aws Albarghouthi"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T15:20:32Z",
+      "id": "http://arxiv.org/abs/2611.21236v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21236v1",
+      "source": "arxiv",
+      "title": "Specifying & Verifying Quantum Error-Correcting Codes",
+      "url": "https://arxiv.org/abs/2611.21236v1"
+    },
+    {
+      "authors": [
+        "Gil Kalai",
+        "Mrinal Kumar",
+        "Ben Lee Volk"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-16T14:54:41Z",
+      "id": "http://arxiv.org/abs/2611.21201v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21201v1",
+      "source": "arxiv",
+      "title": "Möbius-Pseudorandomness for Algebraic Circuits",
+      "url": "https://arxiv.org/abs/2611.21201v1"
+    },
+    {
+      "authors": [
+        "Yi Chen",
+        "Zhuoqi Tu",
+        "Shenghao Yang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T14:46:19Z",
+      "id": "http://arxiv.org/abs/2611.21190v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21190v1",
+      "source": "arxiv",
+      "title": "Linear Network Coding for Sum All-Reduce over Ring Networks",
+      "url": "https://arxiv.org/abs/2611.21190v1"
+    },
+    {
+      "authors": [
+        "Zekun Ye"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T14:44:49Z",
+      "id": "http://arxiv.org/abs/2611.21189v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21189v1",
+      "source": "arxiv",
+      "title": "Separations Between Randomized and Exact Quantum Query Complexity for Boolean Functions",
+      "url": "https://arxiv.org/abs/2611.21189v1"
+    },
+    {
+      "authors": [
+        "Hongki Lee",
+        "Sooncheol Won",
+        "Joonho Jin",
+        "Junhee Cho",
+        "Sukyoung Ryu"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-16T14:19:00Z",
+      "id": "http://arxiv.org/abs/2611.21148v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21148v1",
+      "source": "arxiv",
+      "title": "SAFE: Formal Specification and Implementation of a Scalable Analysis Framework for ECMAScript",
+      "url": "https://arxiv.org/abs/2611.21148v1"
+    },
+    {
+      "authors": [
+        "Cong Wang",
+        "Zhiyang Chen",
+        "Fan Long",
+        "Martin Rinard"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-16T13:32:37Z",
+      "id": "http://arxiv.org/abs/2611.21084v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21084v1",
+      "source": "arxiv",
+      "title": "CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents",
+      "url": "https://arxiv.org/abs/2611.21084v1"
+    },
+    {
+      "authors": [
+        "Ernest Ng",
+        "Segev Elazar Mittelman",
+        "Joshua M. Cohen",
+        "Katherine Hough",
+        "Michael Hicks",
+        "Harrison Goldstein"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-16T13:10:47Z",
+      "id": "http://arxiv.org/abs/2611.21058v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21058v1",
+      "source": "arxiv",
+      "title": "Underpinning Property-Based Testing",
+      "url": "https://arxiv.org/abs/2611.21058v1"
+    },
+    {
+      "authors": [
+        "Kai Wan",
+        "Huimei Wei",
+        "Minquan Cheng",
+        "Giuseppe Caire"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T12:30:56Z",
+      "id": "http://arxiv.org/abs/2611.21006v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21006v1",
+      "source": "arxiv",
+      "title": "The Exact Optimal Delivery Scheme for the Cyclically $L$-Separated Placement in Multi-Access Coded Caching",
+      "url": "https://arxiv.org/abs/2611.21006v1"
+    },
+    {
+      "authors": [
+        "Tomoyuki Yamakami"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-16T12:26:44Z",
+      "id": "http://arxiv.org/abs/2611.20999v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.20999v1",
+      "source": "arxiv",
+      "title": "How Can Size, Ceiling, and Time Bounds Affect the Complexity of Nonuniform Automata Families?",
+      "url": "https://arxiv.org/abs/2611.20999v1"
+    },
+    {
+      "authors": [
+        "Observatorio de Cambio Global de Sierra Nevada"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "id": "24311785",
+      "license": "gpl-3.0-or-later",
+      "source": "zenodo",
+      "title": "MonitorEO",
+      "url": "https://zenodo.org/records/24311785"
+    },
+    {
+      "authors": [
+        "Chu, Vincent"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24311644",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Illustrated NeurIPS: A Navigable Map of 30,225 NeurIPS Papers (2020–2026) with Linked arXiv Records, Citations and Landmark Papers",
+      "url": "https://zenodo.org/records/24311644"
+    },
+    {
+      "authors": [
+        "Park, Sunho",
+        "Kim, Jaewoo",
+        "Yeon, Jeho",
+        "Kang, Jeehoon"
+      ],
+      "category": "Other",
+      "date": "2026-11-17",
+      "id": "24311623",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Artifact for \"Reasoning about Relaxed Memory with Strict Snapshots\", POPL 2027",
+      "url": "https://zenodo.org/records/24311623"
+    },
+    {
+      "authors": [
+        "RUSIASHVILI, GIORGI"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24311374",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Fundamental Theoretical Synthesis: Variational Derivation of the Golden Ratio Operator, Four Physico-Mathematical Proofs of Nonsingular Collapse, and Covariant Lagrangian",
+      "url": "https://zenodo.org/records/24311374"
+    },
+    {
+      "authors": [
+        "Abdusattorov Sanjar Alisher o'g'li",
+        "Rusana Ruslanovna Sinjapova"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24311443",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE INFLUENCE OF TECHNOLOGY ON THE ENGLISH LANGUAGE",
+      "url": "https://zenodo.org/records/24311443"
+    },
+    {
+      "authors": [
+        "Lacey, Seán"
+      ],
+      "category": "Preprint",
+      "date": "2026",
+      "id": "24311396",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Equality, Diversity and Inclusion in SDG-Aligned Research Systems: The Case for Coordinated System Leadership",
+      "url": "https://zenodo.org/records/24311396"
+    },
+    {
+      "authors": [
+        "Hirata, Tatsuo",
+        "Hiyama, Ryosuke",
+        "Sato, Hiroki"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24310174",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data and Code for \"Prefrontal Cortex Lateralization Preceding Performance Failure under Psychological Pressure: A Simultaneous fNIRS–EEG Study\"",
+      "url": "https://zenodo.org/records/24310174"
+    },
+    {
+      "authors": [
+        "Aris, Nor Azlan Mohd"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24311353",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Processed outputs for configuration-dependent performance and ground-pattern correlation of EAR spaced-antenna measurements",
+      "url": "https://zenodo.org/records/24311353"
+    },
+    {
+      "authors": [
+        "Aris, Nor Azlan Mohd"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "id": "24311388",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Analysis and plotting scripts for configuration-dependent performance and ground-pattern correlation of EAR spaced-antenna measurements",
+      "url": "https://zenodo.org/records/24311388"
+    },
+    {
+      "authors": [
+        "Vanhaverbeke, Arthur",
+        "Tobie, Defoer",
+        "Van Schaeybroeck, Bert",
+        "Caluwaerts, Steven",
+        "Coppens, Fara",
+        "LEJEUNE, Philippe",
+        "Luca, Stijn",
+        "Marchi, Sylvain",
+        "Ghilain, Nicolas",
+        "Vancoillie, Frieke",
+        "Baetens, Jan"
+      ],
+      "category": "Computational notebook",
+      "date": "2026-11-17",
+      "id": "24310568",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Code for manuscript \"A long-term historical analysis and future projections of wildfire activity patterns in Belgium\"",
+      "url": "https://zenodo.org/records/24310568"
+    },
+    {
+      "authors": [],
+      "category": "Language and cultural evolution",
+      "date": "2026-11-05",
+      "id": "https://openalex.org/W7225299044",
+      "license": "",
+      "phrase": "emergent communication",
+      "source": "openalex",
+      "title": "6 Case study 2: The role of context availability in emergent communication about concepts",
+      "url": "https://doi.org/10.14220/9783737020428.58"
+    },
+    {
+      "authors": [
+        "Kristina Kobrock"
+      ],
+      "category": "Categorization, perception, and language",
+      "date": "2026-11-05",
+      "id": "https://openalex.org/W7225301151",
+      "license": "",
+      "phrase": "emergent communication",
+      "source": "openalex",
+      "title": "The Role of Language and Pragmatics in Conceptual Abstraction: Interactive Experiments and Emergent Communication Models Using Reference Games",
+      "url": "https://doi.org/10.14220/9783737020428"
+    },
+    {
+      "authors": [
+        "Janio Gomes Ribeiro"
+      ],
+      "category": "Computability, Logic, AI Algorithms",
+      "date": "2026-11-10",
+      "id": "https://openalex.org/W7225755336",
+      "license": "",
+      "phrase": "minimum description length",
+      "source": "openalex",
+      "title": "Sovereign Program Synthesis: Minimum Description Length Induction via CosmoLang",
+      "url": "https://doi.org/10.34740/kaggle/w/120031"
+    },
+    {
+      "authors": [
+        "Gregory Schwartzman"
+      ],
+      "category": "Cell Image Analysis Techniques",
+      "date": "2026-10-26",
+      "id": "https://openalex.org/W7223670097",
+      "license": "cc-by-nc-nd",
+      "phrase": "minimum description length",
+      "source": "openalex",
+      "title": "Unsupervised neuronal cell typing from connectivity by minimum description length",
+      "url": "https://doi.org/10.64898/2026.10.20.760604"
+    },
+    {
+      "authors": [
+        "Wenbin Mao",
+        "Pei Zou"
+      ],
+      "category": "Computability, Logic, AI Algorithms",
+      "date": "2026-10-23",
+      "id": "https://openalex.org/W7223694644",
+      "license": "cc-by",
+      "phrase": "minimum description length",
+      "source": "openalex",
+      "title": "Minimum Description Length Unsupervisedly Separates Law-Grade from Statistical-Grade Knowledge in a Self-Improving Science Agent - and Reveals 86% of Its Own Discoveries Are Statistical",
+      "url": "https://arxiv.org/abs/2610.32245"
+    },
+    {
+      "authors": [
+        "María García Díaz",
+        "Adam M. Brandenburger",
+        "Giannicola Scarpa"
+      ],
+      "category": "Quantum Mechanics and Applications",
+      "date": "2026-11-12",
+      "id": "https://openalex.org/W4416786407",
+      "license": "cc-by",
+      "phrase": "agreement theorem",
+      "source": "openalex",
+      "title": "The quantum agreement theorem",
+      "url": "https://doi.org/10.1073/pnas.2613021123"
+    }
+  ],
+  "source": "arxiv+zenodo+openalex"
+}

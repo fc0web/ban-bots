@@ -2,7 +2,7 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-17T18:53:07+09:00",
+  "generated_at": "2026-11-17T22:49:44+09:00",
   "records": [
     {
       "authors": [
@@ -716,5 +716,5 @@
       "url": "https://zenodo.org/records/24298270"
     }
   ],
-  "total_before_cap": 76
+  "total_before_cap": 86
 }
