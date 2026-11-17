@@ -83,7 +83,7 @@ def _matches(text: str, keywords: list[str]) -> bool:
     return False
 
 
-def _parse_rss2(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[list[dict[str, Any]], int]:
+def _parse_rss2(root: ET.Element, feed_url: str, inc_kws: list[str], exc_kws: list[str]) -> tuple[list[dict[str, Any]], int]:
     out: list[dict[str, Any]] = []
     raw = 0
     for item in root.findall("./channel/item"):
@@ -98,7 +98,10 @@ def _parse_rss2(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[l
         category = _text(item, "category")
         # Description is read only for the filter check; not stored.
         desc = _text(item, "description")
-        if not _matches(f"{title}\n{desc}", keywords):
+        text = f"{title}\n{desc}"
+        if not _matches(text, inc_kws):
+            continue
+        if exc_kws and _matches(text, exc_kws):
             continue
         out.append({
             "source": "rss",
@@ -115,7 +118,7 @@ def _parse_rss2(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[l
     return out, raw
 
 
-def _parse_rdf(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[list[dict[str, Any]], int]:
+def _parse_rdf(root: ET.Element, feed_url: str, inc_kws: list[str], exc_kws: list[str]) -> tuple[list[dict[str, Any]], int]:
     """Parse RSS 1.0 / RDF feeds. Items are direct children of rdf:RDF,
     using the http://purl.org/rss/1.0/ namespace. dc:date, dc:creator are
     typical. Many Japanese gov sites use this form (e.g. mhlw.go.jp,
@@ -130,7 +133,10 @@ def _parse_rdf(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[li
         desc = (item.findtext(f"{RSS10_NS}description") or "").strip()
         pub = _text(item, f"{DC_NS}date")
         author = _text(item, f"{DC_NS}creator")
-        if not _matches(f"{title}\n{desc}", keywords):
+        text = f"{title}\n{desc}"
+        if not _matches(text, inc_kws):
+            continue
+        if exc_kws and _matches(text, exc_kws):
             continue
         rid = item.get(f"{RDF_NS}about") or link
         out.append({
@@ -148,7 +154,7 @@ def _parse_rdf(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[li
     return out, raw
 
 
-def _parse_atom(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[list[dict[str, Any]], int]:
+def _parse_atom(root: ET.Element, feed_url: str, inc_kws: list[str], exc_kws: list[str]) -> tuple[list[dict[str, Any]], int]:
     out: list[dict[str, Any]] = []
     raw = 0
     for entry in root.findall(f"{ATOM_NS}entry"):
@@ -172,7 +178,10 @@ def _parse_atom(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[l
         cat_el = entry.find(f"{ATOM_NS}category")
         category = cat_el.get("term", "") if cat_el is not None else ""
         summary = (entry.findtext(f"{ATOM_NS}summary") or "").strip()
-        if not _matches(f"{title}\n{summary}", keywords):
+        text = f"{title}\n{summary}"
+        if not _matches(text, inc_kws):
+            continue
+        if exc_kws and _matches(text, exc_kws):
             continue
         out.append({
             "source": "rss",
@@ -198,13 +207,18 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
       include_keywords: list of strings; if non-empty, keep only items whose
                         title or description/summary contains any keyword.
                         Default is [] (= no filter).
+      exclude_keywords: list of strings; if non-empty, drop items whose
+                        title or description/summary contains any of them.
+                        Default is [] (= no exclusion). Applied AFTER
+                        include_keywords, so a kept-by-include item that
+                        also contains an exclude term is dropped.
 
     Order (applied per feed):
       1. parse all items in the feed (raw_total += N)
       2. drop items whose title/description does not match include_keywords
-         (filter-pass count += M)
-      3. truncate the filtered list to limit_per_feed (= at most `limit`
-         items go into `records`).
+      3. drop items whose title/description matches any exclude_keywords
+         (filter-pass count = items left after both steps)
+      4. truncate the filtered list to limit_per_feed.
     This is the order the owner requires: filter THEN limit, so a hot
     keyword hit near the bottom of a large feed is not thrown away by a
     small limit.
@@ -212,14 +226,15 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     Return:
       {"records": [...], "raw_total": N, "after_filter": M}
       - raw_total: total items in the feeds (pre-filter)
-      - after_filter: items that passed the keyword filter (PRE-limit).
-        The actual records list is further bounded by limit_per_feed, so
-        len(records) <= after_filter.
+      - after_filter: items that passed BOTH include and exclude filters
+        (PRE-limit). The records list is further bounded by
+        limit_per_feed, so len(records) <= after_filter.
     """
     import sys
     feeds = params.get("feeds") or []
     limit = min(int(params.get("limit_per_feed", 10)), 50)
-    keywords = [str(k) for k in (params.get("include_keywords") or []) if str(k).strip()]
+    inc_kws = [str(k) for k in (params.get("include_keywords") or []) if str(k).strip()]
+    exc_kws = [str(k) for k in (params.get("exclude_keywords") or []) if str(k).strip()]
     out: list[dict[str, Any]] = []
     raw_total = 0
     filter_passed_total = 0
@@ -230,11 +245,11 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
             root = _parse_xml(body)
             tag = root.tag.lower()
             if tag.endswith("}feed") or tag == "feed":
-                items, raw = _parse_atom(root, url, keywords)
+                items, raw = _parse_atom(root, url, inc_kws, exc_kws)
             elif tag.endswith("}rdf") or tag == "rdf":
-                items, raw = _parse_rdf(root, url, keywords)
+                items, raw = _parse_rdf(root, url, inc_kws, exc_kws)
             else:
-                items, raw = _parse_rss2(root, url, keywords)
+                items, raw = _parse_rss2(root, url, inc_kws, exc_kws)
             raw_total += raw
             filter_passed_total += len(items)  # pre-limit count
             out.extend(items[:limit])          # apply limit AFTER filter

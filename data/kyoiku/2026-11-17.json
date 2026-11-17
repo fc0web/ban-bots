@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 53,
-    "newly_added_this_run": 0,
+    "new_today": 60,
+    "newly_added_this_run": 7,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:25:15+09:00",
+  "fetched_at": "2026-11-17T14:43:56+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -731,6 +731,91 @@
       "source": "zenodo",
       "title": "THE IMPORTANCE OF DEVELOPING ATHLETES' SPEAKING SKILLS",
       "url": "https://zenodo.org/records/24298482"
+    },
+    {
+      "authors": [
+        "Abdusalimov Sardorbek Abdullaevich",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-09-30",
+      "id": "24299170",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DESIGN AND IMPLEMENTATION OF A MULTICENTER PEDAGOGICAL EXPERIMENT FOR DEVELOPING SYMMETRIC ANALYSIS COMPETENCE IN OTORHINOLARYNGOLOGY",
+      "url": "https://zenodo.org/records/24299170"
+    },
+    {
+      "authors": [
+        "DR. ARUN MONDAL"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-13",
+      "id": "24191194",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PROSPECTS AND CHALLENGES OF GST 2.0: A STUDY",
+      "url": "https://zenodo.org/records/24191194"
+    },
+    {
+      "authors": [
+        "Raxmonova Dilnura Saidovna"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-14",
+      "id": "24299120",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "BO'LAJAK MUHANDISLARNING KREATIV SALOHIYATINI RIVOJLANTIRISHDA RAQAMLI TA'LIM TEXNOLOGIYALARINING SAMARADORLIGI",
+      "url": "https://zenodo.org/records/24299120"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24299115",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The heavy-traffic diffusion limit of symmetric queues",
+      "url": "https://zenodo.org/records/24299115"
+    },
+    {
+      "authors": [
+        "Djalilova Sabokhat Rixsibayevna,"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24299030",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "TEACHING WATER SPORTS TERMINOLOGY IN ENGLISH AS A FOREIGN LANGUAGE: A CORPUS-INFORMED, TASK-BASED INSTRUCTIONAL MODEL",
+      "url": "https://zenodo.org/records/24299030"
+    },
+    {
+      "authors": [
+        "Dusnazarova, Gulchexra Vohidjonovna"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-14",
+      "id": "24299074",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "OLIY TA'LIM MUASSASALARIDA TALABALARNING TABIIY-ILMIY SAVODXONLIGINI OSHIRISHDA AN'ANAVIY VA ZAMONAVIY TA'LIM METODLARINING UYG'UNLIGI",
+      "url": "https://zenodo.org/records/24299074"
+    },
+    {
+      "authors": [
+        "Valixanova Nigora Abdukaxxorovna"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-14",
+      "id": "24299019",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "RAQAMLI TA'LIM MUHITIDA AKADEMIK HALOLLIKNI TA'MINLASHNING PEDAGOGIK ASOSLARI VA RIVOJLANTIRISH MEXANIZMLARI",
+      "url": "https://zenodo.org/records/24299019"
     }
   ],
   "source": "arxiv+zenodo"

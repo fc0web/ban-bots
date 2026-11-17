@@ -5,7 +5,7 @@
   "counts": {
     "fx-ban": {
       "after_filter": 6,
-      "new": 6,
+      "new": 7,
       "raw": 100
     },
     "game-ban": {
@@ -20,11 +20,11 @@
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 53,
+      "new": 60,
       "raw": 30
     },
     "manga-anime-ban": {
-      "after_filter": 12,
+      "after_filter": 7,
       "new": 12,
       "raw": 25
     },
@@ -44,7 +44,7 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-17T14:25:39+09:00",
+  "generated_at": "2026-11-17T14:45:05+09:00",
   "ng": 0,
   "ok": 11,
   "problems": [],
