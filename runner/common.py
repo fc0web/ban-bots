@@ -170,6 +170,7 @@ def read_json(path: Path, default: Any = None) -> Any:
 
 
 SEEN_TTL_DAYS = 730  # 2 years — bound the seen set size
+LATEST_JSON_CAP = 50  # max records in data/<ban>/latest.json
 
 
 def _seen_path(ban_id: str) -> Path:
@@ -205,6 +206,55 @@ def load_seen(ban_id: str, today: datetime | None = None) -> dict[str, str]:
 
 def save_seen(ban_id: str, ids: dict[str, str]) -> None:
     write_json(_seen_path(ban_id), {"ids": ids})
+
+
+# ---------------------------------------------------------------------------
+# latest.json — a page-facing feed of the most recent candidates
+# ---------------------------------------------------------------------------
+
+def _latest_path(ban_id: str) -> Path:
+    # `latest.json` doesn't match the YYYY-MM-DD.json retention pattern, so
+    # prune_old_data in summarize.py never touches it.
+    return DATA_DIR / ban_id / "latest.json"
+
+
+def write_latest(ban_id: str, cap: int = LATEST_JSON_CAP) -> Path | None:
+    """Write data/<ban>/latest.json: the most recent `cap` records across
+    the retained daily data files, newest day first.
+
+    Intended for page-side consumption (client-side fetch over
+    raw.githubusercontent.com). Deterministic from the current state of
+    data/<ban>/*.json, so same-day repeat runs produce the same file.
+    """
+    folder = DATA_DIR / ban_id
+    if not folder.exists():
+        return None
+    all_records: list[dict[str, Any]] = []
+    for f in sorted(folder.glob("*.json"), reverse=True):
+        if f.name in ("latest.json", "_seen.json"):
+            continue
+        try:
+            datetime.strptime(f.stem, "%Y-%m-%d")
+        except ValueError:
+            continue
+        obj = read_json(f) or {}
+        day = f.stem
+        for rec in (obj.get("records") or []):
+            rec = dict(rec)
+            rec["first_seen_date"] = day
+            all_records.append(rec)
+    capped = all_records[:cap]
+    doc: dict[str, Any] = {
+        "ban": ban_id,
+        "generated_at": iso_jst(),
+        "cap": cap,
+        "count": len(capped),
+        "total_before_cap": len(all_records),
+        "records": capped,
+    }
+    path = _latest_path(ban_id)
+    write_json(path, doc)
+    return path
 
 
 def last_checked_at(ban_id: str) -> str:

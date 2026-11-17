@@ -1,0 +1,24 @@
+{
+  "ban": "kokoku-ban",
+  "cap": 50,
+  "count": 1,
+  "generated_at": "2026-11-17T12:51:58+09:00",
+  "records": [
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-16T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/menu_news/gyouji/02ryutsu02_04000611.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "地方公共団体・広告主企業・広告代理店のための「広告主等向けガイダンス」実践セミナー 開催のお知らせ",
+      "url": "https://www.soumu.go.jp/menu_news/gyouji/02ryutsu02_04000611.html"
+    }
+  ],
+  "total_before_cap": 1
+}

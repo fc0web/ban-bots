@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 42,
+    "new_today": 43,
     "newly_added_this_run": 0,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T12:35:24+09:00",
+  "fetched_at": "2026-11-17T12:52:00+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -588,6 +588,18 @@
       "source": "zenodo",
       "title": "Donghyunpa (동현파): an educational C. elegans touch-circuit laboratory controlled through the esoteric language Donghyun-lang",
       "url": "https://zenodo.org/records/24296822"
+    },
+    {
+      "authors": [
+        "DELA ROSA, KATRINE EUNICE"
+      ],
+      "category": "Publication",
+      "date": "2026-10-15",
+      "id": "24297511",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PERSONAL TRAITS AS PREDICTORS OF PROFESSIONAL GROWTH, TEACHING ABILITY, AND CLINICAL NURSING COMPETENCY AMONG CLINICAL NURSING TEACHERS IN BATAAN, PHILIPPINES",
+      "url": "https://zenodo.org/records/24297511"
     }
   ],
   "source": "arxiv+zenodo"

@@ -1,0 +1,624 @@
+{
+  "ban": "kyoiku",
+  "cap": 50,
+  "count": 43,
+  "generated_at": "2026-11-17T12:52:00+09:00",
+  "records": [
+    {
+      "authors": [
+        "Isobel Falconer"
+      ],
+      "category": "physics.hist-ph",
+      "date": "2026-11-12T12:18:31Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.16700v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.16700v1",
+      "source": "arxiv",
+      "title": "History, mathematics and physics: two cases of the inverse square law",
+      "url": "https://arxiv.org/abs/2611.16700v1"
+    },
+    {
+      "authors": [
+        "Takayuki Uchiba",
+        "Kunihiro Miyazaki"
+      ],
+      "category": "cs.CY",
+      "date": "2026-11-09T03:54:39Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.11841v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.11841v1",
+      "source": "arxiv",
+      "title": "AI and Mathematical Work on Mastodon: Attention, Topics, and Target-Specific Evaluations",
+      "url": "https://arxiv.org/abs/2611.11841v1"
+    },
+    {
+      "authors": [
+        "Mario Vago Marzal",
+        "Enric Cosme Llópez"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-08T22:01:34Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.11645v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.11645v1",
+      "source": "arxiv",
+      "title": "A software infrastructure proposal for mathematical research with AI agents",
+      "url": "https://arxiv.org/abs/2611.11645v1"
+    },
+    {
+      "authors": [
+        "Roberto Volpe"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-08T15:11:35Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.11443v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.11443v1",
+      "source": "arxiv",
+      "title": "Finite models for the order axioms of the Hilbert Plane: Redundancies and Finite Independence Models",
+      "url": "https://arxiv.org/abs/2611.11443v1"
+    },
+    {
+      "authors": [
+        "Fernando Diaz-Diaz"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-06T19:08:16Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.10143v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.10143v1",
+      "source": "arxiv",
+      "title": "Discrete Spoilers: Introducing Abstract Undergraduate Mathematics Using Graph Theory",
+      "url": "https://arxiv.org/abs/2611.10143v1"
+    },
+    {
+      "authors": [
+        "Ernesto Mordecki"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-06T15:17:16Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.09580v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.09580v1",
+      "source": "arxiv",
+      "title": "Hostages",
+      "url": "https://arxiv.org/abs/2611.09580v1"
+    },
+    {
+      "authors": [
+        "Pallabi Manna",
+        "Santanu Mandal",
+        "Fernando C. Tura"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-04T14:19:40Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.06981v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.06981v1",
+      "source": "arxiv",
+      "title": "The Spectral Theory of Cographs: A Survey, Organized by Graph Matrix",
+      "url": "https://arxiv.org/abs/2611.06981v1"
+    },
+    {
+      "authors": [
+        "Péter P. Pálfy"
+      ],
+      "category": "math.GR",
+      "date": "2026-11-04T07:00:01Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.06054v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.06054v1",
+      "source": "arxiv",
+      "title": "Galois's lost proof on $PSL(2,p)$",
+      "url": "https://arxiv.org/abs/2611.06054v1"
+    },
+    {
+      "authors": [
+        "Xingbang Hao"
+      ],
+      "category": "math.AG",
+      "date": "2026-11-03T13:09:57Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.04844v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.04844v1",
+      "source": "arxiv",
+      "title": "Derived Equivalences for Terminal Threefold Flops via Local Index-One Covering Models",
+      "url": "https://arxiv.org/abs/2611.04844v1"
+    },
+    {
+      "authors": [
+        "Nestor Guillen"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-03T02:55:27Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.04213v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.04213v1",
+      "source": "arxiv",
+      "title": "It is time for a New Deal for mathematics",
+      "url": "https://arxiv.org/abs/2611.04213v1"
+    },
+    {
+      "authors": [
+        "Doron Levy",
+        "Yaakov Malinovsky"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-02T02:50:23Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.02424v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.02424v1",
+      "source": "arxiv",
+      "title": "Around the Clock. New Twists on Fitch Cheney's Five-Card Trick",
+      "url": "https://arxiv.org/abs/2611.02424v1"
+    },
+    {
+      "authors": [
+        "Vincent Tariel-Adam"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-01T23:41:38Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.02294v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.02294v1",
+      "source": "arxiv",
+      "title": "Two teams that cancel: a didactic analysis of a teaching progression for signed numbers from Grade 5 to Grade 7",
+      "url": "https://arxiv.org/abs/2611.02294v1"
+    },
+    {
+      "authors": [
+        "Ying Xie"
+      ],
+      "category": "cs.AI",
+      "date": "2026-11-01T20:32:15Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.02186v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.02186v1",
+      "source": "arxiv",
+      "title": "Recursive Reasoning Exploration: Mathematical Research through Evolving Reasoning Graphs : case study: An Exact Certificate-Degree Theorem for Two-Term Tensor Decompositions : Phase III of the Math Instruments Program",
+      "url": "https://arxiv.org/abs/2611.02186v1"
+    },
+    {
+      "authors": [
+        "Josef Daněk"
+      ],
+      "category": "math.HO",
+      "date": "2026-10-30T12:08:00Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.06938v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.06938v1",
+      "source": "arxiv",
+      "title": "Support in the domain of numerical algorithms in the education of future secondary school mathematics teachers",
+      "url": "https://arxiv.org/abs/2611.06938v1"
+    },
+    {
+      "authors": [
+        "Anna Brandenberger",
+        "Hanna Mularczyk",
+        "Dora Woodruff"
+      ],
+      "category": "math.HO",
+      "date": "2026-10-29T17:46:24Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2610.40584v2",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.40584v2",
+      "source": "arxiv",
+      "title": "Early career researcher responses to AI in math",
+      "url": "https://arxiv.org/abs/2610.40584v2"
+    },
+    {
+      "authors": [
+        "Ranthony A. Clark"
+      ],
+      "category": "math.HO",
+      "date": "2026-10-29T16:38:11Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.00125v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.00125v1",
+      "source": "arxiv",
+      "title": "Letter to a Young Black Mathematician: History, Storytelling, and Belonging in Mathematics",
+      "url": "https://arxiv.org/abs/2611.00125v1"
+    },
+    {
+      "authors": [
+        "Helen Jenne",
+        "Davis Brown",
+        "Jesse He",
+        "Henry Kvinge"
+      ],
+      "category": "cs.AI",
+      "date": "2026-10-29T16:24:55Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2610.40382v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.40382v1",
+      "source": "arxiv",
+      "title": "Beyond Selected Breakthroughs: Evaluating Language Models on Randomly Sampled Mathematical Conjectures",
+      "url": "https://arxiv.org/abs/2610.40382v1"
+    },
+    {
+      "authors": [
+        "Catalin Badea"
+      ],
+      "category": "math.FA",
+      "date": "2026-10-29T10:20:57Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2610.39769v2",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.39769v2",
+      "source": "arxiv",
+      "title": "The Gleason--Kahane--Zelazko theorem: a gentle introduction",
+      "url": "https://arxiv.org/abs/2610.39769v2"
+    },
+    {
+      "authors": [
+        "Archan Chattopadhyay",
+        "Chandan Chattopadhyay"
+      ],
+      "category": "math.HO",
+      "date": "2026-10-28T19:07:09Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2610.40698v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.40698v1",
+      "source": "arxiv",
+      "title": "A Diophantine generalization of Fourier's irrationality trick",
+      "url": "https://arxiv.org/abs/2610.40698v1"
+    },
+    {
+      "authors": [
+        "Daniele Corradetti"
+      ],
+      "category": "math.HO",
+      "date": "2026-10-27T13:55:04Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2610.37260v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.37260v1",
+      "source": "arxiv",
+      "title": "Mathematical Reality Capture: from the age of discoveries to mathematical topography and surveys",
+      "url": "https://arxiv.org/abs/2610.37260v1"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295844",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Map of the Series: Process, Observer and the Birth of Dimensions",
+      "url": "https://zenodo.org/records/24295844"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295651",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Number Arrow and the Line 1/2: The Riemann Hypothesis in the Light of the Birth of Dimensions Model",
+      "url": "https://zenodo.org/records/24295651"
+    },
+    {
+      "authors": [
+        "Gibbons, Leisa",
+        "Sayyad Abdi, Ellie",
+        "Haddow, Gaby",
+        "Dawe, Lydia"
+      ],
+      "category": "Report",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295536",
+      "license": "cc-by-sa-4.0",
+      "source": "zenodo",
+      "title": "Forming Professional Identity",
+      "url": "https://zenodo.org/records/24295536"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295537",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A necessary and sufficient condition for convergence of the quantile process in $L^p(0,1)$",
+      "url": "https://zenodo.org/records/24295537"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295412",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Kesten–Stigum bound is sharp for the three-state Potts model on regular trees",
+      "url": "https://zenodo.org/records/24295412"
+    },
+    {
+      "authors": [
+        "FuseSchool- Global Education"
+      ],
+      "category": "Video/Audio",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295403",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Specific Heat Capacity | Matter | Physics | FuseSchool",
+      "url": "https://zenodo.org/records/24295403"
+    },
+    {
+      "authors": [
+        "FuseSchool- Global Education"
+      ],
+      "category": "Video/Audio",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295331",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Intro to the Circulatory System",
+      "url": "https://zenodo.org/records/24295331"
+    },
+    {
+      "authors": [
+        "Rahmonova Yulduz Sharafitdinovna",
+        "Nuraliyev Javohir"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295313",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "MOLIYAVIY HISOBOTLARNING SHAFFOFLIGINI TA'MINLASH VA XALQARO STANDARTLARGA MOSLASHTIRISH",
+      "url": "https://zenodo.org/records/24295313"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295299",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Ballisticity for positive excited random walks without bounded cookie stacks",
+      "url": "https://zenodo.org/records/24295299"
+    },
+    {
+      "authors": [
+        "Rahmonova Yulduz Sharafitdinovna",
+        "Nazarov Abdulaziz"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24295173",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "KORXONANING MOLIYAVIY BARQARORLIGINI BAHOLASH USULLARI VA TAKOMILLASHTIRISH YO'LLARI",
+      "url": "https://zenodo.org/records/24295173"
+    },
+    {
+      "authors": [
+        "Shengchang Chen"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-14T14:28:15Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.19431v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.19431v1",
+      "source": "arxiv",
+      "title": "From Objective Compromise to Structure-Enabled Intelligence: Reshaping the Scientific Paradigm of AI",
+      "url": "https://arxiv.org/abs/2611.19431v1"
+    },
+    {
+      "authors": [
+        "Joseph Kraisler",
+        "Kayla S. Miller",
+        "Steven J. Miller"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-11T23:21:35Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.18764v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.18764v1",
+      "source": "arxiv",
+      "title": "An ODE to Changing Variables: $v = y/x$ Is For Victory",
+      "url": "https://arxiv.org/abs/2611.18764v1"
+    },
+    {
+      "authors": [
+        "Mohd Aris, Muhammad Afif",
+        "Zainal, Siti Faizah",
+        "Mohd Rashid, Noor Asmina",
+        "Md Zalli, Mohd Muslim",
+        "Mohd Jamil, Mohd Ridhuan",
+        "Mazarul Hasan Mohamad, Hanapi"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-17",
+      "id": "24297169",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Inclusive education readiness in suburban Malaysian primary schools",
+      "url": "https://zenodo.org/records/24297169"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297225",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Map of the Series: Process, Observer and the Birth of Dimensions",
+      "url": "https://zenodo.org/records/24297225"
+    },
+    {
+      "authors": [
+        "Truong, Hai Bang",
+        "Phan Thi, Van An"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297181",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Code and derived results for: Paths or completion? Testing t-norm composition in a graded health knowledge graph of depressive symptoms",
+      "url": "https://zenodo.org/records/24297181"
+    },
+    {
+      "authors": [
+        "Fan, Chang-Yu",
+        "Shiau, Jiun-Yan"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297102",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Results for \"A certificate-based decision rule for a demand-to-capacity boundary at which re-entrant back-end scheduling must be integrated with product-mix selection in a single calibrated subplant\"",
+      "url": "https://zenodo.org/records/24297102"
+    },
+    {
+      "authors": [
+        "Ibrahim, Ashraf Ragab",
+        "Ibrahim, Ibrahim Mohammed",
+        "Aboelhasayb, Billal Mohamed",
+        "Mohammed, Mohammed Maher",
+        "Eissa, Ahmed Metwally",
+        "Nemt-allah, Mohamed Ali"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-17",
+      "id": "24296837",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Online collective efficacy and its relationship with organizational sustainable development in higher education",
+      "url": "https://zenodo.org/records/24296837"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297092",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Uniqueness of stable allocations in dimensions one and two",
+      "url": "https://zenodo.org/records/24297092"
+    },
+    {
+      "authors": [
+        "Espeja, Normalyn"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297018",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "RESILIENCE AND PSYCHOLOGICAL WELL-BEING: A QUALITATIVE STUDY OF FEMALE LEARNERS IN GRANDPARENT-HEADED HOMES",
+      "url": "https://zenodo.org/records/24297018"
+    },
+    {
+      "authors": [
+        "Ausdang, Thangthai",
+        "Pornpimon, Palingoon",
+        "Sumonmas, Thatphithakkul",
+        "Arnon, Namsanit",
+        "Nonlapas, Wongwaen"
+      ],
+      "category": "Data paper",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24296856",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
+      "url": "https://zenodo.org/records/24296856"
+    },
+    {
+      "authors": [
+        "Kim, Dong Hyun"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24296823",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Donghyunvil (동현빌): an educational village-outbreak laboratory on a real contact network, controlled through the esoteric language Donghyun-lang",
+      "url": "https://zenodo.org/records/24296823"
+    },
+    {
+      "authors": [
+        "Kim, Dong Hyun"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24296822",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Donghyunpa (동현파): an educational C. elegans touch-circuit laboratory controlled through the esoteric language Donghyun-lang",
+      "url": "https://zenodo.org/records/24296822"
+    },
+    {
+      "authors": [
+        "DELA ROSA, KATRINE EUNICE"
+      ],
+      "category": "Publication",
+      "date": "2026-10-15",
+      "first_seen_date": "2026-11-17",
+      "id": "24297511",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PERSONAL TRAITS AS PREDICTORS OF PROFESSIONAL GROWTH, TEACHING ABILITY, AND CLINICAL NURSING COMPETENCY AMONG CLINICAL NURSING TEACHERS IN BATAAN, PHILIPPINES",
+      "url": "https://zenodo.org/records/24297511"
+    }
+  ],
+  "total_before_cap": 43
+}

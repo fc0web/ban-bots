@@ -110,6 +110,8 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
         "records": kept_today,
     }
     common.write_json(common.data_path(ban_id, today_str), data_obj)
+    # Page-facing feed: aggregates recent days' candidates, capped.
+    common.write_latest(ban_id)
 
     checked_at = common.iso_jst()
     return common.make_status_record(
