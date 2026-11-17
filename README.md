@@ -59,6 +59,40 @@ status/summary.json               全盤まとめ（小さく保つ）
 - 消費者庁 (`caa.go.jp`) は公式 RSS を公開しているので採用 → `https://www.caa.go.jp/news.rss`（RSS 2.0、dc:date 付き、消費者庁ウェブサイト「RSSフィードについて」（`https://www.caa.go.jp/rss/`）で案内されている）。
 - 国民生活センター (`kokusen.go.jp`) は公式 RSS フィードが見当たらなかった（トップページから案内がなく、`/rss/`、`/rss.xml`、`/feed/` はいずれも 404。トップに `info_rss.jpg` 画像はあるが、リンク先は HTML 一覧 `/new/new.html`）。採用しない。見つかり次第 `feeds` に 1 本足せばよい。
 
+**ニュース盤（news-ban）・広告盤（kokoku-ban）の情報源の候補（案 — 要確認）**：
+
+ページは配置済み（`/tools/news-ban/`・`/tools/kokoku-ban/`）、`registry/bans.csv` には行だけ入れて `source=none / enabled=false` のまま置いてある。下の表は 2 盤に充てる情報源の **案**。**藤本さんの確認が済むまで `registry/bans.csv` の params は書き換えない**。URL の生死は未確認のものには「要確認」と記す（実装前に実際に GET して XML パースまで通ることを確認する）。
+
+ニュース盤（news-ban）：報道（主張の出どころ）と 一次出典（照合用）を分けて集める。実装はまず既存の `rss` ソースでまかなえる。
+
+| 種別 | 情報源 | 候補 URL | 想定ソース | 確認状況 |
+|------|--------|---------|-----------|---------|
+| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` | `rss` | 確認済み（uranai で稼働中） |
+| 一次 | 気象庁 XML 電文 | `https://www.data.jma.go.jp/developer/xml/feed/regular.xml` | `rss`（Atom） | 要確認 |
+| 一次 | 公正取引委員会 新着 | `https://www.jftc.go.jp/` | `rss` | 要確認（公式 RSS の有無） |
+| 一次 | e-Stat 政府統計 API | `https://www.e-stat.go.jp/api/` | **新ソース `estat`** | 要確認（API キー取得と無料枠） |
+| 報道 | Google News 日本 topic feed | `https://news.google.com/rss?hl=ja&gl=JP` | `rss` | 要確認（利用規約と件数） |
+| 報道 | NHK 報道発表 | `https://www.nhk.or.jp/` | `rss` | 要確認（公式 RSS の有無） |
+
+`include_keywords` 案：news-ban では空（事実系の主張は分野が広く、キーワード絞りは種類ラベルで行う）。
+
+広告盤（kokoku-ban）：広告の手法と表現の **図鑑**。ルール違反事例・景表法事例・消費者注意喚起を候補として集め、人の確認で「手法」ラベルを付ける運用。`rss` の `include_keywords` で広告関連だけに絞る。
+
+| 種別 | 情報源 | 候補 URL | 想定ソース | 確認状況 |
+|------|--------|---------|-----------|---------|
+| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` | `rss` | 確認済み（uranai 既出、別フィルタで再利用） |
+| 一次 | 公正取引委員会 新着 | `https://www.jftc.go.jp/` | `rss` | 要確認 |
+| 一次 | JARO（日本広告審査機構） | `https://www.jaro.or.jp/` | `rss` | 要確認（審議案件 RSS の有無） |
+| 一次 | 日弁連 消費者問題 | `https://www.nichibenren.or.jp/` | `rss` | 要確認 |
+| 一次 | 厚労省 医薬品等広告 | `https://www.mhlw.go.jp/` | `rss` | 要確認 |
+
+`include_keywords` 案：`["広告","景品表示法","不当表示","誇大","ステマ","優良誤認","有利誤認","措置命令"]`。
+
+次の手順（確認後）：
+1. 「要確認」の各 URL を実 GET + パース検証（`sources/rss/fetch.py` に通す）。生きている分だけ採用。
+2. `estat` を採るなら `sources/estat/fetch.py` を追加。
+3. `registry/bans.csv` の news-ban / kokoku-ban 行の `source` と `params` を書き換える（`none` → `rss` もしくは `rss+estat`）。同じ行で `enabled=true` にする。
+
 ## 盤を増やす手順
 
 1. `registry/bans.csv` に1行足す。`id` は既存と重複させない。
