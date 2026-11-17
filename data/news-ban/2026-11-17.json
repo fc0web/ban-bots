@@ -1,19 +1,19 @@
 {
   "ban": "news-ban",
   "fetch_stats": {
-    "after_filter": 156,
+    "after_filter": 159,
     "by_source": {
       "rss": {
-        "after_filter": 156,
-        "raw": 156
+        "after_filter": 159,
+        "raw": 159
       }
     },
-    "new_today": 51,
-    "newly_added_this_run": 0,
-    "raw_fetched": 156,
+    "new_today": 60,
+    "newly_added_this_run": 9,
+    "raw_fetched": 159,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:43:57+09:00",
+  "fetched_at": "2026-11-17T18:36:49+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",
@@ -738,6 +738,132 @@
       "source": "rss",
       "title": "国際電気通信連合（ITU）全権委員会議における電気通信標準化局長及び理事国選挙の結果等",
       "url": "https://www.soumu.go.jp/menu_news/s-news/01tsushin06_02000363.html"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-17T15:35:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048173@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「フィッシング啓発強化キャンペーン」の実施について",
+      "url": "https://www.caa.go.jp/notice/entry/048173/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-17T15:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048165@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "消費生活用製品の重大製品事故:ポータブル電源(リチウムイオン)で火災等(11月17日)",
+      "url": "https://www.caa.go.jp/notice/entry/048165/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-17T15:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048138@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "UNI SOUND株式会社に対する景品表示法に基づく措置命令について",
+      "url": "https://www.caa.go.jp/notice/entry/048138/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-17T15:00:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048166@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "機能性表示食品制度届出データベース届出情報の更新 (11月17日)",
+      "url": "https://www.caa.go.jp/notice/entry/048166/"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T17:30:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77427.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第64回社会保障審議会生活保護基準部会 資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77427.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T17:04:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77489.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第２８回新型インフルエンザ対策に関する小委員会 第１３回危機対応医薬品等に関する小委員会 資料",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77489.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T16:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77439.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和８年度第８回医薬品等安全対策部会安全対策調査会 議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77439.html"
+    },
+    {
+      "authors": [
+        "内閣府"
+      ],
+      "category": "",
+      "date": "2026-11-17T13:44:00+09:00",
+      "feed": "https://www.cao.go.jp/rss/news.rdf",
+      "id": "https://www.fsc.go.jp/senmon/sonota/annai/wg_eiyou_annai_26.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "栄養成分関連添加物ワーキンググループ（第26回）の開催について【11月25日開催】",
+      "url": "https://www.fsc.go.jp/senmon/sonota/annai/wg_eiyou_annai_26.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001311.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "町村長を対象とした「全国防災・危機管理トップセミナー」の開催",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001311.html"
     }
   ],
   "source": "rss"

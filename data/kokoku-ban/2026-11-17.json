@@ -1,19 +1,19 @@
 {
   "ban": "kokoku-ban",
   "fetch_stats": {
-    "after_filter": 1,
+    "after_filter": 2,
     "by_source": {
       "rss": {
-        "after_filter": 1,
-        "raw": 156
+        "after_filter": 2,
+        "raw": 159
       }
     },
-    "new_today": 1,
-    "newly_added_this_run": 0,
-    "raw_fetched": 156,
+    "new_today": 2,
+    "newly_added_this_run": 1,
+    "raw_fetched": 159,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:43:51+09:00",
+  "fetched_at": "2026-11-17T18:36:32+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",
@@ -51,6 +51,20 @@
       "source": "rss",
       "title": "地方公共団体・広告主企業・広告代理店のための「広告主等向けガイダンス」実践セミナー 開催のお知らせ",
       "url": "https://www.soumu.go.jp/menu_news/gyouji/02ryutsu02_04000611.html"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-17T15:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048138@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "UNI SOUND株式会社に対する景品表示法に基づく措置命令について",
+      "url": "https://www.caa.go.jp/notice/entry/048138/"
     }
   ],
   "source": "rss"

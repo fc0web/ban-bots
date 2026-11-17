@@ -5,7 +5,7 @@
   "counts": {
     "fx-ban": {
       "after_filter": 6,
-      "new": 7,
+      "new": 6,
       "raw": 100
     },
     "game-ban": {
@@ -14,24 +14,24 @@
       "raw": 15
     },
     "kokoku-ban": {
-      "after_filter": 1,
-      "new": 1,
-      "raw": 156
+      "after_filter": 2,
+      "new": 2,
+      "raw": 159
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 60,
+      "new": 70,
       "raw": 30
     },
     "manga-anime-ban": {
       "after_filter": 7,
-      "new": 12,
+      "new": 7,
       "raw": 25
     },
     "news-ban": {
-      "after_filter": 156,
-      "new": 51,
-      "raw": 156
+      "after_filter": 159,
+      "new": 60,
+      "raw": 159
     },
     "puzzle-ban": {
       "after_filter": 2,
@@ -44,7 +44,7 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-17T14:45:05+09:00",
+  "generated_at": "2026-11-17T18:36:55+09:00",
   "ng": 0,
   "ok": 11,
   "problems": [],

@@ -1,8 +1,8 @@
 {
   "ban": "fx-ban",
   "cap": 50,
-  "count": 7,
-  "generated_at": "2026-11-17T14:43:48+09:00",
+  "count": 6,
+  "generated_at": "2026-11-17T18:36:21+09:00",
   "records": [
     {
       "authors": [
@@ -89,20 +89,7 @@
       "source": "rss",
       "title": "基準外国為替相場及び裁定外国為替相場（11月分）",
       "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm"
-    },
-    {
-      "authors": [],
-      "category": "",
-      "date": "Tue, 20 Oct 2026 09:00:00 +0900",
-      "feed": "https://www.boj.or.jp/rss/whatsnew.xml",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "基準外国為替相場及び裁定外国為替相場（11月分）",
-      "url": "https://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm"
     }
   ],
-  "total_before_cap": 7
+  "total_before_cap": 6
 }

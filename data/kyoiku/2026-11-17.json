@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 60,
-    "newly_added_this_run": 7,
+    "new_today": 70,
+    "newly_added_this_run": 10,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:43:56+09:00",
+  "fetched_at": "2026-11-17T18:36:42+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -816,6 +816,168 @@
       "source": "zenodo",
       "title": "RAQAMLI TA'LIM MUHITIDA AKADEMIK HALOLLIKNI TA'MINLASHNING PEDAGOGIK ASOSLARI VA RIVOJLANTIRISH MEXANIZMLARI",
       "url": "https://zenodo.org/records/24299019"
+    },
+    {
+      "authors": [
+        "Zulfikorov Elyorbek Shavkat o'g'li"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-14",
+      "id": "24304242",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "O'ZBEKISTONNING ENG YANGI TARIXINI O'QITISHDA RAQAMLI TEXNOLOGIYALAR VA ISLOM SIVILIZATSIYASI MARKAZINING TA'LIMIY IMKONIYATLARIDAN FOYDALANISH",
+      "url": "https://zenodo.org/records/24304242"
+    },
+    {
+      "authors": [
+        "Demirtaş, Zeynep",
+        "Uylas, Selim",
+        "Arslan, Serhat",
+        "Yılmaz, Fatih",
+        "Çelebi, Celalettin",
+        "Arslan, Nihan",
+        "Uylas, Sümeyra Dilek"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24303179",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Digital addiction and anti-mattering: the serial mediation role of state hope and flourishing",
+      "url": "https://zenodo.org/records/24303179"
+    },
+    {
+      "authors": [
+        "N.A.Mirzayeva"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24303990",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "INSONNING NEYROFIZIOLOGIK VA INDIVIDUAL RIVOJLANISH XUSUSIYATLARINI HISOBGA OLISH-TA'LIM JARAYONIDA INKLYUZIV MADANIYATNI RIVOJLANTIRISH OMILI SIFATIDA",
+      "url": "https://zenodo.org/records/24303990"
+    },
+    {
+      "authors": [
+        "Kiprotich, Yatich",
+        "Chang'ach, John K.",
+        "Githinji, Felicity W."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "id": "24303083",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Influence Of Family Support In Enhancing Academic Attainment In Public Day Secondary Schools In Baringo County, Kenya",
+      "url": "https://zenodo.org/records/24303083"
+    },
+    {
+      "authors": [
+        "Fominykh, Dmitry",
+        "Solodovnikov, Igor"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "id": "24303967",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Description of new subspecies of Carabus (Cechenochilus) boeberi Adams, 1817 (Coleoptera, Carabidae) from the Central Caucasus",
+      "url": "https://zenodo.org/records/24303967"
+    },
+    {
+      "authors": [
+        "Abad, Cilia Lourdes",
+        "Robles, Morgane",
+        "Portillo, Ramon",
+        "Alsouki, Mia Salma",
+        "Horáčková, Hana",
+        "Saidi, Amirehsan",
+        "Váchalová, Veronika",
+        "Synova, Tetiana",
+        "Kumnova, Fiona",
+        "Ghaddar, Mohammad Rida",
+        "Vokřál, Ivan",
+        "Karahoda, Rona",
+        "Lochman, Lukas",
+        "Heblik, Daniel",
+        "Kučera, Radim",
+        "Štaud, František"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-07",
+      "id": "24303094",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Maternal immune activation disrupts the kynurenine pathway of tryptophan metabolism in the placenta–fetal brain axis in rats",
+      "url": "https://zenodo.org/records/24303094"
+    },
+    {
+      "authors": [
+        "Burton, Sharon L.",
+        "Harvie, David P."
+      ],
+      "category": "Journal article",
+      "date": "2026-12-31",
+      "id": "24303132",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Beyond technical controls: an integrated cybersecurity behavior-law framework for sociotechnical risk management",
+      "url": "https://zenodo.org/records/24303132"
+    },
+    {
+      "authors": [
+        "Lazarev, Maxim"
+      ],
+      "category": "Journal",
+      "date": "2026-11-17",
+      "id": "24302498",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Humanity space. International almanac. Vol. 15, No 6",
+      "url": "https://zenodo.org/records/24302498"
+    },
+    {
+      "authors": [
+        "LucaMarconato",
+        "Giovanni Palla",
+        "Wouter-Michiel Vierdag",
+        "totmar101",
+        "Rahul Shrestha",
+        "Grzegorz Bokota",
+        "Ajayrama Kumaraswamy",
+        "aeisenbarth",
+        "Kevin Yamauchi",
+        "Benjamin Rombaut",
+        "Jan Gleixner",
+        "Ahmet Sarıgün",
+        "Ganesh",
+        "Kasia Kedziora",
+        "Minh Trinh",
+        "Peter Sobolewski",
+        "lopollar"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "id": "24303175",
+      "license": "bsd-3-clause",
+      "source": "zenodo",
+      "title": "scverse/napari-spatialdata: v0.7.4",
+      "url": "https://zenodo.org/records/24303175"
+    },
+    {
+      "authors": [
+        "Nagar, Kalpana",
+        "Prakasha, G. S."
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24303090",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A study on exploring the effects of the school climate and teacher's accountability on academic performance of students in early childhood care and education",
+      "url": "https://zenodo.org/records/24303090"
     }
   ],
   "source": "arxiv+zenodo"

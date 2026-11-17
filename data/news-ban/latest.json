@@ -2,7 +2,7 @@
   "ban": "news-ban",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-17T14:43:57+09:00",
+  "generated_at": "2026-11-17T18:36:49+09:00",
   "records": [
     {
       "authors": [
@@ -755,5 +755,5 @@
       "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02ryutsu07_04000603.html"
     }
   ],
-  "total_before_cap": 51
+  "total_before_cap": 60
 }

@@ -173,6 +173,27 @@ SEEN_TTL_DAYS = 730  # 2 years — bound the seen set size
 LATEST_JSON_CAP = 50  # max records in data/<ban>/latest.json
 
 
+def dedup_key(s: str) -> str:
+    """Normalize a record id for cross-day/same-day dedup.
+
+    Two URL ids that differ only by scheme (http vs https) or by a
+    trailing slash should hash to the same key — otherwise the same
+    news item republished via a feed URL update ends up as two
+    "different" candidates.
+    """
+    if not s:
+        return ""
+    s = str(s)
+    low = s.lower()
+    for prefix in ("https://", "http://"):
+        if low.startswith(prefix):
+            s = s[len(prefix):]
+            break
+    while s.endswith("/"):
+        s = s[:-1]
+    return s
+
+
 def _seen_path(ban_id: str) -> Path:
     # `_seen.json` starts with "_" so retention pruning (which looks for
     # YYYY-MM-DD.json) never touches it.
@@ -180,10 +201,16 @@ def _seen_path(ban_id: str) -> Path:
 
 
 def load_seen(ban_id: str, today: datetime | None = None) -> dict[str, str]:
-    """Load the per-ban seen-id map: {id: "YYYY-MM-DD" when first seen}.
+    """Load the per-ban seen-id map: {dedup_key(id): "YYYY-MM-DD" when first seen}.
 
-    Entries older than SEEN_TTL_DAYS are dropped on load. Returns a mutable
-    dict; callers add new ids and then call save_seen.
+    Keys are stored in `dedup_key` normalized form (scheme-stripped,
+    trailing-slash-stripped) so http<->https drift on the same URL does
+    not create duplicate candidates. Legacy entries in the older
+    non-normalized form are migrated on load; if two legacy keys collide
+    on their normalized form, the earlier first-seen date wins.
+
+    Entries older than SEEN_TTL_DAYS are dropped on load. Returns a
+    mutable dict; callers add new ids and then call save_seen.
     """
     obj = read_json(_seen_path(ban_id)) or {}
     raw = obj.get("ids") if isinstance(obj, dict) else None
@@ -199,8 +226,14 @@ def load_seen(ban_id: str, today: datetime | None = None) -> dict[str, str]:
                 d = datetime.strptime(v, "%Y-%m-%d").date()
             except ValueError:
                 continue
-            if d >= cutoff:
-                ids[str(k)] = v
+            if d < cutoff:
+                continue
+            nk = dedup_key(str(k))
+            if not nk:
+                continue
+            prev = ids.get(nk)
+            if prev is None or v < prev:
+                ids[nk] = v
     return ids
 
 

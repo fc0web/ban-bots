@@ -55,35 +55,43 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
             notes.append(f"{component}:{type(e).__name__}:{str(e)[:120]}")
 
     # Cross-day de-dup by id. Rule: only drop items whose seen-set entry
-    # points to a PRIOR day. Items first seen today (= whose seen entry is
-    # today, from an earlier same-day run, or newly added this run) stay in
-    # today's candidate set. This fixes the same-day re-run bug where the
-    # data file was being overwritten to zero.
-    seen = common.load_seen(ban_id)
+    # points to a PRIOR day. Items first seen today (= whose seen entry
+    # is today, from an earlier same-day run, or newly added this run)
+    # stay in today's candidate set. Comparison uses `dedup_key` so the
+    # same URL with http vs https or with/without a trailing slash counts
+    # as one.
+    seen = common.load_seen(ban_id)  # already keyed on dedup_key
 
     # Preserve any already-saved records for today (union across same-day
     # runs) so a feed that scrolled between runs doesn't lose items.
     existing_today = common.read_json(common.data_path(ban_id, today_str)) or {}
-    kept_today: list[dict[str, Any]] = list(existing_today.get("records") or [])
-    kept_ids: set[str] = {str(r.get("id")) for r in kept_today if r.get("id")}
+    kept_today: list[dict[str, Any]] = []
+    kept_ids: set[str] = set()
+    for r in (existing_today.get("records") or []):
+        rid = str(r.get("id") or "")
+        nkey = common.dedup_key(rid)
+        if not nkey or nkey in kept_ids:
+            # same-day duplicate in prior file — drop silently
+            continue
+        kept_today.append(r)
+        kept_ids.add(nkey)
 
     newly_added_this_run = 0
     seen_previously = 0
     for rec in all_records:
         rid = str(rec.get("id") or "")
-        if not rid:
+        nkey = common.dedup_key(rid)
+        if not nkey:
             continue
-        first_seen = seen.get(rid, "")
+        first_seen = seen.get(nkey, "")
         if first_seen and first_seen < today_str:
-            # Seen on a prior day — drop.
             seen_previously += 1
             continue
-        if rid in kept_ids:
-            # Already stored by an earlier same-day run.
+        if nkey in kept_ids:
             continue
         kept_today.append(rec)
-        kept_ids.add(rid)
-        seen.setdefault(rid, today_str)
+        kept_ids.add(nkey)
+        seen.setdefault(nkey, today_str)
         newly_added_this_run += 1
     common.save_seen(ban_id, seen)
 
