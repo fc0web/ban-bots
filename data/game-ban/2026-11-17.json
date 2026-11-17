@@ -1,0 +1,63 @@
+{
+  "ban": "game-ban",
+  "fetch_stats": {
+    "after_filter": 2,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 2,
+        "raw": 15
+      }
+    },
+    "new_today": 2,
+    "newly_added_this_run": 2,
+    "raw_fetched": 15,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T14:24:20+09:00",
+  "params": {
+    "categories": [
+      "cs.GT",
+      "cs.AI",
+      "math.CO"
+    ],
+    "keywords": [
+      "strongly solved",
+      "weakly solved",
+      "endgame tablebase",
+      "retrograde analysis"
+    ],
+    "limit": 15,
+    "reldate": 365
+  },
+  "records": [
+    {
+      "authors": [
+        "Mohamad Yazan Sadoun",
+        "Sarah Sharif",
+        "Yaser Mike Banad"
+      ],
+      "category": "cs.AI",
+      "date": "2026-10-06T22:37:58Z",
+      "id": "http://arxiv.org/abs/2610.09188v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.09188v1",
+      "source": "arxiv",
+      "title": "From Probabilities to Decisions: Search and Multi-Teacher Distillation with Jev",
+      "url": "https://arxiv.org/abs/2610.09188v1"
+    },
+    {
+      "authors": [
+        "Alexander Pavlov"
+      ],
+      "category": "cs.AI",
+      "date": "2026-04-09T07:22:24Z",
+      "id": "http://arxiv.org/abs/2604.07907v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2604.07907v1",
+      "source": "arxiv",
+      "title": "Capture-Quiet Decomposition: A Verification Theorem for Chess Endgame Tablebases",
+      "url": "https://arxiv.org/abs/2604.07907v1"
+    }
+  ],
+  "source": "arxiv"
+}

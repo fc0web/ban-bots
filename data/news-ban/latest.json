@@ -1,8 +1,8 @@
 {
   "ban": "news-ban",
   "cap": 50,
-  "count": 42,
-  "generated_at": "2026-11-17T14:00:48+09:00",
+  "count": 50,
+  "generated_at": "2026-11-17T14:24:27+09:00",
   "records": [
     {
       "authors": [
@@ -633,7 +633,127 @@
       "source": "rss",
       "title": "藤井総務大臣閣議後記者会見の概要",
       "url": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001593.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77386.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「全世代型リ・スキリング国民運動」（あなたのリスキリングアクション）を推進します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77386.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77334.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和８年度第４回「団体等検定制度についての出張相談会」を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77334.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77311.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第106回「電離放射線障害の業務上外に関する検討会」を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77311.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000479.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「令和9年度地方税制改正等に関する地方財政審議会意見」の提出",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000479.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/data_protection/02kiban18_02000518.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "フロンティアAI時代の通信事業におけるデータの保護・セキュリティの在り方に関する検討会（第3回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/data_protection/02kiban18_02000518.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01gyosei03_02000116.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和8年度自治会等地縁による団体功労者総務大臣表彰式",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01gyosei03_02000116.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kanbo01_02001190.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "独立行政法人役員の公募",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kanbo01_02001190.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02ryutsu07_04000603.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信審議会 情報通信政策部会 放送政策委員会 第6回 開催案内",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02ryutsu07_04000603.html"
     }
   ],
-  "total_before_cap": 42
+  "total_before_cap": 51
 }

@@ -25,6 +25,7 @@ then limit".
 
 from __future__ import annotations
 
+import re
 import time
 import urllib.parse
 import urllib.request
@@ -82,6 +83,13 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
                   AFTER its own category+keyword match.
       reldate:    if set, drop records whose published date is older than
                   (today JST - reldate) days. Client-side filter.
+      title_keywords:
+                  if set, keep only records whose TITLE contains at least
+                  one of the keywords. Client-side filter, applied AFTER
+                  reldate so this is the last narrowing pass. ASCII
+                  keywords use whole-word matching (case-insensitive) so
+                  short words like "cel" do not match "cells"; non-ASCII
+                  keywords use plain substring.
 
     Back-compat (older rows still use these):
       category:   single category string, used when `categories` is absent.
@@ -184,5 +192,21 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
             if d is None or d >= cutoff:
                 kept.append(r)
         recs = kept
+
+    title_kws = [str(k).strip() for k in (params.get("title_keywords") or []) if str(k).strip()]
+    if title_kws:
+        patterns_ascii = [re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in title_kws if k.isascii()]
+        subs_nonascii = [k for k in title_kws if not k.isascii()]
+        def _title_hit(t: str) -> bool:
+            if not t:
+                return False
+            for p in patterns_ascii:
+                if p.search(t):
+                    return True
+            for s in subs_nonascii:
+                if s in t:
+                    return True
+            return False
+        recs = [r for r in recs if _title_hit(r.get("title", ""))]
 
     return {"records": recs, "raw_total": raw_total, "after_filter": len(recs)}

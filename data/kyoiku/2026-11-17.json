@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 49,
-    "newly_added_this_run": 1,
+    "new_today": 53,
+    "newly_added_this_run": 4,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:00:46+09:00",
+  "fetched_at": "2026-11-17T14:24:25+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -677,6 +677,60 @@
       "source": "zenodo",
       "title": "School leadership and teacher professional development: A systematic review of mechanisms and practices",
       "url": "https://zenodo.org/records/24298316"
+    },
+    {
+      "authors": [
+        "Inder J. Taneja"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24298270",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Spinning Magic Faces and Pillars of Orders 3 to 6",
+      "url": "https://zenodo.org/records/24298270"
+    },
+    {
+      "authors": [
+        "Sadam Santika Noorhaibah",
+        "Widyatmike Gede Mulawarman",
+        "Akhmad",
+        "Sri Asmiati",
+        "Rofiq Fathurrahman",
+        "Rifki Al Shahib",
+        "Herwan"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
+      "id": "24298529",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PRINCIPAL LEADERSHIP: A SYSTEMATIC LITERATURE REVIEW AND BIBLIOMETRIC ANALYSIS OF SCOPUS 2025–2026",
+      "url": "https://zenodo.org/records/24298529"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24298547",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The local limit of sublinear preferential attachment graphs with fixed out-degree",
+      "url": "https://zenodo.org/records/24298547"
+    },
+    {
+      "authors": [
+        "Azimova U.O."
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24298482",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE IMPORTANCE OF DEVELOPING ATHLETES' SPEAKING SKILLS",
+      "url": "https://zenodo.org/records/24298482"
     }
   ],
   "source": "arxiv+zenodo"

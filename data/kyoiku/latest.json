@@ -1,8 +1,8 @@
 {
   "ban": "kyoiku",
   "cap": 50,
-  "count": 49,
-  "generated_at": "2026-11-17T14:00:46+09:00",
+  "count": 50,
+  "generated_at": "2026-11-17T14:24:25+09:00",
   "records": [
     {
       "authors": [
@@ -701,7 +701,20 @@
       "source": "zenodo",
       "title": "School leadership and teacher professional development: A systematic review of mechanisms and practices",
       "url": "https://zenodo.org/records/24298316"
+    },
+    {
+      "authors": [
+        "Inder J. Taneja"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24298270",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Spinning Magic Faces and Pillars of Orders 3 to 6",
+      "url": "https://zenodo.org/records/24298270"
     }
   ],
-  "total_before_cap": 49
+  "total_before_cap": 53
 }

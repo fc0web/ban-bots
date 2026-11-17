@@ -1,0 +1,228 @@
+{
+  "ban": "manga-anime-ban",
+  "fetch_stats": {
+    "after_filter": 12,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 2,
+        "raw": 15
+      },
+      "rss": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 12,
+    "newly_added_this_run": 12,
+    "raw_fetched": 25,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T14:24:27+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.GR"
+      ],
+      "keywords": [
+        "anime colorization",
+        "line art colorization",
+        "in-betweening",
+        "sketch simplification",
+        "cel animation"
+      ],
+      "limit": 15,
+      "reldate": 180,
+      "required_keywords": [
+        "anime OR cartoon OR manga OR comic"
+      ],
+      "title_keywords": [
+        "anime",
+        "manga",
+        "cartoon",
+        "comic",
+        "2D animation",
+        "sprite",
+        "line art",
+        "cel"
+      ]
+    },
+    "rss": {
+      "feeds": [
+        "https://aja.gr.jp/feed"
+      ],
+      "include_keywords": [],
+      "limit_per_feed": 10
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Kenneth Alonso",
+        "Gustavo Patow"
+      ],
+      "category": "cs.GR",
+      "date": "2026-10-19T20:24:35Z",
+      "id": "http://arxiv.org/abs/2610.27253v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.27253v1",
+      "source": "arxiv",
+      "title": "Neural Controlled Directional Frame Generation for Sprite Animation",
+      "url": "https://arxiv.org/abs/2610.27253v1"
+    },
+    {
+      "authors": [
+        "Kenneth Alonso",
+        "Gustavo Patow"
+      ],
+      "category": "cs.GR",
+      "date": "2026-10-12T08:53:22Z",
+      "id": "http://arxiv.org/abs/2610.16423v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.16423v1",
+      "source": "arxiv",
+      "title": "Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation",
+      "url": "https://arxiv.org/abs/2610.16423v1"
+    },
+    {
+      "authors": [
+        "aja_senda"
+      ],
+      "category": "Info",
+      "date": "Mon, 02 Nov 2026 04:24:09 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2795",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「アニメ産業レポート2026」刊行のお知らせ・2025年のアニメ産業市場規模 速報値 発表",
+      "url": "https://aja.gr.jp/info/2795"
+    },
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Sun, 01 Nov 2026 09:28:22 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2798",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "新入会員のご紹介",
+      "url": "https://aja.gr.jp/info/2798"
+    },
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Mon, 19 Oct 2026 06:12:33 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2790",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "我が国のコンテンツ産業における国際競争力強化にむけた新たな支援体制構築に関する提言",
+      "url": "https://aja.gr.jp/info/2790"
+    },
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Fri, 16 Oct 2026 03:00:13 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2791",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「令和8年熊本地震」義援金に関するお知らせ",
+      "url": "https://aja.gr.jp/info/2791"
+    },
+    {
+      "authors": [
+        "aja_senda"
+      ],
+      "category": "Info",
+      "date": "Wed, 30 Sep 2026 03:49:13 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2785",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "文化庁委託事業 令和８年度 アニメーション人材育成調査研究事業 オープン講座 開講のお知らせ",
+      "url": "https://aja.gr.jp/info/2785"
+    },
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Tue, 01 Sep 2026 03:47:30 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2782",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "新入会員のご紹介",
+      "url": "https://aja.gr.jp/info/2782"
+    },
+    {
+      "authors": [
+        "aja_senda"
+      ],
+      "category": "Info",
+      "date": "Mon, 27 Jul 2026 05:25:46 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2780",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "杉並アニメーションミュージアム企画展 シンエイ動画50周年展 開催のお知らせ",
+      "url": "https://aja.gr.jp/info/2780"
+    },
+    {
+      "authors": [
+        "aja_senda"
+      ],
+      "category": "Info",
+      "date": "Mon, 27 Jul 2026 05:21:31 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2778",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "副理事長選任のお知らせ",
+      "url": "https://aja.gr.jp/info/2778"
+    },
+    {
+      "authors": [
+        "aja_senda"
+      ],
+      "category": "Info",
+      "date": "Mon, 27 Jul 2026 05:20:01 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2779",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和７年度補正予算事業「クリエイター支援基金」（文化芸術活動基盤強化基金）採択について",
+      "url": "https://aja.gr.jp/info/2779"
+    },
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Tue, 23 Jun 2026 11:20:02 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2768",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "理事選任のお知らせ",
+      "url": "https://aja.gr.jp/info/2768"
+    }
+  ],
+  "source": "arxiv+rss"
+}

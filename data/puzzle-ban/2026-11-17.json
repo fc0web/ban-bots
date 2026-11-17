@@ -1,0 +1,70 @@
+{
+  "ban": "puzzle-ban",
+  "fetch_stats": {
+    "after_filter": 2,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 2,
+        "raw": 20
+      }
+    },
+    "new_today": 2,
+    "newly_added_this_run": 2,
+    "raw_fetched": 20,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T14:24:30+09:00",
+  "params": {
+    "categories": [
+      "cs.CC",
+      "math.CO",
+      "cs.DS",
+      "cs.DM"
+    ],
+    "keywords": [
+      "sliding puzzle",
+      "Nikoli",
+      "Sudoku",
+      "combinatorial game",
+      "NP-hard",
+      "PSPACE-complete",
+      "sliding block"
+    ],
+    "limit": 20,
+    "reldate": 180,
+    "required_keywords": [
+      "puzzle"
+    ]
+  },
+  "records": [
+    {
+      "authors": [
+        "Jake Anderson",
+        "Lars Magnus Hvattum",
+        "András Z. Salamon"
+      ],
+      "category": "cs.CC",
+      "date": "2026-10-16T15:41:28Z",
+      "id": "http://arxiv.org/abs/2610.23639v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2610.23639v1",
+      "source": "arxiv",
+      "title": "Puzznic is PSPACE-Complete",
+      "url": "https://arxiv.org/abs/2610.23639v1"
+    },
+    {
+      "authors": [
+        "Henry Siegel"
+      ],
+      "category": "cs.DM",
+      "date": "2026-06-28T02:22:16Z",
+      "id": "http://arxiv.org/abs/2606.29153v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2606.29153v1",
+      "source": "arxiv",
+      "title": "The Optimal Knight Exchange Puzzle is NP-Hard",
+      "url": "https://arxiv.org/abs/2606.29153v1"
+    }
+  ],
+  "source": "arxiv"
+}
