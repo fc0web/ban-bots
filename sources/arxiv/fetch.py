@@ -70,9 +70,14 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
                   title + abstract via the `all:` field. OR-combined.
                   Empty or missing = no keyword narrowing.
       required_keywords:
-                  list of phrases that MUST all appear. Each is AND'd
-                  into the query, before the OR'd `keywords` list. Use
-                  this for the pattern `(cats) AND all:req AND (OR...)`.
+                  list of phrases that MUST all appear. Each element is
+                  AND'd into the query, before the OR'd `keywords` list.
+                  Within a single element, the literal separator ` OR `
+                  (spaces required) expands into an OR-group, so e.g.
+                  `"anime OR cartoon OR manga OR comic"` becomes
+                  `(all:"anime" OR all:"cartoon" OR all:"manga" OR all:"comic")`
+                  as one AND conjunct. Elements without ` OR ` behave
+                  like the old form (single required phrase).
       limit:      max records (default 20, cap 100). Applied by arXiv
                   AFTER its own category+keyword match.
       reldate:    if set, drop records whose published date is older than
@@ -100,11 +105,17 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     def _kw(k: str) -> str:
         return f'all:"{k.replace(chr(34), "")}"'
 
+    def _req_clause(k: str) -> str:
+        pieces = [p.strip() for p in k.split(" OR ") if p.strip()]
+        if len(pieces) > 1:
+            return "(" + " OR ".join(_kw(p) for p in pieces) + ")"
+        return _kw(k)
+
     cat_q = " OR ".join(f"cat:{c}" for c in cats)
     kw_q = " OR ".join(_kw(k) for k in kws)
     parts = [f"({cat_q})" if len(cats) > 1 else cat_q]
     for r in req:
-        parts.append(_kw(r))
+        parts.append(_req_clause(r))
     if kw_q:
         parts.append(f"({kw_q})" if len(kws) > 1 else kw_q)
     search_query = " AND ".join(parts)
