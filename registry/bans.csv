@@ -4,3 +4,5 @@ daily,日次盤,Daily,selfgen,"{""kind"":""placeholder""}",daily,,false,daily-ta
 shikaku,四角盤,Shikaku,selfgen,"{""kind"":""placeholder""}",daily,,false,shikaku-tab,
 mokuroku,目録,Catalog,none,"{}",daily,,false,mokuroku-tab,
 uranai,占い盤,Fortune,pubmed+rss,"{""pubmed"":{""queries"":[{""q"":""astrology"",""limit"":5},{""q"":""Barnum effect"",""limit"":5},{""q"":""divination"",""limit"":5}]},""rss"":{""feeds"":[""https://www.caa.go.jp/news.rss""],""limit_per_feed"":10,""include_keywords"":[""霊感"",""開運"",""占い"",""祈祷"",""スピリチュアル"",""霊視""]}}",daily,,true,uranai-tab,
+news-ban,ニュース盤,News Ban,none,"{}",daily,,false,news-ban-tab,https://rei-aios.pages.dev/tools/news-ban/
+kokoku-ban,広告盤,Kokoku Ban,none,"{}",daily,,false,kokoku-ban-tab,https://rei-aios.pages.dev/tools/kokoku-ban/

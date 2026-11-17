@@ -1,22 +1,15 @@
 {
-  "generated_at": "2026-11-17T10:31:55+09:00",
+  "generated_at": "2026-11-17T10:45:22+09:00",
   "last_seen": {
-    "kyoiku": "2026-11-17T10:31:42+09:00",
-    "uranai": "2026-11-17T10:31:45+09:00"
+    "kyoiku": "2026-11-17T10:45:19+09:00",
+    "uranai": "2026-11-17T10:45:22+09:00"
   },
   "ng": 0,
-  "ok": 3,
+  "ok": 6,
   "problems": [
     {
-      "ban": "kyoiku",
-      "checked_at": "2026-11-17T10:31:42+09:00",
-      "freq": "daily",
-      "reason": "new_today=0 (after_filter=30)",
-      "status": "warn"
-    },
-    {
       "ban": "uranai",
-      "checked_at": "2026-11-17T10:31:45+09:00",
+      "checked_at": "2026-11-17T10:45:22+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=15)",
       "status": "warn"
@@ -25,6 +18,6 @@
   "problems_truncated": 0,
   "ran_today": 2,
   "stale": 0,
-  "total": 5,
-  "warn": 2
+  "total": 7,
+  "warn": 1
 }
