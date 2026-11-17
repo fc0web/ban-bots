@@ -1,9 +1,19 @@
 {
   "counts": {
+    "kokoku-ban": {
+      "after_filter": 1,
+      "new": 1,
+      "raw": 152
+    },
     "kyoiku": {
       "after_filter": 30,
       "new": 42,
       "raw": 30
+    },
+    "news-ban": {
+      "after_filter": 152,
+      "new": 40,
+      "raw": 152
     },
     "uranai": {
       "after_filter": 15,
@@ -11,16 +21,18 @@
       "raw": 35
     }
   },
-  "generated_at": "2026-11-17T12:20:43+09:00",
+  "generated_at": "2026-11-17T12:22:21+09:00",
   "last_seen": {
-    "kyoiku": "2026-11-17T12:20:21+09:00",
-    "uranai": "2026-11-17T12:20:25+09:00"
+    "kokoku-ban": "2026-11-17T12:22:06+09:00",
+    "kyoiku": "2026-11-17T12:22:09+09:00",
+    "news-ban": "2026-11-17T12:22:09+09:00",
+    "uranai": "2026-11-17T12:22:12+09:00"
   },
   "ng": 0,
   "ok": 7,
   "problems": [],
   "problems_truncated": 0,
-  "ran_today": 2,
+  "ran_today": 4,
   "stale": 0,
   "total": 7,
   "warn": 0

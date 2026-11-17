@@ -1,0 +1,57 @@
+{
+  "ban": "kokoku-ban",
+  "fetch_stats": {
+    "after_filter": 1,
+    "by_source": {
+      "rss": {
+        "after_filter": 1,
+        "raw": 152
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 152,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T12:22:06+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [
+      "広告",
+      "景品表示法",
+      "不当表示",
+      "誇大",
+      "ステマ",
+      "優良誤認",
+      "有利誤認",
+      "措置命令",
+      "課徴金",
+      "打消し表示",
+      "定期購入",
+      "特定商取引法"
+    ],
+    "limit_per_feed": 20
+  },
+  "records": [
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-16T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/gyouji/02ryutsu02_04000611.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "地方公共団体・広告主企業・広告代理店のための「広告主等向けガイダンス」実践セミナー 開催のお知らせ",
+      "url": "https://www.soumu.go.jp/menu_news/gyouji/02ryutsu02_04000611.html"
+    }
+  ],
+  "source": "rss"
+}
