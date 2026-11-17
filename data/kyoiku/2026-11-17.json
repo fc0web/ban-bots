@@ -1,6 +1,6 @@
 {
   "ban": "kyoiku",
-  "fetched_at": "2026-11-17T09:46:29+09:00",
+  "fetched_at": "2026-11-17T10:16:47+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -285,6 +285,45 @@
     },
     {
       "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
+      "id": "24295651",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Number Arrow and the Line 1/2: The Riemann Hypothesis in the Light of the Birth of Dimensions Model",
+      "url": "https://zenodo.org/records/24295651"
+    },
+    {
+      "authors": [
+        "Gibbons, Leisa",
+        "Sayyad Abdi, Ellie",
+        "Haddow, Gaby",
+        "Dawe, Lydia"
+      ],
+      "category": "Report",
+      "date": "2026-11-17",
+      "id": "24295536",
+      "license": "cc-by-sa-4.0",
+      "source": "zenodo",
+      "title": "Forming Professional Identity",
+      "url": "https://zenodo.org/records/24295536"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24295537",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A necessary and sufficient condition for convergence of the quantile process in $L^p(0,1)$",
+      "url": "https://zenodo.org/records/24295537"
+    },
+    {
+      "authors": [
         "Shmalo, Yitzchak"
       ],
       "category": "Preprint",
@@ -368,44 +407,6 @@
       "source": "zenodo",
       "title": "Adding one permutation to a transposition and a long cycle",
       "url": "https://zenodo.org/records/24295208"
-    },
-    {
-      "authors": [
-        "Winter, Henry",
-        "Severino, MaryKay",
-        "Volunteer Scientist"
-      ],
-      "category": "Dataset",
-      "date": "2026-10-14",
-      "id": "23375818",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "2024-04-08 Partial Solar Eclipse ESID#673",
-      "url": "https://zenodo.org/records/23375818"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24295109",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A nonergodic flow rule with Galton–Watson stationary measure",
-      "url": "https://zenodo.org/records/24295109"
-    },
-    {
-      "authors": [
-        "Macalingay, Eden"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-17",
-      "id": "24295083",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "FROM ROOT CROP TO FUNCTIONAL KAKANIN: PRODUCT DEVELOPMENT, SENSORY ACCEPTABILITY, ECONOMIC VIABILITY, AND MARKET POTENTIAL OF UBIBINGKA ENRICHED WITH POWDERED SWEET POTATO (Ipomoea batatas L.)",
-      "url": "https://zenodo.org/records/24295083"
     }
   ],
   "source": "arxiv+zenodo"
