@@ -40,19 +40,30 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
                 recs = raw.get("records") or []
                 raw_total = int(raw.get("raw_total", len(recs)))
                 after_filter = int(raw.get("after_filter", len(recs)))
+                inner_errors = list(raw.get("errors") or [])
             else:
                 recs = list(raw)
                 raw_total = len(recs)
                 after_filter = len(recs)
+                inner_errors = []
             per_source_stats[component] = {
                 "raw": raw_total,
                 "after_filter": after_filter,
             }
+            if inner_errors:
+                common.append_fetch_errors(inner_errors)
             all_records.extend(recs)
         except Exception as e:
             ok = False
             per_source_stats[component] = {"raw": 0, "after_filter": 0}
             notes.append(f"{component}:{type(e).__name__}:{str(e)[:120]}")
+            # Whole-component failure also goes to the per-source error log.
+            common.append_fetch_errors([{
+                "time": common.iso_jst(),
+                "source": component,
+                "phrase": "",
+                "error": f"{type(e).__name__}: {str(e)[:120]}",
+            }])
 
     # Cross-day de-dup by id. Rule: only drop items whose seen-set entry
     # points to a PRIOR day. Items first seen today (= whose seen entry

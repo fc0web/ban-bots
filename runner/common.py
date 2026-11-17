@@ -359,3 +359,27 @@ def read_status_shard(path: Path) -> list[dict[str, Any]]:
                 continue
             out.append(json.loads(line))
     return out
+
+
+FETCH_ERRORS_PATH = STATUS_DIR / "fetch-errors.jsonl"
+
+
+def append_fetch_errors(rows: Iterable[dict[str, Any]]) -> None:
+    """Append one JSON line per fetch error to status/fetch-errors.jsonl.
+
+    Each row should carry at least `time` (JST ISO-8601 with offset,
+    measured at the moment the error occurred), `source` (e.g. "openalex"),
+    `phrase` (the specific search phrase; "" for non-phrase sources), and
+    `error` ("<ClassName>: <message>" truncated).
+
+    This file lets the daily digest tell a genuine "0 hits" apart from a
+    swallowed exception. It is append-only; one line per failure.
+    """
+    rows = list(rows)
+    if not rows:
+        return
+    STATUS_DIR.mkdir(parents=True, exist_ok=True)
+    with FETCH_ERRORS_PATH.open("a", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False, sort_keys=True))
+            f.write("\n")

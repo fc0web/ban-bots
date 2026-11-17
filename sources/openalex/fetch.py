@@ -27,10 +27,17 @@ import json
 import time
 import urllib.parse
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import Any
 
 API_URL = "https://api.openalex.org/works"
+
+# JST, for stamping the actual time each per-phrase failure occurred.
+_JST_TZ = timezone(timedelta(hours=9))
+
+
+def _jst_now_iso() -> str:
+    return datetime.now(_JST_TZ).isoformat(timespec="seconds")
 
 # Be polite between consecutive calls (OpenAlex common-pool limit is
 # ~10 req/s). The multi-phrase mode makes N calls per fetch; N stays
@@ -130,6 +137,7 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     out: list[dict[str, Any]] = []
     seen: set[str] = set()
     raw_total = 0
+    errors: list[dict[str, str]] = []
 
     if phrases:
         limit_per = min(int(params.get("limit_per_phrase", 10)), 50)
@@ -141,8 +149,17 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
                 inner = f"{inner},{since_filter}"
             try:
                 data = _call(inner, limit_per)
-            except Exception:
-                # one phrase failing should not kill the others
+            except Exception as e:
+                # one phrase failing should not kill the others — fetch
+                # behaviour unchanged. Record a structured error so the
+                # daily digest can distinguish a genuine 0-hit response
+                # from a swallowed exception.
+                errors.append({
+                    "time": _jst_now_iso(),
+                    "source": "openalex",
+                    "phrase": phrase,
+                    "error": f"{type(e).__name__}: {str(e)[:120]}",
+                })
                 continue
             raw_total += int((data.get("meta") or {}).get("count") or 0)
             for work in (data.get("results") or []):
@@ -152,7 +169,12 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
                     continue
                 seen.add(rid)
                 out.append(rec)
-        return {"records": out, "raw_total": raw_total, "after_filter": len(out)}
+        return {
+            "records": out,
+            "raw_total": raw_total,
+            "after_filter": len(out),
+            "errors": errors,
+        }
 
     # Fallback single-call modes.
     q = str(params.get("q") or "").strip()
