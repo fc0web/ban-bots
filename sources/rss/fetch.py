@@ -18,12 +18,15 @@ the runner can record both the fetched total and the post-filter count.
 
 from __future__ import annotations
 
+import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from typing import Any
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 DC_NS = "{http://purl.org/dc/elements/1.1/}"
+RSS10_NS = "{http://purl.org/rss/1.0/}"
+RDF_NS = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
 
 
 def _fetch_bytes(url: str) -> bytes:
@@ -36,6 +39,26 @@ def _fetch_bytes(url: str) -> bytes:
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read()
+
+
+_XML_DECL_RE = re.compile(rb'<\?xml[^>]*encoding=["\']([^"\']+)["\'][^>]*\?>', re.I)
+_XML_DECL_STRIP_RE = re.compile(r'^\s*<\?xml[^>]*\?>\s*', re.I)
+
+
+def _parse_xml(body: bytes) -> ET.Element:
+    """Parse XML bytes, tolerating Shift_JIS / EUC-JP declarations that
+    Python's stdlib XML parser refuses to accept directly. We sniff the
+    declared encoding, decode to a str, strip the declaration, and feed
+    the str to ElementTree.
+    """
+    m = _XML_DECL_RE.search(body[:256])
+    encoding = m.group(1).decode("ascii", "replace").lower() if m else "utf-8"
+    try:
+        text = body.decode(encoding, errors="replace")
+    except LookupError:
+        text = body.decode("utf-8", errors="replace")
+    text = _XML_DECL_STRIP_RE.sub("", text, count=1)
+    return ET.fromstring(text)
 
 
 def _text(el, path: str) -> str:
@@ -84,6 +107,39 @@ def _parse_rss2(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[l
             "authors": [author] if author else [],
             "date": pub,
             "category": category,
+            "license": "",
+            "url": link,
+            "feed": feed_url,
+            "mark": "未測",
+        })
+    return out, raw
+
+
+def _parse_rdf(root: ET.Element, feed_url: str, keywords: list[str]) -> tuple[list[dict[str, Any]], int]:
+    """Parse RSS 1.0 / RDF feeds. Items are direct children of rdf:RDF,
+    using the http://purl.org/rss/1.0/ namespace. dc:date, dc:creator are
+    typical. Many Japanese gov sites use this form (e.g. mhlw.go.jp,
+    cao.go.jp, soumu.go.jp).
+    """
+    out: list[dict[str, Any]] = []
+    raw = 0
+    for item in root.findall(f"{RSS10_NS}item"):
+        raw += 1
+        title = (item.findtext(f"{RSS10_NS}title") or "").strip()
+        link = (item.findtext(f"{RSS10_NS}link") or "").strip()
+        desc = (item.findtext(f"{RSS10_NS}description") or "").strip()
+        pub = _text(item, f"{DC_NS}date")
+        author = _text(item, f"{DC_NS}creator")
+        if not _matches(f"{title}\n{desc}", keywords):
+            continue
+        rid = item.get(f"{RDF_NS}about") or link
+        out.append({
+            "source": "rss",
+            "id": rid or f"{feed_url}#{raw}",
+            "title": " ".join(title.split()),
+            "authors": [author] if author else [],
+            "date": pub,
+            "category": "",
             "license": "",
             "url": link,
             "feed": feed_url,
@@ -158,10 +214,12 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     for url in feeds:
         try:
             body = _fetch_bytes(url)
-            root = ET.fromstring(body)
+            root = _parse_xml(body)
             tag = root.tag.lower()
             if tag.endswith("}feed") or tag == "feed":
                 items, raw = _parse_atom(root, url, keywords)
+            elif tag.endswith("}rdf") or tag == "rdf":
+                items, raw = _parse_rdf(root, url, keywords)
             else:
                 items, raw = _parse_rss2(root, url, keywords)
             raw_total += raw

@@ -59,39 +59,78 @@ status/summary.json               全盤まとめ（小さく保つ）
 - 消費者庁 (`caa.go.jp`) は公式 RSS を公開しているので採用 → `https://www.caa.go.jp/news.rss`（RSS 2.0、dc:date 付き、消費者庁ウェブサイト「RSSフィードについて」（`https://www.caa.go.jp/rss/`）で案内されている）。
 - 国民生活センター (`kokusen.go.jp`) は公式 RSS フィードが見当たらなかった（トップページから案内がなく、`/rss/`、`/rss.xml`、`/feed/` はいずれも 404。トップに `info_rss.jpg` 画像はあるが、リンク先は HTML 一覧 `/new/new.html`）。採用しない。見つかり次第 `feeds` に 1 本足せばよい。
 
-**ニュース盤（news-ban）・広告盤（kokoku-ban）の情報源の候補（案 — 要確認）**：
+**ニュース盤（news-ban）・広告盤（kokoku-ban）の情報源の候補（確認済み／不可）**：
 
-ページは配置済み（`/tools/news-ban/`・`/tools/kokoku-ban/`）、`registry/bans.csv` には行だけ入れて `source=none / enabled=false` のまま置いてある。下の表は 2 盤に充てる情報源の **案**。**藤本さんの確認が済むまで `registry/bans.csv` の params は書き換えない**。URL の生死は未確認のものには「要確認」と記す（実装前に実際に GET して XML パースまで通ることを確認する）。
+方針（2026-11-17 確認後）：
+- ニュース盤は **官公庁の一次発表のみ**。報道（Google News・NHK など）は見出しをそのまま保存する運用になり、ページの決まり「見出しを写さない」とぶつかるため **採用しない**。
+- 気象庁 XML・e-Stat は **候補の収集源には使わず**、**後で照らし合わせに使う候補**として下に残す（人の確認が付いたときに手で参照する運用）。
+- 広告盤は、公取委・厚労省・JARO・日弁連の RSS を実検証し、**生きているもののみ**採用。
 
-ニュース盤（news-ban）：報道（主張の出どころ）と 一次出典（照合用）を分けて集める。実装はまず既存の `rss` ソースでまかなえる。
+ニュース盤（news-ban）：候補収集用（`source=rss`、`include_keywords=[]`）
 
-| 種別 | 情報源 | 候補 URL | 想定ソース | 確認状況 |
-|------|--------|---------|-----------|---------|
-| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` | `rss` | 確認済み（uranai で稼働中） |
-| 一次 | 気象庁 XML 電文 | `https://www.data.jma.go.jp/developer/xml/feed/regular.xml` | `rss`（Atom） | 要確認 |
-| 一次 | 公正取引委員会 新着 | `https://www.jftc.go.jp/` | `rss` | 要確認（公式 RSS の有無） |
-| 一次 | e-Stat 政府統計 API | `https://www.e-stat.go.jp/api/` | **新ソース `estat`** | 要確認（API キー取得と無料枠） |
-| 報道 | Google News 日本 topic feed | `https://news.google.com/rss?hl=ja&gl=JP` | `rss` | 要確認（利用規約と件数） |
-| 報道 | NHK 報道発表 | `https://www.nhk.or.jp/` | `rss` | 要確認（公式 RSS の有無） |
+| 種別 | 情報源 | 確認済み RSS URL | 実測 raw | 備考 |
+|------|--------|-----------------|---------:|------|
+| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` (RSS 2.0+dc) | 20 | uranai で既出・稼働中 |
+| 一次 | 厚労省 新着 | `https://www.mhlw.go.jp/stf/news.rdf` (RSS 1.0/RDF) | 102 | channel dc:date は古いが item は現行 |
+| 一次 | 内閣府 報道発表新着 | `https://www.cao.go.jp/rss/news.rdf` (RSS 1.0/RDF) | 10 | 景気動向指数・GDP 速報など |
+| 一次 | 総務省 新着 | `https://www.soumu.go.jp/news.rdf` (RSS 1.0/RDF, Shift_JIS) | 20 | パーサに Shift_JIS 対応を追加済み |
 
-`include_keywords` 案：news-ban では空（事実系の主張は分野が広く、キーワード絞りは種類ラベルで行う）。
+**取得不可**（当該ドメインが bot UA を 403 で拒否するので採用しない）：
+- 公正取引委員会 (`https://www.jftc.go.jp/`) — 403 Forbidden。browser UA へのなりすましは行わない。
+- 経済産業省 (`https://www.meti.go.jp/`) — 同上。
 
-広告盤（kokoku-ban）：広告の手法と表現の **図鑑**。ルール違反事例・景表法事例・消費者注意喚起を候補として集め、人の確認で「手法」ラベルを付ける運用。`rss` の `include_keywords` で広告関連だけに絞る。
+ニュース盤の `include_keywords` 案：**空**（事実系の主張は分野が広いため、絞りはページ側の「種類」ラベルで行う）。
 
-| 種別 | 情報源 | 候補 URL | 想定ソース | 確認状況 |
-|------|--------|---------|-----------|---------|
-| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` | `rss` | 確認済み（uranai 既出、別フィルタで再利用） |
-| 一次 | 公正取引委員会 新着 | `https://www.jftc.go.jp/` | `rss` | 要確認 |
-| 一次 | JARO（日本広告審査機構） | `https://www.jaro.or.jp/` | `rss` | 要確認（審議案件 RSS の有無） |
-| 一次 | 日弁連 消費者問題 | `https://www.nichibenren.or.jp/` | `rss` | 要確認 |
-| 一次 | 厚労省 医薬品等広告 | `https://www.mhlw.go.jp/` | `rss` | 要確認 |
+後で照らし合わせに使う候補（README に残すのみ、registry には入れない）：
+- 気象庁 XML 電文: `https://www.data.jma.go.jp/developer/xml/feed/regular.xml`（Atom、災害・天気予報の一次照合用）
+- e-Stat 政府統計: `https://www.e-stat.go.jp/api/`（統計 API、数字の一次照合用。API キー取得と無料枠要確認）
 
-`include_keywords` 案：`["広告","景品表示法","不当表示","誇大","ステマ","優良誤認","有利誤認","措置命令"]`。
+---
 
-次の手順（確認後）：
-1. 「要確認」の各 URL を実 GET + パース検証（`sources/rss/fetch.py` に通す）。生きている分だけ採用。
-2. `estat` を採るなら `sources/estat/fetch.py` を追加。
-3. `registry/bans.csv` の news-ban / kokoku-ban 行の `source` と `params` を書き換える（`none` → `rss` もしくは `rss+estat`）。同じ行で `enabled=true` にする。
+広告盤（kokoku-ban）：候補収集用（`source=rss`、キーワード絞り込み）
+
+| 種別 | 情報源 | URL | 確認結果 |
+|------|--------|-----|---------|
+| 一次 | 消費者庁 新着 | `https://www.caa.go.jp/news.rss` | 生、raw 20 件/日 |
+| 一次 | 厚労省 新着 | `https://www.mhlw.go.jp/stf/news.rdf` | 生、raw 102 件（上限 50 で切り詰め） |
+| 一次 | 内閣府 新着 | `https://www.cao.go.jp/rss/news.rdf` | 生、raw 10 件/日 |
+| 一次 | 総務省 新着 | `https://www.soumu.go.jp/news.rdf` | 生、raw 20 件/日 |
+| 一次 | 公正取引委員会 | `https://www.jftc.go.jp/` | **死**（403 Forbidden、bot UA 拒否）— 採用不可 |
+| 一次 | JARO | `https://www.jaro.or.jp/` | **RSS 無し**（公式 RSS/Atom なし。`/rss/`, `/rss.xml`, `/feed/` すべて 404） |
+| 一次 | 日弁連 | `https://www.nichibenren.or.jp/` | **RSS 無し**（同上） |
+
+`include_keywords` 案（2026-11-17 追加分含む）：
+```
+["広告", "景品表示法", "不当表示", "誇大", "ステマ", "優良誤認", "有利誤認", "措置命令",
+ "課徴金", "打消し表示", "定期購入", "特定商取引法"]
+```
+
+本日のキーワード絞り込み実測（4 フィード × 上記 12 語）：
+- CAA: raw 20 → kw 0
+- MHLW: raw 102（上限 50 採用）→ kw 0
+- CAO: raw 10 → kw 0
+- MIC: raw 20 → kw **1**（総務省の 1 件が「広告」を含む）
+- 合計: 本日は **1 件**だけ候補通過。
+
+広告盤は、広告規制の本家（公取委・JARO・日弁連）がボット経路で届かない結果、採用可能なのは上記 4 フィードのみ。raw ベースの流量は高いが、広告系キーワード絞り込み後の通過件数は日によって 0〜数件に収まると見込まれる。無理に広げるより、「少なく確実」の運用にしてから後で広げる方針。
+
+---
+
+書き換え方針（藤本さん OK のあと）：
+
+- **ニュース盤**:
+  ```
+  source  = rss
+  params  = {"feeds": [CAA, MHLW, CAO, MIC の 4 URL], "limit_per_feed": 10, "include_keywords": []}
+  enabled = true
+  ```
+- **広告盤**:
+  ```
+  source  = rss
+  params  = {"feeds": [CAA, MHLW, CAO, MIC の 4 URL], "limit_per_feed": 20, "include_keywords": [上記 12 語]}
+  enabled = true
+  ```
+- `sources/rss/fetch.py` に RSS 1.0 (RDF) 対応と Shift_JIS 付き XML 宣言の対応を追加済み（この commit に同梱）。この変更は uranai にも影響するが、既存の CAA 読み取りは退行なし（regression test 済み: raw 20, kw 0）。
 
 ## 盤を増やす手順
 
