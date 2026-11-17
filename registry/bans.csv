@@ -6,7 +6,7 @@ mokuroku,目録,Catalog,none,"{}",daily,,false,mokuroku-tab,
 uranai,占い盤,Fortune,pubmed+rss,"{""pubmed"":{""reldate"":30,""queries"":[{""q"":""astrology"",""limit"":5},{""q"":""Barnum effect"",""limit"":5},{""q"":""divination"",""limit"":5}]},""rss"":{""feeds"":[""https://www.caa.go.jp/news.rss""],""limit_per_feed"":10,""include_keywords"":[""霊感"",""開運"",""占い"",""祈祷"",""スピリチュアル"",""霊視""]}}",daily,,true,uranai-tab,
 news-ban,ニュース盤,News Ban,rss,"{""feeds"":[""https://www.caa.go.jp/news.rss"",""https://www.mhlw.go.jp/stf/news.rdf"",""https://www.cao.go.jp/rss/news.rdf"",""https://www.soumu.go.jp/news.rdf""],""limit_per_feed"":10,""include_keywords"":[]}",daily,,true,news-ban-tab,https://rei-aios.pages.dev/tools/news-ban/
 kokoku-ban,広告盤,Kokoku Ban,rss,"{""feeds"":[""https://www.caa.go.jp/news.rss"",""https://www.mhlw.go.jp/stf/news.rdf"",""https://www.cao.go.jp/rss/news.rdf"",""https://www.soumu.go.jp/news.rdf""],""limit_per_feed"":20,""include_keywords"":[""広告"",""景品表示法"",""不当表示"",""誇大"",""ステマ"",""優良誤認"",""有利誤認"",""措置命令"",""課徴金"",""打消し表示"",""定期購入"",""特定商取引法""]}",daily,,true,kokoku-ban-tab,https://rei-aios.pages.dev/tools/kokoku-ban/
-game-ban,ゲーム盤,Game Ban,none,"{}",daily,,false,game-ban-tab,https://rei-aios.pages.dev/tools/game-ban/
-manga-anime-ban,漫画・アニメ技法盤,Manga/Anime Technique Ban,none,"{}",daily,,false,manga-anime-ban-tab,https://rei-aios.pages.dev/tools/manga-anime-ban/
-fx-ban,FX盤,FX Ban,none,"{}",daily,,false,fx-ban-tab,https://rei-aios.pages.dev/tools/fx-ban/
-puzzle-ban,パズル盤,Puzzle Ban,none,"{}",daily,,false,puzzle-ban-tab,https://rei-aios.pages.dev/tools/puzzle-ban/
+game-ban,ゲーム盤,Game Ban,none,"{}",daily,,false,ban-bots-tab,https://rei-aios.pages.dev/tools/game-ban/
+manga-anime-ban,漫画・アニメ技法盤,Manga/Anime Technique Ban,none,"{}",daily,,false,ban-bots-tab,https://rei-aios.pages.dev/tools/manga-anime-ban/
+fx-ban,FX盤,FX Ban,none,"{}",daily,,false,ban-bots-tab,https://rei-aios.pages.dev/tools/fx-ban/
+puzzle-ban,パズル盤,Puzzle Ban,none,"{}",daily,,false,ban-bots-tab,https://rei-aios.pages.dev/tools/puzzle-ban/
