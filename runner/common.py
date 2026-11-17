@@ -320,6 +320,7 @@ def make_status_record(
     note: str = "",
     raw_fetched: int | None = None,
     after_filter: int | None = None,
+    fetch_errors: int = 0,
 ) -> dict[str, Any]:
     row: dict[str, Any] = {
         "ban": ban_id,
@@ -332,6 +333,7 @@ def make_status_record(
         "broken_links": int(broken_links),
         "license_changed": bool(license_changed),
         "note": note or "",
+        "fetch_errors": int(fetch_errors),
     }
     if raw_fetched is not None:
         row["raw_fetched"] = int(raw_fetched)

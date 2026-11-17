@@ -31,6 +31,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
     per_source_stats: dict[str, dict[str, int]] = {}
     notes: list[str] = []
     ok = True
+    fetch_errors_count = 0
 
     for component in common.source_components(source):
         sub = common.params_for_component(source, component, params)
@@ -52,6 +53,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
             }
             if inner_errors:
                 common.append_fetch_errors(inner_errors)
+                fetch_errors_count += len(inner_errors)
             all_records.extend(recs)
         except Exception as e:
             ok = False
@@ -64,6 +66,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
                 "phrase": "",
                 "error": f"{type(e).__name__}: {str(e)[:120]}",
             }])
+            fetch_errors_count += 1
 
     # Cross-day de-dup by id. Rule: only drop items whose seen-set entry
     # points to a PRIOR day. Items first seen today (= whose seen entry
@@ -142,6 +145,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
         note="; ".join(notes),
         raw_fetched=raw_fetched,
         after_filter=after_filter_sum,
+        fetch_errors=fetch_errors_count,
     )
 
 
