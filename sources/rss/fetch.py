@@ -199,10 +199,22 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
                         title or description/summary contains any keyword.
                         Default is [] (= no filter).
 
+    Order (applied per feed):
+      1. parse all items in the feed (raw_total += N)
+      2. drop items whose title/description does not match include_keywords
+         (filter-pass count += M)
+      3. truncate the filtered list to limit_per_feed (= at most `limit`
+         items go into `records`).
+    This is the order the owner requires: filter THEN limit, so a hot
+    keyword hit near the bottom of a large feed is not thrown away by a
+    small limit.
+
     Return:
       {"records": [...], "raw_total": N, "after_filter": M}
-      - raw_total: items in the feeds before the keyword filter
-      - after_filter: items that survived the filter (= len(records))
+      - raw_total: total items in the feeds (pre-filter)
+      - after_filter: items that passed the keyword filter (PRE-limit).
+        The actual records list is further bounded by limit_per_feed, so
+        len(records) <= after_filter.
     """
     import sys
     feeds = params.get("feeds") or []
@@ -210,6 +222,7 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     keywords = [str(k) for k in (params.get("include_keywords") or []) if str(k).strip()]
     out: list[dict[str, Any]] = []
     raw_total = 0
+    filter_passed_total = 0
     errors: list[str] = []
     for url in feeds:
         try:
@@ -223,12 +236,12 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
             else:
                 items, raw = _parse_rss2(root, url, keywords)
             raw_total += raw
-            out.extend(items[:limit])
+            filter_passed_total += len(items)  # pre-limit count
+            out.extend(items[:limit])          # apply limit AFTER filter
         except Exception as e:
             errors.append(f"{url}:{type(e).__name__}:{str(e)[:80]}")
     for err in errors:
         print(f"rss: feed failed: {err}", file=sys.stderr)
     if feeds and not out and errors and raw_total == 0:
-        # Every feed failed and nothing came through — surface the error.
         raise RuntimeError("; ".join(errors))
-    return {"records": out, "raw_total": raw_total, "after_filter": len(out)}
+    return {"records": out, "raw_total": raw_total, "after_filter": filter_passed_total}

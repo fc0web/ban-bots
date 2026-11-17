@@ -123,6 +123,7 @@ def write_mokuroku(summary: dict[str, Any]) -> Path:
         "stale": summary["stale"],
         "problems": summary["problems"],
         "problems_truncated": summary["problems_truncated"],
+        "counts": summary.get("counts", {}),
     }
     path = common.STATUS_DIR / "mokuroku.json"
     common.write_json(path, doc)
@@ -166,6 +167,22 @@ def main() -> int:
             })
 
     truncated = counters["warn"] + counters["ng"] + counters["stale"] - len(problems)
+
+    # Per-ban counts for the morning report. Includes every ban that ran
+    # today, whether it's a problem or not — important for "sparse" boards
+    # (e.g. kokoku-ban) where "0件" is normal and not a warn, but the
+    # morning report still wants to show the number.
+    counts: dict[str, dict[str, int]] = {}
+    for ban in bans:
+        row = rows_by_id.get(ban["id"])
+        if row is None:
+            continue
+        counts[ban["id"]] = {
+            "raw": int(row.get("raw_fetched", row.get("records", 0))),
+            "after_filter": int(row.get("after_filter", row.get("records", 0))),
+            "new": int(row.get("records_delta", row.get("records", 0))),
+        }
+
     summary = {
         "generated_at": common.iso_jst(now),
         "total": len(bans),
@@ -176,6 +193,7 @@ def main() -> int:
         "stale": counters["stale"],
         "problems": problems,
         "problems_truncated": max(truncated, 0),
+        "counts": counts,
         "last_seen": {b["id"]: last_seen[b["id"]] for b in bans if b["id"] in last_seen},
     }
     common.write_json(common.STATUS_DIR / "summary.json", summary)

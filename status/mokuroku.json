@@ -2,21 +2,25 @@
   "alert": false,
   "alert_count": 0,
   "color": "green",
-  "generated_at": "2026-11-17T10:45:22+09:00",
-  "ng": 0,
-  "ok": 6,
-  "problems": [
-    {
-      "ban": "uranai",
-      "checked_at": "2026-11-17T10:45:22+09:00",
-      "freq": "daily",
-      "reason": "new_today=0 (after_filter=15)",
-      "status": "warn"
+  "counts": {
+    "kyoiku": {
+      "after_filter": 30,
+      "new": 42,
+      "raw": 30
+    },
+    "uranai": {
+      "after_filter": 15,
+      "new": 15,
+      "raw": 35
     }
-  ],
+  },
+  "generated_at": "2026-11-17T12:20:43+09:00",
+  "ng": 0,
+  "ok": 7,
+  "problems": [],
   "problems_truncated": 0,
   "ran_today": 2,
   "stale": 0,
   "total": 7,
-  "warn": 1
+  "warn": 0
 }

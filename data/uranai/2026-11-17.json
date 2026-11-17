@@ -12,11 +12,12 @@
         "raw": 20
       }
     },
-    "new_today": 0,
+    "new_today": 15,
+    "newly_added_this_run": 0,
     "raw_fetched": 35,
-    "seen_previously": 15
+    "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T10:45:22+09:00",
+  "fetched_at": "2026-11-17T12:20:57+09:00",
   "params": {
     "pubmed": {
       "queries": [
@@ -49,6 +50,277 @@
       "limit_per_feed": 10
     }
   },
-  "records": [],
+  "records": [
+    {
+      "authors": [
+        "Monsa R",
+        "Zohar A",
+        "Arzy S"
+      ],
+      "category": "iScience",
+      "date": "2026 Aug 21",
+      "id": "pubmed:42666704",
+      "license": "",
+      "mark": "未測",
+      "query": "astrology",
+      "source": "pubmed",
+      "title": "Generating and analyzing personality questionnaires using large language models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42666704/"
+    },
+    {
+      "authors": [
+        "Rastogi G",
+        "Ginder Z"
+      ],
+      "category": "The journal of pastoral care & counseling : JPCC",
+      "date": "2026 Sep",
+      "id": "pubmed:42661317",
+      "license": "",
+      "mark": "未測",
+      "query": "astrology",
+      "source": "pubmed",
+      "title": "Spiritual Care Tools from the Hindu Tradition: A Holistic Approach to Addressing Life's Challenges.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42661317/"
+    },
+    {
+      "authors": [
+        "Khan-White TA",
+        "Cooper M"
+      ],
+      "category": "Medical history",
+      "date": "2026 Jun 17",
+      "id": "pubmed:42304981",
+      "license": "",
+      "mark": "未測",
+      "query": "astrology",
+      "source": "pubmed",
+      "title": "'An Old Welsh Custom': What does the bloodletting practice of Torri'r Llech reveal about vernacular medical practice in Wales?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42304981/"
+    },
+    {
+      "authors": [
+        "Đukić Z",
+        "Stubičar R"
+      ],
+      "category": "Acta medico-historica adriatica : AMHA",
+      "date": "2025 Oct 28",
+      "id": "pubmed:41160447",
+      "license": "",
+      "mark": "未測",
+      "query": "astrology",
+      "source": "pubmed",
+      "title": "[Bone fractures and their treatment in ancient Egypt based on the Edwin-Smith papyri].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41160447/"
+    },
+    {
+      "authors": [
+        "Liu L",
+        "Liu C",
+        "Fan Y",
+        "Shi K"
+      ],
+      "category": "Zhongguo zhen jiu = Chinese acupuncture & moxibustion",
+      "date": "2025 Jul 12",
+      "id": "pubmed:40670179",
+      "license": "",
+      "mark": "未測",
+      "query": "astrology",
+      "source": "pubmed",
+      "title": "[Origin and application: \"body schema\" of acupuncture and moxibustion from the perspective of astrology and numerical arts].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40670179/"
+    },
+    {
+      "authors": [
+        "Brown TG",
+        "Barnum J",
+        "Killpack S",
+        "Griffitts JS",
+        "Wilson E"
+      ],
+      "category": "Journal of bacteriology",
+      "date": "2026 Oct 28",
+      "id": "pubmed:42949621",
+      "license": "",
+      "mark": "未測",
+      "query": "Barnum effect",
+      "source": "pubmed",
+      "title": "Genetic basis of glycine and L-serine toxicity in Staphylococcus aureus and the case for glycine as an antibiotic adjuvant.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949621/"
+    },
+    {
+      "authors": [
+        "Barnum TJ",
+        "Riordon N",
+        "Baker L",
+        "Gestring NJ"
+      ],
+      "category": "The journal of physical chemistry. A",
+      "date": "2026 Oct 22",
+      "id": "pubmed:42911011",
+      "license": "",
+      "mark": "未測",
+      "query": "Barnum effect",
+      "source": "pubmed",
+      "title": "Conformational Analysis of Methoxy- and Methylthio-Substituted Thiophenes by Broadband Rotational Spectroscopy and Computational Chemistry.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42911011/"
+    },
+    {
+      "authors": [
+        "Ostrominski JW",
+        "Plutzky J",
+        "Scirica BM",
+        "Hovingh GK",
+        "Jeppesen OK",
+        "Lincoff AM",
+        "Lingvay I",
+        "Hoffmann Morville T",
+        "Quiroga M",
+        "Sofer Y",
+        "Urina-Triana M",
+        "Aroda VR",
+        "SELECT Trial Investigators"
+      ],
+      "category": "JAMA cardiology",
+      "date": "2026 Nov 1",
+      "id": "pubmed:42747817",
+      "license": "",
+      "mark": "未測",
+      "query": "Barnum effect",
+      "source": "pubmed",
+      "title": "Efficacy and Safety of Semaglutide According to Frailty Status: A Post Hoc Analysis of the SELECT Randomized Clinical Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42747817/"
+    },
+    {
+      "authors": [
+        "Barnum L",
+        "Skutina T",
+        "Kaur G",
+        "Suwal S",
+        "Marciniak A"
+      ],
+      "category": "Journal of dairy science",
+      "date": "2026 Nov",
+      "id": "pubmed:42617858",
+      "license": "",
+      "mark": "未測",
+      "query": "Barnum effect",
+      "source": "pubmed",
+      "title": "Enzymatic oxidation of lactose for lactobionic acid production: Effect of reaction conditions and dairy side stream compositions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617858/"
+    },
+    {
+      "authors": [
+        "Barnum E",
+        "Turck JL",
+        "Souza KA",
+        "Mani KK",
+        "Pilla R",
+        "Selvamani A",
+        "Sohrabji F",
+        "Earnest DJ"
+      ],
+      "category": "PloS one",
+      "date": "2026",
+      "id": "pubmed:42599922",
+      "license": "",
+      "mark": "未測",
+      "query": "Barnum effect",
+      "source": "pubmed",
+      "title": "Sex differences in the effects of shift work-like schedules on gut microbiome and intestinal barrier in relation to stroke survival.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42599922/"
+    },
+    {
+      "authors": [
+        "Tadge S",
+        "Gambhire M",
+        "Somavanshi DB",
+        "Sonawane G",
+        "Patil C"
+      ],
+      "category": "European journal of clinical pharmacology",
+      "date": "2026 Nov 16",
+      "id": "pubmed:43037704",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Mobile pharmacovigilance: a comprehensive review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037704/"
+    },
+    {
+      "authors": [
+        "Valle-Gutiérrez A",
+        "Mendoza-Martínez MG",
+        "Peláez-Ballestas I",
+        "Guadarrama-Orozco JH"
+      ],
+      "category": "BMC palliative care",
+      "date": "2026 Aug 20",
+      "id": "pubmed:43035696",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Evaluation of spirituality among primary caregivers in a perinatal palliative care program in Mexico.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035696/"
+    },
+    {
+      "authors": [
+        "Muhindo R",
+        "Ssewanyana E",
+        "Kayongo B",
+        "Mutekanga A",
+        "Mugabi F",
+        "Twesigye P",
+        "Lwasa J",
+        "Wandera N",
+        "Olds PK",
+        "Ivers LC"
+      ],
+      "category": "IJID regions",
+      "date": "2026 Dec",
+      "id": "pubmed:43032808",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Clinical characteristics and outcomes among patients admitted with viral hemorrhagic fever at Mbarara Regional Referral Hospital, Uganda.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032808/"
+    },
+    {
+      "authors": [
+        "Ayesiga I",
+        "Kwikiriza DB",
+        "Magala P",
+        "Mukiibi E",
+        "Demetriou L",
+        "Ead D"
+      ],
+      "category": "Annals of global health",
+      "date": "2026",
+      "id": "pubmed:43032727",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Birth-Related Injuries Among Women: A Persistent Dilemma in Rural Uganda.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43032727/"
+    },
+    {
+      "authors": [
+        "Boakye DS",
+        "Adjorlolo S"
+      ],
+      "category": "Frontiers in public health",
+      "date": "2026",
+      "id": "pubmed:43031589",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Suicidal ideation, depressive experiences, and resilience among adolescents living with HIV in rural Ghana: a qualitative exploration of psychological experiences and coping.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43031589/"
+    }
+  ],
   "source": "pubmed+rss"
 }
