@@ -1,23 +1,23 @@
 {
   "ban": "uranai",
   "fetch_stats": {
-    "after_filter": 15,
+    "after_filter": 9,
     "by_source": {
       "pubmed": {
-        "after_filter": 15,
-        "raw": 15
+        "after_filter": 9,
+        "raw": 9
       },
       "rss": {
         "after_filter": 0,
         "raw": 20
       }
     },
-    "new_today": 15,
+    "new_today": 17,
     "newly_added_this_run": 0,
-    "raw_fetched": 35,
+    "raw_fetched": 29,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T12:23:03+09:00",
+  "fetched_at": "2026-11-17T12:33:23+09:00",
   "params": {
     "pubmed": {
       "queries": [
@@ -33,7 +33,8 @@
           "limit": 5,
           "q": "divination"
         }
-      ]
+      ],
+      "reldate": 30
     },
     "rss": {
       "feeds": [
@@ -320,6 +321,47 @@
       "source": "pubmed",
       "title": "Suicidal ideation, depressive experiences, and resilience among adolescents living with HIV in rural Ghana: a qualitative exploration of psychological experiences and coping.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43031589/"
+    },
+    {
+      "authors": [
+        "Montmartin S",
+        "Bergeron D",
+        "Song KS",
+        "Thiaw AB",
+        "Erkan Ş",
+        "Coderre S",
+        "Govone M",
+        "Meliane Z",
+        "Hedjam J",
+        "Durand S",
+        "Abou Elela S",
+        "Whipple A",
+        "Marcel V",
+        "Scott MS"
+      ],
+      "category": "Nucleic acids research",
+      "date": "2026 Nov 12",
+      "id": "pubmed:43016067",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "SnoDB 3.0: a specialized database featuring murine and human annotation and cross-species correspondence for the snoRNA community.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43016067/"
+    },
+    {
+      "authors": [
+        "Billah MM"
+      ],
+      "category": "American journal of otolaryngology",
+      "date": "2026 Nov 9",
+      "id": "pubmed:43014072",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Sleep disturbance and anxiety in female garment workers with tinnitus: An ENT outpatient study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43014072/"
     }
   ],
   "source": "pubmed+rss"

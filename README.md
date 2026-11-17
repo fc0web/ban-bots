@@ -132,6 +132,73 @@ status/summary.json               全盤まとめ（小さく保つ）
   ```
 - `sources/rss/fetch.py` に RSS 1.0 (RDF) 対応と Shift_JIS 付き XML 宣言の対応を追加済み（この commit に同梱）。この変更は uranai にも影響するが、既存の CAA 読み取りは退行なし（regression test 済み: raw 20, kw 0）。
 
+## ページへの候補反映（設計案 — まだ実装しない）
+
+ニュース盤・広告盤のページ（`https://rei-aios.pages.dev/tools/news-ban/` / `/kokoku-ban/`）が ban-bots のデータファイル（`data/<盤id>/YYYY-MM-DD.json`）を読んで、ページ内の **「未確認（候補）」欄** に並べる案。
+
+**本実装の際に決めるスコープ外のルール（忘れないよう先に書く）**：
+- 候補はページの「主張の答え合わせ」欄には入れない。**別の「未確認」欄**として並べる。
+- 架空の見本データ（`DEMO=true`）は、本物の候補が入った時点で外す（データファイルが空でない日は demo を表示しない、など）。
+
+### (A) ページから直接 `raw.githubusercontent.com` を読む（client-side fetch）
+
+```js
+const url = `https://raw.githubusercontent.com/fc0web/ban-bots/main/data/news-ban/${today}.json`;
+const data = await fetch(url).then(r => r.json());
+// data.records を「未確認」欄にレンダリング
+```
+
+**利点**：
+- インフラ追加なし。rei-aios / ban-bots の両方で CI 変更不要。
+- 常に ban-bots の最新 commit を読む（GitHub 側 CDN キャッシュ ~5 分）。
+- 日付ファイル名を URL に埋めるだけで、特定の日の履歴にも遡れる。
+
+**欠点**：
+- `raw.githubusercontent.com` への外部依存（GitHub の rate limit・CDN 仕様変更に左右される）。
+- GitHub が落ちるとページから候補が見えなくなる。
+- ban-bots リポジトリを非公開に切り替えた瞬間に壊れる（公開前提を URL に埋めてしまう）。
+- 日付欠落（CI 失敗日など）や JST 日付境界の処理を全部クライアント側 JS で書く必要がある。
+
+### (B) ban-bots → rei-aios ミラー（cross-repo コピー、同一オリジン配信）**【推奨】**
+
+ban-bots の daily workflow の最後に `public/tools/news-ban/data/` と `public/tools/kokoku-ban/data/` の下に `.json` を push（rei-aios リポジトリへ）。rei-aios の CF Pages が静的ファイルとして配信。ページは `fetch('./data/YYYY-MM-DD.json')` の相対パスだけで読む。
+
+**利点**：
+- ページと同一オリジン（CORS の心配なし）。
+- CF Pages の CDN に乗る（高速・安定）。
+- rei-aios の git 履歴にデータが残り、版管理・復元が容易。
+- ページ側コードは相対パスだけで、特定リポジトリ URL に縛られない。
+- rei-aios の build に乗せれば inline 埋め込みも選べる。
+
+**欠点**：
+- cross-repo push の権限（PAT もしくは GitHub App token）が必要。secret 管理が増える。
+- rei-aios の git ツリーが日次で少しずつ肥大（1 日分 10〜50KB。ban-bots の 30 日 retention と揃えて rei-aios 側も prune する運用が要る）。
+- 既に多タブで活発に commit されている rei-aios に新しい自動 commit 元を足す。tab isolation protocol との整合を確認。
+- 反映遅延 = ban-bots 実行 + ミラー sync + CF Pages deploy（通常 3〜5 分）。
+
+### (C) Cloudflare Pages Functions / Workers のサーバー側プロキシ
+
+rei-aios の `functions/api/candidates/[ban].ts` などに関数を置き、ページは同一オリジンの `/api/candidates/news-ban?date=...` を叩く。関数内で ban-bots の raw または GitHub Content API を読む。
+
+**利点**：
+- 同一オリジン（CORS なし）。
+- edge で短期キャッシュ可能。
+- サーバー側で変換（demo 除去・「未確認」用整形）をかけてから返せる。
+- rei-aios のリポジトリにデータファイルを置く必要がない（軽い）。
+
+**欠点**：
+- CF Pages Functions の運用（node runtime 制約、環境変数、secrets）。
+- 上流は結局 `raw.githubusercontent.com` なので、(A) と同じ外部依存を内側に隠しただけ。
+- 設定・デバッグの手間が (A)(B) より重い。
+
+### 推奨：**(B) ミラー方式**
+
+同一オリジン・CDN 配信・git 履歴・単純な fetch コードが揃うため。本実装時に別途相談する項目：
+- cross-repo push の権限管理（PAT or GitHub App、scope）
+- rei-aios 側の保存場所（`public/tools/<ban>/data/YYYY-MM-DD.json`、retention prune も同梱）
+- demo の外し方（データファイル空のときのみ demo を見せる、など）
+- 「未確認」欄のデザイン（「主張の答え合わせ」と視覚的に分離、`mark: "未測"` をラベル化）
+
 ## 盤を増やす手順
 
 1. `registry/bans.csv` に1行足す。`id` は既存と重複させない。

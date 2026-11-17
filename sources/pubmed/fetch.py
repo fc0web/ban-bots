@@ -47,19 +47,24 @@ def _get_json(url: str) -> Any:
         return json.loads(resp.read())
 
 
-def _fetch_one_query(q: str, limit: int) -> list[dict[str, Any]]:
+def _fetch_one_query(q: str, limit: int, reldate: int | None = None) -> list[dict[str, Any]]:
     if limit <= 0 or not q:
         return []
-    search = _get_json(
-        f"{ESEARCH_URL}?"
-        + urllib.parse.urlencode({
-            "db": "pubmed",
-            "term": q,
-            "retmax": str(limit),
-            "retmode": "json",
-            "sort": "date",
-        })
-    )
+    qp: dict[str, str] = {
+        "db": "pubmed",
+        "term": q,
+        "retmax": str(limit),
+        "retmode": "json",
+        "sort": "date",
+    }
+    if reldate and reldate > 0:
+        # Restrict esearch to papers whose publication date is within the
+        # last `reldate` days. Combined with sort=date, the window shifts
+        # forward every day so the top-N result set also shifts — sparse
+        # niches no longer stay pinned to the same PMIDs forever.
+        qp["reldate"] = str(reldate)
+        qp["datetype"] = "pdat"  # publication date
+    search = _get_json(f"{ESEARCH_URL}?" + urllib.parse.urlencode(qp))
     ids = (search.get("esearchresult") or {}).get("idlist") or []
     if not ids:
         return []
@@ -100,26 +105,43 @@ def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
     """Fetch PubMed metadata records.
 
     params (either shape):
-      queries: list of {"q": "...", "limit": N}  — preferred. Each query
-               runs independently; results concatenated in order, de-duped
-               on pubmed id.
-      q, limit: single-query shortcut (default q="astrology", limit=5).
+      queries: list of {"q": "...", "limit": N, "reldate": D}
+               Each query runs independently; results concatenated in
+               order, de-duped on pubmed id. Each item may carry its own
+               `reldate` (days); otherwise the top-level `reldate` applies.
+      q, limit, reldate: single-query shortcut.
+      reldate (top-level): default days window for every query that does
+               not set its own. Omit or 0 to query all-time (which tends
+               to pin the result set on sparse niches).
     """
     queries = params.get("queries")
+    default_reldate = params.get("reldate")
+    default_reldate_int = int(default_reldate) if default_reldate is not None else None
+
     if isinstance(queries, list) and queries:
         default_limit = int(params.get("limit", 5))
-        query_specs = [
-            (str(item.get("q", "")), int(item.get("limit", default_limit)))
-            for item in queries
-            if isinstance(item, dict)
-        ]
+        query_specs = []
+        for item in queries:
+            if not isinstance(item, dict):
+                continue
+            reldate = item.get("reldate", default_reldate)
+            reldate_int = int(reldate) if reldate is not None else None
+            query_specs.append((
+                str(item.get("q", "")),
+                int(item.get("limit", default_limit)),
+                reldate_int,
+            ))
     else:
-        query_specs = [(str(params.get("q", "astrology")), int(params.get("limit", 5)))]
+        query_specs = [(
+            str(params.get("q", "astrology")),
+            int(params.get("limit", 5)),
+            default_reldate_int,
+        )]
 
     out: list[dict[str, Any]] = []
     seen: set[str] = set()
-    for q, limit in query_specs:
-        for rec in _fetch_one_query(q, min(limit, 50)):
+    for q, limit, reldate in query_specs:
+        for rec in _fetch_one_query(q, min(limit, 50), reldate):
             if rec["id"] in seen:
                 continue
             seen.add(rec["id"])

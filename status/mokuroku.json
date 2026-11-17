@@ -19,12 +19,12 @@
       "raw": 152
     },
     "uranai": {
-      "after_filter": 15,
-      "new": 15,
-      "raw": 35
+      "after_filter": 9,
+      "new": 17,
+      "raw": 29
     }
   },
-  "generated_at": "2026-11-17T12:23:12+09:00",
+  "generated_at": "2026-11-17T12:34:45+09:00",
   "ng": 0,
   "ok": 7,
   "problems": [],
