@@ -10,7 +10,7 @@
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 48,
+      "new": 49,
       "raw": 30
     },
     "news-ban": {
@@ -24,7 +24,7 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-17T13:54:52+09:00",
+  "generated_at": "2026-11-17T14:00:57+09:00",
   "ng": 0,
   "ok": 11,
   "problems": [],

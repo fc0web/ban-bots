@@ -1,8 +1,8 @@
 {
   "ban": "kyoiku",
   "cap": 50,
-  "count": 48,
-  "generated_at": "2026-11-17T13:54:41+09:00",
+  "count": 49,
+  "generated_at": "2026-11-17T14:00:46+09:00",
   "records": [
     {
       "authors": [
@@ -686,7 +686,22 @@
       "source": "zenodo",
       "title": "البنية التشغيلية لمنظومة التعليم والتعلم أثناء الازمات",
       "url": "https://zenodo.org/records/24297133"
+    },
+    {
+      "authors": [
+        "Ramos Nina, Nancy Yanet",
+        "Tito Chira, Edgar",
+        "Muguerza Portillo, Irma Rosario"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24298316",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "School leadership and teacher professional development: A systematic review of mechanisms and practices",
+      "url": "https://zenodo.org/records/24298316"
     }
   ],
-  "total_before_cap": 48
+  "total_before_cap": 49
 }

@@ -9,11 +9,11 @@
       }
     },
     "new_today": 42,
-    "newly_added_this_run": 2,
+    "newly_added_this_run": 0,
     "raw_fetched": 153,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T13:54:41+09:00",
+  "fetched_at": "2026-11-17T14:00:48+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",
