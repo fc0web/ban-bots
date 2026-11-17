@@ -1,0 +1,5 @@
+id,name_ja,name_en,source,params,freq,weekday,enabled,owner,page_url
+kyoiku,教育盤,Education,arxiv+zenodo,"{""arxiv"":{""category"":""math.HO"",""limit"":20},""zenodo"":{""q"":""mathematics education"",""limit"":10}}",daily,,true,kyoiku-tab,
+daily,日次盤,Daily,selfgen,"{""kind"":""placeholder""}",daily,,false,daily-tab,
+shikaku,四角盤,Shikaku,selfgen,"{""kind"":""placeholder""}",daily,,false,shikaku-tab,
+mokuroku,目録,Catalog,none,"{}",daily,,false,mokuroku-tab,
