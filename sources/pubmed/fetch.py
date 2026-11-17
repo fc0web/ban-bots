@@ -1,0 +1,105 @@
+"""PubMed source bot.
+
+Uses NCBI E-utilities (esearch + esummary). Free, no API key required.
+Without an API key NCBI asks that clients make at most 3 requests per
+second — we enforce a conservative 0.4s minimum between calls to stay
+below that even when esearch and esummary run back to back.
+
+We save only description-only metadata: id, title, authors, date,
+category (journal), license (empty — PubMed does not ship a license
+field here), URL. Every record is stamped with mark="未測" because this
+bot does not evaluate content, it only collects candidates.
+"""
+
+from __future__ import annotations
+
+import json
+import time
+import urllib.parse
+import urllib.request
+from typing import Any
+
+ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+
+_MIN_INTERVAL_SEC = 0.4  # < 3 req/s even with esearch + esummary back to back
+_last_call_ts = 0.0
+
+
+def _rate_limit() -> None:
+    global _last_call_ts
+    wait = _MIN_INTERVAL_SEC - (time.monotonic() - _last_call_ts)
+    if wait > 0:
+        time.sleep(wait)
+    _last_call_ts = time.monotonic()
+
+
+def _get_json(url: str) -> Any:
+    _rate_limit()
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "ban-bots/1.0 (+https://github.com/fc0web/ban-bots)",
+            "Accept": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read())
+
+
+def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
+    """Fetch PubMed metadata records.
+
+    params:
+      q:     search string (default "astrology")
+      limit: max number of records (default 5, cap 50)
+    """
+    q = params.get("q", "astrology")
+    limit = min(int(params.get("limit", 5)), 50)
+    if limit <= 0:
+        return []
+
+    search = _get_json(
+        f"{ESEARCH_URL}?"
+        + urllib.parse.urlencode({
+            "db": "pubmed",
+            "term": q,
+            "retmax": str(limit),
+            "retmode": "json",
+            "sort": "date",
+        })
+    )
+    ids = (search.get("esearchresult") or {}).get("idlist") or []
+    if not ids:
+        return []
+
+    summ = _get_json(
+        f"{ESUMMARY_URL}?"
+        + urllib.parse.urlencode({
+            "db": "pubmed",
+            "id": ",".join(ids),
+            "retmode": "json",
+        })
+    )
+    result = summ.get("result") or {}
+    out: list[dict[str, Any]] = []
+    for pmid in ids:
+        rec = result.get(pmid)
+        if not isinstance(rec, dict):
+            continue
+        authors = [
+            (a.get("name") or "").strip()
+            for a in (rec.get("authors") or []) if a.get("name")
+        ]
+        out.append({
+            "source": "pubmed",
+            "id": f"pubmed:{pmid}",
+            "title": " ".join(str(rec.get("title") or "").split()),
+            "authors": authors,
+            "date": rec.get("pubdate") or rec.get("epubdate") or "",
+            "category": rec.get("fulljournalname") or rec.get("source") or "",
+            "license": "",
+            "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+            "mark": "未測",
+        })
+    return out

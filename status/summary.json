@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-17T09:12:30+09:00",
+  "generated_at": "2026-11-17T09:46:02+09:00",
   "last_seen": {
-    "kyoiku": "2026-11-17T09:12:20+09:00"
+    "kyoiku": "2026-11-17T09:45:39+09:00",
+    "uranai": "2026-11-17T09:45:40+09:00"
   },
   "ng": 0,
-  "ok": 4,
+  "ok": 5,
   "problems": [],
   "problems_truncated": 0,
-  "ran_today": 1,
+  "ran_today": 2,
   "stale": 0,
-  "total": 4,
+  "total": 5,
   "warn": 0
 }

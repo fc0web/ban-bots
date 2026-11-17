@@ -38,6 +38,21 @@ status/summary.json               全盤まとめ（小さく保つ）
 | owner      | 担当タブ名（運用メモ） |
 | page_url   | 盤の公開ページ URL（あれば） |
 
+## 使える元データの種類 (`source`)
+
+| source     | 役割                                  | params の例 |
+|------------|---------------------------------------|-------------|
+| `arxiv`    | arXiv API（math.HO など）             | `{"category":"math.HO","limit":20}` |
+| `zenodo`   | Zenodo REST API                       | `{"q":"mathematics education","limit":10}` |
+| `pubmed`   | NCBI E-utilities（esearch+esummary）  | `{"q":"astrology","limit":5}` |
+| `rss`      | 任意の RSS 2.0 / Atom フィード        | `{"feeds":["https://..."],"limit_per_feed":10}` |
+| `selfgen`  | 自作の生成器（placeholder）           | `{"kind":"placeholder"}` |
+| `none`     | 何もしない（目録・監視など）          | `{}` |
+
+複数の元データを 1 盤で使うときは `+` で繋ぐ：`source=arxiv+zenodo` / `source=pubmed+rss`。この場合 `params` は `{"arxiv":{...},"zenodo":{...}}` のようにソース名でキー分けする。
+
+**候補のみ保存。選ぶ・言い換えるはしない（Claude 側の仕事）。** `pubmed` と `rss` の各レコードには `mark: "未測"` が付く（評価していないことを表す）。
+
 ## 盤を増やす手順
 
 1. `registry/bans.csv` に1行足す。`id` は既存と重複させない。
@@ -68,9 +83,39 @@ status/summary.json               全盤まとめ（小さく保つ）
 - `warn`: リンク切れあり、または毎日の盤で `records_delta=0`
 - `problems` は注意・要対応・stale の盤だけ、最大 50 件。超えた分は件数だけ。
 
-## 実行時刻
+## 実行時刻と無人実行について
 
-毎日 **07:27 JST** に取得が始まり、**07:50 JST までに** `status/summary.json` が更新される（Claude のまとめタスクが 08:37 に読む前に終わる）。
+毎日 **07:27 JST** に GitHub Actions の cron で取得が始まる。Claude のまとめタスクが読むのは **08:37 JST**。
+
+**この定期実行はサイト自動更新ボットの例外として本人（fc0web）承認済みで、クラウド無人実行が前提。** 人間が張り付かなくても回る。異常時の通知は出さず、`status/summary.json` と `status/mokuroku.json` に状態を残すだけ。読むのは Claude のまとめタスクの役目。
+
+時刻はすべて `TZ=Asia/Tokyo date` の実測値を使う（推測しない）。直近の手動実行（workflow_dispatch）の計測値：
+
+| 項目                         | 実測         |
+|------------------------------|--------------|
+| 起動                         | 09:12:09 JST |
+| 完了（コミット push まで）    | 09:12:35 JST |
+| 所要時間                     | 26 秒        |
+
+cron 起動時刻 07:27 JST + GitHub Actions の起動遅延（通常 0〜5 分）＋ 本処理 26 秒 → 遅くとも **07:33 JST ごろ** には `summary.json` が更新済み。08:37 JST の読み取りまで 60 分以上の余裕がある。
+
+## データ保持期間
+
+`data/<盤id>/YYYY-MM-DD.json` は **直近 30 日分のみ** 残す。31 日以上前のファイルは `runner/summarize.py` が毎回の実行時に削除する。盤が 1 万個に増えてもリポジトリが太り続けないようにするため。
+
+- 盤 1 件あたりの保存量: 最大 30 ファイル
+- 削除対象: ファイル名 `YYYY-MM-DD` が今日から 29 日より前
+- 復旧: 必要なら git の履歴から取り出せる（削除も履歴に残るため）
+
+## mokuroku（目録＋監視）の表示
+
+毎回の実行で `status/mokuroku.json` が再生成される。盤全体の状態を一枚にまとめた表示用ファイル：
+
+- `ng` または `stale` が 1 件でもあれば `"color": "red"` と `"alert": true`
+- どちらも 0 なら `"color": "green"` と `"alert": false`
+- 問題盤の一覧（最大 50 件）も同時に載る
+
+mokuroku を表示する側（Claude のまとめタスクなど）は、この `color` / `alert` を見て赤く出す。
 
 ## 手で動かす
 

@@ -1,6 +1,6 @@
 {
   "ban": "kyoiku",
-  "fetched_at": "2026-11-17T09:12:20+09:00",
+  "fetched_at": "2026-11-17T09:45:39+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -289,6 +289,106 @@
       ],
       "category": "Preprint",
       "date": "2026-11-17",
+      "id": "24295412",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Kesten–Stigum bound is sharp for the three-state Potts model on regular trees",
+      "url": "https://zenodo.org/records/24295412"
+    },
+    {
+      "authors": [
+        "FuseSchool- Global Education"
+      ],
+      "category": "Video/Audio",
+      "date": "2026-11-17",
+      "id": "24295403",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Specific Heat Capacity | Matter | Physics | FuseSchool",
+      "url": "https://zenodo.org/records/24295403"
+    },
+    {
+      "authors": [
+        "FuseSchool- Global Education"
+      ],
+      "category": "Video/Audio",
+      "date": "2026-11-17",
+      "id": "24295331",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Intro to the Circulatory System",
+      "url": "https://zenodo.org/records/24295331"
+    },
+    {
+      "authors": [
+        "Rahmonova Yulduz Sharafitdinovna",
+        "Nuraliyev Javohir"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24295313",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "MOLIYAVIY HISOBOTLARNING SHAFFOFLIGINI TA'MINLASH VA XALQARO STANDARTLARGA MOSLASHTIRISH",
+      "url": "https://zenodo.org/records/24295313"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24295299",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Ballisticity for positive excited random walks without bounded cookie stacks",
+      "url": "https://zenodo.org/records/24295299"
+    },
+    {
+      "authors": [
+        "Rahmonova Yulduz Sharafitdinovna",
+        "Nazarov Abdulaziz"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24295173",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "KORXONANING MOLIYAVIY BARQARORLIGINI BAHOLASH USULLARI VA TAKOMILLASHTIRISH YO'LLARI",
+      "url": "https://zenodo.org/records/24295173"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "id": "24295208",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Adding one permutation to a transposition and a long cycle",
+      "url": "https://zenodo.org/records/24295208"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-14",
+      "id": "23375818",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Partial Solar Eclipse ESID#673",
+      "url": "https://zenodo.org/records/23375818"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
       "id": "24295109",
       "license": "cc-by-4.0",
       "source": "zenodo",
@@ -306,102 +406,6 @@
       "source": "zenodo",
       "title": "FROM ROOT CROP TO FUNCTIONAL KAKANIN: PRODUCT DEVELOPMENT, SENSORY ACCEPTABILITY, ECONOMIC VIABILITY, AND MARKET POTENTIAL OF UBIBINGKA ENRICHED WITH POWDERED SWEET POTATO (Ipomoea batatas L.)",
       "url": "https://zenodo.org/records/24295083"
-    },
-    {
-      "authors": [
-        "Mugiyama, Ryota"
-      ],
-      "category": "Journal article",
-      "date": "2024-01-12",
-      "id": "24294848",
-      "license": "cc-by-nc-nd-4.0",
-      "source": "zenodo",
-      "title": "Cohort Change in the Educational Gradient in Women's Employment Around Childbirth in Japan",
-      "url": "https://zenodo.org/records/24294848"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24295064",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A birthday bound for non-backtracking walks on graphs of bounded degree ratio",
-      "url": "https://zenodo.org/records/24295064"
-    },
-    {
-      "authors": [
-        "Verbo, Shirly Joy"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-17",
-      "id": "24294992",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "SOLVING THROUGH STORIES: A DIGITAL STORYTELLING APPROACH TO ENHANCE STUDENTS' ACADEMIC ACHIEVEMENT",
-      "url": "https://zenodo.org/records/24294992"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24294994",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Recurrence and transience of the Manhattan walk for deterministic orientation fields",
-      "url": "https://zenodo.org/records/24294994"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24294942",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Finite touching sets between percolation clusters on grandparent graphs",
-      "url": "https://zenodo.org/records/24294942"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24294859",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Stationary measures of planar kinetically constrained models with bounded conditional odds",
-      "url": "https://zenodo.org/records/24294859"
-    },
-    {
-      "authors": [
-        "testlast, testfirst"
-      ],
-      "category": "Poster",
-      "date": "2026",
-      "id": "24294753",
-      "license": "cc-zero",
-      "source": "zenodo",
-      "title": "Strengthening Professional Higher Education in Central and South-Eastern Europe",
-      "url": "https://zenodo.org/records/24294753"
-    },
-    {
-      "authors": [
-        "Palomino, T., P."
-      ],
-      "category": "Other",
-      "date": "2022-05-26",
-      "id": "24294512",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Gamification Journey: Narrative Gamification Framework for Education",
-      "url": "https://zenodo.org/records/24294512"
     }
   ],
   "source": "arxiv+zenodo"

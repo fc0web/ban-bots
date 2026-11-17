@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from runner import common  # noqa: E402
 
 MAX_PROBLEMS = 50
+DATA_RETENTION_DAYS = 30
 
 
 def _parse_jst(s: str) -> datetime | None:
@@ -70,6 +71,56 @@ def classify(ban: dict[str, Any], row: dict[str, Any] | None, now: datetime,
     return "ok", ""
 
 
+def prune_old_data(now: datetime) -> int:
+    """Delete data/<ban>/YYYY-MM-DD.json files older than DATA_RETENTION_DAYS.
+
+    Returns the number of files removed. Measured in JST days: cutoff is
+    (today_jst - (RETENTION - 1)), so today plus the previous 29 days are
+    kept, giving a 30-day window including today.
+    """
+    cutoff = now.date() - timedelta(days=DATA_RETENTION_DAYS - 1)
+    removed = 0
+    if not common.DATA_DIR.exists():
+        return 0
+    for ban_dir in sorted(common.DATA_DIR.iterdir()):
+        if not ban_dir.is_dir():
+            continue
+        for f in sorted(ban_dir.glob("*.json")):
+            try:
+                file_date = datetime.strptime(f.stem, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            if file_date < cutoff:
+                f.unlink()
+                removed += 1
+    return removed
+
+
+def write_mokuroku(summary: dict[str, Any]) -> Path:
+    """Write status/mokuroku.json: the 盤目録 display state.
+
+    `color` and `alert` are driven by ng + stale: any >0 makes it red.
+    """
+    alert_count = summary["ng"] + summary["stale"]
+    doc = {
+        "generated_at": summary["generated_at"],
+        "color": "red" if alert_count >= 1 else "green",
+        "alert": alert_count >= 1,
+        "alert_count": alert_count,
+        "total": summary["total"],
+        "ran_today": summary["ran_today"],
+        "ok": summary["ok"],
+        "warn": summary["warn"],
+        "ng": summary["ng"],
+        "stale": summary["stale"],
+        "problems": summary["problems"],
+        "problems_truncated": summary["problems_truncated"],
+    }
+    path = common.STATUS_DIR / "mokuroku.json"
+    common.write_json(path, doc)
+    return path
+
+
 def main() -> int:
     now = common.now_jst()
     bans = common.load_registry()
@@ -120,11 +171,14 @@ def main() -> int:
         "last_seen": {b["id"]: last_seen[b["id"]] for b in bans if b["id"] in last_seen},
     }
     common.write_json(common.STATUS_DIR / "summary.json", summary)
+    write_mokuroku(summary)
+    removed = prune_old_data(now)
     print(
         f"summary: total={summary['total']} ran_today={summary['ran_today']} "
         f"ok={summary['ok']} warn={summary['warn']} ng={summary['ng']} "
         f"stale={summary['stale']} problems={len(problems)} "
-        f"(truncated={summary['problems_truncated']})"
+        f"(truncated={summary['problems_truncated']}) "
+        f"pruned={removed}"
     )
     return 0
 

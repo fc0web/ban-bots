@@ -3,3 +3,4 @@ kyoiku,教育盤,Education,arxiv+zenodo,"{""arxiv"":{""category"":""math.HO"",""
 daily,日次盤,Daily,selfgen,"{""kind"":""placeholder""}",daily,,false,daily-tab,
 shikaku,四角盤,Shikaku,selfgen,"{""kind"":""placeholder""}",daily,,false,shikaku-tab,
 mokuroku,目録,Catalog,none,"{}",daily,,false,mokuroku-tab,
+uranai,占い盤,Fortune,pubmed+rss,"{""pubmed"":{""q"":""astrology"",""limit"":5},""rss"":{""feeds"":[],""limit_per_feed"":10}}",daily,,true,uranai-tab,
