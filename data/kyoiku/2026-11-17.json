@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 70,
-    "newly_added_this_run": 10,
+    "new_today": 72,
+    "newly_added_this_run": 2,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T18:36:42+09:00",
+  "fetched_at": "2026-11-17T18:38:24+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -978,6 +978,32 @@
       "source": "zenodo",
       "title": "A study on exploring the effects of the school climate and teacher's accountability on academic performance of students in early childhood care and education",
       "url": "https://zenodo.org/records/24303090"
+    },
+    {
+      "authors": [
+        "Abdullayev Abdurashid Abdulhamidovich"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-14",
+      "id": "24304358",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "FAN VA TA'LIMNI RIVOJLANTIRISHDA DETERMINANTLARNI HISOBLASH VA O'RGANISHDA RAQAMLI TEXNOLOGIYALARDAN FOYDALANISH",
+      "url": "https://zenodo.org/records/24304358"
+    },
+    {
+      "authors": [
+        "He, Ze",
+        "Chao, Lumeng",
+        "Xue, Xiaofei"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24304181",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A pathway model for physics teachers' pedagogical philosophy core competency development",
+      "url": "https://zenodo.org/records/24304181"
     }
   ],
   "source": "arxiv+zenodo"
