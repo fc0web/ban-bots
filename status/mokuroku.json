@@ -20,7 +20,7 @@
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 72,
+      "new": 76,
       "raw": 30
     },
     "manga-anime-ban": {
@@ -44,13 +44,13 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-17T18:38:41+09:00",
+  "generated_at": "2026-11-17T18:53:12+09:00",
   "ng": 0,
-  "ok": 11,
+  "ok": 12,
   "problems": [],
   "problems_truncated": 0,
   "ran_today": 8,
   "stale": 0,
-  "total": 11,
+  "total": 12,
   "warn": 0
 }

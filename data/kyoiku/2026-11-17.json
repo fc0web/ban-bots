@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 72,
-    "newly_added_this_run": 2,
+    "new_today": 76,
+    "newly_added_this_run": 4,
     "raw_fetched": 30,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T18:38:24+09:00",
+  "fetched_at": "2026-11-17T18:53:07+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -1004,6 +1004,55 @@
       "source": "zenodo",
       "title": "A pathway model for physics teachers' pedagogical philosophy core competency development",
       "url": "https://zenodo.org/records/24304181"
+    },
+    {
+      "authors": [
+        "Mansory, Mazin",
+        "Meccawy, Zilal"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24304584",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Motivational and normative drivers of generative AI substitution in academic work: a mixed-methods study from Saudi higher education",
+      "url": "https://zenodo.org/records/24304584"
+    },
+    {
+      "authors": [
+        "Arbuliente, Airyn M."
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24304354",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Culturally grounded student engagement in global citizenship education in Philippine higher education",
+      "url": "https://zenodo.org/records/24304354"
+    },
+    {
+      "authors": [
+        "Ferrara, Giuseppe"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "24303813",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Replication package (2 of 2), derived data, tables and results: From reclassified administrative records to transparent hiring scenarios: a reproducible probabilistic framework for three-year workforce planning in Italian universities",
+      "url": "https://zenodo.org/records/24303813"
+    },
+    {
+      "authors": [
+        "Ferrara, Giuseppe"
+      ],
+      "category": "Software",
+      "date": "2026-11-17",
+      "id": "24303830",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Replication package (1 of 2), code and workflow: From reclassified administrative records to transparent hiring scenarios: a reproducible probabilistic framework for three-year workforce planning in Italian universities",
+      "url": "https://zenodo.org/records/24303830"
     }
   ],
   "source": "arxiv+zenodo"
