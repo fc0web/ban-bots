@@ -18,6 +18,7 @@ import xml.etree.ElementTree as ET
 from typing import Any
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
+DC_NS = "{http://purl.org/dc/elements/1.1/}"
 
 
 def _fetch_bytes(url: str) -> bytes:
@@ -45,8 +46,10 @@ def _parse_rss2(root: ET.Element, feed_url: str) -> list[dict[str, Any]]:
         title = _text(item, "title")
         link = _text(item, "link")
         guid = _text(item, "guid") or link
-        pub = _text(item, "pubDate")
-        author = _text(item, "author") or _text(item, "{http://purl.org/dc/elements/1.1/}creator")
+        # pubDate is RSS 2.0; dc:date is common on RSS 1.0 / Dublin-Core feeds
+        # (e.g. caa.go.jp's news.rss).
+        pub = _text(item, "pubDate") or _text(item, f"{DC_NS}date")
+        author = _text(item, "author") or _text(item, f"{DC_NS}creator")
         category = _text(item, "category")
         out.append({
             "source": "rss",

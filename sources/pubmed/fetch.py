@@ -47,18 +47,9 @@ def _get_json(url: str) -> Any:
         return json.loads(resp.read())
 
 
-def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
-    """Fetch PubMed metadata records.
-
-    params:
-      q:     search string (default "astrology")
-      limit: max number of records (default 5, cap 50)
-    """
-    q = params.get("q", "astrology")
-    limit = min(int(params.get("limit", 5)), 50)
-    if limit <= 0:
+def _fetch_one_query(q: str, limit: int) -> list[dict[str, Any]]:
+    if limit <= 0 or not q:
         return []
-
     search = _get_json(
         f"{ESEARCH_URL}?"
         + urllib.parse.urlencode({
@@ -72,7 +63,6 @@ def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
     ids = (search.get("esearchresult") or {}).get("idlist") or []
     if not ids:
         return []
-
     summ = _get_json(
         f"{ESUMMARY_URL}?"
         + urllib.parse.urlencode({
@@ -100,6 +90,38 @@ def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
             "category": rec.get("fulljournalname") or rec.get("source") or "",
             "license": "",
             "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+            "query": q,
             "mark": "未測",
         })
+    return out
+
+
+def fetch(params: dict[str, Any]) -> list[dict[str, Any]]:
+    """Fetch PubMed metadata records.
+
+    params (either shape):
+      queries: list of {"q": "...", "limit": N}  — preferred. Each query
+               runs independently; results concatenated in order, de-duped
+               on pubmed id.
+      q, limit: single-query shortcut (default q="astrology", limit=5).
+    """
+    queries = params.get("queries")
+    if isinstance(queries, list) and queries:
+        default_limit = int(params.get("limit", 5))
+        query_specs = [
+            (str(item.get("q", "")), int(item.get("limit", default_limit)))
+            for item in queries
+            if isinstance(item, dict)
+        ]
+    else:
+        query_specs = [(str(params.get("q", "astrology")), int(params.get("limit", 5)))]
+
+    out: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for q, limit in query_specs:
+        for rec in _fetch_one_query(q, min(limit, 50)):
+            if rec["id"] in seen:
+                continue
+            seen.add(rec["id"])
+            out.append(rec)
     return out
