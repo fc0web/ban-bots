@@ -13,11 +13,11 @@
       }
     },
     "new_today": 6,
-    "newly_added_this_run": 6,
+    "newly_added_this_run": 0,
     "raw_fetched": 100,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:24:17+09:00",
+  "fetched_at": "2026-11-17T14:25:07+09:00",
   "params": {
     "arxiv": {
       "categories": [

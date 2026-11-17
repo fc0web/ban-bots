@@ -9,11 +9,11 @@
       }
     },
     "new_today": 2,
-    "newly_added_this_run": 2,
+    "newly_added_this_run": 0,
     "raw_fetched": 20,
     "seen_previously": 0
   },
-  "fetched_at": "2026-11-17T14:24:30+09:00",
+  "fetched_at": "2026-11-17T14:25:19+09:00",
   "params": {
     "categories": [
       "cs.CC",
