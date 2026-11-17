@@ -1,8 +1,8 @@
 {
   "ban": "news-ban",
   "cap": 50,
-  "count": 40,
-  "generated_at": "2026-11-17T12:52:01+09:00",
+  "count": 42,
+  "generated_at": "2026-11-17T13:54:41+09:00",
   "records": [
     {
       "authors": [
@@ -603,7 +603,37 @@
       "source": "rss",
       "title": "Microsoft365の大規模障害に伴うメールシステムの不具合について（令和8年11月16日更新）",
       "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000684.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-17T13:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77450.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第215回労働政策審議会労働条件分科会（資料）",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77450.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-17T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-17",
+      "id": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001593.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "藤井総務大臣閣議後記者会見の概要",
+      "url": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001593.html"
     }
   ],
-  "total_before_cap": 40
+  "total_before_cap": 42
 }

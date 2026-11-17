@@ -1,8 +1,8 @@
 {
   "ban": "kyoiku",
   "cap": 50,
-  "count": 43,
-  "generated_at": "2026-11-17T12:52:00+09:00",
+  "count": 48,
+  "generated_at": "2026-11-17T13:54:41+09:00",
   "records": [
     {
       "authors": [
@@ -618,7 +618,75 @@
       "source": "zenodo",
       "title": "PERSONAL TRAITS AS PREDICTORS OF PROFESSIONAL GROWTH, TEACHING ABILITY, AND CLINICAL NURSING COMPETENCY AMONG CLINICAL NURSING TEACHERS IN BATAAN, PHILIPPINES",
       "url": "https://zenodo.org/records/24297511"
+    },
+    {
+      "authors": [
+        "Bruno Bentzen"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-15T09:15:50Z",
+      "first_seen_date": "2026-11-17",
+      "id": "http://arxiv.org/abs/2611.19892v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.19892v1",
+      "source": "arxiv",
+      "title": "Frege's logic in Grundgesetze is nonclassical",
+      "url": "https://arxiv.org/abs/2611.19892v1"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-19",
+      "first_seen_date": "2026-11-17",
+      "id": "23487910",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#680",
+      "url": "https://zenodo.org/records/23487910"
+    },
+    {
+      "authors": [
+        "Effendi, Heri"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24298011",
+      "license": "cc-zero",
+      "source": "zenodo",
+      "title": "Extended Data - Artificial Intelligence Supported Cultural Video Learning for Sustainability Education",
+      "url": "https://zenodo.org/records/24298011"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-17",
+      "first_seen_date": "2026-11-17",
+      "id": "24297975",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Global solutions of stochastic reaction-diffusion systems with triangular structure and species-dependent transport noise",
+      "url": "https://zenodo.org/records/24297975"
+    },
+    {
+      "authors": [
+        "Tarazi, Marwan"
+      ],
+      "category": "Working paper",
+      "date": "2026-03-10",
+      "first_seen_date": "2026-11-17",
+      "id": "24297133",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "البنية التشغيلية لمنظومة التعليم والتعلم أثناء الازمات",
+      "url": "https://zenodo.org/records/24297133"
     }
   ],
-  "total_before_cap": 43
+  "total_before_cap": 48
 }

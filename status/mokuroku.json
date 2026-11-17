@@ -6,17 +6,17 @@
     "kokoku-ban": {
       "after_filter": 1,
       "new": 1,
-      "raw": 152
+      "raw": 153
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 43,
+      "new": 48,
       "raw": 30
     },
     "news-ban": {
-      "after_filter": 152,
-      "new": 40,
-      "raw": 152
+      "after_filter": 153,
+      "new": 42,
+      "raw": 153
     },
     "uranai": {
       "after_filter": 9,
@@ -24,13 +24,13 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-17T12:52:29+09:00",
+  "generated_at": "2026-11-17T13:54:52+09:00",
   "ng": 0,
-  "ok": 7,
+  "ok": 11,
   "problems": [],
   "problems_truncated": 0,
   "ran_today": 4,
   "stale": 0,
-  "total": 7,
+  "total": 11,
   "warn": 0
 }
