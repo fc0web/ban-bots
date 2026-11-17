@@ -321,10 +321,17 @@ def make_status_record(
     raw_fetched: int | None = None,
     after_filter: int | None = None,
     fetch_errors: int = 0,
+    date_jst: str | None = None,
 ) -> dict[str, Any]:
+    # date_jst: the JST calendar date of the run, "YYYY-MM-DD". The morning
+    # digest uses this (not checked_at) to tell "today's row" from a row
+    # that lingered because the shard crashed and the summarizer fell back
+    # to the previously committed 0.jsonl. Derived from checked_at when the
+    # caller doesn't pass one explicitly.
     row: dict[str, Any] = {
         "ban": ban_id,
         "checked_at": checked_at,
+        "date_jst": date_jst if date_jst is not None else (checked_at or "")[:10],
         "records": int(records),
         "records_delta": int(records_delta),
         "matched": int(matched),

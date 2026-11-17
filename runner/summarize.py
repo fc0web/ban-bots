@@ -37,6 +37,15 @@ def classify(ban: dict[str, Any], row: dict[str, Any] | None, now: datetime,
              last_seen: dict[str, str]) -> tuple[str, str]:
     """Return (status, reason). status ∈ {ok, warn, ng, stale}."""
     if row is not None:
+        # If the row is scheduled to be refreshed today but its own JST
+        # date is older than today, it's a stale row from a previous day
+        # (most often a crashed run.py where summarize fell back to the
+        # previously committed 0.jsonl). Count it as stale so mokuroku
+        # turns red, instead of silently "ok".
+        today_jst = common.today_jst_str(now)
+        row_date = row.get("date_jst") or (row.get("checked_at") or "")[:10]
+        if common.should_run_today(ban, now) and row_date and row_date != today_jst:
+            return "stale", f"no row for today (row.date_jst={row_date})"
         if (not row.get("source_ok")) or row.get("mismatch", 0) > 0 or row.get("license_changed"):
             reasons = []
             if not row.get("source_ok"):

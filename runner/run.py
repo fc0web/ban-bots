@@ -146,6 +146,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
         raw_fetched=raw_fetched,
         after_filter=after_filter_sum,
         fetch_errors=fetch_errors_count,
+        date_jst=today_str,
     )
 
 
