@@ -1,6 +1,22 @@
 {
   "ban": "kyoiku",
-  "fetched_at": "2026-11-17T10:16:47+09:00",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 30,
+    "raw_fetched": 30,
+    "seen_previously": 0
+  },
+  "fetched_at": "2026-11-17T10:30:41+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -289,6 +305,18 @@
       ],
       "category": "Publication",
       "date": "2026-11-17",
+      "id": "24295844",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Map of the Series: Process, Observer and the Birth of Dimensions",
+      "url": "https://zenodo.org/records/24295844"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-17",
       "id": "24295651",
       "license": "cc-by-4.0",
       "source": "zenodo",
@@ -395,18 +423,6 @@
       "source": "zenodo",
       "title": "KORXONANING MOLIYAVIY BARQARORLIGINI BAHOLASH USULLARI VA TAKOMILLASHTIRISH YO'LLARI",
       "url": "https://zenodo.org/records/24295173"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "id": "24295208",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Adding one permutation to a transposition and a long cycle",
-      "url": "https://zenodo.org/records/24295208"
     }
   ],
   "source": "arxiv+zenodo"

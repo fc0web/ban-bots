@@ -26,28 +26,69 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
     ban_id = ban["id"]
     source = ban["source"]
     params = ban["params"]
-    prev_count = common.previous_record_count(ban_id, today_str)
 
     all_records: list[dict[str, Any]] = []
+    per_source_stats: dict[str, dict[str, int]] = {}
     notes: list[str] = []
     ok = True
+
     for component in common.source_components(source):
         sub = common.params_for_component(source, component, params)
         try:
-            recs = common.fetch_source(component, sub)
+            raw = common.fetch_source(component, sub)
+            if isinstance(raw, dict):
+                recs = raw.get("records") or []
+                raw_total = int(raw.get("raw_total", len(recs)))
+                after_filter = int(raw.get("after_filter", len(recs)))
+            else:
+                recs = list(raw)
+                raw_total = len(recs)
+                after_filter = len(recs)
+            per_source_stats[component] = {
+                "raw": raw_total,
+                "after_filter": after_filter,
+            }
             all_records.extend(recs)
         except Exception as e:
             ok = False
+            per_source_stats[component] = {"raw": 0, "after_filter": 0}
             notes.append(f"{component}:{type(e).__name__}:{str(e)[:120]}")
 
-    # Always write the data file (possibly empty on failure) so a reader can
-    # see that we tried.
+    # Cross-day de-dup by id: items we have already surfaced on any prior
+    # day are not candidates today. Load the seen-set, split, and update.
+    seen = common.load_seen(ban_id)
+    new_records: list[dict[str, Any]] = []
+    seen_again = 0
+    for rec in all_records:
+        rid = str(rec.get("id") or "")
+        if not rid:
+            continue
+        if rid in seen:
+            seen_again += 1
+            continue
+        new_records.append(rec)
+        seen[rid] = today_str
+    common.save_seen(ban_id, seen)
+
+    raw_fetched = sum(s["raw"] for s in per_source_stats.values())
+    after_filter = sum(s["after_filter"] for s in per_source_stats.values())
+
+    # The data file stores today's candidates only — i.e. items first seen
+    # today. Previously-seen items are counted but not stored again (they
+    # live in the earlier day's file).
     data_obj = {
         "ban": ban_id,
         "fetched_at": common.iso_jst(),
         "source": source,
         "params": params,
-        "records": all_records,
+        "fetch_stats": {
+            "by_source": per_source_stats,
+            "raw_fetched": raw_fetched,
+            "after_filter": after_filter,
+            "seen_previously": seen_again,
+            "new_today": len(new_records),
+        },
+        "records": new_records,
     }
     common.write_json(common.data_path(ban_id, today_str), data_obj)
 
@@ -55,10 +96,12 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
     return common.make_status_record(
         ban_id=ban_id,
         checked_at=checked_at,
-        records=len(all_records),
-        records_delta=len(all_records) - prev_count,
+        records=len(new_records),
+        records_delta=len(new_records),
         source_ok=ok,
         note="; ".join(notes),
+        raw_fetched=raw_fetched,
+        after_filter=after_filter,
     )
 
 
@@ -107,7 +150,9 @@ def main() -> int:
         rows.append(row)
         print(
             f"[{ban['id']}] ok={row['source_ok']} "
-            f"records={row['records']} delta={row['records_delta']} "
+            f"raw={row.get('raw_fetched', '-')} "
+            f"filtered={row.get('after_filter', '-')} "
+            f"new_today={row['records']} "
             f"note={row['note']!r}",
             flush=True,
         )

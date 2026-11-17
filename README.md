@@ -45,13 +45,15 @@ status/summary.json               全盤まとめ（小さく保つ）
 | `arxiv`    | arXiv API（math.HO など）             | `{"category":"math.HO","limit":20}` |
 | `zenodo`   | Zenodo REST API                       | `{"q":"mathematics education","limit":10}` |
 | `pubmed`   | NCBI E-utilities（esearch+esummary）  | `{"queries":[{"q":"astrology","limit":5},{"q":"Barnum effect","limit":5}]}` または `{"q":"astrology","limit":5}` |
-| `rss`      | 任意の RSS 2.0 / Atom フィード        | `{"feeds":["https://..."],"limit_per_feed":10}` |
+| `rss`      | 任意の RSS 2.0 / Atom フィード        | `{"feeds":["https://..."],"limit_per_feed":10,"include_keywords":["霊感","占い"]}` |
 | `selfgen`  | 自作の生成器（placeholder）           | `{"kind":"placeholder"}` |
 | `none`     | 何もしない（目録・監視など）          | `{}` |
 
 複数の元データを 1 盤で使うときは `+` で繋ぐ：`source=arxiv+zenodo` / `source=pubmed+rss`。この場合 `params` は `{"arxiv":{...},"zenodo":{...}}` のようにソース名でキー分けする。
 
 **候補のみ保存。選ぶ・言い換えるはしない（Claude 側の仕事）。** `pubmed` と `rss` の各レコードには `mark: "未測"` が付く（評価していないことを表す）。
+
+**rss の `include_keywords`**：題名または `<description>` / `<summary>` にいずれかの語を含むアイテムだけを候補に残す。空リストなら絞り込み無し（素通し）。日本語はそのまま部分一致、英語は大文字小文字を無視する。`<description>` / `<summary>` は絞り込み判定にのみ使い、候補レコードには保存しない。
 
 **占い盤（uranai）の RSS フィード選定メモ**：
 - 消費者庁 (`caa.go.jp`) は公式 RSS を公開しているので採用 → `https://www.caa.go.jp/news.rss`（RSS 2.0、dc:date 付き、消費者庁ウェブサイト「RSSフィードについて」（`https://www.caa.go.jp/rss/`）で案内されている）。
@@ -70,11 +72,17 @@ status/summary.json               全盤まとめ（小さく保つ）
 `status/<分担番号>.jsonl` は 1盤1行の JSON Lines：
 
 ```json
-{"ban":"<id>","checked_at":"<JST +09:00>","records":<数>,"records_delta":<前回との差>,"matched":<数>,"mismatch":<数>,"source_ok":true,"broken_links":<数>,"license_changed":false,"note":""}
+{"ban":"<id>","checked_at":"<JST +09:00>","records":<新着数>,"records_delta":<新着数>,"matched":<数>,"mismatch":<数>,"source_ok":true,"broken_links":<数>,"license_changed":false,"note":"","raw_fetched":<元データから取った総数>,"after_filter":<絞り込み後の件数>}
 ```
 
 - `checked_at` は `TZ=Asia/Tokyo date` の実測値。推測しない。
 - 失敗しても必ず `source_ok:false` の行を書く（「空のまま成功」を防ぐ）。
+- **`records_delta` の意味**：**その日に初めて入った件数**（＝新着）。日をまたいで ID（pubmed なら PMID、rss なら guid／URL、arxiv/zenodo なら各ソースの id）で重複排除する。前日までに入ったものは候補に数えない。`records` も同じ数（＝その日の新着＝データファイルに保存される候補数）。
+- `raw_fetched`：絞り込みも重複排除も無しに元データから取った総数。
+- `after_filter`：キーワード絞り込み（rss の `include_keywords`）後の件数。rss 以外や、絞り込み無しのときは `raw_fetched` と同じ値。
+- データファイルは「その日に初めて入った候補」だけ保存し、以前の日に既に入ったものは再掲しない（一度 git history に残れば十分）。
+
+**ID 重複排除の仕組み**：盤ごとに `data/<盤id>/_seen.json` を持ち、{id: 初めて入った日} の形で記録する。TTL 730 日で自動的に古いものを落とす。
 
 ## まとめ `status/summary.json`
 

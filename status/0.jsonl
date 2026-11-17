@@ -1,2 +1,2 @@
-{"ban": "kyoiku", "broken_links": 0, "checked_at": "2026-11-17T10:16:47+09:00", "license_changed": false, "matched": 0, "mismatch": 0, "note": "", "records": 30, "records_delta": 30, "source_ok": true}
-{"ban": "uranai", "broken_links": 0, "checked_at": "2026-11-17T10:16:50+09:00", "license_changed": false, "matched": 0, "mismatch": 0, "note": "", "records": 25, "records_delta": 25, "source_ok": true}
+{"after_filter": 30, "ban": "kyoiku", "broken_links": 0, "checked_at": "2026-11-17T10:30:41+09:00", "license_changed": false, "matched": 0, "mismatch": 0, "note": "", "raw_fetched": 30, "records": 30, "records_delta": 30, "source_ok": true}
+{"after_filter": 15, "ban": "uranai", "broken_links": 0, "checked_at": "2026-11-17T10:30:43+09:00", "license_changed": false, "matched": 0, "mismatch": 0, "note": "", "raw_fetched": 35, "records": 15, "records_delta": 15, "source_ok": true}

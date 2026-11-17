@@ -169,24 +169,42 @@ def read_json(path: Path, default: Any = None) -> Any:
         return json.load(f)
 
 
-def previous_record_count(ban_id: str, today_str: str) -> int:
-    """How many records did the most recent prior data file have? 0 if none."""
-    folder = DATA_DIR / ban_id
-    if not folder.exists():
-        return 0
-    prior = sorted(
-        (p for p in folder.glob("*.json") if p.stem != today_str),
-        reverse=True,
-    )
-    if not prior:
-        return 0
-    try:
-        with prior[0].open("r", encoding="utf-8") as f:
-            obj = json.load(f)
-        recs = obj.get("records")
-        return len(recs) if isinstance(recs, list) else 0
-    except Exception:
-        return 0
+SEEN_TTL_DAYS = 730  # 2 years — bound the seen set size
+
+
+def _seen_path(ban_id: str) -> Path:
+    # `_seen.json` starts with "_" so retention pruning (which looks for
+    # YYYY-MM-DD.json) never touches it.
+    return DATA_DIR / ban_id / "_seen.json"
+
+
+def load_seen(ban_id: str, today: datetime | None = None) -> dict[str, str]:
+    """Load the per-ban seen-id map: {id: "YYYY-MM-DD" when first seen}.
+
+    Entries older than SEEN_TTL_DAYS are dropped on load. Returns a mutable
+    dict; callers add new ids and then call save_seen.
+    """
+    obj = read_json(_seen_path(ban_id)) or {}
+    raw = obj.get("ids") if isinstance(obj, dict) else None
+    ids: dict[str, str] = {}
+    if isinstance(raw, dict):
+        if today is None:
+            today = now_jst()
+        cutoff = today.date() - timedelta(days=SEEN_TTL_DAYS)
+        for k, v in raw.items():
+            if not isinstance(v, str):
+                continue
+            try:
+                d = datetime.strptime(v, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            if d >= cutoff:
+                ids[str(k)] = v
+    return ids
+
+
+def save_seen(ban_id: str, ids: dict[str, str]) -> None:
+    write_json(_seen_path(ban_id), {"ids": ids})
 
 
 def last_checked_at(ban_id: str) -> str:
@@ -217,8 +235,10 @@ def make_status_record(
     broken_links: int = 0,
     license_changed: bool = False,
     note: str = "",
+    raw_fetched: int | None = None,
+    after_filter: int | None = None,
 ) -> dict[str, Any]:
-    return {
+    row: dict[str, Any] = {
         "ban": ban_id,
         "checked_at": checked_at,
         "records": int(records),
@@ -230,6 +250,11 @@ def make_status_record(
         "license_changed": bool(license_changed),
         "note": note or "",
     }
+    if raw_fetched is not None:
+        row["raw_fetched"] = int(raw_fetched)
+    if after_filter is not None:
+        row["after_filter"] = int(after_filter)
+    return row
 
 
 def write_status_shard(shard: int, rows: Iterable[dict[str, Any]]) -> Path:

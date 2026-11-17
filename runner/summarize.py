@@ -46,14 +46,22 @@ def classify(ban: dict[str, Any], row: dict[str, Any] | None, now: datetime,
             if row.get("license_changed"):
                 reasons.append("license_changed")
             return "ng", "; ".join(reasons)
-        if row.get("broken_links", 0) > 0 or (
-            ban["freq"] == "daily" and row.get("records_delta", 0) == 0 and row.get("records", 0) > 0
-        ):
+        # With cross-day dedup, records == records_delta == "new today",
+        # so a daily board with records_delta == 0 and after_filter > 0 means
+        # "the source is alive and produced candidates, but all of them had
+        # already been surfaced before" — noise worth flagging.
+        after_filter = row.get("after_filter", row.get("records", 0))
+        delta_zero_with_candidates = (
+            ban["freq"] == "daily"
+            and row.get("records_delta", 0) == 0
+            and after_filter > 0
+        )
+        if row.get("broken_links", 0) > 0 or delta_zero_with_candidates:
             parts = []
             if row.get("broken_links", 0) > 0:
                 parts.append(f"broken_links={row['broken_links']}")
-            if ban["freq"] == "daily" and row.get("records_delta", 0) == 0 and row.get("records", 0) > 0:
-                parts.append("delta=0 (daily)")
+            if delta_zero_with_candidates:
+                parts.append(f"new_today=0 (after_filter={after_filter})")
             return "warn", "; ".join(parts)
         return "ok", ""
 
