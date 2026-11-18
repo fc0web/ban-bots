@@ -52,6 +52,11 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
                 "after_filter": after_filter,
             }
             if inner_errors:
+                # Tag each inner error with the ban id so a reader of
+                # fetch-errors.jsonl can tell which board the failure
+                # came from without cross-referencing source→ban.
+                for err in inner_errors:
+                    err.setdefault("ban", ban_id)
                 common.append_fetch_errors(inner_errors)
                 fetch_errors_count += len(inner_errors)
             all_records.extend(recs)
@@ -62,6 +67,7 @@ def process_ban(ban: dict[str, Any], today_str: str) -> dict[str, Any]:
             # Whole-component failure also goes to the per-source error log.
             common.append_fetch_errors([{
                 "time": common.iso_jst(),
+                "ban": ban_id,
                 "source": component,
                 "phrase": "",
                 "error": f"{type(e).__name__}: {str(e)[:120]}",

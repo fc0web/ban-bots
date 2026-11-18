@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import json
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -39,14 +40,35 @@ _JST_TZ = timezone(timedelta(hours=9))
 def _jst_now_iso() -> str:
     return datetime.now(_JST_TZ).isoformat(timespec="seconds")
 
-# Be polite between consecutive calls (OpenAlex common-pool limit is
-# ~10 req/s). The multi-phrase mode makes N calls per fetch; N stays
-# small (7 for senkou-kenkyuu-kanshi) so a short fixed sleep is fine.
-_CALL_INTERVAL_SEC = 0.2
+# Be polite between consecutive calls. OpenAlex's common pool is shared
+# with every anonymous client (not per-IP), so a short sleep is not enough
+# when the pool is busy — we have hit 429 several times in the morning
+# window. 1.5s between calls keeps our sustained rate below ~0.7 req/s,
+# well under the per-client guidance.
+_CALL_INTERVAL_SEC = 1.5
+
+# On 429 Too Many Requests, retry once. If Retry-After is present we
+# wait for at least that many seconds; otherwise we fall back to a short
+# fixed wait. If the retry also fails, the error bubbles up to the
+# caller and is recorded to fetch-errors.jsonl like before.
+_RETRY_ATTEMPTS = 1
+_RETRY_DEFAULT_WAIT_SEC = 2.0
 
 
 def _join_or(ids: list[str]) -> str:
     return "|".join(x.strip() for x in ids if x and str(x).strip())
+
+
+def _parse_retry_after(value: str | None) -> float | None:
+    """OpenAlex returns Retry-After as a decimal number of seconds. The
+    RFC also allows an HTTP date, but we have not seen OpenAlex emit one;
+    fall back to None so the caller uses its default wait."""
+    if not value:
+        return None
+    try:
+        return max(0.0, float(value))
+    except (TypeError, ValueError):
+        return None
 
 
 def _call(filter_str: str, limit: int) -> dict[str, Any]:
@@ -63,8 +85,22 @@ def _call(filter_str: str, limit: int) -> dict[str, Any]:
             "Accept": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read())
+    attempt = 0
+    while True:
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < _RETRY_ATTEMPTS:
+                headers = getattr(e, "headers", None)
+                retry_after = headers.get("Retry-After") if headers else None
+                wait = _parse_retry_after(retry_after)
+                if wait is None:
+                    wait = _RETRY_DEFAULT_WAIT_SEC
+                time.sleep(wait)
+                attempt += 1
+                continue
+            raise
 
 
 def _record_from_work(work: dict[str, Any], phrase: str | None) -> dict[str, Any]:
