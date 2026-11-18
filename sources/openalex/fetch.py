@@ -10,11 +10,13 @@ We save only description metadata: id, title, authors, date, category
 text — even when OpenAlex returns an inverted-index abstract in the
 same response.
 
-This bot's primary mode is `title_phrases`: one API call per phrase,
-each capped at `limit_per_phrase` records (so one broad phrase can't
-push narrower phrases out). Records are tagged with `phrase` so the
-page side can see which phrase brought each item in. Dedup across
-phrases is by OpenAlex work id; later phrases lose.
+This bot's primary mode is `title_phrases`: all phrases are combined
+into ONE API call via OpenAlex's boolean OR syntax in `title.search`
+(e.g. `title.search:("a" OR "b" OR ...)`). One call cuts our 429
+exposure to 1/N compared with the per-phrase version, and records are
+still tagged with `phrase` — reconstructed from the returned title by
+substring match — so the page side can see which phrase brought each
+item in. Dedup across phrases is by OpenAlex work id.
 
 For single-phrase / concept-id / topic-id style queries the module
 still accepts `q`, `concept_ids`, `topic_ids`; those are meant for
@@ -40,12 +42,6 @@ _JST_TZ = timezone(timedelta(hours=9))
 def _jst_now_iso() -> str:
     return datetime.now(_JST_TZ).isoformat(timespec="seconds")
 
-# Be polite between consecutive calls. OpenAlex's common pool is shared
-# with every anonymous client (not per-IP), so a short sleep is not enough
-# when the pool is busy — we have hit 429 several times in the morning
-# window. 1.5s between calls keeps our sustained rate below ~0.7 req/s,
-# well under the per-client guidance.
-_CALL_INTERVAL_SEC = 1.5
 
 # On 429 Too Many Requests, retry once. If Retry-After is present we
 # wait for at least that many seconds; otherwise we fall back to a short
@@ -58,10 +54,14 @@ _RETRY_DEFAULT_WAIT_SEC = 2.0
 # tells us to back off for minutes or longer when the common pool is
 # saturated; honouring that would hold the daily shard job far past its
 # useful window. Over this cap we DO NOT wait: we treat the 429 as a
-# failure for this phrase, record it to fetch-errors.jsonl, and move on
-# to the next phrase. The cap applies to Retry-After only; the default
+# failure, record it to fetch-errors.jsonl, and let the rest of the
+# board carry on. The cap applies to Retry-After only; the default
 # wait (used when Retry-After is absent) is well under it.
 _RETRY_MAX_WAIT_SEC = 30.0
+
+# OpenAlex /works caps `per-page` at 200. We use that as a hard ceiling
+# on the single combined phrase call.
+_PER_PAGE_MAX = 200
 
 
 def _join_or(ids: list[str]) -> str:
@@ -127,6 +127,34 @@ def _call(filter_str: str, limit: int) -> dict[str, Any]:
             raise
 
 
+def _phrase_needles(phrases: list[str]) -> list[tuple[str, set[str]]]:
+    """Precompute each phrase's substring-match forms. Hyphenated phrases
+    are also matched in their "spaces" and "joined" forms because OpenAlex
+    sometimes stores the hyphen variant and sometimes not (e.g. "Wyner-Ziv"
+    vs "wyner ziv", "non-termination" vs "nontermination")."""
+    out: list[tuple[str, set[str]]] = []
+    for p in phrases:
+        low = p.lower()
+        needles = {low, low.replace("-", " "), low.replace("-", "")}
+        needles.discard("")
+        out.append((p, needles))
+    return out
+
+
+def _match_phrase(title: str, needles_by_phrase: list[tuple[str, set[str]]]) -> str:
+    """Return the first phrase whose any-form appears in `title`, or "".
+
+    Stemming inside OpenAlex can cause a result to match title.search for
+    one of our phrases while the title itself doesn't contain the exact
+    phrase as a substring; those come back with an empty phrase tag.
+    """
+    tlow = title.lower()
+    for p, needles in needles_by_phrase:
+        if any(n in tlow for n in needles):
+            return p
+    return ""
+
+
 def _record_from_work(work: dict[str, Any], phrase: str | None) -> dict[str, Any]:
     oa_id = str(work.get("id") or "")
     title = " ".join(str(work.get("title") or work.get("display_name") or "").split())
@@ -165,13 +193,17 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
     """Fetch metadata records from OpenAlex.
 
     Primary mode — multi-phrase title search:
-      title_phrases:   list of phrases to pass to OpenAlex's `title.search`
-                       filter one by one. Each phrase is fetched separately
-                       and capped at `limit_per_phrase` records; results are
-                       unioned and deduped across phrases. Records are
-                       tagged with `phrase` to show which phrase matched.
-      limit_per_phrase: max records per phrase (default 10, cap 50).
-      reldate:         int days. If > 0, each title-search is narrowed to
+      title_phrases:   list of phrases, combined into ONE call via
+                       `title.search:("p1" OR "p2" OR ...)`. Each returned
+                       record is tagged with the first of the given phrases
+                       whose text appears in the title (case-insensitive,
+                       hyphen-insensitive). A record OpenAlex matched via
+                       stemming whose title shares no substring with any
+                       phrase gets an empty `phrase` tag.
+      limit_per_phrase: shapes the combined per-page as
+                       `min(limit_per_phrase * len(phrases), 200)`; default
+                       10 per phrase, OpenAlex's own per-page max is 200.
+      reldate:         int days. If > 0, the title-search is narrowed to
                        `from_publication_date` = today - reldate.
 
     Fallback modes (for other boards):
@@ -180,11 +212,10 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
       topic_ids:       list of OpenAlex topic IDs (OR'd); current taxonomy.
       limit:           max records for the fallback modes (default 25, cap 50).
 
-    Returns {"records": [...], "raw_total": N, "after_filter": M}:
-      raw_total    — sum of OpenAlex's reported hit-counts across sub-calls
+    Returns {"records": [...], "raw_total": N, "after_filter": M, "errors": [...]}:
+      raw_total    — OpenAlex's reported hit-count for the combined query
       after_filter — count of unique records actually returned
-    `records` is capped by limit_per_phrase × number of phrases, then
-    deduped by OpenAlex work id.
+      errors       — one record per failed call (429 after cap, etc.).
     """
     phrases = [str(p).strip() for p in (params.get("title_phrases") or []) if str(p).strip()]
     reldate = int(params.get("reldate") or 0)
@@ -201,34 +232,46 @@ def fetch(params: dict[str, Any]) -> dict[str, Any]:
 
     if phrases:
         limit_per = min(int(params.get("limit_per_phrase", 10)), 50)
-        for i, phrase in enumerate(phrases):
-            if i > 0:
-                time.sleep(_CALL_INTERVAL_SEC)
-            inner = f'title.search:"{phrase}"'
-            if since_filter:
-                inner = f"{inner},{since_filter}"
-            try:
-                data = _call(inner, limit_per)
-            except Exception as e:
-                # one phrase failing should not kill the others — fetch
-                # behaviour unchanged. Record a structured error so the
-                # daily digest can distinguish a genuine 0-hit response
-                # from a swallowed exception.
-                errors.append({
-                    "time": _jst_now_iso(),
-                    "source": "openalex",
-                    "phrase": phrase,
-                    "error": f"{type(e).__name__}: {str(e)[:120]}",
-                })
+        # One combined call: title.search:("a" OR "b" OR ...). Cuts our 429
+        # exposure from N to 1 and keeps the shard well inside its window
+        # even when OpenAlex's common pool is busy. The per-page cap keeps
+        # rough parity with the old (limit_per_phrase * N) ceiling, under
+        # OpenAlex's /works per-page max.
+        inner_or = " OR ".join(f'"{p}"' for p in phrases)
+        filter_str = f"title.search:({inner_or})"
+        if since_filter:
+            filter_str = f"{filter_str},{since_filter}"
+        combined_limit = min(limit_per * len(phrases), _PER_PAGE_MAX)
+        try:
+            data = _call(filter_str, combined_limit)
+        except Exception as e:
+            # Single call failing means no OpenAlex records this run; the
+            # board's other sources still carry on. Record the failure the
+            # same way we used to for a per-phrase miss, with phrase=""
+            # since we no longer run phrase-by-phrase.
+            errors.append({
+                "time": _jst_now_iso(),
+                "source": "openalex",
+                "phrase": "",
+                "error": f"{type(e).__name__}: {str(e)[:120]}",
+            })
+            return {
+                "records": out,
+                "raw_total": raw_total,
+                "after_filter": len(out),
+                "errors": errors,
+            }
+        raw_total = int((data.get("meta") or {}).get("count") or 0)
+        needles_by_phrase = _phrase_needles(phrases)
+        for work in (data.get("results") or []):
+            title = str(work.get("title") or work.get("display_name") or "")
+            matched = _match_phrase(title, needles_by_phrase)
+            rec = _record_from_work(work, matched)
+            rid = rec["id"]
+            if not rid or rid in seen:
                 continue
-            raw_total += int((data.get("meta") or {}).get("count") or 0)
-            for work in (data.get("results") or []):
-                rec = _record_from_work(work, phrase)
-                rid = rec["id"]
-                if not rid or rid in seen:
-                    continue
-                seen.add(rid)
-                out.append(rec)
+            seen.add(rid)
+            out.append(rec)
         return {
             "records": out,
             "raw_total": raw_total,
