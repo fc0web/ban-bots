@@ -144,8 +144,15 @@ def main() -> int:
     bans = common.load_registry()
 
     # Gather every row written by any shard this run.
+    # We only want per-shard status files here. `fetch-errors.jsonl` lives
+    # in the same directory and matches `*.jsonl`, but its lines are error
+    # records, not status rows — since c0d6e3b they also carry `ban`, so
+    # without this skip the last 429 row for a given ban overwrites its
+    # real status row and the ban comes out as `source_ok=false (no detail)`.
     rows_by_id: dict[str, dict[str, Any]] = {}
     for p in sorted(common.STATUS_DIR.glob("*.jsonl")):
+        if p.name == "fetch-errors.jsonl":
+            continue
         for row in common.read_status_shard(p):
             if row.get("ban"):
                 rows_by_id[row["ban"]] = row
