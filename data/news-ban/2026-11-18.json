@@ -1,19 +1,19 @@
 {
   "ban": "news-ban",
   "fetch_stats": {
-    "after_filter": 161,
+    "after_filter": 163,
     "by_source": {
       "rss": {
-        "after_filter": 161,
-        "raw": 161
+        "after_filter": 163,
+        "raw": 163
       }
     },
-    "new_today": 3,
-    "newly_added_this_run": 0,
-    "raw_fetched": 161,
-    "seen_previously": 37
+    "new_today": 6,
+    "newly_added_this_run": 3,
+    "raw_fetched": 163,
+    "seen_previously": 34
   },
-  "fetched_at": "2026-11-18T10:41:15+09:00",
+  "fetched_at": "2026-11-18T12:47:30+09:00",
   "params": {
     "feeds": [
       "https://www.caa.go.jp/news.rss",
@@ -66,6 +66,48 @@
       "source": "rss",
       "title": "令和９・10年度競争参加資格審査（建設工事及び測量・建設コンサルタント等業務）定期審査について",
       "url": "https://www.mhlw.go.jp/sinsei/chotatu/sikaku/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-18T12:00:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048177@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "消費者安全調査委員会からの一葉(第23号)を掲載しました。",
+      "url": "https://www.caa.go.jp/notice/entry/048177/"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T11:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77416.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "人事労務マガジン 特集第250号 12月は「職場のハラスメント撲滅月間」他",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77416.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T09:40:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77501.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第３８回厚生科学審議会がん登録部会（資料）",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77501.html"
     }
   ],
   "source": "rss"

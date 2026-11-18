@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 13,
-    "newly_added_this_run": 3,
+    "new_today": 23,
+    "newly_added_this_run": 10,
     "raw_fetched": 30,
     "seen_previously": 20
   },
-  "fetched_at": "2026-11-18T10:41:11+09:00",
+  "fetched_at": "2026-11-18T12:47:26+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -195,6 +195,143 @@
       "source": "zenodo",
       "title": "2024-04-08 Total Solar Eclipse ESID#961",
       "url": "https://zenodo.org/records/23308635"
+    },
+    {
+      "authors": [
+        "Darodjat, Tubagus Achmad",
+        "Rattanapun, Supot"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24329365",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Enhancing higher education quality through strategic human resource planning: evidence from international colleges",
+      "url": "https://zenodo.org/records/24329365"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24329541",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24329541"
+    },
+    {
+      "authors": [
+        "Eric Boahen"
+      ],
+      "category": "Journal",
+      "date": "2026-11-18",
+      "id": "24329557",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "STATISTICAL ANALYSIS OF WEIBULL DISTRIBUTION ON PATIENTS PAIN RELIEF IN CLINICAL TRIAL",
+      "url": "https://zenodo.org/records/24329557"
+    },
+    {
+      "authors": [
+        "Thuy, Dao Thi Thu",
+        "Hoa, Nguyen Thi Quynh",
+        "Hoa, Nguyen Thi Kim",
+        "Huyen, Nguyen Thi",
+        "Hoa, Nguyen Thi Phuong"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24329290",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging the transition gap: the role of practical career education in enhancing independent living skills for adolescents with developmental disabilities in Vietnam",
+      "url": "https://zenodo.org/records/24329290"
+    },
+    {
+      "authors": [
+        "Mukhitdinova, Roza",
+        "Baymyrzayev, Kuat",
+        "Auyelbek, Murat"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24328856",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Modernizing geography teacher education through STEAM integration to enhance geoecological competence",
+      "url": "https://zenodo.org/records/24328856"
+    },
+    {
+      "authors": [
+        "Murcia, Jovy Asis",
+        "McLaughlin, Shawna-Lee"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-18",
+      "id": "24327031",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging Numbers and Nature: A Meta-Analysis of Integrated Mathematics and Science Instruction and Its Effects on Middle School STEM Learning Outcomes",
+      "url": "https://zenodo.org/records/24327031"
+    },
+    {
+      "authors": [
+        "Dela Cruz, Jona Grace R.",
+        "Lachica, Ma. Christalyn A.",
+        "Poot, Glojolyn P.",
+        "Soriano, John Carlo S.",
+        "Salugao, Jordan J."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-18",
+      "id": "24328983",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Isolation and Identification of Bacterial Isolates from Fishball Sauce Ladle Water Used by Street Food Vendors in Barangay Zapote, Bacoor City, Cavite",
+      "url": "https://zenodo.org/records/24328983"
+    },
+    {
+      "authors": [
+        "Gatewood, Michael"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24328793",
+      "license": "cc-by-nd-4.0",
+      "source": "zenodo",
+      "title": "A Discrete Topological View Concerning a Novel Synthesis of the E8 Manifold",
+      "url": "https://zenodo.org/records/24328793"
+    },
+    {
+      "authors": [
+        "Mendez, Shareign Dane",
+        "Partoza, Kylee Jed",
+        "Peraki, Kimberly Andup",
+        "Randan, Arvee Mae",
+        "Salugao, Jordan J."
+      ],
+      "category": "Journal article",
+      "date": "2022-06-30",
+      "id": "24328892",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Anti-Angiogenic Effects of Omega-3 Fatty Acids Extracted from Chanos chanos (Milkfish) in the Chorioallantoic Membrane of Duck Eggs",
+      "url": "https://zenodo.org/records/24328892"
+    },
+    {
+      "authors": [
+        "Owida, Hamza Abu",
+        "Arabiat, Areen"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24328717",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging ethics and performance in engineering education through predictive learning analytics",
+      "url": "https://zenodo.org/records/24328717"
     }
   ],
   "source": "arxiv+zenodo"

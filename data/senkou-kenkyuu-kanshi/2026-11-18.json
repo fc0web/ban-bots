@@ -16,12 +16,12 @@
         "raw": 10
       }
     },
-    "new_today": 16,
-    "newly_added_this_run": 6,
+    "new_today": 46,
+    "newly_added_this_run": 30,
     "raw_fetched": 30,
-    "seen_previously": 20
+    "seen_previously": 0
   },
-  "fetched_at": "2026-11-18T10:41:25+09:00",
+  "fetched_at": "2026-11-18T12:47:52+09:00",
   "params": {
     "arxiv": {
       "categories": [
@@ -274,6 +274,445 @@
       "source": "zenodo",
       "title": "ARTE 2.0 (Article Reproducibility Template & Environment) workflow folder structure",
       "url": "https://zenodo.org/records/24327890"
+    },
+    {
+      "authors": [
+        "Giovanna Kobus Conrado",
+        "Stephan Spengler",
+        "Mohamed Faouzi Atig",
+        "Andreas Pavlogiannis"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T12:20:33Z",
+      "id": "http://arxiv.org/abs/2611.22663v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22663v1",
+      "source": "arxiv",
+      "title": "A Unifying Metatheorem on Weak-Memory Robustness",
+      "url": "https://arxiv.org/abs/2611.22663v1"
+    },
+    {
+      "authors": [
+        "Davi Castro-Silva",
+        "Ryan Dancy",
+        "Sergii Strelchuk"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-17T11:36:12Z",
+      "id": "http://arxiv.org/abs/2611.22621v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22621v1",
+      "source": "arxiv",
+      "title": "Entanglement Lower Bounds for Symmetric Quantum Circuits",
+      "url": "https://arxiv.org/abs/2611.22621v1"
+    },
+    {
+      "authors": [
+        "Massimo Battaglioni",
+        "Fabrizio Marinelli"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T11:34:48Z",
+      "id": "http://arxiv.org/abs/2611.22617v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22617v1",
+      "source": "arxiv",
+      "title": "Hardness and Inapproximability of the Covering Radius for LDPC Codes",
+      "url": "https://arxiv.org/abs/2611.22617v1"
+    },
+    {
+      "authors": [
+        "Nikolaus Huber",
+        "Roly Perera",
+        "Dominic Orchard"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T11:29:58Z",
+      "id": "http://arxiv.org/abs/2611.22613v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22613v1",
+      "source": "arxiv",
+      "title": "Python Code Generation for Isabelle/HOL",
+      "url": "https://arxiv.org/abs/2611.22613v1"
+    },
+    {
+      "authors": [
+        "Avanish Kumar Chaturvedi",
+        "Satyadeep Pandey"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T11:12:12Z",
+      "id": "http://arxiv.org/abs/2611.22587v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22587v1",
+      "source": "arxiv",
+      "title": "Constructions of reversible linear and DNA codes through $T_{D,g}^n-$set and $(n_1,c_1|n_2,c_2)-$right polycyclic codes",
+      "url": "https://arxiv.org/abs/2611.22587v1"
+    },
+    {
+      "authors": [
+        "Peiyao Liu",
+        "Jie Guo",
+        "Zhijun Wang",
+        "Xueru Zhang",
+        "Nan Chen"
+      ],
+      "category": "stat.ME",
+      "date": "2026-11-17T11:05:33Z",
+      "id": "http://arxiv.org/abs/2611.22581v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22581v1",
+      "source": "arxiv",
+      "title": "FAST: Functional Adaptive Sensing and Testing for Quickest Change Detection",
+      "url": "https://arxiv.org/abs/2611.22581v1"
+    },
+    {
+      "authors": [
+        "Smayan Agarwal",
+        "Aalok Thakkar"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T10:57:51Z",
+      "id": "http://arxiv.org/abs/2611.22572v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22572v1",
+      "source": "arxiv",
+      "title": "Datatypes In, Zippers Out!",
+      "url": "https://arxiv.org/abs/2611.22572v1"
+    },
+    {
+      "authors": [
+        "Vijay Bhattiprolu"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-17T10:22:01Z",
+      "id": "http://arxiv.org/abs/2611.22531v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22531v1",
+      "source": "arxiv",
+      "title": "Inapproximability of L1->L2 Subspace Distortion",
+      "url": "https://arxiv.org/abs/2611.22531v1"
+    },
+    {
+      "authors": [
+        "Léo Ducas",
+        "Julian Nowakowski",
+        "Ailsa Robertson"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T09:12:59Z",
+      "id": "http://arxiv.org/abs/2611.22441v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22441v1",
+      "source": "arxiv",
+      "title": "On the Kissing Number of Craig's Lattice and Spherical List Decoding",
+      "url": "https://arxiv.org/abs/2611.22441v1"
+    },
+    {
+      "authors": [
+        "Nikolaos Ntetsikas",
+        "Styliana Kyriakoudi",
+        "Antonis Kirmizis",
+        "Ioannis Krikidis",
+        "Ian F. Akyildiz",
+        "Marios Lestas"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T08:52:04Z",
+      "id": "http://arxiv.org/abs/2611.22416v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22416v1",
+      "source": "arxiv",
+      "title": "Noise Characterization and Robust Signal Detection in Yeast Pheromone Molecular Communication",
+      "url": "https://arxiv.org/abs/2611.22416v1"
+    },
+    {
+      "authors": [
+        "Baptiste Pelletier",
+        "Karen Godary"
+      ],
+      "category": "cs.RO",
+      "date": "2026-11-17T08:44:18Z",
+      "id": "http://arxiv.org/abs/2611.22397v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22397v1",
+      "source": "arxiv",
+      "title": "SkiNet-Sim: Simulating Petri Nets with Data for the Verification and Validation of Controllers for Autonomous Systems",
+      "url": "https://arxiv.org/abs/2611.22397v1"
+    },
+    {
+      "authors": [
+        "Yaozong Zhang",
+        "Sihem Mesnager",
+        "Xiaoqiang Wang",
+        "Jian Gao"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T05:04:57Z",
+      "id": "http://arxiv.org/abs/2611.22221v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22221v1",
+      "source": "arxiv",
+      "title": "Subsystem Stabilizer $(r,δ)$-Locally Recoverable Codes: Characterization, Bounds and Constructions",
+      "url": "https://arxiv.org/abs/2611.22221v1"
+    },
+    {
+      "authors": [
+        "Alexander J Root",
+        "Christophe Gyurgyik",
+        "Devanshu Ladsaria",
+        "Rohan Sawhney",
+        "Jonathan Ragan-Kelley",
+        "Andrew Adams",
+        "Matt Pharr",
+        "Kayvon Fatahalian",
+        "Fredrik Kjolstad"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T04:19:17Z",
+      "id": "http://arxiv.org/abs/2611.22183v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22183v1",
+      "source": "arxiv",
+      "title": "A Compilation Model for Divergent Parallel Workloads",
+      "url": "https://arxiv.org/abs/2611.22183v1"
+    },
+    {
+      "authors": [
+        "Christo Kurisummoottil Thomas"
+      ],
+      "category": "eess.SP",
+      "date": "2026-11-17T02:35:27Z",
+      "id": "http://arxiv.org/abs/2611.22100v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22100v1",
+      "source": "arxiv",
+      "title": "Semantic Communication via Analog RF Computing: When the Radio Computes the Meaning",
+      "url": "https://arxiv.org/abs/2611.22100v1"
+    },
+    {
+      "authors": [
+        "Edil D. Molina",
+        "Juan Bory-Reyes",
+        "José M. Sigarreta"
+      ],
+      "category": "math.PR",
+      "date": "2026-11-17T01:40:56Z",
+      "id": "http://arxiv.org/abs/2611.22062v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22062v1",
+      "source": "arxiv",
+      "title": "Fixed-Point Results and Disequilibrium for Negators of Hyperbolic-Valued Probability Distributions",
+      "url": "https://arxiv.org/abs/2611.22062v1"
+    },
+    {
+      "authors": [
+        "Muhammed Fatih Balın"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-17T00:17:01Z",
+      "id": "http://arxiv.org/abs/2611.22019v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.22019v1",
+      "source": "arxiv",
+      "title": "Computed Permutation Trellis Coding: Near-Optimal Quantization from Two Multiplications and a 64-Byte Table",
+      "url": "https://arxiv.org/abs/2611.22019v1"
+    },
+    {
+      "authors": [
+        "Chinmay Nirkhe"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T23:26:55Z",
+      "id": "http://arxiv.org/abs/2611.21994v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21994v1",
+      "source": "arxiv",
+      "title": "An alternate proof of the QMA lower bound for set-size estimation",
+      "url": "https://arxiv.org/abs/2611.21994v1"
+    },
+    {
+      "authors": [
+        "Carlo A. Trugenberger"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-16T22:04:19Z",
+      "id": "http://arxiv.org/abs/2611.21941v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21941v1",
+      "source": "arxiv",
+      "title": "Complexity and precision in quantum associative retrieval",
+      "url": "https://arxiv.org/abs/2611.21941v1"
+    },
+    {
+      "authors": [
+        "Simon R. Blackburn"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-16T21:28:27Z",
+      "id": "http://arxiv.org/abs/2611.21913v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21913v1",
+      "source": "arxiv",
+      "title": "An upper bound on non-overlapping codes",
+      "url": "https://arxiv.org/abs/2611.21913v1"
+    },
+    {
+      "authors": [
+        "Jiatu Li",
+        "Daniel Reichman",
+        "Ryan Williams",
+        "Tony Wu"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-16T21:25:27Z",
+      "id": "http://arxiv.org/abs/2611.21910v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.21910v1",
+      "source": "arxiv",
+      "title": "New Gate, Weight and Wire Complexity Bounds for Sigmoid Neural Networks",
+      "url": "https://arxiv.org/abs/2611.21910v1"
+    },
+    {
+      "authors": [
+        "Hsu, Rui-Yun",
+        "Cheng, Tsung-Chieh"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-18",
+      "id": "24329390",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data and code for: Cavity-Dependent Reflectance–Resistance Tradeoffs in Thermophotovoltaic Cells: Window-Layer Losses and Design Criteria",
+      "url": "https://zenodo.org/records/24329390"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24329541",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24329541"
+    },
+    {
+      "authors": [
+        "Yie, Ga-Eun"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-18",
+      "id": "24329539",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Trans-ethnic polygenic risk for breast cancer (aeh9001)",
+      "url": "https://zenodo.org/records/24329539"
+    },
+    {
+      "authors": [
+        "Shen, YuCheng",
+        "Han, WeiWei",
+        "Xia, QiongXia"
+      ],
+      "category": "Dataset",
+      "date": "2026-09-23",
+      "id": "22877188",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data, Software, and Reproducibility Materials for \"Machine Learning Discrimination of Magmatic, Metamorphic, and Hydrothermal Zircon Using Trace Elements: Geological Implications\"",
+      "url": "https://zenodo.org/records/22877188"
+    },
+    {
+      "authors": [
+        "Xu, Zihuan"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24329398",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Two-term Bernstein positivity degrees near an interior zero and stability under positive polynomial factors",
+      "url": "https://zenodo.org/records/24329398"
+    },
+    {
+      "authors": [
+        "Falush, Daniel"
+      ],
+      "category": "Publication",
+      "date": "2026-11-18",
+      "id": "24329338",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "From 1 to 2. From a monologue to a dance.",
+      "url": "https://zenodo.org/records/24329338"
+    },
+    {
+      "authors": [
+        "Pires Ferreira, Rodrigo",
+        "Ding, Rui",
+        "Alvi, Dongmei",
+        "Pu, Haihui",
+        "Chen, Junhong",
+        "Shi, Xiaoao",
+        "Chen, Yuxin"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-17",
+      "id": "23388462",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Robust and Low-latency Online Changepoint Detection for Sensor Drift Compensation",
+      "url": "https://zenodo.org/records/23388462"
+    },
+    {
+      "authors": [
+        "Thuy, Dao Thi Thu",
+        "Hoa, Nguyen Thi Quynh",
+        "Hoa, Nguyen Thi Kim",
+        "Huyen, Nguyen Thi",
+        "Hoa, Nguyen Thi Phuong"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24329290",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging the transition gap: the role of practical career education in enhancing independent living skills for adolescents with developmental disabilities in Vietnam",
+      "url": "https://zenodo.org/records/24329290"
+    },
+    {
+      "authors": [
+        "Mukhitdinova, Roza",
+        "Baymyrzayev, Kuat",
+        "Auyelbek, Murat"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "id": "24328856",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Modernizing geography teacher education through STEAM integration to enhance geoecological competence",
+      "url": "https://zenodo.org/records/24328856"
+    },
+    {
+      "authors": [
+        "Villaflor, Mea M.",
+        "Abo, Alyssa Mae J.",
+        "Arizo, Millinette Joyce P.",
+        "Chuaseco, Mikaela A.",
+        "Saldon, Precious G.",
+        "Santos, Daniel H.",
+        "Kalon, Al-Hadad D."
+      ],
+      "category": "Journal article",
+      "date": "2022-06-30",
+      "id": "24329152",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Impact of the COVID-19 Pandemic on the Wellness of Dialysis Patients at Las Piñas Medical Center",
+      "url": "https://zenodo.org/records/24329152"
     }
   ],
   "source": "arxiv+zenodo+openalex"

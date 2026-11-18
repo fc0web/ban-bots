@@ -2,7 +2,7 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-18T10:41:11+09:00",
+  "generated_at": "2026-11-18T12:47:26+09:00",
   "records": [
     {
       "authors": [
@@ -183,6 +183,153 @@
       "source": "zenodo",
       "title": "2024-04-08 Total Solar Eclipse ESID#961",
       "url": "https://zenodo.org/records/23308635"
+    },
+    {
+      "authors": [
+        "Darodjat, Tubagus Achmad",
+        "Rattanapun, Supot"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-18",
+      "id": "24329365",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Enhancing higher education quality through strategic human resource planning: evidence from international colleges",
+      "url": "https://zenodo.org/records/24329365"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24329541",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24329541"
+    },
+    {
+      "authors": [
+        "Eric Boahen"
+      ],
+      "category": "Journal",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24329557",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "STATISTICAL ANALYSIS OF WEIBULL DISTRIBUTION ON PATIENTS PAIN RELIEF IN CLINICAL TRIAL",
+      "url": "https://zenodo.org/records/24329557"
+    },
+    {
+      "authors": [
+        "Thuy, Dao Thi Thu",
+        "Hoa, Nguyen Thi Quynh",
+        "Hoa, Nguyen Thi Kim",
+        "Huyen, Nguyen Thi",
+        "Hoa, Nguyen Thi Phuong"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-18",
+      "id": "24329290",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging the transition gap: the role of practical career education in enhancing independent living skills for adolescents with developmental disabilities in Vietnam",
+      "url": "https://zenodo.org/records/24329290"
+    },
+    {
+      "authors": [
+        "Mukhitdinova, Roza",
+        "Baymyrzayev, Kuat",
+        "Auyelbek, Murat"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-18",
+      "id": "24328856",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Modernizing geography teacher education through STEAM integration to enhance geoecological competence",
+      "url": "https://zenodo.org/records/24328856"
+    },
+    {
+      "authors": [
+        "Murcia, Jovy Asis",
+        "McLaughlin, Shawna-Lee"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327031",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging Numbers and Nature: A Meta-Analysis of Integrated Mathematics and Science Instruction and Its Effects on Middle School STEM Learning Outcomes",
+      "url": "https://zenodo.org/records/24327031"
+    },
+    {
+      "authors": [
+        "Dela Cruz, Jona Grace R.",
+        "Lachica, Ma. Christalyn A.",
+        "Poot, Glojolyn P.",
+        "Soriano, John Carlo S.",
+        "Salugao, Jordan J."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24328983",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Isolation and Identification of Bacterial Isolates from Fishball Sauce Ladle Water Used by Street Food Vendors in Barangay Zapote, Bacoor City, Cavite",
+      "url": "https://zenodo.org/records/24328983"
+    },
+    {
+      "authors": [
+        "Gatewood, Michael"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24328793",
+      "license": "cc-by-nd-4.0",
+      "source": "zenodo",
+      "title": "A Discrete Topological View Concerning a Novel Synthesis of the E8 Manifold",
+      "url": "https://zenodo.org/records/24328793"
+    },
+    {
+      "authors": [
+        "Mendez, Shareign Dane",
+        "Partoza, Kylee Jed",
+        "Peraki, Kimberly Andup",
+        "Randan, Arvee Mae",
+        "Salugao, Jordan J."
+      ],
+      "category": "Journal article",
+      "date": "2022-06-30",
+      "first_seen_date": "2026-11-18",
+      "id": "24328892",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Anti-Angiogenic Effects of Omega-3 Fatty Acids Extracted from Chanos chanos (Milkfish) in the Chorioallantoic Membrane of Duck Eggs",
+      "url": "https://zenodo.org/records/24328892"
+    },
+    {
+      "authors": [
+        "Owida, Hamza Abu",
+        "Arabiat, Areen"
+      ],
+      "category": "Journal article",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-18",
+      "id": "24328717",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Bridging ethics and performance in engineering education through predictive learning analytics",
+      "url": "https://zenodo.org/records/24328717"
     },
     {
       "authors": [
@@ -568,155 +715,7 @@
       "source": "zenodo",
       "title": "Intro to the Circulatory System",
       "url": "https://zenodo.org/records/24295331"
-    },
-    {
-      "authors": [
-        "Rahmonova Yulduz Sharafitdinovna",
-        "Nuraliyev Javohir"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295313",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "MOLIYAVIY HISOBOTLARNING SHAFFOFLIGINI TA'MINLASH VA XALQARO STANDARTLARGA MOSLASHTIRISH",
-      "url": "https://zenodo.org/records/24295313"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295299",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Ballisticity for positive excited random walks without bounded cookie stacks",
-      "url": "https://zenodo.org/records/24295299"
-    },
-    {
-      "authors": [
-        "Rahmonova Yulduz Sharafitdinovna",
-        "Nazarov Abdulaziz"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295173",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "KORXONANING MOLIYAVIY BARQARORLIGINI BAHOLASH USULLARI VA TAKOMILLASHTIRISH YO'LLARI",
-      "url": "https://zenodo.org/records/24295173"
-    },
-    {
-      "authors": [
-        "Shengchang Chen"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-14T14:28:15Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.19431v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.19431v1",
-      "source": "arxiv",
-      "title": "From Objective Compromise to Structure-Enabled Intelligence: Reshaping the Scientific Paradigm of AI",
-      "url": "https://arxiv.org/abs/2611.19431v1"
-    },
-    {
-      "authors": [
-        "Joseph Kraisler",
-        "Kayla S. Miller",
-        "Steven J. Miller"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-11T23:21:35Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.18764v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.18764v1",
-      "source": "arxiv",
-      "title": "An ODE to Changing Variables: $v = y/x$ Is For Victory",
-      "url": "https://arxiv.org/abs/2611.18764v1"
-    },
-    {
-      "authors": [
-        "Mohd Aris, Muhammad Afif",
-        "Zainal, Siti Faizah",
-        "Mohd Rashid, Noor Asmina",
-        "Md Zalli, Mohd Muslim",
-        "Mohd Jamil, Mohd Ridhuan",
-        "Mazarul Hasan Mohamad, Hanapi"
-      ],
-      "category": "Journal article",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-17",
-      "id": "24297169",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Inclusive education readiness in suburban Malaysian primary schools",
-      "url": "https://zenodo.org/records/24297169"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297225",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Map of the Series: Process, Observer and the Birth of Dimensions",
-      "url": "https://zenodo.org/records/24297225"
-    },
-    {
-      "authors": [
-        "Truong, Hai Bang",
-        "Phan Thi, Van An"
-      ],
-      "category": "Software",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297181",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "Code and derived results for: Paths or completion? Testing t-norm composition in a graded health knowledge graph of depressive symptoms",
-      "url": "https://zenodo.org/records/24297181"
-    },
-    {
-      "authors": [
-        "Fan, Chang-Yu",
-        "Shiau, Jiun-Yan"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297102",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Results for \"A certificate-based decision rule for a demand-to-capacity boundary at which re-entrant back-end scheduling must be integrated with product-mix selection in a single calibrated subplant\"",
-      "url": "https://zenodo.org/records/24297102"
-    },
-    {
-      "authors": [
-        "Ibrahim, Ashraf Ragab",
-        "Ibrahim, Ibrahim Mohammed",
-        "Aboelhasayb, Billal Mohamed",
-        "Mohammed, Mohammed Maher",
-        "Eissa, Ahmed Metwally",
-        "Nemt-allah, Mohamed Ali"
-      ],
-      "category": "Journal article",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-17",
-      "id": "24296837",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Online collective efficacy and its relationship with organizational sustainable development in higher education",
-      "url": "https://zenodo.org/records/24296837"
     }
   ],
-  "total_before_cap": 99
+  "total_before_cap": 109
 }
