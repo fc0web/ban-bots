@@ -1,0 +1,163 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 10,
+    "newly_added_this_run": 10,
+    "raw_fetched": 30,
+    "seen_previously": 20
+  },
+  "fetched_at": "2026-11-18T10:22:21+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327699",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Semiconductor junction balance and rectification",
+      "url": "https://zenodo.org/records/24327699"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327587",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Positive velocity composition and the Fizeau comparison",
+      "url": "https://zenodo.org/records/24327587"
+    },
+    {
+      "authors": [
+        "Gunawan, Aditia"
+      ],
+      "category": "Other",
+      "date": "2026-11-18",
+      "id": "24327474",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Designing Equitable Immersive Learning Environments: Examining the Role of Accessibility, Interface Quality, and Competency Development in VR-Based Hospitality Education",
+      "url": "https://zenodo.org/records/24327474"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327517",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24327517"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327475",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Source Code: The Quartic-N Coupled Solve–Repair–Integrate Covariant Unitary Dynamics, Quantum States, Coinvariant Transport, Finite–Infinite Reconstruction and Infinite History",
+      "url": "https://zenodo.org/records/24327475"
+    },
+    {
+      "authors": [
+        "Devasahayam Arokia Balaya, Rex",
+        "Olaleye, Olajide E.",
+        "Joshi, Neha",
+        "Lien, Karen R.",
+        "Pandey, Akhilesh",
+        "Boardman, Lisa",
+        "Byeon, Seul Kee"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-16",
+      "id": "24289048",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Lipid imaging of colon organoids by MALDI-ion mobility mass spectrometry",
+      "url": "https://zenodo.org/records/24289048"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327323",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Hydrogen spectroscopy from the Fold transition hierarchy",
+      "url": "https://zenodo.org/records/24327323"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24327162",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Dirac squares and Maxwell propagation from one Fold construction",
+      "url": "https://zenodo.org/records/24327162"
+    },
+    {
+      "authors": [
+        "Elezi, Shpëtim",
+        "Pllana Elezi, Violeta"
+      ],
+      "category": "Journal article",
+      "date": "2021-10-10",
+      "id": "24326635",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE USE OF STANDARD ALBANIAN LANGUAGE BY PRIMARY SCHOOL TEACHERS",
+      "url": "https://zenodo.org/records/24326635"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-21",
+      "id": "23531811",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#958",
+      "url": "https://zenodo.org/records/23531811"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

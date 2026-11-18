@@ -1,9 +1,155 @@
 {
   "ban": "senkou-kenkyuu-kanshi",
   "cap": 50,
-  "count": 36,
-  "generated_at": "2026-11-17T22:49:57+09:00",
+  "count": 46,
+  "generated_at": "2026-11-18T10:23:08+09:00",
   "records": [
+    {
+      "authors": [
+        "Elsheikh, Ahmed"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-18",
+      "id": "24327882",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Beyond Manuscript Writing: A Comparative Analysis of Generative AI Disclosure Policies of Four Major Publishers and Their Application to Computer Science Journals",
+      "url": "https://zenodo.org/records/24327882"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327870",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "AUTONOMOUS NANO-ACUPUNCTURE MANUFACTURING STARLI · Family 16 · F076–F080 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F076 — Modular Manufacturing of Nano-Acupuncture Robots at the Limit F077 — Batch Consistency of Nano-Acupuncture Materials at the Limit F078 — Automated Inspection of Nano-Acupuncture Robots at the Limit F079 — Digital Process Twins for Nano-Acupuncture Robots at the Limit F080 — Traceable Manufacturing of Nano-Acupuncture Robots at the Limit Reading map Fourteen research positions; thirty blueprint formula statements; forty-two analytic model notes; eighty-two six-stage chapters; two hundred research gates; thirty-three prototype concepts; a closing evidence register. This notebook expands the same research architecture with stage-specific practical checkpoints, based on a shared structured writing framework. No experimental findings are claimed. Preface 01 · One factory, five research questions Position The family connects assembly, batch consistency, inspection, digital process twins and traceable manufacturing. Modular Manufacturing of Nano-Acupuncture Robots at the Limit Batch Consistency of Nano-Acupuncture Materials at the Limit Automated Inspection of Nano-Acupuncture Robots at the Limit Digital Process Twins for Nano-Acupuncture Robots at the Limit Traceable Manufacturing of Nano-Acupuncture Robots at the Limit. Evidence Complete documented component lots provide the common denominator. The primary cross-flagship witness is the out-of-spec lot fraction, not a clinical endpoint. Boundary Only inert artifacts, nonliving coupons and offline simulations are within this research design.",
+      "url": "https://zenodo.org/records/24327870"
+    },
+    {
+      "authors": [
+        "Xu, Zihuan"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327797",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Weighted returns and resonant orbit classification for four-segment fences",
+      "url": "https://zenodo.org/records/24327797"
+    },
+    {
+      "authors": [
+        "Observatorio de Cambio Global de Sierra Nevada"
+      ],
+      "category": "Software",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327761",
+      "license": "gpl-3.0-or-later",
+      "source": "zenodo",
+      "title": "MonitorEO",
+      "url": "https://zenodo.org/records/24327761"
+    },
+    {
+      "authors": [
+        "John Muschelli",
+        "stnava",
+        "Nick Tustison",
+        "Jeffrey Duda",
+        "Philip Cook",
+        "Adi G",
+        "dorianps",
+        "Gregory Jefferis",
+        "bennet-umich"
+      ],
+      "category": "Software",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327752",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "ANTsX/ANTsRCore: v0.8.5",
+      "url": "https://zenodo.org/records/24327752"
+    },
+    {
+      "authors": [
+        "Stevenson, Simon"
+      ],
+      "category": "Software",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327697",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Code and paper for: The dark companion of J0008+0128 need not be a supermassive neutron star",
+      "url": "https://zenodo.org/records/24327697"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327659",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "NANOSENSING FOR ACUPUNCTURE ROBOTICS STARLI · Family 15 · F071–F075 Scientific Technical Notebook | Research Working Edition v1.0 33 × STARLI | Prospective, nonclinical, falsifiable research design Let ancient questions retain their poetry, and future science retain its humility. F071 — Local Electrochemical Nanosensing for Acupuncture at the Limit F072 — Pressure and Contact Nanosensing for Acupuncture at the Limit F073 — Temperature Nanosensing for Acupuncture at the Limit F074 — Multisensor Fusion in Nano-Acupuncture at the Limit F075 — Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit Reading map Fourteen research positions; thirty blueprint formula statements; forty-two analytic model notes; eighty-two six-stage chapters; two hundred research gates; thirty-three prototype concepts; a closing evidence register. This notebook expands the same research architecture with stage-specific practical checkpoints. No experimental findings are claimed. Preface 01 · Research identity Position Five questions share a calibration contract, not a single physical observable. Local Electrochemical Nanosensing for Acupuncture at the Limit Pressure and Contact Nanosensing for Acupuncture at the Limit Temperature Nanosensing for Acupuncture at the Limit Multisensor Fusion in Nano-Acupuncture at the Limit Self-Calibration of Nano-Acupuncture Sensor Drift at the Limit. Evidence The blueprint calls the common endpoint sensor residual in native units [a.u.]; the arbitrary-unit placeholder must be replaced by each actual quantity and its units before comparison. Boundary All work is restricted to inert chemical, force and temperature phantoms or offline synthetic records. Preface 02 · The five-branch coupling Position F071 establishes chemical interpretation; F072 defines contact; F073 qualifies thermal context; F074 integrates qualified observations; F075 audits calibration through time. Evidence Every handoff carries units, time, independent uncertainty and a validity mask. Boundary No common residual or model confidence can authorize actuation on a person.",
+      "url": "https://zenodo.org/records/24327659"
+    },
+    {
+      "authors": [
+        "Mancuso, Giacomo",
+        "Caravale, Alessandra",
+        "D'Eredità, Antonio",
+        "Moscati, Paola",
+        "Paraciani, Nicolò"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327617",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "BiDiAr v2.1.0 - Bibliography of Digital Archaeology. Open Data",
+      "url": "https://zenodo.org/records/24327617"
+    },
+    {
+      "authors": [
+        "Kim, Jace (Jeong Hyeon)"
+      ],
+      "category": "Working paper",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327487",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Independent Research Essays on AI, Society, Power, and Structural Change: A Collection of Fifteen Analytical Works",
+      "url": "https://zenodo.org/records/24327487"
+    },
+    {
+      "authors": [
+        "Plessy, Charles",
+        "Mahdi, Mohammed",
+        "Fujita, Takahiro",
+        "Frith, Martin C.",
+        "Luscombe, Nicholas M."
+      ],
+      "category": "Dataset",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327551",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Scripts and data for \"nf-core/pairgenomealign: a scalable pipeline for pairwise whole-genome alignment\"",
+      "url": "https://zenodo.org/records/24327551"
+    },
     {
       "authors": [
         "Roberto Longo"
@@ -555,5 +701,5 @@
       "url": "https://doi.org/10.1073/pnas.2613021123"
     }
   ],
-  "total_before_cap": 36
+  "total_before_cap": 46
 }

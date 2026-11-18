@@ -2,8 +2,147 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-17T22:49:44+09:00",
+  "generated_at": "2026-11-18T10:22:21+09:00",
   "records": [
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327699",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Semiconductor junction balance and rectification",
+      "url": "https://zenodo.org/records/24327699"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327587",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Positive velocity composition and the Fizeau comparison",
+      "url": "https://zenodo.org/records/24327587"
+    },
+    {
+      "authors": [
+        "Gunawan, Aditia"
+      ],
+      "category": "Other",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327474",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Designing Equitable Immersive Learning Environments: Examining the Role of Accessibility, Interface Quality, and Competency Development in VR-Based Hospitality Education",
+      "url": "https://zenodo.org/records/24327474"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327517",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24327517"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327475",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Source Code: The Quartic-N Coupled Solve–Repair–Integrate Covariant Unitary Dynamics, Quantum States, Coinvariant Transport, Finite–Infinite Reconstruction and Infinite History",
+      "url": "https://zenodo.org/records/24327475"
+    },
+    {
+      "authors": [
+        "Devasahayam Arokia Balaya, Rex",
+        "Olaleye, Olajide E.",
+        "Joshi, Neha",
+        "Lien, Karen R.",
+        "Pandey, Akhilesh",
+        "Boardman, Lisa",
+        "Byeon, Seul Kee"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-16",
+      "first_seen_date": "2026-11-18",
+      "id": "24289048",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Lipid imaging of colon organoids by MALDI-ion mobility mass spectrometry",
+      "url": "https://zenodo.org/records/24289048"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327323",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Hydrogen spectroscopy from the Fold transition hierarchy",
+      "url": "https://zenodo.org/records/24327323"
+    },
+    {
+      "authors": [
+        "Smith, Maria"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24327162",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Dirac squares and Maxwell propagation from one Fold construction",
+      "url": "https://zenodo.org/records/24327162"
+    },
+    {
+      "authors": [
+        "Elezi, Shpëtim",
+        "Pllana Elezi, Violeta"
+      ],
+      "category": "Journal article",
+      "date": "2021-10-10",
+      "first_seen_date": "2026-11-18",
+      "id": "24326635",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE USE OF STANDARD ALBANIAN LANGUAGE BY PRIMARY SCHOOL TEACHERS",
+      "url": "https://zenodo.org/records/24326635"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-21",
+      "first_seen_date": "2026-11-18",
+      "id": "23531811",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#958",
+      "url": "https://zenodo.org/records/23531811"
+    },
     {
       "authors": [
         "Isobel Falconer"
@@ -579,142 +718,7 @@
       "source": "zenodo",
       "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
       "url": "https://zenodo.org/records/24296856"
-    },
-    {
-      "authors": [
-        "Kim, Dong Hyun"
-      ],
-      "category": "Software",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24296823",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "Donghyunvil (동현빌): an educational village-outbreak laboratory on a real contact network, controlled through the esoteric language Donghyun-lang",
-      "url": "https://zenodo.org/records/24296823"
-    },
-    {
-      "authors": [
-        "Kim, Dong Hyun"
-      ],
-      "category": "Software",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24296822",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "Donghyunpa (동현파): an educational C. elegans touch-circuit laboratory controlled through the esoteric language Donghyun-lang",
-      "url": "https://zenodo.org/records/24296822"
-    },
-    {
-      "authors": [
-        "DELA ROSA, KATRINE EUNICE"
-      ],
-      "category": "Publication",
-      "date": "2026-10-15",
-      "first_seen_date": "2026-11-17",
-      "id": "24297511",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "PERSONAL TRAITS AS PREDICTORS OF PROFESSIONAL GROWTH, TEACHING ABILITY, AND CLINICAL NURSING COMPETENCY AMONG CLINICAL NURSING TEACHERS IN BATAAN, PHILIPPINES",
-      "url": "https://zenodo.org/records/24297511"
-    },
-    {
-      "authors": [
-        "Bruno Bentzen"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-15T09:15:50Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.19892v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.19892v1",
-      "source": "arxiv",
-      "title": "Frege's logic in Grundgesetze is nonclassical",
-      "url": "https://arxiv.org/abs/2611.19892v1"
-    },
-    {
-      "authors": [
-        "Winter, Henry",
-        "Severino, MaryKay",
-        "Volunteer Scientist"
-      ],
-      "category": "Dataset",
-      "date": "2026-10-19",
-      "first_seen_date": "2026-11-17",
-      "id": "23487910",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "2024-04-08 Total Solar Eclipse ESID#680",
-      "url": "https://zenodo.org/records/23487910"
-    },
-    {
-      "authors": [
-        "Effendi, Heri"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24298011",
-      "license": "cc-zero",
-      "source": "zenodo",
-      "title": "Extended Data - Artificial Intelligence Supported Cultural Video Learning for Sustainability Education",
-      "url": "https://zenodo.org/records/24298011"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297975",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Global solutions of stochastic reaction-diffusion systems with triangular structure and species-dependent transport noise",
-      "url": "https://zenodo.org/records/24297975"
-    },
-    {
-      "authors": [
-        "Tarazi, Marwan"
-      ],
-      "category": "Working paper",
-      "date": "2026-03-10",
-      "first_seen_date": "2026-11-17",
-      "id": "24297133",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "البنية التشغيلية لمنظومة التعليم والتعلم أثناء الازمات",
-      "url": "https://zenodo.org/records/24297133"
-    },
-    {
-      "authors": [
-        "Ramos Nina, Nancy Yanet",
-        "Tito Chira, Edgar",
-        "Muguerza Portillo, Irma Rosario"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24298316",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "School leadership and teacher professional development: A systematic review of mechanisms and practices",
-      "url": "https://zenodo.org/records/24298316"
-    },
-    {
-      "authors": [
-        "Inder J. Taneja"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24298270",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Spinning Magic Faces and Pillars of Orders 3 to 6",
-      "url": "https://zenodo.org/records/24298270"
     }
   ],
-  "total_before_cap": 86
+  "total_before_cap": 96
 }

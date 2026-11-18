@@ -1,0 +1,72 @@
+{
+  "ban": "news-ban",
+  "fetch_stats": {
+    "after_filter": 161,
+    "by_source": {
+      "rss": {
+        "after_filter": 161,
+        "raw": 161
+      }
+    },
+    "new_today": 3,
+    "newly_added_this_run": 3,
+    "raw_fetched": 161,
+    "seen_previously": 37
+  },
+  "fetched_at": "2026-11-18T10:22:56+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [],
+    "limit_per_feed": 10
+  },
+  "records": [
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-18T10:00:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048128@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "えひめ消費者ネットと株式会社健明堂製薬との間の差止請求に関する協議が調ったことについて",
+      "url": "https://www.caa.go.jp/notice/entry/048128/"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-kacyohosamatawasyusa.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "採用情報（任期付職員（課長補佐又は主査（感染症対策担当）募集情報）",
+      "url": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-kacyohosamatawasyusa.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/sinsei/chotatu/sikaku/",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和９・10年度競争参加資格審査（建設工事及び測量・建設コンサルタント等業務）定期審査について",
+      "url": "https://www.mhlw.go.jp/sinsei/chotatu/sikaku/"
+    }
+  ],
+  "source": "rss"
+}
