@@ -1,27 +1,27 @@
 {
   "ban": "senkou-kenkyuu-kanshi",
   "fetch_stats": {
-    "after_filter": 36,
+    "after_filter": 30,
     "by_source": {
       "arxiv": {
         "after_filter": 20,
         "raw": 20
       },
       "openalex": {
-        "after_filter": 6,
-        "raw": 6
+        "after_filter": 0,
+        "raw": 0
       },
       "zenodo": {
         "after_filter": 10,
         "raw": 10
       }
     },
-    "new_today": 10,
-    "newly_added_this_run": 10,
-    "raw_fetched": 36,
-    "seen_previously": 26
+    "new_today": 16,
+    "newly_added_this_run": 6,
+    "raw_fetched": 30,
+    "seen_previously": 20
   },
-  "fetched_at": "2026-11-18T10:23:08+09:00",
+  "fetched_at": "2026-11-18T10:41:25+09:00",
   "params": {
     "arxiv": {
       "categories": [
@@ -187,6 +187,93 @@
       "source": "zenodo",
       "title": "Scripts and data for \"nf-core/pairgenomealign: a scalable pipeline for pairwise whole-genome alignment\"",
       "url": "https://zenodo.org/records/24327551"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24328176",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24328176"
+    },
+    {
+      "authors": [
+        "Yu, Tianxi",
+        "Wu, Xin",
+        "Han, Na",
+        "feng, shuang",
+        "Fan, Jinpeng",
+        "Li, Jiawei",
+        "Guo, Chenguang",
+        "Lv, Ziwei",
+        "Fang, Ziwen",
+        "Li, Xiaoyan",
+        "Yu, Lei"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-18",
+      "id": "24328122",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A leakage-aware comparison of static and online LSTM forecasting of influenza positivity under distribution shift in Tianjin, China",
+      "url": "https://zenodo.org/records/24328122"
+    },
+    {
+      "authors": [
+        "Meier, Jeffrey",
+        "McKay, Brendan"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-17",
+      "id": "23436584",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A census of alternating tangles",
+      "url": "https://zenodo.org/records/23436584"
+    },
+    {
+      "authors": [
+        "Du, Hao",
+        "Meng, Chenglei",
+        "Huang, Songsong"
+      ],
+      "category": "Software",
+      "date": "2026-11-18",
+      "id": "24327936",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Planned or grown? Shanglinhu Yue kiln complex — reproduction code, data and DEM (R1)",
+      "url": "https://zenodo.org/records/24327936"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-12",
+      "id": "23308635",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#961",
+      "url": "https://zenodo.org/records/23308635"
+    },
+    {
+      "authors": [
+        "Rogers, Pablo"
+      ],
+      "category": "Diagram",
+      "date": "2026-11-18",
+      "id": "24327890",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "ARTE 2.0 (Article Reproducibility Template & Environment) workflow folder structure",
+      "url": "https://zenodo.org/records/24327890"
     }
   ],
   "source": "arxiv+zenodo+openalex"

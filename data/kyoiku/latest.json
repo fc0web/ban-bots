@@ -2,7 +2,7 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-18T10:22:21+09:00",
+  "generated_at": "2026-11-18T10:41:11+09:00",
   "records": [
     {
       "authors": [
@@ -142,6 +142,47 @@
       "source": "zenodo",
       "title": "2024-04-08 Total Solar Eclipse ESID#958",
       "url": "https://zenodo.org/records/23531811"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24328176",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24328176"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "first_seen_date": "2026-11-18",
+      "id": "24328168",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Source Code: The Quartic-N Coupled Solve–Repair–Integrate Covariant Unitary Dynamics, Quantum States, Coinvariant Transport, Finite–Infinite Reconstruction and Infinite History",
+      "url": "https://zenodo.org/records/24328168"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-12",
+      "first_seen_date": "2026-11-18",
+      "id": "23308635",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#961",
+      "url": "https://zenodo.org/records/23308635"
     },
     {
       "authors": [
@@ -675,50 +716,7 @@
       "source": "zenodo",
       "title": "Online collective efficacy and its relationship with organizational sustainable development in higher education",
       "url": "https://zenodo.org/records/24296837"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297092",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Uniqueness of stable allocations in dimensions one and two",
-      "url": "https://zenodo.org/records/24297092"
-    },
-    {
-      "authors": [
-        "Espeja, Normalyn"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24297018",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "RESILIENCE AND PSYCHOLOGICAL WELL-BEING: A QUALITATIVE STUDY OF FEMALE LEARNERS IN GRANDPARENT-HEADED HOMES",
-      "url": "https://zenodo.org/records/24297018"
-    },
-    {
-      "authors": [
-        "Ausdang, Thangthai",
-        "Pornpimon, Palingoon",
-        "Sumonmas, Thatphithakkul",
-        "Arnon, Namsanit",
-        "Nonlapas, Wongwaen"
-      ],
-      "category": "Data paper",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24296856",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
-      "url": "https://zenodo.org/records/24296856"
     }
   ],
-  "total_before_cap": 96
+  "total_before_cap": 99
 }

@@ -17,13 +17,13 @@
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 10,
+      "new": 13,
       "raw": 30
     },
     "manga-anime-ban": {
-      "after_filter": 2,
+      "after_filter": 7,
       "new": 0,
-      "raw": 15
+      "raw": 25
     },
     "news-ban": {
       "after_filter": 161,
@@ -36,9 +36,9 @@
       "raw": 20
     },
     "senkou-kenkyuu-kanshi": {
-      "after_filter": 36,
-      "new": 10,
-      "raw": 36
+      "after_filter": 30,
+      "new": 16,
+      "raw": 30
     },
     "uranai": {
       "after_filter": 9,
@@ -46,59 +46,59 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-18T10:23:17+09:00",
+  "generated_at": "2026-11-18T10:41:35+09:00",
   "last_seen": {
-    "fx-ban": "2026-11-18T10:22:10+09:00",
-    "game-ban": "2026-11-18T10:22:14+09:00",
-    "kokoku-ban": "2026-11-18T10:22:17+09:00",
-    "kyoiku": "2026-11-18T10:22:21+09:00",
-    "manga-anime-ban": "2026-11-17T22:49:47+09:00",
-    "news-ban": "2026-11-18T10:22:56+09:00",
-    "puzzle-ban": "2026-11-18T10:22:59+09:00",
-    "senkou-kenkyuu-kanshi": "2026-11-18T10:23:08+09:00",
-    "uranai": "2026-11-18T10:23:10+09:00"
+    "fx-ban": "2026-11-18T10:41:04+09:00",
+    "game-ban": "2026-11-18T10:41:06+09:00",
+    "kokoku-ban": "2026-11-18T10:41:09+09:00",
+    "kyoiku": "2026-11-18T10:41:11+09:00",
+    "manga-anime-ban": "2026-11-18T10:41:13+09:00",
+    "news-ban": "2026-11-18T10:41:15+09:00",
+    "puzzle-ban": "2026-11-18T10:41:15+09:00",
+    "senkou-kenkyuu-kanshi": "2026-11-18T10:41:25+09:00",
+    "uranai": "2026-11-18T10:41:27+09:00"
   },
-  "ng": 1,
+  "ng": 0,
   "ok": 6,
   "problems": [
     {
       "ban": "fx-ban",
-      "checked_at": "2026-11-18T10:22:10+09:00",
+      "checked_at": "2026-11-18T10:41:04+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=6)",
       "status": "warn"
     },
     {
       "ban": "game-ban",
-      "checked_at": "2026-11-18T10:22:14+09:00",
+      "checked_at": "2026-11-18T10:41:06+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=2)",
       "status": "warn"
     },
     {
       "ban": "kokoku-ban",
-      "checked_at": "2026-11-18T10:22:17+09:00",
+      "checked_at": "2026-11-18T10:41:09+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=1)",
       "status": "warn"
     },
     {
       "ban": "manga-anime-ban",
-      "checked_at": "2026-11-18T10:22:54+09:00",
+      "checked_at": "2026-11-18T10:41:13+09:00",
       "freq": "daily",
-      "reason": "source_ok=false (rss:RuntimeError:https://aja.gr.jp/feed:URLError:<urlopen error timed out>)",
-      "status": "ng"
+      "reason": "new_today=0 (after_filter=7)",
+      "status": "warn"
     },
     {
       "ban": "puzzle-ban",
-      "checked_at": "2026-11-18T10:22:59+09:00",
+      "checked_at": "2026-11-18T10:41:15+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=2)",
       "status": "warn"
     },
     {
       "ban": "uranai",
-      "checked_at": "2026-11-18T10:23:10+09:00",
+      "checked_at": "2026-11-18T10:41:27+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=9)",
       "status": "warn"
@@ -108,5 +108,5 @@
   "ran_today": 9,
   "stale": 0,
   "total": 12,
-  "warn": 5
+  "warn": 6
 }

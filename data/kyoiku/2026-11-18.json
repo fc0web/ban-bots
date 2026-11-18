@@ -12,12 +12,12 @@
         "raw": 10
       }
     },
-    "new_today": 10,
-    "newly_added_this_run": 10,
+    "new_today": 13,
+    "newly_added_this_run": 3,
     "raw_fetched": 30,
     "seen_previously": 20
   },
-  "fetched_at": "2026-11-18T10:22:21+09:00",
+  "fetched_at": "2026-11-18T10:41:11+09:00",
   "params": {
     "arxiv": {
       "category": "math.HO",
@@ -157,6 +157,44 @@
       "source": "zenodo",
       "title": "2024-04-08 Total Solar Eclipse ESID#958",
       "url": "https://zenodo.org/records/23531811"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24328176",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
+      "url": "https://zenodo.org/records/24328176"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-18",
+      "id": "24328168",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Source Code: The Quartic-N Coupled Solve–Repair–Integrate Covariant Unitary Dynamics, Quantum States, Coinvariant Transport, Finite–Infinite Reconstruction and Infinite History",
+      "url": "https://zenodo.org/records/24328168"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-12",
+      "id": "23308635",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#961",
+      "url": "https://zenodo.org/records/23308635"
     }
   ],
   "source": "arxiv+zenodo"
