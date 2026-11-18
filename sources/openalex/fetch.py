@@ -54,6 +54,15 @@ _CALL_INTERVAL_SEC = 1.5
 _RETRY_ATTEMPTS = 1
 _RETRY_DEFAULT_WAIT_SEC = 2.0
 
+# Cap on how long we will sit waiting for the retry. OpenAlex sometimes
+# tells us to back off for minutes or longer when the common pool is
+# saturated; honouring that would hold the daily shard job far past its
+# useful window. Over this cap we DO NOT wait: we treat the 429 as a
+# failure for this phrase, record it to fetch-errors.jsonl, and move on
+# to the next phrase. The cap applies to Retry-After only; the default
+# wait (used when Retry-After is absent) is well under it.
+_RETRY_MAX_WAIT_SEC = 30.0
+
 
 def _join_or(ids: list[str]) -> str:
     return "|".join(x.strip() for x in ids if x and str(x).strip())
@@ -93,10 +102,25 @@ def _call(filter_str: str, limit: int) -> dict[str, Any]:
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < _RETRY_ATTEMPTS:
                 headers = getattr(e, "headers", None)
-                retry_after = headers.get("Retry-After") if headers else None
-                wait = _parse_retry_after(retry_after)
-                if wait is None:
-                    wait = _RETRY_DEFAULT_WAIT_SEC
+                retry_after_raw = headers.get("Retry-After") if headers else None
+                parsed = _parse_retry_after(retry_after_raw)
+                wait = parsed if parsed is not None else _RETRY_DEFAULT_WAIT_SEC
+                if wait > _RETRY_MAX_WAIT_SEC:
+                    # Server asked us to sleep longer than our cap. Do not
+                    # wait, do not retry — fail this attempt so the caller
+                    # records the 429 to fetch-errors.jsonl with a reason
+                    # that names the over-cap Retry-After.
+                    raise urllib.error.HTTPError(
+                        url=getattr(e, "url", API_URL),
+                        code=e.code,
+                        msg=(
+                            f"Too Many Requests "
+                            f"(Retry-After={retry_after_raw}s "
+                            f"> cap {_RETRY_MAX_WAIT_SEC:g}s, not retrying)"
+                        ),
+                        hdrs=headers,
+                        fp=None,
+                    )
                 time.sleep(wait)
                 attempt += 1
                 continue
