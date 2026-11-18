@@ -54,6 +54,7 @@ jobs:
           path: |
             data/
             status/${{ matrix.shard }}.jsonl
+            status/fetch-errors.jsonl
           if-no-files-found: ignore
           retention-days: 7
 
