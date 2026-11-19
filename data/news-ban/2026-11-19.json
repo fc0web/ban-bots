@@ -1,0 +1,296 @@
+{
+  "ban": "news-ban",
+  "fetch_stats": {
+    "after_filter": 158,
+    "by_source": {
+      "rss": {
+        "after_filter": 158,
+        "raw": 158
+      }
+    },
+    "new_today": 19,
+    "newly_added_this_run": 19,
+    "raw_fetched": 158,
+    "seen_previously": 21
+  },
+  "fetched_at": "2026-11-19T12:44:57+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [],
+    "limit_per_feed": 10
+  },
+  "records": [
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-19T11:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "【医系技官採用】令和8年度 医療政策セミナー（医師および医学生を対象）の受付を開始しました。",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T16:30:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77515.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "医薬品安定供給・流通確認システムへの不正アクセスに係る 個人情報の漏えいについて",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77515.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T15:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77498.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "高齢者に対する肺炎球菌ワクチン及び小児におけるRSウイルス感染症の予防についての議論のまとめ",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77498.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77507.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "2026年10月26日 第９回労働政策審議会労働条件分科会「組織再編に伴う労働関係の調整に関する部会」 議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77507.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77361.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「令和８年度第１回薬事審議会審議参加規程評価委員会」を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77361.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77354.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "薬事審議会 医薬品第一部会を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77354.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77226.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第５８回特定石綿被害建設業務労働者等認定審査会 開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77226.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_75817.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "国民年金第３号被保険者制度等に関する検討会",
+      "url": "https://www.mhlw.go.jp/stf/newpage_75817.html"
+    },
+    {
+      "authors": [
+        "内閣府"
+      ],
+      "category": "",
+      "date": "2026-11-19T08:26:00+09:00",
+      "feed": "https://www.cao.go.jp/rss/news.rdf",
+      "id": "https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "機械受注統計調査報告（令和8年9月実績および令和8年10～12月見通し）",
+      "url": "https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-19T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/02kiban09_04000750.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信審議会 情報通信技術分科会 電波有効利用委員会（第17回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/02kiban09_04000750.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000334.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電波監理審議会 有効利用評価部会(第65回)会議資料",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000334.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban02_02000615.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「電気通信事業分野における競争状況等の調査及び評価の実施に関する方針」改定案に対する情報通信行政・郵政行政審議会からの答申",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban02_02000615.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban07_02000138.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電話に関するユニバーサルサービス制度に基づく交付金の額及び交付方法の認可並びに負担金の額及び徴収方法の認可",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban07_02000138.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban03_02001031.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電気通信事業法施行規則等の一部改正に対する意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban03_02001031.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/shijokensho/02kiban02_04000906.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信行政・郵政行政審議会 電気通信事業部会 市場検証委員会（第14回）配布資料・議事録",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/shijokensho/02kiban02_04000906.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会 デジタル広告ワーキンググループ（第19回）開催案内",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000846.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "統計委員会 第161回人口・社会統計部会",
+      "url": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000846.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001314.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "非常勤消防団員等に係る損害補償の基準を定める政令の一部を改正する政令案に対する意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001314.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000478.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "固定資産評価基準の一部を改正する告示案に係る意見募集の結果",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000478.html"
+    }
+  ],
+  "source": "rss"
+}

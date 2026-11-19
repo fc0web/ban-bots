@@ -1,0 +1,57 @@
+{
+  "ban": "kokoku-ban",
+  "fetch_stats": {
+    "after_filter": 2,
+    "by_source": {
+      "rss": {
+        "after_filter": 2,
+        "raw": 158
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 158,
+    "seen_previously": 1
+  },
+  "fetched_at": "2026-11-19T12:44:51+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [
+      "広告",
+      "景品表示法",
+      "不当表示",
+      "誇大",
+      "ステマ",
+      "優良誤認",
+      "有利誤認",
+      "措置命令",
+      "課徴金",
+      "打消し表示",
+      "定期購入",
+      "特定商取引法"
+    ],
+    "limit_per_feed": 20
+  },
+  "records": [
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会 デジタル広告ワーキンググループ（第19回）開催案内",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html"
+    }
+  ],
+  "source": "rss"
+}

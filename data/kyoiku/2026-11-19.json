@@ -1,0 +1,193 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 11,
+    "newly_added_this_run": 11,
+    "raw_fetched": 30,
+    "seen_previously": 19
+  },
+  "fetched_at": "2026-11-19T12:44:54+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Eric L. Grinberg",
+        "Omar Hijab"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-14T22:08:53Z",
+      "id": "http://arxiv.org/abs/2611.23318v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23318v1",
+      "source": "arxiv",
+      "title": "Archimedes' Angle Measure and The Fundamental Theorem of Trigonometry",
+      "url": "https://arxiv.org/abs/2611.23318v1"
+    },
+    {
+      "authors": [
+        "Santibáñez-Leal, Felipe"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-19",
+      "id": "24358311",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Three-Dimensional Counterexample to the Jacobian Conjecture: Exact Validation, a Proved Seed-Family Constructor, the Discriminant Wall of Non-Properness, and Planar Equivariant Rigidity",
+      "url": "https://zenodo.org/records/24358311"
+    },
+    {
+      "authors": [
+        "Erna, Guguloth",
+        "Saidulu, Vadtya",
+        "Manjusha, Chinta",
+        "Murthy, GVK",
+        "Chalampalem, Vijaya Bhaskar",
+        "Sekhar, Puthalapattu Muni"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "id": "24358216",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A high-speed fault-tolerant vedic FIR filter architecture on FPGA using reversible logic for ML accelerator applications",
+      "url": "https://zenodo.org/records/24358216"
+    },
+    {
+      "authors": [
+        "Raxmonova Gulsevar Rahmatillayevna",
+        "Azamova Maloxat Najimovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "id": "24358267",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN ENHANCING THE QUALITY OF PRESCHOOL EDUCATION",
+      "url": "https://zenodo.org/records/24358267"
+    },
+    {
+      "authors": [
+        "Raximova Zarina Faxriddin qizi",
+        "Xayitova Oybibi Kattayevna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "id": "24358212",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PEDAGOGICAL APPROACHES TO ORGANIZING PARA JUDO TRAINING FOR CHILDREN WITH DISABILITIES",
+      "url": "https://zenodo.org/records/24358212"
+    },
+    {
+      "authors": [
+        "Swain, Srinibas",
+        "Falkner, Nickolas"
+      ],
+      "category": "Poster",
+      "date": "2026-11-19",
+      "id": "24358075",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Developing a Teaching Assistant Community for CS, IT, and SE",
+      "url": "https://zenodo.org/records/24358075"
+    },
+    {
+      "authors": [
+        "Ali, Zainab M.",
+        "Zabin, Saad",
+        "Abbas, Iraq"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "id": "24358056",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Internet of things-enabled fuzzy goal programming for healthcare resource allocation",
+      "url": "https://zenodo.org/records/24358056"
+    },
+    {
+      "authors": [
+        "Nazarova Asila Mamarasulovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "id": "24358115",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "MAKTABGACHA TA'LIM TASHKILOTI TARBIYACHILARINING KASBIY KOMPETENTLIGINI RIVOJLANTIRISHDA REFLEKSIV YONDASHUVNING AHAMIYATI",
+      "url": "https://zenodo.org/records/24358115"
+    },
+    {
+      "authors": [
+        "Benig, Sherylou",
+        "Labangcoc, Marissa Lyn",
+        "Jontilano, Mary Rose",
+        "Bendoy, Geneveive"
+      ],
+      "category": "Journal",
+      "date": "2026-08-01",
+      "id": "24357971",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Project NURTURE: Navigating Unified Responsible Parenting Towards an Upgraded Resilient Education System",
+      "url": "https://zenodo.org/records/24357971"
+    },
+    {
+      "authors": [
+        "Hilmani, Adil",
+        "Sabri, Yassine",
+        "Maizate, Abderrahim",
+        "Aouad, Siham",
+        "Ayoub, Fouad"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "id": "24357889",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Energy-efficient clustering optimization for heterogeneous wireless sensor networks with K-nearest neighbors algorithm",
+      "url": "https://zenodo.org/records/24357889"
+    },
+    {
+      "authors": [
+        "Ausdang, Thangthai",
+        "Pornpimon, Palingoon",
+        "Sumonmas, Thatphithakkul",
+        "Arnon, Namsanit",
+        "Nonlapas, Wongwaen",
+        "Watthanasak, Jeamwatthanachai"
+      ],
+      "category": "Data paper",
+      "date": "2026-11-19",
+      "id": "24357948",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
+      "url": "https://zenodo.org/records/24357948"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

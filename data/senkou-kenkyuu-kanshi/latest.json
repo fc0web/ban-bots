@@ -2,8 +2,469 @@
   "ban": "senkou-kenkyuu-kanshi",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-18T12:47:52+09:00",
+  "generated_at": "2026-11-19T12:45:03+09:00",
   "records": [
+    {
+      "authors": [
+        "Yuxuan Zhou"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-18T11:13:14Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24236v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24236v1",
+      "source": "arxiv",
+      "title": "From a finite subgroup of $SO(3)$:$C_2$ leads to a Holant dichotomy",
+      "url": "https://arxiv.org/abs/2611.24236v1"
+    },
+    {
+      "authors": [
+        "An T. Le"
+      ],
+      "category": "cs.LG",
+      "date": "2026-11-18T10:52:20Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24213v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24213v1",
+      "source": "arxiv",
+      "title": "Continuous Noisy-Loop Models",
+      "url": "https://arxiv.org/abs/2611.24213v1"
+    },
+    {
+      "authors": [
+        "Sergey S. Kuzin"
+      ],
+      "category": "stat.ME",
+      "date": "2026-11-18T10:34:41Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24198v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24198v1",
+      "source": "arxiv",
+      "title": "DOA Estimation in Antenna Arrays: Super-Resolution Methods in a Common Space",
+      "url": "https://arxiv.org/abs/2611.24198v1"
+    },
+    {
+      "authors": [
+        "Dorel Lucanu"
+      ],
+      "category": "cs.LO",
+      "date": "2026-11-18T10:11:27Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24169v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24169v1",
+      "source": "arxiv",
+      "title": "Matching-Logic-Based Understanding of Polynomial Functors and their Initial/Final Models Revisited",
+      "url": "https://arxiv.org/abs/2611.24169v1"
+    },
+    {
+      "authors": [
+        "Warut Suksompong"
+      ],
+      "category": "cs.GT",
+      "date": "2026-11-18T10:08:54Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24167v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24167v1",
+      "source": "arxiv",
+      "title": "On the Complexity of Envy Cycle Elimination",
+      "url": "https://arxiv.org/abs/2611.24167v1"
+    },
+    {
+      "authors": [
+        "Gianfranco Bilardi",
+        "Carlo Fantozzi"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T09:21:27Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24099v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24099v1",
+      "source": "arxiv",
+      "title": "A Characterization of Rings Where a Linear Transformation and Its Inverse and Transpose Have the Same Information Exchange",
+      "url": "https://arxiv.org/abs/2611.24099v1"
+    },
+    {
+      "authors": [
+        "Haibo Liu",
+        "Qunying Liao"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T09:03:37Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24072v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24072v1",
+      "source": "arxiv",
+      "title": "Construction of Ternary Minimal Linear Codes with Dimension $n+r$ Via Index Codes and The Access Structures of Their Dual Codes",
+      "url": "https://arxiv.org/abs/2611.24072v1"
+    },
+    {
+      "authors": [
+        "Yufan Zheng"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-18T08:24:27Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.24035v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24035v1",
+      "source": "arxiv",
+      "title": "Vanilla Adiabatic Quantum Optimization Can Have Subexponential Advantage",
+      "url": "https://arxiv.org/abs/2611.24035v1"
+    },
+    {
+      "authors": [
+        "Shaoyang Sun",
+        "Chongwen Huang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T05:57:12Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23904v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23904v1",
+      "source": "arxiv",
+      "title": "MIMO Channel Extrapolation to Unobserved Radiation Modes via Learned Path Refinement",
+      "url": "https://arxiv.org/abs/2611.23904v1"
+    },
+    {
+      "authors": [
+        "Kausthubh Chandramouli",
+        "Noah Siekierski",
+        "Bojko N. Bakalov",
+        "Dror Baron"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-18T04:26:54Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23827v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23827v1",
+      "source": "arxiv",
+      "title": "Covering the Pauli Observables: Sampling Thresholds and the Design Effect of a Measurement Setting",
+      "url": "https://arxiv.org/abs/2611.23827v1"
+    },
+    {
+      "authors": [
+        "Jinkun Geng",
+        "Muhammad Haseeb",
+        "Daniel Qian",
+        "Joseph Tassarotti",
+        "Shuai Mu",
+        "Anirudh Sivaraman"
+      ],
+      "category": "cs.DC",
+      "date": "2026-11-18T04:15:37Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23811v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23811v1",
+      "source": "arxiv",
+      "title": "Stephen: Verifying Sequencer-Aided Coordination Systems with Cross-View Prophecy",
+      "url": "https://arxiv.org/abs/2611.23811v1"
+    },
+    {
+      "authors": [
+        "Kalpesh K. Patel",
+        "Ekant Sharma",
+        "Sandeep Kumar Singh",
+        "Lajos Hanzo"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T04:07:32Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23802v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23802v1",
+      "source": "arxiv",
+      "title": "SFiD: Self-Supervised Fitness-Driven Optimization for Next-Generation Networking",
+      "url": "https://arxiv.org/abs/2611.23802v1"
+    },
+    {
+      "authors": [
+        "Huidong Ma",
+        "Hui Sun",
+        "Xinyan Shi",
+        "Cheng Zhong",
+        "Xiaoguang Liu",
+        "Gang Wang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T04:00:08Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23794v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23794v1",
+      "source": "arxiv",
+      "title": "Benchmarking Traditional and Learning-Based Reference-Free Compressors for Long-Read Sequencing Data",
+      "url": "https://arxiv.org/abs/2611.23794v1"
+    },
+    {
+      "authors": [
+        "Michael Schwarz",
+        "Zhendong Ang",
+        "Umang Mathur"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-18T03:58:44Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23792v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23792v1",
+      "source": "arxiv",
+      "title": "Validating Concurrent Correctness Witnesses with Ghosts by Thread-Modular Abstract Interpretation",
+      "url": "https://arxiv.org/abs/2611.23792v1"
+    },
+    {
+      "authors": [
+        "Shi Jie Samuel Tan",
+        "Guanyu Zhu"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-18T03:16:56Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23762v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23762v1",
+      "source": "arxiv",
+      "title": "Addressable transversal CCZ gates on almost good quantum LDPC codes and nearly optimal magic state protocols",
+      "url": "https://arxiv.org/abs/2611.23762v1"
+    },
+    {
+      "authors": [
+        "Shaoyang Sun",
+        "Chongwen Huang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T02:50:31Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23740v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23740v1",
+      "source": "arxiv",
+      "title": "The Geometry of Mode Sampling in Reconfigurable MIMO Channel Extrapolation",
+      "url": "https://arxiv.org/abs/2611.23740v1"
+    },
+    {
+      "authors": [
+        "Bizhu Wang",
+        "Manqi Li",
+        "Shujun Han",
+        "Mengying Sun",
+        "Xiaodong Xu"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T02:26:16Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23722v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23722v1",
+      "source": "arxiv",
+      "title": "Drift-Aware Adaptive Semantic Codec Update Strategy for Dynamic Semantic Communications",
+      "url": "https://arxiv.org/abs/2611.23722v1"
+    },
+    {
+      "authors": [
+        "Yiming Wang"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-18T01:35:33Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23693v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23693v1",
+      "source": "arxiv",
+      "title": "Separating QMA from the QCMA Hierarchy via a Switching Lemma for Polynomials",
+      "url": "https://arxiv.org/abs/2611.23693v1"
+    },
+    {
+      "authors": [
+        "Harishankar Vishwanatha",
+        "Srinivas Narayana",
+        "Santosh Nagarakatte"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T22:31:47Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23584v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23584v1",
+      "source": "arxiv",
+      "title": "Detecting Empty Abstractions and Pruning Dead Paths in the Linux eBPF Verifier with Abstract Step Functions",
+      "url": "https://arxiv.org/abs/2611.23584v1"
+    },
+    {
+      "authors": [
+        "Hongxu Xu",
+        "Xintong Zhou",
+        "Chunhao Liao",
+        "Chengnian Sun"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-17T22:02:33Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23555v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23555v1",
+      "source": "arxiv",
+      "title": "MetaphIR: Corpus-Scale Applicability Analysis for LLVM Peephole Optimizations",
+      "url": "https://arxiv.org/abs/2611.23555v1"
+    },
+    {
+      "authors": [
+        "Yan, Shuai",
+        "Koutnik, Michelle",
+        "Fudge, T.J.",
+        "Singh, Shivangini",
+        "Li, Duyi",
+        "Blankenship, Donald",
+        "Young, Duncan"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358270",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Modern Surface Accumulation Dataset for the The Cryosphere Article \"Regional Variability in East Antarctic Surface Accumulation over the Past 162 kyr Inferred from Englacial Stratigraphy at the Southern Flank of Dome A\"",
+      "url": "https://zenodo.org/records/24358270"
+    },
+    {
+      "authors": [
+        "Raxmonova Gulsevar Rahmatillayevna",
+        "Azamova Maloxat Najimovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358267",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN ENHANCING THE QUALITY OF PRESCHOOL EDUCATION",
+      "url": "https://zenodo.org/records/24358267"
+    },
+    {
+      "authors": [
+        "Raximova Zarina Faxriddin qizi",
+        "Xayitova Oybibi Kattayevna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358212",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PEDAGOGICAL APPROACHES TO ORGANIZING PARA JUDO TRAINING FOR CHILDREN WITH DISABILITIES",
+      "url": "https://zenodo.org/records/24358212"
+    },
+    {
+      "authors": [
+        "Swain, Srinibas",
+        "Falkner, Nickolas"
+      ],
+      "category": "Poster",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358075",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Developing a Teaching Assistant Community for CS, IT, and SE",
+      "url": "https://zenodo.org/records/24358075"
+    },
+    {
+      "authors": [
+        "Ali, Zainab M.",
+        "Zabin, Saad",
+        "Abbas, Iraq"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24358056",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Internet of things-enabled fuzzy goal programming for healthcare resource allocation",
+      "url": "https://zenodo.org/records/24358056"
+    },
+    {
+      "authors": [
+        "Mondol, Raktim Kumar"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24358000",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Fairness in histopathology AI — systematic review: extraction, audit, and verification artifacts (88-study corpus, manuscript v0.7.0)",
+      "url": "https://zenodo.org/records/24358000"
+    },
+    {
+      "authors": [
+        "Ausdang, Thangthai",
+        "Pornpimon, Palingoon",
+        "Sumonmas, Thatphithakkul",
+        "Arnon, Namsanit",
+        "Nonlapas, Wongwaen",
+        "Watthanasak, Jeamwatthanachai"
+      ],
+      "category": "Data paper",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24357948",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
+      "url": "https://zenodo.org/records/24357948"
+    },
+    {
+      "authors": [
+        "Fukutomi, Akira Alexander Concetti"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24357750",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A State Within the Program: Computational Efficiency, Emergence, and Collective Consciousness in a Simulated Universe",
+      "url": "https://zenodo.org/records/24357750"
+    },
+    {
+      "authors": [
+        "Wang, Tao",
+        "Sun, Da"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24357515",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Minimal de-identified dataset and analysis code: Resident Satisfaction in Rural Renovation, Youfang Village, Chongqing",
+      "url": "https://zenodo.org/records/24357515"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24357626",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "STARLI | F131–F140 / 300 Flagship 13 Fission · Volume II · AI-Guided Micro/Nanosystems, Sampling and Validation Author: 33 | Nonclinical Research Design Working Edition v1.1 / Gate Annotation v1.2 | English Zenodo Ten-Volume Overview These ten STARLI flagship monographs form an AI, nanosystems and microfluidic research-design collection in the second volume of the Flagship 13 Fission atlas. The studies connect adaptive sampling, counterfactual inference, autonomous calibration, hybrid physical-learning models, failure prediction, interpretable quantum sensing, closed-loop latency, multi-agent coordination, external digital-twin validation and biological signal drift. Each volume defines a prospective measurement target and competing explanation. No result is claimed to be experimentally demonstrated. The collection contains ten separately authored 777-page English working editions: 300 prospective mathematical plates, 820 chapter openers, 4,100 separately paginated study positions, 2,000 Research Gates with six annotation fields per Gate, and 330 Phoenix Answer Embryos. These counts describe the publication structure, not validated scientific novelty. A companion publication ZIP includes the ten original PDFs and ten per-book Zenodo introductions. The Ten Research Directions F131 AI-Driven Microfluidic Sampling Strategy Optimization At The Limit — Examines recoverable analyte as a fraction of input under fixed sampling resources. Expert tuning with equal trials is the comparator; hidden human intervention is the rival. Blind recovery audits and out-of-distribution refusal test whether AI planning adds genuine value. F132 Nano-Quantum System Counterfactual Inference At The Limit — Tests held-out, intervention-specific counterfactual prediction error while retaining constraint-violation safeguards. Frozen open-loop policies anchor comparison; training-test leakage and nonreplayable observation-to-action chains can invalidate apparent autonomy. F133 AI-Driven Microrobotic Autonomous Calibration At The Limit — Uses blind-standard calibration bias after autonomous correction as a physical measurement target. Preregistered experimental design is the baseline. Extra experimental trials and any action outside the authority envelope defeat a claimed improvement. F134 Microscale Physical Model and Neural Network Coupling At The Limit — Challenges coupled learning and physical models against independently measured conservation residuals under withheld shifts. Matched expert tuning and hidden manual intervention are alternative explanations; unsafe confidence outside the tested domain is a stop condition. F135 AI-Driven Nanoscale Sampling Failure Prediction At The Limit — Proposes prospective fault warning lead time, in seconds, at a fixed false-alarm rate. Frozen open-loop policies and unselected failure cases distinguish early warning from hindsight leakage. Recovery outcomes and complete action replay remain necessary. F136 Quantum Sensor Interpretable AI At The Limit — Asks whether AI explanations agree with mechanism-specific physical ablations, rather than merely producing plausible narratives. The proposed witness is an agreement fraction, with counterfactual error and calibrated sensing as safeguards. More experimental trials are a competing account. F137 Microrobotic Closed-Loop Control Latency At The Limit — Measures the full sensor-to-physical-action delay, in seconds, inside a declared operating envelope. Expert-tuned controls under matched resources establish the comparison. Hidden human intervention and high-confidence out-of-domain action must be ruled out. F138 AI Multi-Agent Sampling Mission Coordination At The Limit — Evaluates calibration-adjusted joint sampling mission completion as a fraction under fairness and safety vetoes. Frozen open-loop coordination and identical observation budgets serve as controls; training-test leakage and missing action provenance are rival explanations. F139 Nano-Quantum Digital Twin External Validation At The Limit — Freezes a digital twin before evaluating out-of-site prediction error against independent measurements. Preregistered experimental design is the reference; additional experiments, leakage or operating outside the authorized action envelope cannot be counted as predictive success. F140 AI Biological Signal Concept Drift Identification At The Limit — Measures detection delay, in seconds, at a fixed false-alarm rate, separating biological-state drift from sensor and calibration changes. Equal-trial expert tuning and hidden manual correction are comparators. Confident action on unsupported states triggers a hard stop. Scope, Falsifiability and Evidence Boundaries All volumes are prospective nonclinical research designs for traceable samples, authorized ex-vivo, simulated or closed-bench settings; no laboratory results, clinical efficacy or quantum advantage are reported. Principal comparisons include equal-budget expert tuning, frozen open-loop control and preregistered experimental design. Preserved sample identity, independent measurement, held-out blind challenges, negative-run reporting and hard safety stops are required. The source QA marks structural checks as passed, but physical derivation review, causal distinctness, claim-level DOI matching and exhaustive visual inspection as partial or unfinished. Selected Established Methodological References Degen, Reinhard & Cappellaro (2017) · Quantum sensing · DOI 10.1103/RevModPhys.89.035002 | Koscher et al. (2023) · Autonomous molecular discovery · DOI 10.1126/science.adi1407 | Seo, Paik & Yim (2019) · Modular reconfigurable robotics · DOI 10.1146/annurev-control-053018-023834 These references support established methods, not the untested STARLI-specific hypotheses. Individual flagship source-to-claim DOI mappings remain to be independently verified. Join the STARLI Research Community Explore more than 100 interdisciplinary research themes and follow the evolving STARLI Research Gate community: https://zenodo.org/communities/starli-research-gate/ We do not need to know which door future generations will choose to open. We only hope that when they open it, they will find a little light to guide their way.",
+      "url": "https://zenodo.org/records/24357626"
+    },
     {
       "authors": [
         "Elsheikh, Ahmed"
@@ -306,471 +767,7 @@
       "source": "arxiv",
       "title": "Python Code Generation for Isabelle/HOL",
       "url": "https://arxiv.org/abs/2611.22613v1"
-    },
-    {
-      "authors": [
-        "Avanish Kumar Chaturvedi",
-        "Satyadeep Pandey"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-17T11:12:12Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22587v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22587v1",
-      "source": "arxiv",
-      "title": "Constructions of reversible linear and DNA codes through $T_{D,g}^n-$set and $(n_1,c_1|n_2,c_2)-$right polycyclic codes",
-      "url": "https://arxiv.org/abs/2611.22587v1"
-    },
-    {
-      "authors": [
-        "Peiyao Liu",
-        "Jie Guo",
-        "Zhijun Wang",
-        "Xueru Zhang",
-        "Nan Chen"
-      ],
-      "category": "stat.ME",
-      "date": "2026-11-17T11:05:33Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22581v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22581v1",
-      "source": "arxiv",
-      "title": "FAST: Functional Adaptive Sensing and Testing for Quickest Change Detection",
-      "url": "https://arxiv.org/abs/2611.22581v1"
-    },
-    {
-      "authors": [
-        "Smayan Agarwal",
-        "Aalok Thakkar"
-      ],
-      "category": "cs.PL",
-      "date": "2026-11-17T10:57:51Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22572v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22572v1",
-      "source": "arxiv",
-      "title": "Datatypes In, Zippers Out!",
-      "url": "https://arxiv.org/abs/2611.22572v1"
-    },
-    {
-      "authors": [
-        "Vijay Bhattiprolu"
-      ],
-      "category": "cs.CC",
-      "date": "2026-11-17T10:22:01Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22531v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22531v1",
-      "source": "arxiv",
-      "title": "Inapproximability of L1->L2 Subspace Distortion",
-      "url": "https://arxiv.org/abs/2611.22531v1"
-    },
-    {
-      "authors": [
-        "Léo Ducas",
-        "Julian Nowakowski",
-        "Ailsa Robertson"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-17T09:12:59Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22441v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22441v1",
-      "source": "arxiv",
-      "title": "On the Kissing Number of Craig's Lattice and Spherical List Decoding",
-      "url": "https://arxiv.org/abs/2611.22441v1"
-    },
-    {
-      "authors": [
-        "Nikolaos Ntetsikas",
-        "Styliana Kyriakoudi",
-        "Antonis Kirmizis",
-        "Ioannis Krikidis",
-        "Ian F. Akyildiz",
-        "Marios Lestas"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-17T08:52:04Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22416v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22416v1",
-      "source": "arxiv",
-      "title": "Noise Characterization and Robust Signal Detection in Yeast Pheromone Molecular Communication",
-      "url": "https://arxiv.org/abs/2611.22416v1"
-    },
-    {
-      "authors": [
-        "Baptiste Pelletier",
-        "Karen Godary"
-      ],
-      "category": "cs.RO",
-      "date": "2026-11-17T08:44:18Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22397v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22397v1",
-      "source": "arxiv",
-      "title": "SkiNet-Sim: Simulating Petri Nets with Data for the Verification and Validation of Controllers for Autonomous Systems",
-      "url": "https://arxiv.org/abs/2611.22397v1"
-    },
-    {
-      "authors": [
-        "Yaozong Zhang",
-        "Sihem Mesnager",
-        "Xiaoqiang Wang",
-        "Jian Gao"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-17T05:04:57Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22221v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22221v1",
-      "source": "arxiv",
-      "title": "Subsystem Stabilizer $(r,δ)$-Locally Recoverable Codes: Characterization, Bounds and Constructions",
-      "url": "https://arxiv.org/abs/2611.22221v1"
-    },
-    {
-      "authors": [
-        "Alexander J Root",
-        "Christophe Gyurgyik",
-        "Devanshu Ladsaria",
-        "Rohan Sawhney",
-        "Jonathan Ragan-Kelley",
-        "Andrew Adams",
-        "Matt Pharr",
-        "Kayvon Fatahalian",
-        "Fredrik Kjolstad"
-      ],
-      "category": "cs.PL",
-      "date": "2026-11-17T04:19:17Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22183v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22183v1",
-      "source": "arxiv",
-      "title": "A Compilation Model for Divergent Parallel Workloads",
-      "url": "https://arxiv.org/abs/2611.22183v1"
-    },
-    {
-      "authors": [
-        "Christo Kurisummoottil Thomas"
-      ],
-      "category": "eess.SP",
-      "date": "2026-11-17T02:35:27Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22100v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22100v1",
-      "source": "arxiv",
-      "title": "Semantic Communication via Analog RF Computing: When the Radio Computes the Meaning",
-      "url": "https://arxiv.org/abs/2611.22100v1"
-    },
-    {
-      "authors": [
-        "Edil D. Molina",
-        "Juan Bory-Reyes",
-        "José M. Sigarreta"
-      ],
-      "category": "math.PR",
-      "date": "2026-11-17T01:40:56Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22062v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22062v1",
-      "source": "arxiv",
-      "title": "Fixed-Point Results and Disequilibrium for Negators of Hyperbolic-Valued Probability Distributions",
-      "url": "https://arxiv.org/abs/2611.22062v1"
-    },
-    {
-      "authors": [
-        "Muhammed Fatih Balın"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-17T00:17:01Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.22019v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.22019v1",
-      "source": "arxiv",
-      "title": "Computed Permutation Trellis Coding: Near-Optimal Quantization from Two Multiplications and a 64-Byte Table",
-      "url": "https://arxiv.org/abs/2611.22019v1"
-    },
-    {
-      "authors": [
-        "Chinmay Nirkhe"
-      ],
-      "category": "quant-ph",
-      "date": "2026-11-16T23:26:55Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.21994v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21994v1",
-      "source": "arxiv",
-      "title": "An alternate proof of the QMA lower bound for set-size estimation",
-      "url": "https://arxiv.org/abs/2611.21994v1"
-    },
-    {
-      "authors": [
-        "Carlo A. Trugenberger"
-      ],
-      "category": "quant-ph",
-      "date": "2026-11-16T22:04:19Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.21941v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21941v1",
-      "source": "arxiv",
-      "title": "Complexity and precision in quantum associative retrieval",
-      "url": "https://arxiv.org/abs/2611.21941v1"
-    },
-    {
-      "authors": [
-        "Simon R. Blackburn"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-16T21:28:27Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.21913v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21913v1",
-      "source": "arxiv",
-      "title": "An upper bound on non-overlapping codes",
-      "url": "https://arxiv.org/abs/2611.21913v1"
-    },
-    {
-      "authors": [
-        "Jiatu Li",
-        "Daniel Reichman",
-        "Ryan Williams",
-        "Tony Wu"
-      ],
-      "category": "cs.CC",
-      "date": "2026-11-16T21:25:27Z",
-      "first_seen_date": "2026-11-18",
-      "id": "http://arxiv.org/abs/2611.21910v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21910v1",
-      "source": "arxiv",
-      "title": "New Gate, Weight and Wire Complexity Bounds for Sigmoid Neural Networks",
-      "url": "https://arxiv.org/abs/2611.21910v1"
-    },
-    {
-      "authors": [
-        "Hsu, Rui-Yun",
-        "Cheng, Tsung-Chieh"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24329390",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Data and code for: Cavity-Dependent Reflectance–Resistance Tradeoffs in Thermophotovoltaic Cells: Window-Layer Losses and Design Criteria",
-      "url": "https://zenodo.org/records/24329390"
-    },
-    {
-      "authors": [
-        "Storm, Jeremy"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24329541",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
-      "url": "https://zenodo.org/records/24329541"
-    },
-    {
-      "authors": [
-        "Yie, Ga-Eun"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24329539",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Trans-ethnic polygenic risk for breast cancer (aeh9001)",
-      "url": "https://zenodo.org/records/24329539"
-    },
-    {
-      "authors": [
-        "Shen, YuCheng",
-        "Han, WeiWei",
-        "Xia, QiongXia"
-      ],
-      "category": "Dataset",
-      "date": "2026-09-23",
-      "first_seen_date": "2026-11-18",
-      "id": "22877188",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Data, Software, and Reproducibility Materials for \"Machine Learning Discrimination of Magmatic, Metamorphic, and Hydrothermal Zircon Using Trace Elements: Geological Implications\"",
-      "url": "https://zenodo.org/records/22877188"
-    },
-    {
-      "authors": [
-        "Xu, Zihuan"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24329398",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Two-term Bernstein positivity degrees near an interior zero and stability under positive polynomial factors",
-      "url": "https://zenodo.org/records/24329398"
-    },
-    {
-      "authors": [
-        "Falush, Daniel"
-      ],
-      "category": "Publication",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24329338",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "From 1 to 2. From a monologue to a dance.",
-      "url": "https://zenodo.org/records/24329338"
-    },
-    {
-      "authors": [
-        "Pires Ferreira, Rodrigo",
-        "Ding, Rui",
-        "Alvi, Dongmei",
-        "Pu, Haihui",
-        "Chen, Junhong",
-        "Shi, Xiaoao",
-        "Chen, Yuxin"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-18",
-      "id": "23388462",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Robust and Low-latency Online Changepoint Detection for Sensor Drift Compensation",
-      "url": "https://zenodo.org/records/23388462"
-    },
-    {
-      "authors": [
-        "Thuy, Dao Thi Thu",
-        "Hoa, Nguyen Thi Quynh",
-        "Hoa, Nguyen Thi Kim",
-        "Huyen, Nguyen Thi",
-        "Hoa, Nguyen Thi Phuong"
-      ],
-      "category": "Journal article",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-18",
-      "id": "24329290",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Bridging the transition gap: the role of practical career education in enhancing independent living skills for adolescents with developmental disabilities in Vietnam",
-      "url": "https://zenodo.org/records/24329290"
-    },
-    {
-      "authors": [
-        "Mukhitdinova, Roza",
-        "Baymyrzayev, Kuat",
-        "Auyelbek, Murat"
-      ],
-      "category": "Journal article",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-18",
-      "id": "24328856",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Modernizing geography teacher education through STEAM integration to enhance geoecological competence",
-      "url": "https://zenodo.org/records/24328856"
-    },
-    {
-      "authors": [
-        "Villaflor, Mea M.",
-        "Abo, Alyssa Mae J.",
-        "Arizo, Millinette Joyce P.",
-        "Chuaseco, Mikaela A.",
-        "Saldon, Precious G.",
-        "Santos, Daniel H.",
-        "Kalon, Al-Hadad D."
-      ],
-      "category": "Journal article",
-      "date": "2022-06-30",
-      "first_seen_date": "2026-11-18",
-      "id": "24329152",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Impact of the COVID-19 Pandemic on the Wellness of Dialysis Patients at Las Piñas Medical Center",
-      "url": "https://zenodo.org/records/24329152"
-    },
-    {
-      "authors": [
-        "Roberto Longo"
-      ],
-      "category": "math.OA",
-      "date": "2026-11-16T18:31:12Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.21549v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21549v1",
-      "source": "arxiv",
-      "title": "Axioms for relative entropy",
-      "url": "https://arxiv.org/abs/2611.21549v1"
-    },
-    {
-      "authors": [
-        "Subhankar Banerjee",
-        "Sennur Ulukus"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-16T18:31:04Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.21547v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21547v1",
-      "source": "arxiv",
-      "title": "Fundamental Tradeoffs in Sampling, Transmission and Information Freshness: Instantaneous Feedback",
-      "url": "https://arxiv.org/abs/2611.21547v1"
-    },
-    {
-      "authors": [
-        "Burhan Gülbahar"
-      ],
-      "category": "quant-ph",
-      "date": "2026-11-16T18:00:35Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.21500v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21500v1",
-      "source": "arxiv",
-      "title": "Exponential Quantum Memory Advantage for Late-Graph Smoothness and Spectral Estimation",
-      "url": "https://arxiv.org/abs/2611.21500v1"
-    },
-    {
-      "authors": [
-        "Ali Mohammadi Ruzbahani",
-        "Abbas Yazdinejad",
-        "Hadis Karimipour"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-16T17:50:31Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.21477v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.21477v1",
-      "source": "arxiv",
-      "title": "Knowledge Fermentation: Learning from Shared Variation in Few-Shot Classification",
-      "url": "https://arxiv.org/abs/2611.21477v1"
     }
   ],
-  "total_before_cap": 82
+  "total_before_cap": 112
 }

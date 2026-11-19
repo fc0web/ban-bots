@@ -2,8 +2,178 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-18T12:47:26+09:00",
+  "generated_at": "2026-11-19T12:44:54+09:00",
   "records": [
+    {
+      "authors": [
+        "Eric L. Grinberg",
+        "Omar Hijab"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-14T22:08:53Z",
+      "first_seen_date": "2026-11-19",
+      "id": "http://arxiv.org/abs/2611.23318v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.23318v1",
+      "source": "arxiv",
+      "title": "Archimedes' Angle Measure and The Fundamental Theorem of Trigonometry",
+      "url": "https://arxiv.org/abs/2611.23318v1"
+    },
+    {
+      "authors": [
+        "Santibáñez-Leal, Felipe"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358311",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Three-Dimensional Counterexample to the Jacobian Conjecture: Exact Validation, a Proved Seed-Family Constructor, the Discriminant Wall of Non-Properness, and Planar Equivariant Rigidity",
+      "url": "https://zenodo.org/records/24358311"
+    },
+    {
+      "authors": [
+        "Erna, Guguloth",
+        "Saidulu, Vadtya",
+        "Manjusha, Chinta",
+        "Murthy, GVK",
+        "Chalampalem, Vijaya Bhaskar",
+        "Sekhar, Puthalapattu Muni"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24358216",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A high-speed fault-tolerant vedic FIR filter architecture on FPGA using reversible logic for ML accelerator applications",
+      "url": "https://zenodo.org/records/24358216"
+    },
+    {
+      "authors": [
+        "Raxmonova Gulsevar Rahmatillayevna",
+        "Azamova Maloxat Najimovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358267",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN ENHANCING THE QUALITY OF PRESCHOOL EDUCATION",
+      "url": "https://zenodo.org/records/24358267"
+    },
+    {
+      "authors": [
+        "Raximova Zarina Faxriddin qizi",
+        "Xayitova Oybibi Kattayevna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358212",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PEDAGOGICAL APPROACHES TO ORGANIZING PARA JUDO TRAINING FOR CHILDREN WITH DISABILITIES",
+      "url": "https://zenodo.org/records/24358212"
+    },
+    {
+      "authors": [
+        "Swain, Srinibas",
+        "Falkner, Nickolas"
+      ],
+      "category": "Poster",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358075",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Developing a Teaching Assistant Community for CS, IT, and SE",
+      "url": "https://zenodo.org/records/24358075"
+    },
+    {
+      "authors": [
+        "Ali, Zainab M.",
+        "Zabin, Saad",
+        "Abbas, Iraq"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24358056",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Internet of things-enabled fuzzy goal programming for healthcare resource allocation",
+      "url": "https://zenodo.org/records/24358056"
+    },
+    {
+      "authors": [
+        "Nazarova Asila Mamarasulovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24358115",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "MAKTABGACHA TA'LIM TASHKILOTI TARBIYACHILARINING KASBIY KOMPETENTLIGINI RIVOJLANTIRISHDA REFLEKSIV YONDASHUVNING AHAMIYATI",
+      "url": "https://zenodo.org/records/24358115"
+    },
+    {
+      "authors": [
+        "Benig, Sherylou",
+        "Labangcoc, Marissa Lyn",
+        "Jontilano, Mary Rose",
+        "Bendoy, Geneveive"
+      ],
+      "category": "Journal",
+      "date": "2026-08-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24357971",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Project NURTURE: Navigating Unified Responsible Parenting Towards an Upgraded Resilient Education System",
+      "url": "https://zenodo.org/records/24357971"
+    },
+    {
+      "authors": [
+        "Hilmani, Adil",
+        "Sabri, Yassine",
+        "Maizate, Abderrahim",
+        "Aouad, Siham",
+        "Ayoub, Fouad"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-01",
+      "first_seen_date": "2026-11-19",
+      "id": "24357889",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Energy-efficient clustering optimization for heterogeneous wireless sensor networks with K-nearest neighbors algorithm",
+      "url": "https://zenodo.org/records/24357889"
+    },
+    {
+      "authors": [
+        "Ausdang, Thangthai",
+        "Pornpimon, Palingoon",
+        "Sumonmas, Thatphithakkul",
+        "Arnon, Namsanit",
+        "Nonlapas, Wongwaen",
+        "Watthanasak, Jeamwatthanachai"
+      ],
+      "category": "Data paper",
+      "date": "2026-11-19",
+      "first_seen_date": "2026-11-19",
+      "id": "24357948",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
+      "url": "https://zenodo.org/records/24357948"
+    },
     {
       "authors": [
         "Smith, Maria"
@@ -561,161 +731,7 @@
       "source": "arxiv",
       "title": "Letter to a Young Black Mathematician: History, Storytelling, and Belonging in Mathematics",
       "url": "https://arxiv.org/abs/2611.00125v1"
-    },
-    {
-      "authors": [
-        "Helen Jenne",
-        "Davis Brown",
-        "Jesse He",
-        "Henry Kvinge"
-      ],
-      "category": "cs.AI",
-      "date": "2026-10-29T16:24:55Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2610.40382v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2610.40382v1",
-      "source": "arxiv",
-      "title": "Beyond Selected Breakthroughs: Evaluating Language Models on Randomly Sampled Mathematical Conjectures",
-      "url": "https://arxiv.org/abs/2610.40382v1"
-    },
-    {
-      "authors": [
-        "Catalin Badea"
-      ],
-      "category": "math.FA",
-      "date": "2026-10-29T10:20:57Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2610.39769v2",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2610.39769v2",
-      "source": "arxiv",
-      "title": "The Gleason--Kahane--Zelazko theorem: a gentle introduction",
-      "url": "https://arxiv.org/abs/2610.39769v2"
-    },
-    {
-      "authors": [
-        "Archan Chattopadhyay",
-        "Chandan Chattopadhyay"
-      ],
-      "category": "math.HO",
-      "date": "2026-10-28T19:07:09Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2610.40698v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2610.40698v1",
-      "source": "arxiv",
-      "title": "A Diophantine generalization of Fourier's irrationality trick",
-      "url": "https://arxiv.org/abs/2610.40698v1"
-    },
-    {
-      "authors": [
-        "Daniele Corradetti"
-      ],
-      "category": "math.HO",
-      "date": "2026-10-27T13:55:04Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2610.37260v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2610.37260v1",
-      "source": "arxiv",
-      "title": "Mathematical Reality Capture: from the age of discoveries to mathematical topography and surveys",
-      "url": "https://arxiv.org/abs/2610.37260v1"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295844",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Map of the Series: Process, Observer and the Birth of Dimensions",
-      "url": "https://zenodo.org/records/24295844"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295651",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Number Arrow and the Line 1/2: The Riemann Hypothesis in the Light of the Birth of Dimensions Model",
-      "url": "https://zenodo.org/records/24295651"
-    },
-    {
-      "authors": [
-        "Gibbons, Leisa",
-        "Sayyad Abdi, Ellie",
-        "Haddow, Gaby",
-        "Dawe, Lydia"
-      ],
-      "category": "Report",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295536",
-      "license": "cc-by-sa-4.0",
-      "source": "zenodo",
-      "title": "Forming Professional Identity",
-      "url": "https://zenodo.org/records/24295536"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295537",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A necessary and sufficient condition for convergence of the quantile process in $L^p(0,1)$",
-      "url": "https://zenodo.org/records/24295537"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295412",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Kesten–Stigum bound is sharp for the three-state Potts model on regular trees",
-      "url": "https://zenodo.org/records/24295412"
-    },
-    {
-      "authors": [
-        "FuseSchool- Global Education"
-      ],
-      "category": "Video/Audio",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295403",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Specific Heat Capacity | Matter | Physics | FuseSchool",
-      "url": "https://zenodo.org/records/24295403"
-    },
-    {
-      "authors": [
-        "FuseSchool- Global Education"
-      ],
-      "category": "Video/Audio",
-      "date": "2026-11-17",
-      "first_seen_date": "2026-11-17",
-      "id": "24295331",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Intro to the Circulatory System",
-      "url": "https://zenodo.org/records/24295331"
     }
   ],
-  "total_before_cap": 109
+  "total_before_cap": 120
 }

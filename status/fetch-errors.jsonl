@@ -9,3 +9,4 @@
 {"ban": "senkou-kenkyuu-kanshi", "error": "HTTPError: HTTP Error 429: Too Many Requests (Retry-After=36s > cap 30s, not retrying)", "phrase": "non-termination", "source": "openalex", "time": "2026-11-18T12:47:47+09:00"}
 {"ban": "senkou-kenkyuu-kanshi", "error": "HTTPError: HTTP Error 429: Too Many Requests (Retry-After=36s > cap 30s, not retrying)", "phrase": "minimum description length", "source": "openalex", "time": "2026-11-18T12:47:50+09:00"}
 {"ban": "senkou-kenkyuu-kanshi", "error": "HTTPError: HTTP Error 429: Too Many Requests (Retry-After=37s > cap 30s, not retrying)", "phrase": "agreement theorem", "source": "openalex", "time": "2026-11-18T12:47:52+09:00"}
+{"ban": "senkou-kenkyuu-kanshi", "error": "HTTPError: HTTP Error 503: Service Unavailable", "phrase": "", "source": "openalex", "time": "2026-11-19T12:45:03+09:00"}

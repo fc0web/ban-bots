@@ -2,8 +2,293 @@
   "ban": "news-ban",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-18T12:47:30+09:00",
+  "generated_at": "2026-11-19T12:44:57+09:00",
   "records": [
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-19T11:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "【医系技官採用】令和8年度 医療政策セミナー（医師および医学生を対象）の受付を開始しました。",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T16:30:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77515.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "医薬品安定供給・流通確認システムへの不正アクセスに係る 個人情報の漏えいについて",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77515.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T15:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77498.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "高齢者に対する肺炎球菌ワクチン及び小児におけるRSウイルス感染症の予防についての議論のまとめ",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77498.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77507.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "2026年10月26日 第９回労働政策審議会労働条件分科会「組織再編に伴う労働関係の調整に関する部会」 議事録",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77507.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77361.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「令和８年度第１回薬事審議会審議参加規程評価委員会」を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77361.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77354.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "薬事審議会 医薬品第一部会を開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77354.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77226.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第５８回特定石綿被害建設業務労働者等認定審査会 開催案内",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77226.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-18T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.mhlw.go.jp/stf/newpage_75817.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "国民年金第３号被保険者制度等に関する検討会",
+      "url": "https://www.mhlw.go.jp/stf/newpage_75817.html"
+    },
+    {
+      "authors": [
+        "内閣府"
+      ],
+      "category": "",
+      "date": "2026-11-19T08:26:00+09:00",
+      "feed": "https://www.cao.go.jp/rss/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "機械受注統計調査報告（令和8年9月実績および令和8年10～12月見通し）",
+      "url": "https://www.esri.cao.go.jp/jp/stat/juchu/juchu.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-19T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/02kiban09_04000750.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信審議会 情報通信技術分科会 電波有効利用委員会（第17回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/02kiban09_04000750.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000334.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電波監理審議会 有効利用評価部会(第65回)会議資料",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000334.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban02_02000615.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「電気通信事業分野における競争状況等の調査及び評価の実施に関する方針」改定案に対する情報通信行政・郵政行政審議会からの答申",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban02_02000615.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban07_02000138.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電話に関するユニバーサルサービス制度に基づく交付金の額及び交付方法の認可並びに負担金の額及び徴収方法の認可",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban07_02000138.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban03_02001031.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "電気通信事業法施行規則等の一部改正に対する意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban03_02001031.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/shijokensho/02kiban02_04000906.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信行政・郵政行政審議会 電気通信事業部会 市場検証委員会（第14回）配布資料・議事録",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/shijokensho/02kiban02_04000906.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会 デジタル広告ワーキンググループ（第19回）開催案内",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000612.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000846.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "統計委員会 第161回人口・社会統計部会",
+      "url": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000846.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001314.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "非常勤消防団員等に係る損害補償の基準を定める政令の一部を改正する政令案に対する意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001314.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-18T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-19",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000478.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "固定資産評価基準の一部を改正する告示案に係る意見募集の結果",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01zeimu02_02000478.html"
+    },
     {
       "authors": [
         "消費者庁"
@@ -468,292 +753,7 @@
       "source": "rss",
       "title": "農薬第一専門調査会（第55回）の開催について（非公開）【11月20日開催】",
       "url": "https://www.fsc.go.jp/senmon/nouyaku/annai/nouyaku_annai_dai1_senmon_55.html"
-    },
-    {
-      "authors": [
-        "内閣府"
-      ],
-      "category": "",
-      "date": "2026-11-11T16:35:00+09:00",
-      "feed": "https://www.cao.go.jp/rss/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.cao.go.jp/consumer/iinkai/2026/502/shiryou/index.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "第502回消費者委員会本会議【11月10日開催】",
-      "url": "https://www.cao.go.jp/consumer/iinkai/2026/502/shiryou/index.html"
-    },
-    {
-      "authors": [
-        "内閣府"
-      ],
-      "category": "",
-      "date": "2026-11-11T13:00:00+09:00",
-      "feed": "https://www.cao.go.jp/rss/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.cao.go.jp/others/csi/security/20261111notice.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "内閣府が利用するメール配信サービスにおける個人情報漏えい及びメールマガジンの配信停止について",
-      "url": "https://www.cao.go.jp/others/csi/security/20261111notice.html"
-    },
-    {
-      "authors": [
-        "内閣府"
-      ],
-      "category": "",
-      "date": "2026-11-10T14:38:00+09:00",
-      "feed": "https://www.cao.go.jp/rss/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.fsc.go.jp/senmon/sonota/annai/wg_bakuro_annai_14.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "食事由来の化学物質のばく露評価ワーキンググループ（第14回）の開催について【11月18日開催】",
-      "url": "https://www.fsc.go.jp/senmon/sonota/annai/wg_bakuro_annai_14.html"
-    },
-    {
-      "authors": [
-        "内閣府"
-      ],
-      "category": "",
-      "date": "2026-11-10T10:58:00+09:00",
-      "feed": "https://www.cao.go.jp/rss/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www5.cao.go.jp/keizai3/watcher_index.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "景気ウォッチャー調査（令和8年10月調査）",
-      "url": "https://www5.cao.go.jp/keizai3/watcher_index.html"
-    },
-    {
-      "authors": [
-        "内閣府"
-      ],
-      "category": "",
-      "date": "2026-11-09T13:34:00+09:00",
-      "feed": "https://www.cao.go.jp/rss/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.esri.cao.go.jp/jp/stat/di/di.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "景気動向指数（令和8年9月分速報）",
-      "url": "https://www.esri.cao.go.jp/jp/stat/di/di.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-17T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/denki_tsusin/02ryutsu01_04000526.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "情報通信行政・郵政行政審議会 電気通信事業部会（第175回）配布資料・議事概要・議事録",
-      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/denki_tsusin/02ryutsu01_04000526.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-17T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/keitai_yukoriyo/02kiban14_04001380.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "情報通信審議会 情報通信技術分科会 電波有効利用委員会 携帯電話等周波数の有効利用に関する検討作業班（第6回）",
-      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/keitai_yukoriyo/02kiban14_04001380.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-17T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000845.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "統計委員会 第160回人口・社会統計部会",
-      "url": "https://www.soumu.go.jp/main_sosiki/singi/toukei/jinkou/kaigi/02shingi05_02000845.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000685.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "【自治体の皆様へ】「Microsoft 365」の大規模障害への対応について（依頼）（令和8年11月16日更新）",
-      "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000685.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001313.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "消防防災科学技術研究推進制度の令和9年度研究開発課題の募集",
-      "url": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001313.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02ryutsu01_04000525.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "情報通信行政・郵政行政審議会 郵政行政分科会（第107回）",
-      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02ryutsu01_04000525.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/tsuushin_jiko_kenshou/02kiban05_04000806.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "第4回 電気通信事故検証会議",
-      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/tsuushin_jiko_kenshou/02kiban05_04000806.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001197.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "情報通信審議会 電気通信事業政策部会 接続政策委員会(第87回) 配布資料",
-      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001197.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/kaigi/02shingi05_02000844.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "第235回統計委員会",
-      "url": "https://www.soumu.go.jp/main_sosiki/singi/toukei/kaigi/02shingi05_02000844.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-16T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000684.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "Microsoft365の大規模障害に伴うメールシステムの不具合について（令和8年11月16日更新）",
-      "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000684.html"
-    },
-    {
-      "authors": [
-        "厚生労働省"
-      ],
-      "category": "",
-      "date": "2026-11-17T13:00:00+09:00",
-      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.mhlw.go.jp/stf/newpage_77450.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "第215回労働政策審議会労働条件分科会（資料）",
-      "url": "https://www.mhlw.go.jp/stf/newpage_77450.html"
-    },
-    {
-      "authors": [
-        "総務省"
-      ],
-      "category": "",
-      "date": "2026-11-17T05:00:00+09:00",
-      "feed": "https://www.soumu.go.jp/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001593.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "藤井総務大臣閣議後記者会見の概要",
-      "url": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001593.html"
-    },
-    {
-      "authors": [
-        "厚生労働省"
-      ],
-      "category": "",
-      "date": "2026-11-17T14:00:00+09:00",
-      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.mhlw.go.jp/stf/newpage_77386.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "「全世代型リ・スキリング国民運動」（あなたのリスキリングアクション）を推進します",
-      "url": "https://www.mhlw.go.jp/stf/newpage_77386.html"
-    },
-    {
-      "authors": [
-        "厚生労働省"
-      ],
-      "category": "",
-      "date": "2026-11-17T14:00:00+09:00",
-      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
-      "first_seen_date": "2026-11-17",
-      "id": "https://www.mhlw.go.jp/stf/newpage_77334.html",
-      "license": "",
-      "mark": "未測",
-      "source": "rss",
-      "title": "令和８年度第４回「団体等検定制度についての出張相談会」を開催します",
-      "url": "https://www.mhlw.go.jp/stf/newpage_77334.html"
     }
   ],
-  "total_before_cap": 69
+  "total_before_cap": 88
 }

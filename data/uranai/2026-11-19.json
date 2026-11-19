@@ -1,0 +1,56 @@
+{
+  "ban": "uranai",
+  "fetch_stats": {
+    "after_filter": 9,
+    "by_source": {
+      "pubmed": {
+        "after_filter": 9,
+        "raw": 9
+      },
+      "rss": {
+        "after_filter": 0,
+        "raw": 20
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 29,
+    "seen_previously": 9
+  },
+  "fetched_at": "2026-11-19T12:45:05+09:00",
+  "params": {
+    "pubmed": {
+      "queries": [
+        {
+          "limit": 5,
+          "q": "astrology"
+        },
+        {
+          "limit": 5,
+          "q": "Barnum effect"
+        },
+        {
+          "limit": 5,
+          "q": "divination"
+        }
+      ],
+      "reldate": 30
+    },
+    "rss": {
+      "feeds": [
+        "https://www.caa.go.jp/news.rss"
+      ],
+      "include_keywords": [
+        "霊感",
+        "開運",
+        "占い",
+        "祈祷",
+        "スピリチュアル",
+        "霊視"
+      ],
+      "limit_per_feed": 10
+    }
+  },
+  "records": [],
+  "source": "pubmed+rss"
+}
