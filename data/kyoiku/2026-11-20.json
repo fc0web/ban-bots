@@ -1,0 +1,162 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 10,
+    "newly_added_this_run": 10,
+    "raw_fetched": 30,
+    "seen_previously": 20
+  },
+  "fetched_at": "2026-11-20T12:38:53+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Onyema, Okwu Augustina",
+        "Usang, Mercy Usang",
+        "Udom, Hannah Thompson",
+        "Abuh, Alice Uzuta"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385853",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Socio-cultural factors associated with antenatal care utilization among pregnant women in Yakurr Local Government Area, Cross River State, Nigeria",
+      "url": "https://zenodo.org/records/24385853"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-20",
+      "id": "24385703",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24385703"
+    },
+    {
+      "authors": [
+        "PAN, Lujia"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-10",
+      "id": "24121817",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Grain-level compilation of detrital-zircon U–Pb ages from Cretaceous basin fills of East China and the Korean Peninsula",
+      "url": "https://zenodo.org/records/24121817"
+    },
+    {
+      "authors": [
+        "Альниязова Гульнара Айтмуратовна",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24385643",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "СУБСТАНТИВАЦИЯ ИМЁН ПРИЛАГАТЕЛЬНЫХ В КАРАКАЛПАКСКОМ ЯЗЫКЕ",
+      "url": "https://zenodo.org/records/24385643"
+    },
+    {
+      "authors": [
+        "Abia, Francis Raphael"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385590",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Influence of Political Socialization on Electoral Participation in Nigeria",
+      "url": "https://zenodo.org/records/24385590"
+    },
+    {
+      "authors": [
+        "Ekaluo, Anne U.",
+        "Eyong, Butum B.",
+        "Bekomson, Emmanuel M."
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385500",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "INDIGENOUS COMMUNICATION AND POLITICAL PARTICIPATION IN UYO SENATORIAL DISTRICT, AKWA IBOM STATE, NIGERIA",
+      "url": "https://zenodo.org/records/24385500"
+    },
+    {
+      "authors": [
+        "Aliyeva Shirin Bakhtiyorovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24385517",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "METHODOLOGICAL POTENTIAL OF USING SPORTS TERMINOLOGY IN TEACHING RUSSIAN",
+      "url": "https://zenodo.org/records/24385517"
+    },
+    {
+      "authors": [
+        "Khosiyatkhon Khamidovna Djuraeva",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24385433",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF AUTHENTIC TEXTS IN DEVELOPING THE PROFESSIONAL SPEECH OF SPORT UNIVERSITY STUDENTS IN RUSSIAN",
+      "url": "https://zenodo.org/records/24385433"
+    },
+    {
+      "authors": [
+        "LUQUE ZEVALLOS, HELBERT JUSTO"
+      ],
+      "category": "Book",
+      "date": "2026-11-20",
+      "id": "24382747",
+      "license": "",
+      "source": "zenodo",
+      "title": "Real Analysis Volume 5 Taylor and Riemann Integration",
+      "url": "https://zenodo.org/records/24382747"
+    },
+    {
+      "authors": [
+        "Baladi, Samir"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-20",
+      "id": "24384785",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Paper IX: Non-Injectivity of the Map E ↦ Z(E): Closure Systems, Generated Lower Cones and the Loss of Source Information in the Upper Family (Structural Series)",
+      "url": "https://zenodo.org/records/24384785"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

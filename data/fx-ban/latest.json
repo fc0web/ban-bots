@@ -1,9 +1,22 @@
 {
   "ban": "fx-ban",
   "cap": 50,
-  "count": 6,
-  "generated_at": "2026-11-19T12:44:46+09:00",
+  "count": 7,
+  "generated_at": "2026-11-20T12:38:47+09:00",
   "records": [
+    {
+      "authors": [],
+      "category": "",
+      "date": "Fri, 20 Nov 2026 09:00:00 +0900",
+      "feed": "https://www.boj.or.jp/rss/whatsnew.xml",
+      "first_seen_date": "2026-11-20",
+      "id": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "基準外国為替相場及び裁定外国為替相場（12月分）",
+      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm"
+    },
     {
       "authors": [
         "Vladimír Holý"
@@ -91,5 +104,5 @@
       "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2611.htm"
     }
   ],
-  "total_before_cap": 6
+  "total_before_cap": 7
 }

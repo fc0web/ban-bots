@@ -1,0 +1,484 @@
+{
+  "ban": "senkou-kenkyuu-kanshi",
+  "fetch_stats": {
+    "after_filter": 36,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "openalex": {
+        "after_filter": 6,
+        "raw": 6
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 30,
+    "newly_added_this_run": 30,
+    "raw_fetched": 36,
+    "seen_previously": 6
+  },
+  "fetched_at": "2026-11-20T12:39:04+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.IT",
+        "cs.PL",
+        "cs.CC"
+      ],
+      "limit": 20,
+      "reldate": 30
+    },
+    "openalex": {
+      "limit_per_phrase": 10,
+      "reldate": 30,
+      "title_phrases": [
+        "algorithmic statistics",
+        "Kolmogorov structure function",
+        "Wyner-Ziv",
+        "emergent communication",
+        "non-termination",
+        "stochastic thermodynamics of computation",
+        "minimum description length",
+        "agreement theorem"
+      ]
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "theoretical computer science"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Xusheng Zhu",
+        "Kai-Kit Wong",
+        "Jiajian Wang",
+        "Songling Zhang",
+        "Shihao Fan"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T12:16:11Z",
+      "id": "http://arxiv.org/abs/2611.25995v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25995v1",
+      "source": "arxiv",
+      "title": "Two-Timescale Channel Estimation and Port Selection for Fluid Antenna Systems With Limited Port Observations",
+      "url": "https://arxiv.org/abs/2611.25995v1"
+    },
+    {
+      "authors": [
+        "Pengjie Zhong",
+        "Jinquan Luo"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T12:12:27Z",
+      "id": "http://arxiv.org/abs/2611.25990v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25990v1",
+      "source": "arxiv",
+      "title": "Asymptotic Bounds for Codes in Toroidal Distance",
+      "url": "https://arxiv.org/abs/2611.25990v1"
+    },
+    {
+      "authors": [
+        "Wei Jiang",
+        "Hans Dieter Schotten"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T11:53:27Z",
+      "id": "http://arxiv.org/abs/2611.25968v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25968v1",
+      "source": "arxiv",
+      "title": "Feedback-Free FDD Cell-Free Massive MIMO With Sparse AP Activation and Dual-Mode Precoding",
+      "url": "https://arxiv.org/abs/2611.25968v1"
+    },
+    {
+      "authors": [
+        "Yangcheng Li",
+        "Pingzhi Yuan"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T11:24:59Z",
+      "id": "http://arxiv.org/abs/2611.25940v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25940v1",
+      "source": "arxiv",
+      "title": "Self-Orthogonal MDS Principal-Ideal Codes",
+      "url": "https://arxiv.org/abs/2611.25940v1"
+    },
+    {
+      "authors": [
+        "Yang Li",
+        "Shitao Li",
+        "Gaojun Luo",
+        "San Ling"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T10:10:40Z",
+      "id": "http://arxiv.org/abs/2611.25859v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25859v1",
+      "source": "arxiv",
+      "title": "Optimal Impure $(r,δ)$-Quantum Locally Recoverable Codes with Explicit Minimum Localities",
+      "url": "https://arxiv.org/abs/2611.25859v1"
+    },
+    {
+      "authors": [
+        "Erqiang Tang",
+        "Zixin Wang",
+        "Wei Guo",
+        "Shenghui Song",
+        "Jun Zhang",
+        "Khaled B. Letaief"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T08:58:26Z",
+      "id": "http://arxiv.org/abs/2611.25756v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25756v1",
+      "source": "arxiv",
+      "title": "Self-Supervised Operator Learning for Channel Estimation in Fluid Antenna Systems",
+      "url": "https://arxiv.org/abs/2611.25756v1"
+    },
+    {
+      "authors": [
+        "Ziling Heng",
+        "Chenkun Xie",
+        "Jiantao Hu",
+        "Xiaoyan Jing"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T08:42:52Z",
+      "id": "http://arxiv.org/abs/2611.25729v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25729v1",
+      "source": "arxiv",
+      "title": "A generic construction of complex codebooks from functions over Abelian groups",
+      "url": "https://arxiv.org/abs/2611.25729v1"
+    },
+    {
+      "authors": [
+        "Wencheng Yan",
+        "Binrui Xu",
+        "Yihao Shen",
+        "Zhiyuan Jiang",
+        "Sheng Zhou"
+      ],
+      "category": "cs.NI",
+      "date": "2026-11-19T07:39:04Z",
+      "id": "http://arxiv.org/abs/2611.25657v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25657v1",
+      "source": "arxiv",
+      "title": "Intent-Defined Radio: A Goal-Native Architecture for Next-Generation Wireless Networks",
+      "url": "https://arxiv.org/abs/2611.25657v1"
+    },
+    {
+      "authors": [
+        "Niansong Zhang",
+        "Shiran Guo",
+        "Zhiru Zhang"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-19T07:23:03Z",
+      "id": "http://arxiv.org/abs/2611.25636v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25636v1",
+      "source": "arxiv",
+      "title": "Tenon: A Unified Programming Framework for Retargetable PIM Compilation",
+      "url": "https://arxiv.org/abs/2611.25636v1"
+    },
+    {
+      "authors": [
+        "En-Jui Kuo",
+        "Arsalan Motamedi",
+        "Mohammad Hafezi",
+        "Saeed Mehraban"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-19T05:20:22Z",
+      "id": "http://arxiv.org/abs/2611.25519v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25519v1",
+      "source": "arxiv",
+      "title": "The computational complexity of bosonic Lindbladian fixed points",
+      "url": "https://arxiv.org/abs/2611.25519v1"
+    },
+    {
+      "authors": [
+        "Mark M. Wilde"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-19T04:39:43Z",
+      "id": "http://arxiv.org/abs/2611.25496v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25496v1",
+      "source": "arxiv",
+      "title": "Convex splitting by binary quantum hypothesis testing",
+      "url": "https://arxiv.org/abs/2611.25496v1"
+    },
+    {
+      "authors": [
+        "Trung-Khang Tran",
+        "Jonathan Scarlett"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T03:55:11Z",
+      "id": "http://arxiv.org/abs/2611.25468v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25468v1",
+      "source": "arxiv",
+      "title": "Improved Constants in the Kautz-Singleton Construction for Probabilistic Group Testing",
+      "url": "https://arxiv.org/abs/2611.25468v1"
+    },
+    {
+      "authors": [
+        "Dimitrios I. Diochnos"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-19T02:11:34Z",
+      "id": "http://arxiv.org/abs/2611.25372v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25372v1",
+      "source": "arxiv",
+      "title": "Fundamentals for Binary Classification Under Label Noise",
+      "url": "https://arxiv.org/abs/2611.25372v1"
+    },
+    {
+      "authors": [
+        "Ketong Ren",
+        "Bing Liu",
+        "Cuiling Fan",
+        "Haode Yan"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T02:02:45Z",
+      "id": "http://arxiv.org/abs/2611.25365v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25365v1",
+      "source": "arxiv",
+      "title": "Generalized Covering radii and Deep Holes of a Family of Antiprimitive Narrow-Sense BCH Codes in Even Characteristic",
+      "url": "https://arxiv.org/abs/2611.25365v1"
+    },
+    {
+      "authors": [
+        "Mahdi Cheraghchi",
+        "Jingyi Lyu"
+      ],
+      "category": "cs.DS",
+      "date": "2026-11-19T01:17:28Z",
+      "id": "http://arxiv.org/abs/2611.25334v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25334v1",
+      "source": "arxiv",
+      "title": "A Nonadaptive Sparse Fourier Transform in Every Dimension",
+      "url": "https://arxiv.org/abs/2611.25334v1"
+    },
+    {
+      "authors": [
+        "Igor Pak"
+      ],
+      "category": "cs.CG",
+      "date": "2026-11-18T20:40:14Z",
+      "id": "http://arxiv.org/abs/2611.25164v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25164v1",
+      "source": "arxiv",
+      "title": "Convexity is overrated: Shortest paths on 4-polytopes are hard to compute",
+      "url": "https://arxiv.org/abs/2611.25164v1"
+    },
+    {
+      "authors": [
+        "Alexandra Carpentier",
+        "Nicolas Verzelen"
+      ],
+      "category": "math.ST",
+      "date": "2026-11-18T20:38:59Z",
+      "id": "http://arxiv.org/abs/2611.25163v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25163v1",
+      "source": "arxiv",
+      "title": "The low-degree sample complexity of clustering Gaussian mixtures with more groups than dimensions",
+      "url": "https://arxiv.org/abs/2611.25163v1"
+    },
+    {
+      "authors": [
+        "Elijah Pelofske",
+        "Stephan Eidenbenz"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-18T20:03:18Z",
+      "id": "http://arxiv.org/abs/2611.25124v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25124v1",
+      "source": "arxiv",
+      "title": "Learning Integer Winding Evolution Times in Quantum Phase Estimation",
+      "url": "https://arxiv.org/abs/2611.25124v1"
+    },
+    {
+      "authors": [
+        "Serhat Emre Coban",
+        "Yanina Y. Shkel",
+        "Emre Telatar"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-18T19:33:20Z",
+      "id": "http://arxiv.org/abs/2611.25094v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25094v1",
+      "source": "arxiv",
+      "title": "Structure and Complexity of Perfect Functional Representations",
+      "url": "https://arxiv.org/abs/2611.25094v1"
+    },
+    {
+      "authors": [
+        "Shalev Ben-David",
+        "M. H. Ebtehaj"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-18T19:00:40Z",
+      "id": "http://arxiv.org/abs/2611.25046v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.25046v1",
+      "source": "arxiv",
+      "title": "The Metacomplexity Structure of Search Problems",
+      "url": "https://arxiv.org/abs/2611.25046v1"
+    },
+    {
+      "authors": [
+        "PAN, Lujia"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-10",
+      "id": "24121817",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Grain-level compilation of detrital-zircon U–Pb ages from Cretaceous basin fills of East China and the Korean Peninsula",
+      "url": "https://zenodo.org/records/24121817"
+    },
+    {
+      "authors": [
+        "Onyinyechi, Eya Celestina"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385817",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Youth Capacity Building Programmes and Crime Management in Cross River South Senatorial District, Nigeria",
+      "url": "https://zenodo.org/records/24385817"
+    },
+    {
+      "authors": [
+        "Dong, Jianyong"
+      ],
+      "category": "Software",
+      "date": "2026-11-20",
+      "id": "24367012",
+      "license": "gpl-3.0-or-later",
+      "source": "zenodo",
+      "title": "VISIT-4type v1.0: Forest age structure, wood harvest and land-cover transitions in a dynamic global vegetation model – code, input data, evaluation data and model output",
+      "url": "https://zenodo.org/records/24367012"
+    },
+    {
+      "authors": [
+        "Okpetu, Margaret I.",
+        "Akpan, Imaobong Theresa"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385724",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Technology-enabled Policing and Crime Control in Calabar Metropolis, Cross River State, Nigeria",
+      "url": "https://zenodo.org/records/24385724"
+    },
+    {
+      "authors": [
+        "Iheanacho, Linda Nnebuihe",
+        "Akpanke, Shishitileugiang Aniashie",
+        "Edu, Lawrence Eko",
+        "Sani, Emmanuel"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "id": "24385682",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Reimagining Equity and Justice in the Digital Age: Legal Pathways for Societal Tranformation in the Twenty-First Century",
+      "url": "https://zenodo.org/records/24385682"
+    },
+    {
+      "authors": [
+        "Santibáñez-Leal, Felipe"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-20",
+      "id": "24385662",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Flicker-Bounded Phase-Continuous Hologram Sequences for Moving Optical Traps: Smaller Phase Steps than Per-Frame Gerchberg-Saxton, a Higher Transient Minimum with a Linear Time Profile on the Short Move and a Lower One with the Minimal-Jerk Profile",
+      "url": "https://zenodo.org/records/24385662"
+    },
+    {
+      "authors": [
+        "Santibáñez-Leal, Felipe"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-20",
+      "id": "24385659",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A Learned Warm Start for Phase-Fixed Weighted Gerchberg-Saxton Does Not Beat an Early Phase Freeze: A Measured Negative Result on Holographic Optical Trap Arrays",
+      "url": "https://zenodo.org/records/24385659"
+    },
+    {
+      "authors": [
+        "Альниязова Гульнара Айтмуратовна",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24385643",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "СУБСТАНТИВАЦИЯ ИМЁН ПРИЛАГАТЕЛЬНЫХ В КАРАКАЛПАКСКОМ ЯЗЫКЕ",
+      "url": "https://zenodo.org/records/24385643"
+    },
+    {
+      "authors": [
+        "Observatorio de Cambio Global de Sierra Nevada"
+      ],
+      "category": "Software",
+      "date": "2026-11-20",
+      "id": "24385598",
+      "license": "gpl-3.0-or-later",
+      "source": "zenodo",
+      "title": "MonitorEO",
+      "url": "https://zenodo.org/records/24385598"
+    },
+    {
+      "authors": [
+        "Sansam, Courtney",
+        "Sambel, Larissa A.",
+        "Masser, Emily",
+        "Goins, Duane",
+        "Chistol, Gheorghe",
+        "Sansam, Christopher"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-19",
+      "id": "24385423",
+      "license": "cc-zero",
+      "source": "zenodo",
+      "title": "Source Data for DUE-B Is Dispensable for Early Development and DNA Replication in Vertebrates",
+      "url": "https://zenodo.org/records/24385423"
+    }
+  ],
+  "source": "arxiv+zenodo+openalex"
+}

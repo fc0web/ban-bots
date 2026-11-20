@@ -1,9 +1,41 @@
 {
   "ban": "uranai",
   "cap": 50,
-  "count": 18,
-  "generated_at": "2026-11-19T12:45:05+09:00",
+  "count": 20,
+  "generated_at": "2026-11-20T12:39:06+09:00",
   "records": [
+    {
+      "authors": [
+        "Chaves AL"
+      ],
+      "category": "History of psychology",
+      "date": "2026 Nov 19",
+      "first_seen_date": "2026-11-20",
+      "id": "pubmed:43056096",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Neither transcendence nor rupture: Rereading the young Piaget's \"immanentist turn\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43056096/"
+    },
+    {
+      "authors": [
+        "Krishnan M",
+        "Vaiphei K",
+        "Raghuveer P"
+      ],
+      "category": "Australasian psychiatry : bulletin of Royal Australian and New Zealand College of Psychiatrists",
+      "date": "2026 Nov 18",
+      "first_seen_date": "2026-11-20",
+      "id": "pubmed:43052040",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Explanatory models of mental illness among tribal communities in the Attappady region of Kerala: An exploratory qualitative study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43052040/"
+    },
     {
       "authors": [
         "Monsa R",
@@ -349,5 +381,5 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43041215/"
     }
   ],
-  "total_before_cap": 18
+  "total_before_cap": 20
 }

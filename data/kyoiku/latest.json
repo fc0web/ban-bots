@@ -2,8 +2,146 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-19T12:44:54+09:00",
+  "generated_at": "2026-11-20T12:38:53+09:00",
   "records": [
+    {
+      "authors": [
+        "Onyema, Okwu Augustina",
+        "Usang, Mercy Usang",
+        "Udom, Hannah Thompson",
+        "Abuh, Alice Uzuta"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385853",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Socio-cultural factors associated with antenatal care utilization among pregnant women in Yakurr Local Government Area, Cross River State, Nigeria",
+      "url": "https://zenodo.org/records/24385853"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385703",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24385703"
+    },
+    {
+      "authors": [
+        "PAN, Lujia"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-10",
+      "first_seen_date": "2026-11-20",
+      "id": "24121817",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Grain-level compilation of detrital-zircon U–Pb ages from Cretaceous basin fills of East China and the Korean Peninsula",
+      "url": "https://zenodo.org/records/24121817"
+    },
+    {
+      "authors": [
+        "Альниязова Гульнара Айтмуратовна",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385643",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "СУБСТАНТИВАЦИЯ ИМЁН ПРИЛАГАТЕЛЬНЫХ В КАРАКАЛПАКСКОМ ЯЗЫКЕ",
+      "url": "https://zenodo.org/records/24385643"
+    },
+    {
+      "authors": [
+        "Abia, Francis Raphael"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385590",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Influence of Political Socialization on Electoral Participation in Nigeria",
+      "url": "https://zenodo.org/records/24385590"
+    },
+    {
+      "authors": [
+        "Ekaluo, Anne U.",
+        "Eyong, Butum B.",
+        "Bekomson, Emmanuel M."
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385500",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "INDIGENOUS COMMUNICATION AND POLITICAL PARTICIPATION IN UYO SENATORIAL DISTRICT, AKWA IBOM STATE, NIGERIA",
+      "url": "https://zenodo.org/records/24385500"
+    },
+    {
+      "authors": [
+        "Aliyeva Shirin Bakhtiyorovna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385517",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "METHODOLOGICAL POTENTIAL OF USING SPORTS TERMINOLOGY IN TEACHING RUSSIAN",
+      "url": "https://zenodo.org/records/24385517"
+    },
+    {
+      "authors": [
+        "Khosiyatkhon Khamidovna Djuraeva",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24385433",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE ROLE OF AUTHENTIC TEXTS IN DEVELOPING THE PROFESSIONAL SPEECH OF SPORT UNIVERSITY STUDENTS IN RUSSIAN",
+      "url": "https://zenodo.org/records/24385433"
+    },
+    {
+      "authors": [
+        "LUQUE ZEVALLOS, HELBERT JUSTO"
+      ],
+      "category": "Book",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24382747",
+      "license": "",
+      "source": "zenodo",
+      "title": "Real Analysis Volume 5 Taylor and Riemann Integration",
+      "url": "https://zenodo.org/records/24382747"
+    },
+    {
+      "authors": [
+        "Baladi, Samir"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-20",
+      "id": "24384785",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Paper IX: Non-Injectivity of the Map E ↦ Z(E): Closure Systems, Generated Lower Cones and the Loss of Source Information in the Upper Family (Structural Series)",
+      "url": "https://zenodo.org/records/24384785"
+    },
     {
       "authors": [
         "Eric L. Grinberg",
@@ -586,152 +724,7 @@
       "source": "arxiv",
       "title": "Hostages",
       "url": "https://arxiv.org/abs/2611.09580v1"
-    },
-    {
-      "authors": [
-        "Pallabi Manna",
-        "Santanu Mandal",
-        "Fernando C. Tura"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-04T14:19:40Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.06981v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.06981v1",
-      "source": "arxiv",
-      "title": "The Spectral Theory of Cographs: A Survey, Organized by Graph Matrix",
-      "url": "https://arxiv.org/abs/2611.06981v1"
-    },
-    {
-      "authors": [
-        "Péter P. Pálfy"
-      ],
-      "category": "math.GR",
-      "date": "2026-11-04T07:00:01Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.06054v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.06054v1",
-      "source": "arxiv",
-      "title": "Galois's lost proof on $PSL(2,p)$",
-      "url": "https://arxiv.org/abs/2611.06054v1"
-    },
-    {
-      "authors": [
-        "Xingbang Hao"
-      ],
-      "category": "math.AG",
-      "date": "2026-11-03T13:09:57Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.04844v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.04844v1",
-      "source": "arxiv",
-      "title": "Derived Equivalences for Terminal Threefold Flops via Local Index-One Covering Models",
-      "url": "https://arxiv.org/abs/2611.04844v1"
-    },
-    {
-      "authors": [
-        "Nestor Guillen"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-03T02:55:27Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.04213v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.04213v1",
-      "source": "arxiv",
-      "title": "It is time for a New Deal for mathematics",
-      "url": "https://arxiv.org/abs/2611.04213v1"
-    },
-    {
-      "authors": [
-        "Doron Levy",
-        "Yaakov Malinovsky"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-02T02:50:23Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.02424v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.02424v1",
-      "source": "arxiv",
-      "title": "Around the Clock. New Twists on Fitch Cheney's Five-Card Trick",
-      "url": "https://arxiv.org/abs/2611.02424v1"
-    },
-    {
-      "authors": [
-        "Vincent Tariel-Adam"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-01T23:41:38Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.02294v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.02294v1",
-      "source": "arxiv",
-      "title": "Two teams that cancel: a didactic analysis of a teaching progression for signed numbers from Grade 5 to Grade 7",
-      "url": "https://arxiv.org/abs/2611.02294v1"
-    },
-    {
-      "authors": [
-        "Ying Xie"
-      ],
-      "category": "cs.AI",
-      "date": "2026-11-01T20:32:15Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.02186v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.02186v1",
-      "source": "arxiv",
-      "title": "Recursive Reasoning Exploration: Mathematical Research through Evolving Reasoning Graphs : case study: An Exact Certificate-Degree Theorem for Two-Term Tensor Decompositions : Phase III of the Math Instruments Program",
-      "url": "https://arxiv.org/abs/2611.02186v1"
-    },
-    {
-      "authors": [
-        "Josef Daněk"
-      ],
-      "category": "math.HO",
-      "date": "2026-10-30T12:08:00Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.06938v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.06938v1",
-      "source": "arxiv",
-      "title": "Support in the domain of numerical algorithms in the education of future secondary school mathematics teachers",
-      "url": "https://arxiv.org/abs/2611.06938v1"
-    },
-    {
-      "authors": [
-        "Anna Brandenberger",
-        "Hanna Mularczyk",
-        "Dora Woodruff"
-      ],
-      "category": "math.HO",
-      "date": "2026-10-29T17:46:24Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2610.40584v2",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2610.40584v2",
-      "source": "arxiv",
-      "title": "Early career researcher responses to AI in math",
-      "url": "https://arxiv.org/abs/2610.40584v2"
-    },
-    {
-      "authors": [
-        "Ranthony A. Clark"
-      ],
-      "category": "math.HO",
-      "date": "2026-10-29T16:38:11Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.00125v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.00125v1",
-      "source": "arxiv",
-      "title": "Letter to a Young Black Mathematician: History, Storytelling, and Belonging in Mathematics",
-      "url": "https://arxiv.org/abs/2611.00125v1"
     }
   ],
-  "total_before_cap": 120
+  "total_before_cap": 130
 }

@@ -1,0 +1,67 @@
+{
+  "ban": "fx-ban",
+  "fetch_stats": {
+    "after_filter": 7,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 5,
+        "raw": 15
+      },
+      "rss": {
+        "after_filter": 2,
+        "raw": 90
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 105,
+    "seen_previously": 6
+  },
+  "fetched_at": "2026-11-20T12:38:47+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "q-fin.TR",
+        "q-fin.ST"
+      ],
+      "keywords": [
+        "foreign exchange",
+        "exchange rate",
+        "FX market",
+        "currency pair",
+        "carry trade"
+      ],
+      "limit": 15,
+      "reldate": 180
+    },
+    "rss": {
+      "feeds": [
+        "https://www.fsa.go.jp/fsaNewsListAll_rss2.xml",
+        "https://www.boj.or.jp/rss/whatsnew.xml"
+      ],
+      "include_keywords": [
+        "FX",
+        "外国為替",
+        "為替",
+        "証拠金",
+        "相場"
+      ],
+      "limit_per_feed": 15
+    }
+  },
+  "records": [
+    {
+      "authors": [],
+      "category": "",
+      "date": "Fri, 20 Nov 2026 09:00:00 +0900",
+      "feed": "https://www.boj.or.jp/rss/whatsnew.xml",
+      "id": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "基準外国為替相場及び裁定外国為替相場（12月分）",
+      "url": "http://www.boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm"
+    }
+  ],
+  "source": "arxiv+rss"
+}

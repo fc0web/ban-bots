@@ -1,0 +1,81 @@
+{
+  "ban": "manga-anime-ban",
+  "fetch_stats": {
+    "after_filter": 8,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 2,
+        "raw": 15
+      },
+      "rss": {
+        "after_filter": 6,
+        "raw": 10
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 25,
+    "seen_previously": 7
+  },
+  "fetched_at": "2026-11-20T12:38:57+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.GR"
+      ],
+      "keywords": [
+        "anime colorization",
+        "line art colorization",
+        "in-betweening",
+        "sketch simplification",
+        "cel animation"
+      ],
+      "limit": 15,
+      "reldate": 180,
+      "required_keywords": [
+        "anime OR cartoon OR manga OR comic"
+      ],
+      "title_keywords": [
+        "anime",
+        "manga",
+        "cartoon",
+        "comic",
+        "2D animation",
+        "sprite",
+        "line art",
+        "cel"
+      ]
+    },
+    "rss": {
+      "exclude_keywords": [
+        "新入会員",
+        "選任",
+        "義援金",
+        "人事",
+        "会員のご紹介"
+      ],
+      "feeds": [
+        "https://aja.gr.jp/feed"
+      ],
+      "include_keywords": [],
+      "limit_per_feed": 10
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "wakamatsu"
+      ],
+      "category": "Info",
+      "date": "Fri, 20 Nov 2026 03:00:29 +0000",
+      "feed": "https://aja.gr.jp/feed",
+      "id": "https://aja.gr.jp/?p=2800",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "日本アニメ産業の国際競争力の維持/強化に向けた「 官民連携支援策 」提言について",
+      "url": "https://aja.gr.jp/info/2800"
+    }
+  ],
+  "source": "arxiv+rss"
+}
