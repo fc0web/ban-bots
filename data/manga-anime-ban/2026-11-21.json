@@ -1,0 +1,66 @@
+{
+  "ban": "manga-anime-ban",
+  "fetch_stats": {
+    "after_filter": 8,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 2,
+        "raw": 15
+      },
+      "rss": {
+        "after_filter": 6,
+        "raw": 10
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 25,
+    "seen_previously": 8
+  },
+  "fetched_at": "2026-11-21T12:21:28+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.GR"
+      ],
+      "keywords": [
+        "anime colorization",
+        "line art colorization",
+        "in-betweening",
+        "sketch simplification",
+        "cel animation"
+      ],
+      "limit": 15,
+      "reldate": 180,
+      "required_keywords": [
+        "anime OR cartoon OR manga OR comic"
+      ],
+      "title_keywords": [
+        "anime",
+        "manga",
+        "cartoon",
+        "comic",
+        "2D animation",
+        "sprite",
+        "line art",
+        "cel"
+      ]
+    },
+    "rss": {
+      "exclude_keywords": [
+        "新入会員",
+        "選任",
+        "義援金",
+        "人事",
+        "会員のご紹介"
+      ],
+      "feeds": [
+        "https://aja.gr.jp/feed"
+      ],
+      "include_keywords": [],
+      "limit_per_feed": 10
+    }
+  },
+  "records": [],
+  "source": "arxiv+rss"
+}

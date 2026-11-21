@@ -1,0 +1,42 @@
+{
+  "ban": "kokoku-ban",
+  "fetch_stats": {
+    "after_filter": 1,
+    "by_source": {
+      "rss": {
+        "after_filter": 1,
+        "raw": 180
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 180,
+    "seen_previously": 1
+  },
+  "fetched_at": "2026-11-21T12:21:23+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [
+      "広告",
+      "景品表示法",
+      "不当表示",
+      "誇大",
+      "ステマ",
+      "優良誤認",
+      "有利誤認",
+      "措置命令",
+      "課徴金",
+      "打消し表示",
+      "定期購入",
+      "特定商取引法"
+    ],
+    "limit_per_feed": 20
+  },
+  "records": [],
+  "source": "rss"
+}

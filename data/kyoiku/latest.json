@@ -2,8 +2,151 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-20T12:38:53+09:00",
+  "generated_at": "2026-11-21T12:21:25+09:00",
   "records": [
+    {
+      "authors": [
+        "Wu, Zhi-Juan"
+      ],
+      "category": "Report",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410226",
+      "license": "cc-by-nc-nd-4.0",
+      "source": "zenodo",
+      "title": "Supplemental_File S1: Ethics Approval for the Study \"Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning Was Associated with Improved Medical Students' Ethics Cognition: A Quasi-Experimental Study\"",
+      "url": "https://zenodo.org/records/24410226"
+    },
+    {
+      "authors": [
+        "Annamahmatova Habiba,  Yormatova Aziza",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410479",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A COMPARATIVE ANALYSIS OF CHALLENGES AND OPPORTUNITIES IN THE 21ST CENTURY",
+      "url": "https://zenodo.org/records/24410479"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410363",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24410363"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410338",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24410338"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-10-24",
+      "first_seen_date": "2026-11-21",
+      "id": "24410208",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Unit Zero and the Native Base Code: Abelian Variant–Invariant Polynomials, Quartic-N Smooth Minima, Continuous Time, and Exact Reconstruction of Finite-Energy Systems Within an Infinite-Energy Universe",
+      "url": "https://zenodo.org/records/24410208"
+    },
+    {
+      "authors": [
+        "Wu, Zhi-Juan"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24409761",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Supplemental Tables S1-S4: Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning (Advances in Physiology Education)",
+      "url": "https://zenodo.org/records/24409761"
+    },
+    {
+      "authors": [
+        "Moshahary, Jwngsar",
+        "Choudhury, Mrinal",
+        "Deka, Pompy",
+        "Sarma, Bhaskarjyoti",
+        "Mishra, Sakambari",
+        "Ray, Soumik",
+        "Sarma, Ranjit",
+        "Tamang, Anant"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "first_seen_date": "2026-11-21",
+      "id": "24388873",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data and Code for Phenology-Driven Mapping of Rubber Plantations in Kokrajhar, Assam, India",
+      "url": "https://zenodo.org/records/24388873"
+    },
+    {
+      "authors": [
+        "Dilafruz Yuldasheva",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410063",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DIGITAL TRANSFORMATION OF EDUCATIONAL COMMUNICATION: LINGUISTIC AND DISCURSIVE PERSPECTIVES",
+      "url": "https://zenodo.org/records/24410063"
+    },
+    {
+      "authors": [
+        "Mabugat, Erwin"
+      ],
+      "category": "Standard",
+      "date": "2026-11-21",
+      "first_seen_date": "2026-11-21",
+      "id": "24410005",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SOCIAL MEDIA UTILIZATION IN GOVERNMENT COMMUNICATION AND GOVERNANCE",
+      "url": "https://zenodo.org/records/24410005"
+    },
+    {
+      "authors": [
+        "Gottipati, Ponnari",
+        "Karak, Somdatta",
+        "Sharma, Manvi",
+        "Konwar, Chandrika",
+        "Goel, Khushi"
+      ],
+      "category": "Report",
+      "date": "2024-11-30",
+      "first_seen_date": "2026-11-21",
+      "id": "24409905",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "AMR Frontline Workshops: Building Awareness and Action on Antimicrobial Resistance among Medical Students and Healthcare Professionals",
+      "url": "https://zenodo.org/records/24409905"
+    },
     {
       "authors": [
         "Onyema, Okwu Augustina",
@@ -577,154 +720,7 @@
       "source": "zenodo",
       "title": "Bridging Numbers and Nature: A Meta-Analysis of Integrated Mathematics and Science Instruction and Its Effects on Middle School STEM Learning Outcomes",
       "url": "https://zenodo.org/records/24327031"
-    },
-    {
-      "authors": [
-        "Dela Cruz, Jona Grace R.",
-        "Lachica, Ma. Christalyn A.",
-        "Poot, Glojolyn P.",
-        "Soriano, John Carlo S.",
-        "Salugao, Jordan J."
-      ],
-      "category": "Journal article",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24328983",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Isolation and Identification of Bacterial Isolates from Fishball Sauce Ladle Water Used by Street Food Vendors in Barangay Zapote, Bacoor City, Cavite",
-      "url": "https://zenodo.org/records/24328983"
-    },
-    {
-      "authors": [
-        "Gatewood, Michael"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24328793",
-      "license": "cc-by-nd-4.0",
-      "source": "zenodo",
-      "title": "A Discrete Topological View Concerning a Novel Synthesis of the E8 Manifold",
-      "url": "https://zenodo.org/records/24328793"
-    },
-    {
-      "authors": [
-        "Mendez, Shareign Dane",
-        "Partoza, Kylee Jed",
-        "Peraki, Kimberly Andup",
-        "Randan, Arvee Mae",
-        "Salugao, Jordan J."
-      ],
-      "category": "Journal article",
-      "date": "2022-06-30",
-      "first_seen_date": "2026-11-18",
-      "id": "24328892",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Anti-Angiogenic Effects of Omega-3 Fatty Acids Extracted from Chanos chanos (Milkfish) in the Chorioallantoic Membrane of Duck Eggs",
-      "url": "https://zenodo.org/records/24328892"
-    },
-    {
-      "authors": [
-        "Owida, Hamza Abu",
-        "Arabiat, Areen"
-      ],
-      "category": "Journal article",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-18",
-      "id": "24328717",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Bridging ethics and performance in engineering education through predictive learning analytics",
-      "url": "https://zenodo.org/records/24328717"
-    },
-    {
-      "authors": [
-        "Isobel Falconer"
-      ],
-      "category": "physics.hist-ph",
-      "date": "2026-11-12T12:18:31Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.16700v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.16700v1",
-      "source": "arxiv",
-      "title": "History, mathematics and physics: two cases of the inverse square law",
-      "url": "https://arxiv.org/abs/2611.16700v1"
-    },
-    {
-      "authors": [
-        "Takayuki Uchiba",
-        "Kunihiro Miyazaki"
-      ],
-      "category": "cs.CY",
-      "date": "2026-11-09T03:54:39Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.11841v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.11841v1",
-      "source": "arxiv",
-      "title": "AI and Mathematical Work on Mastodon: Attention, Topics, and Target-Specific Evaluations",
-      "url": "https://arxiv.org/abs/2611.11841v1"
-    },
-    {
-      "authors": [
-        "Mario Vago Marzal",
-        "Enric Cosme Llópez"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-08T22:01:34Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.11645v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.11645v1",
-      "source": "arxiv",
-      "title": "A software infrastructure proposal for mathematical research with AI agents",
-      "url": "https://arxiv.org/abs/2611.11645v1"
-    },
-    {
-      "authors": [
-        "Roberto Volpe"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-08T15:11:35Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.11443v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.11443v1",
-      "source": "arxiv",
-      "title": "Finite models for the order axioms of the Hilbert Plane: Redundancies and Finite Independence Models",
-      "url": "https://arxiv.org/abs/2611.11443v1"
-    },
-    {
-      "authors": [
-        "Fernando Diaz-Diaz"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-06T19:08:16Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.10143v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.10143v1",
-      "source": "arxiv",
-      "title": "Discrete Spoilers: Introducing Abstract Undergraduate Mathematics Using Graph Theory",
-      "url": "https://arxiv.org/abs/2611.10143v1"
-    },
-    {
-      "authors": [
-        "Ernesto Mordecki"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-06T15:17:16Z",
-      "first_seen_date": "2026-11-17",
-      "id": "http://arxiv.org/abs/2611.09580v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.09580v1",
-      "source": "arxiv",
-      "title": "Hostages",
-      "url": "https://arxiv.org/abs/2611.09580v1"
     }
   ],
-  "total_before_cap": 130
+  "total_before_cap": 140
 }

@@ -1,9 +1,24 @@
 {
   "ban": "uranai",
   "cap": 50,
-  "count": 20,
-  "generated_at": "2026-11-20T12:39:06+09:00",
+  "count": 21,
+  "generated_at": "2026-11-21T12:21:37+09:00",
   "records": [
+    {
+      "authors": [
+        "Alharbi NS"
+      ],
+      "category": "Patient education and counseling",
+      "date": "2026 Nov 17",
+      "first_seen_date": "2026-11-21",
+      "id": "pubmed:43056917",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Medical decision-making preferences and religious decision support across morbidity, mortality, and quality-of-life scenarios: The role of Salat al-Istikharah.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43056917/"
+    },
     {
       "authors": [
         "Chaves AL"
@@ -381,5 +396,5 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43041215/"
     }
   ],
-  "total_before_cap": 20
+  "total_before_cap": 21
 }

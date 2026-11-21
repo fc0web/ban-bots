@@ -1,0 +1,400 @@
+{
+  "ban": "senkou-kenkyuu-kanshi",
+  "fetch_stats": {
+    "after_filter": 36,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "openalex": {
+        "after_filter": 6,
+        "raw": 6
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 23,
+    "newly_added_this_run": 23,
+    "raw_fetched": 36,
+    "seen_previously": 13
+  },
+  "fetched_at": "2026-11-21T12:21:35+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.IT",
+        "cs.PL",
+        "cs.CC"
+      ],
+      "limit": 20,
+      "reldate": 30
+    },
+    "openalex": {
+      "limit_per_phrase": 10,
+      "reldate": 30,
+      "title_phrases": [
+        "algorithmic statistics",
+        "Kolmogorov structure function",
+        "Wyner-Ziv",
+        "emergent communication",
+        "non-termination",
+        "stochastic thermodynamics of computation",
+        "minimum description length",
+        "agreement theorem"
+      ]
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "theoretical computer science"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Giuseppe Castagna",
+        "Luca Padovani",
+        "Daniele Varacca",
+        "Amine Nasri"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-19T18:30:14Z",
+      "id": "http://arxiv.org/abs/2611.26563v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26563v1",
+      "source": "arxiv",
+      "title": "You Have Mail: Set-Theoretic Types for Actors",
+      "url": "https://arxiv.org/abs/2611.26563v1"
+    },
+    {
+      "authors": [
+        "Thorsten Altenkirch"
+      ],
+      "category": "cs.LO",
+      "date": "2026-11-19T17:55:44Z",
+      "id": "http://arxiv.org/abs/2611.26507v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26507v1",
+      "source": "arxiv",
+      "title": "Hereditary permutations for simple types revisited: A baby case for University Algebra",
+      "url": "https://arxiv.org/abs/2611.26507v1"
+    },
+    {
+      "authors": [
+        "Xiaoming Sun",
+        "Chengu Wang"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-19T17:15:45Z",
+      "id": "http://arxiv.org/abs/2611.26446v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26446v1",
+      "source": "arxiv",
+      "title": "Degree Lower Bounds for Symmetric Boolean Functions: Breaking the Prime-Gap Barrier",
+      "url": "https://arxiv.org/abs/2611.26446v1"
+    },
+    {
+      "authors": [
+        "Yuchen Zhou",
+        "Lili Zheng",
+        "Yuxin Chen",
+        "Gen Li"
+      ],
+      "category": "stat.ML",
+      "date": "2026-11-19T16:54:03Z",
+      "id": "http://arxiv.org/abs/2611.26407v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26407v1",
+      "source": "arxiv",
+      "title": "Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling",
+      "url": "https://arxiv.org/abs/2611.26407v1"
+    },
+    {
+      "authors": [
+        "Fredrik Dahlqvist"
+      ],
+      "category": "cs.LO",
+      "date": "2026-11-19T16:49:32Z",
+      "id": "http://arxiv.org/abs/2611.26400v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26400v1",
+      "source": "arxiv",
+      "title": "On the semantics of conditional branching",
+      "url": "https://arxiv.org/abs/2611.26400v1"
+    },
+    {
+      "authors": [
+        "Stefano Tinelli",
+        "Francisco Lázaro",
+        "Francisco García Herrero"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-19T16:46:42Z",
+      "id": "http://arxiv.org/abs/2611.26395v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26395v1",
+      "source": "arxiv",
+      "title": "Non-Binary Detector Error Models",
+      "url": "https://arxiv.org/abs/2611.26395v1"
+    },
+    {
+      "authors": [
+        "Aimin Li",
+        "Yiğit İnce",
+        "Elif Uysal"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T16:38:23Z",
+      "id": "http://arxiv.org/abs/2611.26378v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26378v1",
+      "source": "arxiv",
+      "title": "Optimal Preemption: Guaranteeing Information Freshness in Mean Age and Beyond",
+      "url": "https://arxiv.org/abs/2611.26378v1"
+    },
+    {
+      "authors": [
+        "Shuichi Hirahara",
+        "Bingkai Lin",
+        "Yuwei Liu",
+        "Kazuki Ogitsuka"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-19T15:40:07Z",
+      "id": "http://arxiv.org/abs/2611.26273v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26273v1",
+      "source": "arxiv",
+      "title": "Deterministic Parameterized Inapproximability of the Shortest Vector and Minimum Distance Problems",
+      "url": "https://arxiv.org/abs/2611.26273v1"
+    },
+    {
+      "authors": [
+        "Zihao Xu",
+        "Yuekang Li",
+        "Ruitao Feng",
+        "Haifeng Shen"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-19T15:00:25Z",
+      "id": "http://arxiv.org/abs/2611.26221v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26221v1",
+      "source": "arxiv",
+      "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+      "url": "https://arxiv.org/abs/2611.26221v1"
+    },
+    {
+      "authors": [
+        "Geili T A El Sanousi",
+        "Tuan Anh Le",
+        "Raed A A Abd-Alhameed",
+        "Xin-She Yang",
+        "Huan X Nguyen"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T15:00:07Z",
+      "id": "http://arxiv.org/abs/2611.26220v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26220v1",
+      "source": "arxiv",
+      "title": "Spherical Tessellation of Circular Arrays for Massive MIMO: Favourable Propagation Conditions and Spectral Design",
+      "url": "https://arxiv.org/abs/2611.26220v1"
+    },
+    {
+      "authors": [
+        "John Paul Steinberger",
+        "Zhe Zhang"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-19T14:19:39Z",
+      "id": "http://arxiv.org/abs/2611.26169v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26169v1",
+      "source": "arxiv",
+      "title": "Products of Distinguisher Hulls",
+      "url": "https://arxiv.org/abs/2611.26169v1"
+    },
+    {
+      "authors": [
+        "Hendrik Molter"
+      ],
+      "category": "cs.DS",
+      "date": "2026-11-19T13:22:14Z",
+      "id": "http://arxiv.org/abs/2611.26080v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26080v1",
+      "source": "arxiv",
+      "title": "Running-Time Lower Bounds under FPT $\\neq$ W[1]",
+      "url": "https://arxiv.org/abs/2611.26080v1"
+    },
+    {
+      "authors": [
+        "Aolin Sun",
+        "Ruihong Jiang",
+        "Jincong Mo",
+        "Yangbo Guo",
+        "Zhuangzhuang Cui"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-19T13:12:42Z",
+      "id": "http://arxiv.org/abs/2611.26068v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26068v1",
+      "source": "arxiv",
+      "title": "Physics-Informed Deep Learning for Channel Prediction in Satellite-Mounted Metasurface Reflection Communication Networks",
+      "url": "https://arxiv.org/abs/2611.26068v1"
+    },
+    {
+      "authors": [
+        "Lee, Jaese",
+        "Yueh, Simon",
+        "Entekhabi, Dara",
+        "Colliander, Andreas",
+        "Im, Jungho",
+        "Park, Chang-Hwan",
+        "Kim, Hyunglok"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24359287",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Hybrid Dual Channel Algorithm (HDCA): Soil moisture retrieval for dense vegetation considering time-varying first-order scattering from SMAP L-band dual-polarized brightness temperatures",
+      "url": "https://zenodo.org/records/24359287"
+    },
+    {
+      "authors": [
+        "Agabekov Absattar Yuldashevich",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "id": "24410417",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "THE FORMATION AND DEVELOPMENT OF SCIENTIFIC IDEAS IN ECONOMICS: THE EVOLUTION OF THEORETICAL CONCEPTS, CONTEMPORARY APPROACHES, AND ENTREPRENEURIAL PRACTICE",
+      "url": "https://zenodo.org/records/24410417"
+    },
+    {
+      "authors": [
+        "Bargas-Galarraga, Iker",
+        "Gonzalez-Voyer, Alejandro"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-21",
+      "id": "24408380",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Size matters, but where do we draw the line? Body weight classification schemes and comparison with the spectrum of variation among breeds.",
+      "url": "https://zenodo.org/records/24408380"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-21",
+      "id": "24410363",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24410363"
+    },
+    {
+      "authors": [
+        "Ziwen, Hao"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24400456",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Ranking Robustness in Cardiac Event Timing",
+      "url": "https://zenodo.org/records/24400456"
+    },
+    {
+      "authors": [
+        "De, Ratnadip",
+        "Partin, Allen",
+        "Davis, Connor",
+        "Dykstra, ConnerConner",
+        "Bloom, Brian P.",
+        "Shiby, Elizabeth",
+        "Waldeck, David H",
+        "Schultze, Martin",
+        "Baker, L. Robert"
+      ],
+      "category": "Data paper",
+      "date": "2026-11-18",
+      "id": "24348956",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Source Data for Real-Time Observation of Dynamic Spin Polarization in Copper Oxide by Carrier Scattering with Chiral Phonons",
+      "url": "https://zenodo.org/records/24348956"
+    },
+    {
+      "authors": [
+        "Ac Canul, Néstor Guadalupe",
+        "Dzul Dzib, Luis Emmanuel",
+        "Gutiérrez Godoy, Jonathan Ariel",
+        "Canul Medina, Gustavo",
+        "Marfil Mezquita, Daniela"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-21",
+      "id": "24409949",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Calidad del sueño en estudiantes de Medicina de una universidad privada del Sureste de México",
+      "url": "https://zenodo.org/records/24409949"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-10-24",
+      "id": "24410208",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Unit Zero and the Native Base Code: Abelian Variant–Invariant Polynomials, Quartic-N Smooth Minima, Continuous Time, and Exact Reconstruction of Finite-Energy Systems Within an Infinite-Energy Universe",
+      "url": "https://zenodo.org/records/24410208"
+    },
+    {
+      "authors": [
+        "Moshahary, Jwngsar",
+        "Choudhury, Mrinal",
+        "Deka, Pompy",
+        "Sarma, Bhaskarjyoti",
+        "Mishra, Sakambari",
+        "Ray, Soumik",
+        "Sarma, Ranjit",
+        "Tamang, Anant"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24388873",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data and Code for Phenology-Driven Mapping of Rubber Plantations in Kokrajhar, Assam, India",
+      "url": "https://zenodo.org/records/24388873"
+    },
+    {
+      "authors": [
+        "Dilafruz Yuldasheva",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "id": "24410063",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DIGITAL TRANSFORMATION OF EDUCATIONAL COMMUNICATION: LINGUISTIC AND DISCURSIVE PERSPECTIVES",
+      "url": "https://zenodo.org/records/24410063"
+    }
+  ],
+  "source": "arxiv+zenodo+openalex"
+}

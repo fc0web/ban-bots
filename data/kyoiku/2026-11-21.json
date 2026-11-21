@@ -1,0 +1,167 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 10,
+    "newly_added_this_run": 10,
+    "raw_fetched": 30,
+    "seen_previously": 20
+  },
+  "fetched_at": "2026-11-21T12:21:25+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Wu, Zhi-Juan"
+      ],
+      "category": "Report",
+      "date": "2026-11-21",
+      "id": "24410226",
+      "license": "cc-by-nc-nd-4.0",
+      "source": "zenodo",
+      "title": "Supplemental_File S1: Ethics Approval for the Study \"Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning Was Associated with Improved Medical Students' Ethics Cognition: A Quasi-Experimental Study\"",
+      "url": "https://zenodo.org/records/24410226"
+    },
+    {
+      "authors": [
+        "Annamahmatova Habiba,  Yormatova Aziza",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "id": "24410479",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A COMPARATIVE ANALYSIS OF CHALLENGES AND OPPORTUNITIES IN THE 21ST CENTURY",
+      "url": "https://zenodo.org/records/24410479"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-21",
+      "id": "24410363",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24410363"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-21",
+      "id": "24410338",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24410338"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-10-24",
+      "id": "24410208",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Unit Zero and the Native Base Code: Abelian Variant–Invariant Polynomials, Quartic-N Smooth Minima, Continuous Time, and Exact Reconstruction of Finite-Energy Systems Within an Infinite-Energy Universe",
+      "url": "https://zenodo.org/records/24410208"
+    },
+    {
+      "authors": [
+        "Wu, Zhi-Juan"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "id": "24409761",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Supplemental Tables S1-S4: Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning (Advances in Physiology Education)",
+      "url": "https://zenodo.org/records/24409761"
+    },
+    {
+      "authors": [
+        "Moshahary, Jwngsar",
+        "Choudhury, Mrinal",
+        "Deka, Pompy",
+        "Sarma, Bhaskarjyoti",
+        "Mishra, Sakambari",
+        "Ray, Soumik",
+        "Sarma, Ranjit",
+        "Tamang, Anant"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-20",
+      "id": "24388873",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Data and Code for Phenology-Driven Mapping of Rubber Plantations in Kokrajhar, Assam, India",
+      "url": "https://zenodo.org/records/24388873"
+    },
+    {
+      "authors": [
+        "Dilafruz Yuldasheva",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-21",
+      "id": "24410063",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DIGITAL TRANSFORMATION OF EDUCATIONAL COMMUNICATION: LINGUISTIC AND DISCURSIVE PERSPECTIVES",
+      "url": "https://zenodo.org/records/24410063"
+    },
+    {
+      "authors": [
+        "Mabugat, Erwin"
+      ],
+      "category": "Standard",
+      "date": "2026-11-21",
+      "id": "24410005",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SOCIAL MEDIA UTILIZATION IN GOVERNMENT COMMUNICATION AND GOVERNANCE",
+      "url": "https://zenodo.org/records/24410005"
+    },
+    {
+      "authors": [
+        "Gottipati, Ponnari",
+        "Karak, Somdatta",
+        "Sharma, Manvi",
+        "Konwar, Chandrika",
+        "Goel, Khushi"
+      ],
+      "category": "Report",
+      "date": "2024-11-30",
+      "id": "24409905",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "AMR Frontline Workshops: Building Awareness and Action on Antimicrobial Resistance among Medical Students and Healthcare Professionals",
+      "url": "https://zenodo.org/records/24409905"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}
