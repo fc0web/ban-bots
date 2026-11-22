@@ -6,7 +6,7 @@
     "fx-ban": {
       "after_filter": 6,
       "new": 0,
-      "raw": 104
+      "raw": 102
     },
     "game-ban": {
       "after_filter": 2,
@@ -30,7 +30,7 @@
     },
     "news-ban": {
       "after_filter": 180,
-      "new": 27,
+      "new": 0,
       "raw": 180
     },
     "puzzle-ban": {
@@ -40,7 +40,7 @@
     },
     "senkou-kenkyuu-kanshi": {
       "after_filter": 36,
-      "new": 23,
+      "new": 10,
       "raw": 36
     },
     "uranai": {
@@ -49,41 +49,48 @@
       "raw": 29
     }
   },
-  "generated_at": "2026-11-21T12:21:48+09:00",
+  "generated_at": "2026-11-22T11:30:20+09:00",
   "ng": 0,
-  "ok": 7,
+  "ok": 6,
   "problems": [
     {
       "ban": "fx-ban",
-      "checked_at": "2026-11-21T12:21:17+09:00",
+      "checked_at": "2026-11-22T11:29:50+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=6)",
       "status": "warn"
     },
     {
       "ban": "game-ban",
-      "checked_at": "2026-11-21T12:21:19+09:00",
+      "checked_at": "2026-11-22T11:29:52+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=2)",
       "status": "warn"
     },
     {
       "ban": "kokoku-ban",
-      "checked_at": "2026-11-21T12:21:23+09:00",
+      "checked_at": "2026-11-22T11:29:55+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=1)",
       "status": "warn"
     },
     {
       "ban": "manga-anime-ban",
-      "checked_at": "2026-11-21T12:21:28+09:00",
+      "checked_at": "2026-11-22T11:30:00+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=8)",
       "status": "warn"
     },
     {
+      "ban": "news-ban",
+      "checked_at": "2026-11-22T11:30:02+09:00",
+      "freq": "daily",
+      "reason": "new_today=0 (after_filter=180)",
+      "status": "warn"
+    },
+    {
       "ban": "puzzle-ban",
-      "checked_at": "2026-11-21T12:21:31+09:00",
+      "checked_at": "2026-11-22T11:30:04+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=3)",
       "status": "warn"
@@ -93,5 +100,5 @@
   "ran_today": 9,
   "stale": 0,
   "total": 12,
-  "warn": 5
+  "warn": 6
 }

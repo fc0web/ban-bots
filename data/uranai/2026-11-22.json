@@ -1,0 +1,84 @@
+{
+  "ban": "uranai",
+  "fetch_stats": {
+    "after_filter": 9,
+    "by_source": {
+      "pubmed": {
+        "after_filter": 9,
+        "raw": 9
+      },
+      "rss": {
+        "after_filter": 0,
+        "raw": 20
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 29,
+    "seen_previously": 8
+  },
+  "fetched_at": "2026-11-22T11:30:11+09:00",
+  "params": {
+    "pubmed": {
+      "queries": [
+        {
+          "limit": 5,
+          "q": "astrology"
+        },
+        {
+          "limit": 5,
+          "q": "Barnum effect"
+        },
+        {
+          "limit": 5,
+          "q": "divination"
+        }
+      ],
+      "reldate": 30
+    },
+    "rss": {
+      "feeds": [
+        "https://www.caa.go.jp/news.rss"
+      ],
+      "include_keywords": [
+        "霊感",
+        "開運",
+        "占い",
+        "祈祷",
+        "スピリチュアル",
+        "霊視"
+      ],
+      "limit_per_feed": 10
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Eche-Ugwu IJ",
+        "Herold BT",
+        "Aronowitz T",
+        "Jackson AJ",
+        "White-Hammond GE",
+        "Bullock K",
+        "Asley A",
+        "Jette N",
+        "Edson J",
+        "Milomoe N",
+        "Arciprete EB",
+        "Umaretiya PJ",
+        "Wolfe J",
+        "Feraco AM"
+      ],
+      "category": "Journal of pain and symptom management",
+      "date": "2026 Nov 20",
+      "id": "pubmed:43064322",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "ACCOMPANI: A Psychosocial Nurse Intervention for African American Families in Pediatric Oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064322/"
+    }
+  ],
+  "source": "pubmed+rss"
+}

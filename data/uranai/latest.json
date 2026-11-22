@@ -1,9 +1,37 @@
 {
   "ban": "uranai",
   "cap": 50,
-  "count": 21,
-  "generated_at": "2026-11-21T12:21:37+09:00",
+  "count": 22,
+  "generated_at": "2026-11-22T11:30:11+09:00",
   "records": [
+    {
+      "authors": [
+        "Eche-Ugwu IJ",
+        "Herold BT",
+        "Aronowitz T",
+        "Jackson AJ",
+        "White-Hammond GE",
+        "Bullock K",
+        "Asley A",
+        "Jette N",
+        "Edson J",
+        "Milomoe N",
+        "Arciprete EB",
+        "Umaretiya PJ",
+        "Wolfe J",
+        "Feraco AM"
+      ],
+      "category": "Journal of pain and symptom management",
+      "date": "2026 Nov 20",
+      "first_seen_date": "2026-11-22",
+      "id": "pubmed:43064322",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "ACCOMPANI: A Psychosocial Nurse Intervention for African American Families in Pediatric Oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064322/"
+    },
     {
       "authors": [
         "Alharbi NS"
@@ -396,5 +424,5 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43041215/"
     }
   ],
-  "total_before_cap": 21
+  "total_before_cap": 22
 }
