@@ -1,0 +1,29 @@
+{
+  "ban": "news-ban",
+  "fetch_stats": {
+    "after_filter": 180,
+    "by_source": {
+      "rss": {
+        "after_filter": 180,
+        "raw": 180
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 180,
+    "seen_previously": 40
+  },
+  "fetched_at": "2026-11-23T11:58:15+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [],
+    "limit_per_feed": 10
+  },
+  "records": [],
+  "source": "rss"
+}

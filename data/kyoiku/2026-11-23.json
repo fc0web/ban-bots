@@ -1,0 +1,172 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 11,
+    "newly_added_this_run": 11,
+    "raw_fetched": 30,
+    "seen_previously": 19
+  },
+  "fetched_at": "2026-11-23T11:58:11+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Yang-Hui He"
+      ],
+      "category": "math.AG",
+      "date": "2026-11-20T01:51:40Z",
+      "id": "http://arxiv.org/abs/2611.26974v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26974v1",
+      "source": "arxiv",
+      "title": "Calabi-Yau at 50: mathematical discovery in the age of AI",
+      "url": "https://arxiv.org/abs/2611.26974v1"
+    },
+    {
+      "authors": [
+        "Smith, Jess",
+        "Shelton, Ryann"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-22",
+      "id": "23324619",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Reading, Reflecting, and Refining: A Duoethnography on Developing Feedback Practices for Doctoral Student Writing",
+      "url": "https://zenodo.org/records/23324619"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-23",
+      "id": "24453134",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Exact spectral gaps of block hit-and-run samplers on the Euclidean ball",
+      "url": "https://zenodo.org/records/24453134"
+    },
+    {
+      "authors": [
+        "Rokhmawati, Andewi"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-22",
+      "id": "24445044",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Public Verifiability of Carbon Credit Claims: Evidence from Indonesia's Greenhouse Gas Emission Reduction Certificate System",
+      "url": "https://zenodo.org/records/24445044"
+    },
+    {
+      "authors": [
+        "Deng, Zhu",
+        "Huang, Xiaoting",
+        "Liu, Zhu"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-06",
+      "id": "23998845",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Near-real-time monthly CO2 emissions across China's provinces from 2019 to 2025",
+      "url": "https://zenodo.org/records/23998845"
+    },
+    {
+      "authors": [
+        "Gualiza, Gretchin"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "id": "24452125",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Academic Behavior and Self-Determination Skills of Deaf and Hard-of-Hearing Learners in A Special Education Setting",
+      "url": "https://zenodo.org/records/24452125"
+    },
+    {
+      "authors": [
+        "Samputon, Vivian"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "id": "24452013",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Teacher Resilience and Compassion Fatigue Among Special Education Teachers",
+      "url": "https://zenodo.org/records/24452013"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-23",
+      "id": "24451935",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Exact Certified Coupled-System Solutions and Bounds: Riemann Hypothesis; Yang–Mills Existence and Mass Gap; Navier–Stokes Existence and Smoothness; Birch–Swinnerton–Dyer Conjecture; Hodge Conjecture; P versus NP; and Poincaré Conjecture",
+      "url": "https://zenodo.org/records/24451935"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-23",
+      "id": "24451885",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24451885"
+    },
+    {
+      "authors": [
+        "Mariñas, Mark Lourence",
+        "Lucilo-Bausa, Remeline"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "id": "24451791",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "GROUP WORK COLLABORATIVE LEARNING STRATEGY: A PATHWAY TO GRADE 7 NUMERACY SKILLS",
+      "url": "https://zenodo.org/records/24451791"
+    },
+    {
+      "authors": [
+        "Lima, Israely",
+        "Moreira Bezerra, Carla Ilane"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-23",
+      "id": "24451587",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Between Users and Developers: Technical and Soft Skills of Product Owners in the Brazilian Software Industry",
+      "url": "https://zenodo.org/records/24451587"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

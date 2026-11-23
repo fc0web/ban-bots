@@ -6,7 +6,7 @@
     "fx-ban": {
       "after_filter": 6,
       "new": 0,
-      "raw": 102
+      "raw": 99
     },
     "game-ban": {
       "after_filter": 2,
@@ -20,7 +20,7 @@
     },
     "kyoiku": {
       "after_filter": 30,
-      "new": 10,
+      "new": 11,
       "raw": 30
     },
     "manga-anime-ban": {
@@ -39,60 +39,67 @@
       "raw": 20
     },
     "senkou-kenkyuu-kanshi": {
-      "after_filter": 36,
-      "new": 10,
-      "raw": 36
+      "after_filter": 35,
+      "new": 16,
+      "raw": 35
     },
     "uranai": {
-      "after_filter": 9,
-      "new": 1,
-      "raw": 29
+      "after_filter": 8,
+      "new": 0,
+      "raw": 28
     }
   },
-  "generated_at": "2026-11-22T11:30:20+09:00",
+  "generated_at": "2026-11-23T11:58:31+09:00",
   "ng": 0,
-  "ok": 6,
+  "ok": 5,
   "problems": [
     {
       "ban": "fx-ban",
-      "checked_at": "2026-11-22T11:29:50+09:00",
+      "checked_at": "2026-11-23T11:58:03+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=6)",
       "status": "warn"
     },
     {
       "ban": "game-ban",
-      "checked_at": "2026-11-22T11:29:52+09:00",
+      "checked_at": "2026-11-23T11:58:06+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=2)",
       "status": "warn"
     },
     {
       "ban": "kokoku-ban",
-      "checked_at": "2026-11-22T11:29:55+09:00",
+      "checked_at": "2026-11-23T11:58:09+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=1)",
       "status": "warn"
     },
     {
       "ban": "manga-anime-ban",
-      "checked_at": "2026-11-22T11:30:00+09:00",
+      "checked_at": "2026-11-23T11:58:13+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=8)",
       "status": "warn"
     },
     {
       "ban": "news-ban",
-      "checked_at": "2026-11-22T11:30:02+09:00",
+      "checked_at": "2026-11-23T11:58:15+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=180)",
       "status": "warn"
     },
     {
       "ban": "puzzle-ban",
-      "checked_at": "2026-11-22T11:30:04+09:00",
+      "checked_at": "2026-11-23T11:58:16+09:00",
       "freq": "daily",
       "reason": "new_today=0 (after_filter=3)",
+      "status": "warn"
+    },
+    {
+      "ban": "uranai",
+      "checked_at": "2026-11-23T11:58:22+09:00",
+      "freq": "daily",
+      "reason": "new_today=0 (after_filter=8)",
       "status": "warn"
     }
   ],
@@ -100,5 +107,5 @@
   "ran_today": 9,
   "stale": 0,
   "total": 12,
-  "warn": 6
+  "warn": 7
 }

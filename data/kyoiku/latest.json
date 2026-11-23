@@ -2,8 +2,157 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-22T11:29:58+09:00",
+  "generated_at": "2026-11-23T11:58:11+09:00",
   "records": [
+    {
+      "authors": [
+        "Yang-Hui He"
+      ],
+      "category": "math.AG",
+      "date": "2026-11-20T01:51:40Z",
+      "first_seen_date": "2026-11-23",
+      "id": "http://arxiv.org/abs/2611.26974v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.26974v1",
+      "source": "arxiv",
+      "title": "Calabi-Yau at 50: mathematical discovery in the age of AI",
+      "url": "https://arxiv.org/abs/2611.26974v1"
+    },
+    {
+      "authors": [
+        "Smith, Jess",
+        "Shelton, Ryann"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-22",
+      "first_seen_date": "2026-11-23",
+      "id": "23324619",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Reading, Reflecting, and Refining: A Duoethnography on Developing Feedback Practices for Doctoral Student Writing",
+      "url": "https://zenodo.org/records/23324619"
+    },
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24453134",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Exact spectral gaps of block hit-and-run samplers on the Euclidean ball",
+      "url": "https://zenodo.org/records/24453134"
+    },
+    {
+      "authors": [
+        "Rokhmawati, Andewi"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-22",
+      "first_seen_date": "2026-11-23",
+      "id": "24445044",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Public Verifiability of Carbon Credit Claims: Evidence from Indonesia's Greenhouse Gas Emission Reduction Certificate System",
+      "url": "https://zenodo.org/records/24445044"
+    },
+    {
+      "authors": [
+        "Deng, Zhu",
+        "Huang, Xiaoting",
+        "Liu, Zhu"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-06",
+      "first_seen_date": "2026-11-23",
+      "id": "23998845",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Near-real-time monthly CO2 emissions across China's provinces from 2019 to 2025",
+      "url": "https://zenodo.org/records/23998845"
+    },
+    {
+      "authors": [
+        "Gualiza, Gretchin"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24452125",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Academic Behavior and Self-Determination Skills of Deaf and Hard-of-Hearing Learners in A Special Education Setting",
+      "url": "https://zenodo.org/records/24452125"
+    },
+    {
+      "authors": [
+        "Samputon, Vivian"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24452013",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Teacher Resilience and Compassion Fatigue Among Special Education Teachers",
+      "url": "https://zenodo.org/records/24452013"
+    },
+    {
+      "authors": [
+        "Storm, Jeremy"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24451935",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Exact Certified Coupled-System Solutions and Bounds: Riemann Hypothesis; Yang–Mills Existence and Mass Gap; Navier–Stokes Existence and Smoothness; Birch–Swinnerton–Dyer Conjecture; Hodge Conjecture; P versus NP; and Poincaré Conjecture",
+      "url": "https://zenodo.org/records/24451935"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24451885",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24451885"
+    },
+    {
+      "authors": [
+        "Mariñas, Mark Lourence",
+        "Lucilo-Bausa, Remeline"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24451791",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "GROUP WORK COLLABORATIVE LEARNING STRATEGY: A PATHWAY TO GRADE 7 NUMERACY SKILLS",
+      "url": "https://zenodo.org/records/24451791"
+    },
+    {
+      "authors": [
+        "Lima, Israely",
+        "Moreira Bezerra, Carla Ilane"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-23",
+      "first_seen_date": "2026-11-23",
+      "id": "24451587",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Between Users and Developers: Technical and Soft Skills of Product Owners in the Brazilian Software Industry",
+      "url": "https://zenodo.org/records/24451587"
+    },
     {
       "authors": [
         "Shmalo, Yitzchak"
@@ -557,166 +706,7 @@
       "source": "zenodo",
       "title": "Project NURTURE: Navigating Unified Responsible Parenting Towards an Upgraded Resilient Education System",
       "url": "https://zenodo.org/records/24357971"
-    },
-    {
-      "authors": [
-        "Hilmani, Adil",
-        "Sabri, Yassine",
-        "Maizate, Abderrahim",
-        "Aouad, Siham",
-        "Ayoub, Fouad"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-01",
-      "first_seen_date": "2026-11-19",
-      "id": "24357889",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Energy-efficient clustering optimization for heterogeneous wireless sensor networks with K-nearest neighbors algorithm",
-      "url": "https://zenodo.org/records/24357889"
-    },
-    {
-      "authors": [
-        "Ausdang, Thangthai",
-        "Pornpimon, Palingoon",
-        "Sumonmas, Thatphithakkul",
-        "Arnon, Namsanit",
-        "Nonlapas, Wongwaen",
-        "Watthanasak, Jeamwatthanachai"
-      ],
-      "category": "Data paper",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24357948",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Thai Sign Language Corpus (IPST Lessons): Sentence- and Sign- Level Annotations of Interpreted Mathematics, Science and Technology Lessons",
-      "url": "https://zenodo.org/records/24357948"
-    },
-    {
-      "authors": [
-        "Smith, Maria"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327699",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Semiconductor junction balance and rectification",
-      "url": "https://zenodo.org/records/24327699"
-    },
-    {
-      "authors": [
-        "Smith, Maria"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327587",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Positive velocity composition and the Fizeau comparison",
-      "url": "https://zenodo.org/records/24327587"
-    },
-    {
-      "authors": [
-        "Gunawan, Aditia"
-      ],
-      "category": "Other",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327474",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Designing Equitable Immersive Learning Environments: Examining the Role of Accessibility, Interface Quality, and Competency Development in VR-Based Hospitality Education",
-      "url": "https://zenodo.org/records/24327474"
-    },
-    {
-      "authors": [
-        "Storm, Jeremy"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327517",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Quantum Solve Theorem: Storm SRI (Solve-Repair-Integrate); Covariant and Coinvariant Balanced Derivation Chain including Exact Source Selection and Integration, One Shared Normalizer, Bidirectional Transport, Finite, Infinite, and Unbounded Constructions",
-      "url": "https://zenodo.org/records/24327517"
-    },
-    {
-      "authors": [
-        "Storm, Jeremy"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327475",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Source Code: The Quartic-N Coupled Solve–Repair–Integrate Covariant Unitary Dynamics, Quantum States, Coinvariant Transport, Finite–Infinite Reconstruction and Infinite History",
-      "url": "https://zenodo.org/records/24327475"
-    },
-    {
-      "authors": [
-        "Devasahayam Arokia Balaya, Rex",
-        "Olaleye, Olajide E.",
-        "Joshi, Neha",
-        "Lien, Karen R.",
-        "Pandey, Akhilesh",
-        "Boardman, Lisa",
-        "Byeon, Seul Kee"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-16",
-      "first_seen_date": "2026-11-18",
-      "id": "24289048",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Lipid imaging of colon organoids by MALDI-ion mobility mass spectrometry",
-      "url": "https://zenodo.org/records/24289048"
-    },
-    {
-      "authors": [
-        "Smith, Maria"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327323",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Hydrogen spectroscopy from the Fold transition hierarchy",
-      "url": "https://zenodo.org/records/24327323"
-    },
-    {
-      "authors": [
-        "Smith, Maria"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-18",
-      "first_seen_date": "2026-11-18",
-      "id": "24327162",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Dirac squares and Maxwell propagation from one Fold construction",
-      "url": "https://zenodo.org/records/24327162"
-    },
-    {
-      "authors": [
-        "Elezi, Shpëtim",
-        "Pllana Elezi, Violeta"
-      ],
-      "category": "Journal article",
-      "date": "2021-10-10",
-      "first_seen_date": "2026-11-18",
-      "id": "24326635",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "THE USE OF STANDARD ALBANIAN LANGUAGE BY PRIMARY SCHOOL TEACHERS",
-      "url": "https://zenodo.org/records/24326635"
     }
   ],
-  "total_before_cap": 150
+  "total_before_cap": 161
 }
