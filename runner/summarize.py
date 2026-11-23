@@ -9,9 +9,11 @@ over that is counted but not listed.
 from __future__ import annotations
 
 import sys
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
+
+import jpholiday
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -19,6 +21,16 @@ from runner import common  # noqa: E402
 
 MAX_PROBLEMS = 50
 DATA_RETENTION_DAYS = 30
+# Warn only after this many consecutive JST workdays with the symptom —
+# so weekends and holidays don't cause false alarms, and a single quiet
+# workday doesn't either.
+ZERO_FILTER_WORKDAY_THRESHOLD = 3
+ZERO_NEW_WORKDAY_THRESHOLD = 3
+
+
+def is_jst_workday(d: date) -> bool:
+    """A JST weekday (Mon-Fri) that is not a Japanese national holiday."""
+    return d.weekday() < 5 and not jpholiday.is_holiday(d)
 
 
 def _parse_jst(s: str) -> datetime | None:
@@ -34,8 +46,14 @@ def _parse_jst(s: str) -> datetime | None:
 
 
 def classify(ban: dict[str, Any], row: dict[str, Any] | None, now: datetime,
-             last_seen: dict[str, str]) -> tuple[str, str]:
-    """Return (status, reason). status ∈ {ok, warn, ng, stale}."""
+             last_seen: dict[str, str], streak_zf: int = 0,
+             streak_zn: int = 0) -> tuple[str, str]:
+    """Return (status, reason). status ∈ {ok, warn, ng, stale}.
+
+    streak_zf / streak_zn are the running workday-only streaks AS OF today
+    (already including today's increment): consecutive JST workdays with
+    after_filter=0, or with after_filter>0 and records_delta=0.
+    """
     if row is not None:
         # If the row is scheduled to be refreshed today but its own JST
         # date is older than today, it's a stale row from a previous day
@@ -55,23 +73,24 @@ def classify(ban: dict[str, Any], row: dict[str, Any] | None, now: datetime,
             if row.get("license_changed"):
                 reasons.append("license_changed")
             return "ng", "; ".join(reasons)
-        # With cross-day dedup, records == records_delta == "new today",
-        # so a daily board with records_delta == 0 and after_filter > 0 means
-        # "the source is alive and produced candidates, but all of them had
-        # already been surfaced before" — noise worth flagging.
-        after_filter = row.get("after_filter", row.get("records", 0))
-        delta_zero_with_candidates = (
-            ban["freq"] == "daily"
-            and row.get("records_delta", 0) == 0
-            and after_filter > 0
-        )
-        if row.get("broken_links", 0) > 0 or delta_zero_with_candidates:
-            parts = []
-            if row.get("broken_links", 0) > 0:
-                parts.append(f"broken_links={row['broken_links']}")
-            if delta_zero_with_candidates:
-                parts.append(f"new_today=0 (after_filter={after_filter})")
-            return "warn", "; ".join(parts)
+        if row.get("broken_links", 0) > 0:
+            return "warn", f"broken_links={row['broken_links']}"
+        # The remaining signals (after_filter=0, records_delta=0 with
+        # candidates) only mean "something is wrong" when they persist
+        # across workdays — a single quiet Friday is not a problem, nor
+        # is a 3-day holiday weekend. Streaks are advanced on JST workdays
+        # only, so weekends/holidays never move them.
+        after_filter = int(row.get("after_filter", row.get("records", 0)))
+        records_delta = int(row.get("records_delta", 0))
+        sparse = bool((ban.get("params") or {}).get("sparse"))
+        if ban["freq"] == "daily":
+            if after_filter == 0 and streak_zf >= ZERO_FILTER_WORKDAY_THRESHOLD:
+                return "warn", f"after_filter=0 for {streak_zf} workdays"
+            if after_filter > 0 and records_delta == 0 and not sparse:
+                if streak_zn >= ZERO_NEW_WORKDAY_THRESHOLD:
+                    return "warn", (
+                        f"new=0 for {streak_zn} workdays (after_filter={after_filter})"
+                    )
         return "ok", ""
 
     # No row this run. Was it scheduled today?
@@ -157,25 +176,51 @@ def main() -> int:
             if row.get("ban"):
                 rows_by_id[row["ban"]] = row
 
-    # Previous summary's last_seen map (so unscheduled bans can age into stale).
+    # Previous summary's last_seen map (so unscheduled bans can age into stale)
+    # and previous streaks (workday-only consecutive-zero counters per ban).
     prev = common.read_json(common.STATUS_DIR / "summary.json") or {}
     last_seen: dict[str, str] = dict(prev.get("last_seen") or {})
+    prev_streaks: dict[str, dict[str, int]] = dict(prev.get("streaks") or {})
     for bid, row in rows_by_id.items():
         if row.get("source_ok") and row.get("checked_at"):
             last_seen[bid] = row["checked_at"]
+
+    # Advance streaks only on JST workdays (weekday & non-holiday). On a
+    # weekend or a national holiday the previous streak values carry over
+    # unchanged, so e.g. a Fri -> Mon run across Sat/Sun/祝 is treated as
+    # one workday step and a 6-day 年末年始 休業 never moves the counters.
+    today_wd = is_jst_workday(now.date())
+    streaks: dict[str, dict[str, int]] = {}
 
     counters = {"ok": 0, "warn": 0, "ng": 0, "stale": 0}
     problems: list[dict[str, Any]] = []
     ran_today = 0
     for ban in bans:
-        row = rows_by_id.get(ban["id"])
+        bid = ban["id"]
+        row = rows_by_id.get(bid)
         if row is not None:
             ran_today += 1
-        status, reason = classify(ban, row, now, last_seen)
+        prev_zf = int((prev_streaks.get(bid) or {}).get("zero_filter", 0))
+        prev_zn = int((prev_streaks.get(bid) or {}).get("zero_new", 0))
+        if row is None or not today_wd:
+            zf, zn = prev_zf, prev_zn
+        else:
+            af = int(row.get("after_filter", row.get("records", 0)))
+            nd = int(row.get("records_delta", 0))
+            if af == 0:
+                # No candidates today — zero_new's "candidates existed" chain
+                # breaks, so reset it; zero_filter advances.
+                zf = prev_zf + 1
+                zn = 0
+            else:
+                zf = 0
+                zn = prev_zn + 1 if nd == 0 else 0
+        streaks[bid] = {"zero_filter": zf, "zero_new": zn}
+        status, reason = classify(ban, row, now, last_seen, zf, zn)
         counters[status] += 1
         if status in ("warn", "ng", "stale") and len(problems) < MAX_PROBLEMS:
             problems.append({
-                "ban": ban["id"],
+                "ban": bid,
                 "status": status,
                 "freq": ban["freq"],
                 "reason": reason,
@@ -211,6 +256,7 @@ def main() -> int:
         "problems_truncated": max(truncated, 0),
         "counts": counts,
         "last_seen": {b["id"]: last_seen[b["id"]] for b in bans if b["id"] in last_seen},
+        "streaks": {b["id"]: streaks[b["id"]] for b in bans if b["id"] in streaks},
     }
     common.write_json(common.STATUS_DIR / "summary.json", summary)
     write_mokuroku(summary)
