@@ -27,10 +27,23 @@ DATA_RETENTION_DAYS = 30
 ZERO_FILTER_WORKDAY_THRESHOLD = 3
 ZERO_NEW_WORKDAY_THRESHOLD = 3
 
+# 年末年始の休み。jpholiday は 1/1 しか祝日扱いしないので、1/2・1/3 と
+# 12/29・12/30・12/31 を同じ扱いにして稼働日から外す。毎年同じ日付。
+YEAR_END_OFF_MMDD: set[tuple[int, int]] = {
+    (12, 29), (12, 30), (12, 31), (1, 2), (1, 3),
+}
+
 
 def is_jst_workday(d: date) -> bool:
-    """A JST weekday (Mon-Fri) that is not a Japanese national holiday."""
-    return d.weekday() < 5 and not jpholiday.is_holiday(d)
+    """A JST weekday (Mon-Fri) that is neither a national holiday nor a
+    year-end/new-year off day (12/29-31, 1/2-3)."""
+    if d.weekday() >= 5:
+        return False
+    if jpholiday.is_holiday(d):
+        return False
+    if (d.month, d.day) in YEAR_END_OFF_MMDD:
+        return False
+    return True
 
 
 def _parse_jst(s: str) -> datetime | None:
