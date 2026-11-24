@@ -1,0 +1,366 @@
+{
+  "ban": "news-ban",
+  "fetch_stats": {
+    "after_filter": 162,
+    "by_source": {
+      "rss": {
+        "after_filter": 162,
+        "raw": 162
+      }
+    },
+    "new_today": 24,
+    "newly_added_this_run": 24,
+    "raw_fetched": 162,
+    "seen_previously": 15
+  },
+  "fetched_at": "2026-11-24T15:15:30+09:00",
+  "params": {
+    "feeds": [
+      "https://www.caa.go.jp/news.rss",
+      "https://www.mhlw.go.jp/stf/news.rdf",
+      "https://www.cao.go.jp/rss/news.rdf",
+      "https://www.soumu.go.jp/news.rdf"
+    ],
+    "include_keywords": [],
+    "limit_per_feed": 10
+  },
+  "records": [
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048248@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "CSF(豚熱)に関する情報(2026年11月24日更新)",
+      "url": "https://www.caa.go.jp/notice/entry/048248/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048247@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "鳥インフルエンザに関する情報(2026年11月24日更新)",
+      "url": "https://www.caa.go.jp/notice/entry/048247/"
+    },
+    {
+      "authors": [
+        "消費者庁"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:30:00+09:00",
+      "feed": "https://www.caa.go.jp/news.rss",
+      "id": "048207@www.caa.go.jp",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "未来本部がフードドライブによる食品の贈呈式を実施しました",
+      "url": "https://www.caa.go.jp/notice/entry/048207/"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T15:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/s2026/09.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「人口動態統計速報」令和８（2026）年09月分",
+      "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/s2026/09.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77569.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第１回 生命科学・医学系研究等における個人情報の取扱い等に関する合同会議 第２タスクフォース",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77569.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77563.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第222回社会保障審議会医療保険部会（ペーパーレス）の開催について",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77563.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T14:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77457.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "第３回「化学物質管理強調月間」を２月に実施",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77457.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/toukei/list/113-1.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "食肉検査等情報還元調査",
+      "url": "https://www.mhlw.go.jp/toukei/list/113-1.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/acp-jinseikaigi/",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和8年度「人生会議」普及啓発イベント第二弾を令和９年１月24日（日）に北海道函館市で開催します",
+      "url": "https://www.mhlw.go.jp/acp-jinseikaigi/"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-soudanshiensenmonkan.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "採用情報（任期付職員（相談支援専門官）募集情報）",
+      "url": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-soudanshiensenmonkan.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T10:00:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/newpage_77249.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "令和８年度 人生会議（ACP）普及・啓発イベント 『自分らしく生き抜くために「人生会議」はじめてみませんか？ in 北海道函館市』を令和９年１月24日（日）に函館市で開催します",
+      "url": "https://www.mhlw.go.jp/stf/newpage_77249.html"
+    },
+    {
+      "authors": [
+        "厚生労働省"
+      ],
+      "category": "",
+      "date": "2026-11-24T09:16:00+09:00",
+      "feed": "https://www.mhlw.go.jp/stf/news.rdf",
+      "id": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-kokusaikakokusaihokenkyouryokusitsusyusa_00006.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "採用情報（任期付職員（国際保健・協力室主査）募集情報）",
+      "url": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/ninkituki/ninki-kokusaikakokusaihokenkyouryokusitsusyusa_00006.html"
+    },
+    {
+      "authors": [
+        "内閣府"
+      ],
+      "category": "",
+      "date": "2026-11-24T14:56:00+09:00",
+      "feed": "https://www.cao.go.jp/rss/news.rdf",
+      "id": "https://www.fsc.go.jp/senmon/sonota/annai/wg_gijutsukikaku_annai_40.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "評価技術企画ワーキンググループ（第40回）の開催について【12月2日開催】",
+      "url": "https://www.fsc.go.jp/senmon/sonota/annai/wg_gijutsukikaku_annai_40.html"
+    },
+    {
+      "authors": [
+        "内閣府"
+      ],
+      "category": "",
+      "date": "2026-11-24T14:56:00+09:00",
+      "feed": "https://www.cao.go.jp/rss/news.rdf",
+      "id": "https://www.fsc.go.jp/senmon/nouyaku/annai/nouyaku_annai_dai5_senmon_52.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "農薬第五専門調査会（第52回）の開催について（非公開）【12月2日開催】",
+      "url": "https://www.fsc.go.jp/senmon/nouyaku/annai/nouyaku_annai_dai5_senmon_52.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/housou_seisaku/02ryutsu07_04000604.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信審議会 情報通信政策部会 放送政策委員会（第6回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/housou_seisaku/02ryutsu07_04000604.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02kiban03_04001199.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "情報通信行政・郵政行政審議会 電気通信事業部会 市場検証委員会 利用者視点を踏まえたモバイル市場の検証に関する専門委員会（第11回）",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02kiban03_04001199.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000307.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「でんわんセンター」における国際電話発着信の利用休止受付の開始",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban18_01000307.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/gyouji/02tsushin04_04000269.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "Beyond 5G時代に向けた新ビジネス戦略セミナー（第29回） 〜「宇宙と成層圏に作る次世代通信基盤：NTNの最新動向と社会実装への挑戦」開催の御案内〜",
+      "url": "https://www.soumu.go.jp/menu_news/gyouji/02tsushin04_04000269.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu09_02000403.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "超短波放送（FM放送）を行う中継局の免許の申請の受付",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu09_02000403.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01kiban16_02000393.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "「高周波利用設備の条件の特例を定める件」の一部改正案に対する 意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban16_02000393.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01tsushin08_02000216.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "ペルー共和国首相府との災害リスク管理に係る情報通信技術分野における協力覚書の署名",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01tsushin08_02000216.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01tsushin08_02000215.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "チリ共和国運輸通信省との情報通信技術分野の協力に関する覚書の署名",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01tsushin08_02000215.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/s-news/01toukei05_01000349.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "経済構造実態調査規則の一部を改正する省令案に関する意見募集",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01toukei05_01000349.html"
+    },
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-24T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "id": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001595.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "藤井総務大臣閣議後記者会見の概要",
+      "url": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001595.html"
+    }
+  ],
+  "source": "rss"
+}

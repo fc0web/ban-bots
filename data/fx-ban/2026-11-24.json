@@ -1,0 +1,54 @@
+{
+  "ban": "fx-ban",
+  "fetch_stats": {
+    "after_filter": 5,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 4,
+        "raw": 15
+      },
+      "rss": {
+        "after_filter": 1,
+        "raw": 81
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 96,
+    "seen_previously": 5
+  },
+  "fetched_at": "2026-11-24T15:15:18+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "q-fin.TR",
+        "q-fin.ST"
+      ],
+      "keywords": [
+        "foreign exchange",
+        "exchange rate",
+        "FX market",
+        "currency pair",
+        "carry trade"
+      ],
+      "limit": 15,
+      "reldate": 180
+    },
+    "rss": {
+      "feeds": [
+        "https://www.fsa.go.jp/fsaNewsListAll_rss2.xml",
+        "https://www.boj.or.jp/rss/whatsnew.xml"
+      ],
+      "include_keywords": [
+        "FX",
+        "外国為替",
+        "為替",
+        "証拠金",
+        "相場"
+      ],
+      "limit_per_feed": 15
+    }
+  },
+  "records": [],
+  "source": "arxiv+rss"
+}

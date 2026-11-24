@@ -2,8 +2,302 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-23T11:58:11+09:00",
+  "generated_at": "2026-11-24T15:15:27+09:00",
   "records": [
+    {
+      "authors": [
+        "Dmitriy Leykekhman"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-23T15:31:20Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.30852v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.30852v1",
+      "source": "arxiv",
+      "title": "Lessons from Chess: Mathematics in the Age of AI",
+      "url": "https://arxiv.org/abs/2611.30852v1"
+    },
+    {
+      "authors": [
+        "Dingxin Zhang"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-23T14:24:22Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.30749v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.30749v1",
+      "source": "arxiv",
+      "title": "Notes on an elementary proof of Weil II from Hexagon",
+      "url": "https://arxiv.org/abs/2611.30749v1"
+    },
+    {
+      "authors": [
+        "Shurui Liu"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-22T22:35:19Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29811v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29811v1",
+      "source": "arxiv",
+      "title": "Notes on Generative AI for Mathematical Research",
+      "url": "https://arxiv.org/abs/2611.29811v1"
+    },
+    {
+      "authors": [
+        "Vincent Tariel-Adam"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-22T21:47:00Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29788v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29788v1",
+      "source": "arxiv",
+      "title": "One machine, three drawings: a didactic analysis of a teaching progression for the function concept from Grade 4 to Grade 10",
+      "url": "https://arxiv.org/abs/2611.29788v1"
+    },
+    {
+      "authors": [
+        "Franz Lemmermeyer"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-22T10:57:53Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29386v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29386v1",
+      "source": "arxiv",
+      "title": "On the Number Theory of the Greeks. II. Gauss's Lemmas and Riesz Domains",
+      "url": "https://arxiv.org/abs/2611.29386v1"
+    },
+    {
+      "authors": [
+        "Franz Lemmermeyer"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-22T10:46:51Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29380v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29380v1",
+      "source": "arxiv",
+      "title": "On the number theory of the Greeks. I. The Fundamental Theorem of Arithmetic",
+      "url": "https://arxiv.org/abs/2611.29380v1"
+    },
+    {
+      "authors": [
+        "Carlo Gasbarri"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-21T23:07:54Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29087v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29087v1",
+      "source": "arxiv",
+      "title": "The Role of Mathematicians in Mathematics",
+      "url": "https://arxiv.org/abs/2611.29087v1"
+    },
+    {
+      "authors": [
+        "Juan B. Gutiérrez"
+      ],
+      "category": "stat.AP",
+      "date": "2026-11-21T20:39:44Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.29032v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29032v1",
+      "source": "arxiv",
+      "title": "A Calculus Gradient: Child Poverty, Mathematics Preparation, and First-Year College Performance at a Hispanic-Serving University",
+      "url": "https://arxiv.org/abs/2611.29032v1"
+    },
+    {
+      "authors": [
+        "Siniša Miličić"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-21T16:25:05Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.28899v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.28899v1",
+      "source": "arxiv",
+      "title": "Questions, Explanation and Synthesis in Service Mathematics: Course Design with Didactic Units and Hybrid Teaching",
+      "url": "https://arxiv.org/abs/2611.28899v1"
+    },
+    {
+      "authors": [
+        "Hector Giacomini"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-20T22:42:17Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.28384v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.28384v1",
+      "source": "arxiv",
+      "title": "Louis Bachelier's Theorie de la speculation: Circulation and Reception",
+      "url": "https://arxiv.org/abs/2611.28384v1"
+    },
+    {
+      "authors": [
+        "Antti Veilahti"
+      ],
+      "category": "math.CT",
+      "date": "2026-11-20T08:19:32Z",
+      "first_seen_date": "2026-11-24",
+      "id": "http://arxiv.org/abs/2611.27280v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.27280v1",
+      "source": "arxiv",
+      "title": "Bridging Badiou's Gaps: Topos Theory and the Bodies of Mathematical Expression",
+      "url": "https://arxiv.org/abs/2611.27280v1"
+    },
+    {
+      "authors": [
+        "Safarova Gulzoda Ismoilovna"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24491384",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DEVELOPMENT OF EDUCATION, UPBRINGING, AND PEDAGOGICAL THOUGHT IN BUKHARA (1920–1938)",
+      "url": "https://zenodo.org/records/24491384"
+    },
+    {
+      "authors": [
+        "Legaspo, Shella Jane B.",
+        "Ajos, Maria Teresa O."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24491194",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "BUDGETING AND FINANCIAL PLANNING PRACTICES IN PUBLIC ELEMENTARY SCHOOLS: CHALLENGES, OPPORTUNITIES, AND IMPLICATIONS FOR FINANCIAL MANAGEMENT",
+      "url": "https://zenodo.org/records/24491194"
+    },
+    {
+      "authors": [
+        "Deka, Archana",
+        "Goswami, Marami"
+      ],
+      "category": "Peer review",
+      "date": "2026-06-16",
+      "first_seen_date": "2026-11-24",
+      "id": "20716905",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Development of Work Life Balance Scale for Primary School Teachers",
+      "url": "https://zenodo.org/records/20716905"
+    },
+    {
+      "authors": [
+        "Sobirova Shahnoz Shavqiddinovna"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24491120",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "UMUMTA'LIM MAKTABLARIDA USTOZ-SHOGIRD TIZIMINING AHAMIYATI VA UNI TAKOMILLASHTIRISH YO'LLARI",
+      "url": "https://zenodo.org/records/24491120"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24491069",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24491069"
+    },
+    {
+      "authors": [
+        "BARON DELGADO, JAMES JHONATAN",
+        "Chepe Rivera, Nilton John",
+        "Rojas Palacios, Luis Eden"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24490945",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "An ICT tools training program to improve the teaching-learning process among Regular Basic Education teachers in Cutervo, Peru, 2026: a proposal-oriented descriptive study",
+      "url": "https://zenodo.org/records/24490945"
+    },
+    {
+      "authors": [
+        "Alpala, Luis Omar",
+        "Heredia Campaña, Argenis",
+        "Quiroga-Parra, Dario J.",
+        "Montenegro, Blanca Liliana",
+        "Realpe Cabrera, Iván",
+        "Espejo Viñán, Hernán"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24490441",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Dataset S1: Documented assessable practice with enabling technologies in higher education (programme register, source register, recalculated statistics and double coding)",
+      "url": "https://zenodo.org/records/24490441"
+    },
+    {
+      "authors": [
+        "Tuxtasinov Mamarasul Rayimjon o'g'li"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24490819",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "JAMIYAT SIYOSIY ONGINING ENDOGEN VA EKZOGEN OMILLARI HAMDA ULARNING IJTIMOIY-DEMOGRAFIK JARAYONLARGA TA'SIRINING FALSAFIY ASOSLARI",
+      "url": "https://zenodo.org/records/24490819"
+    },
+    {
+      "authors": [
+        "Tuxtasinov Mamarasul Rayimjon o'g'li"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24490818",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SIYOSIY TAFAKKUR TRANSFORMATSIYASINING JAMIYAT DEMOGRAFIK TARAQQIYOTIGA TA'SIRI: IJTIMOIY-FALSAFIY TAHLIL",
+      "url": "https://zenodo.org/records/24490818"
+    },
+    {
+      "authors": [
+        "Puja Prempal, Ahuja",
+        "Rajesh Sachde, Nimit"
+      ],
+      "category": "Journal",
+      "date": "2026-11-24",
+      "first_seen_date": "2026-11-24",
+      "id": "24490662",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Emotional Intelligence, Work Engagement, and Professional Effectiveness: A Critical Analysis and Performance Measure",
+      "url": "https://zenodo.org/records/24490662"
+    },
     {
       "authors": [
         "Yang-Hui He"
@@ -403,310 +697,7 @@
       "source": "zenodo",
       "title": "DIGITAL TRANSFORMATION OF EDUCATIONAL COMMUNICATION: LINGUISTIC AND DISCURSIVE PERSPECTIVES",
       "url": "https://zenodo.org/records/24410063"
-    },
-    {
-      "authors": [
-        "Mabugat, Erwin"
-      ],
-      "category": "Standard",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24410005",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "SOCIAL MEDIA UTILIZATION IN GOVERNMENT COMMUNICATION AND GOVERNANCE",
-      "url": "https://zenodo.org/records/24410005"
-    },
-    {
-      "authors": [
-        "Gottipati, Ponnari",
-        "Karak, Somdatta",
-        "Sharma, Manvi",
-        "Konwar, Chandrika",
-        "Goel, Khushi"
-      ],
-      "category": "Report",
-      "date": "2024-11-30",
-      "first_seen_date": "2026-11-21",
-      "id": "24409905",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "AMR Frontline Workshops: Building Awareness and Action on Antimicrobial Resistance among Medical Students and Healthcare Professionals",
-      "url": "https://zenodo.org/records/24409905"
-    },
-    {
-      "authors": [
-        "Onyema, Okwu Augustina",
-        "Usang, Mercy Usang",
-        "Udom, Hannah Thompson",
-        "Abuh, Alice Uzuta"
-      ],
-      "category": "Conference paper",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385853",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Socio-cultural factors associated with antenatal care utilization among pregnant women in Yakurr Local Government Area, Cross River State, Nigeria",
-      "url": "https://zenodo.org/records/24385853"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385703",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
-      "url": "https://zenodo.org/records/24385703"
-    },
-    {
-      "authors": [
-        "PAN, Lujia"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-10",
-      "first_seen_date": "2026-11-20",
-      "id": "24121817",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Grain-level compilation of detrital-zircon U–Pb ages from Cretaceous basin fills of East China and the Korean Peninsula",
-      "url": "https://zenodo.org/records/24121817"
-    },
-    {
-      "authors": [
-        "Альниязова Гульнара Айтмуратовна",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385643",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "СУБСТАНТИВАЦИЯ ИМЁН ПРИЛАГАТЕЛЬНЫХ В КАРАКАЛПАКСКОМ ЯЗЫКЕ",
-      "url": "https://zenodo.org/records/24385643"
-    },
-    {
-      "authors": [
-        "Abia, Francis Raphael"
-      ],
-      "category": "Conference paper",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385590",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Influence of Political Socialization on Electoral Participation in Nigeria",
-      "url": "https://zenodo.org/records/24385590"
-    },
-    {
-      "authors": [
-        "Ekaluo, Anne U.",
-        "Eyong, Butum B.",
-        "Bekomson, Emmanuel M."
-      ],
-      "category": "Conference paper",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385500",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "INDIGENOUS COMMUNICATION AND POLITICAL PARTICIPATION IN UYO SENATORIAL DISTRICT, AKWA IBOM STATE, NIGERIA",
-      "url": "https://zenodo.org/records/24385500"
-    },
-    {
-      "authors": [
-        "Aliyeva Shirin Bakhtiyorovna",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385517",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "METHODOLOGICAL POTENTIAL OF USING SPORTS TERMINOLOGY IN TEACHING RUSSIAN",
-      "url": "https://zenodo.org/records/24385517"
-    },
-    {
-      "authors": [
-        "Khosiyatkhon Khamidovna Djuraeva",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24385433",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "THE ROLE OF AUTHENTIC TEXTS IN DEVELOPING THE PROFESSIONAL SPEECH OF SPORT UNIVERSITY STUDENTS IN RUSSIAN",
-      "url": "https://zenodo.org/records/24385433"
-    },
-    {
-      "authors": [
-        "LUQUE ZEVALLOS, HELBERT JUSTO"
-      ],
-      "category": "Book",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24382747",
-      "license": "",
-      "source": "zenodo",
-      "title": "Real Analysis Volume 5 Taylor and Riemann Integration",
-      "url": "https://zenodo.org/records/24382747"
-    },
-    {
-      "authors": [
-        "Baladi, Samir"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-20",
-      "id": "24384785",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Paper IX: Non-Injectivity of the Map E ↦ Z(E): Closure Systems, Generated Lower Cones and the Loss of Source Information in the Upper Family (Structural Series)",
-      "url": "https://zenodo.org/records/24384785"
-    },
-    {
-      "authors": [
-        "Eric L. Grinberg",
-        "Omar Hijab"
-      ],
-      "category": "math.HO",
-      "date": "2026-11-14T22:08:53Z",
-      "first_seen_date": "2026-11-19",
-      "id": "http://arxiv.org/abs/2611.23318v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.23318v1",
-      "source": "arxiv",
-      "title": "Archimedes' Angle Measure and The Fundamental Theorem of Trigonometry",
-      "url": "https://arxiv.org/abs/2611.23318v1"
-    },
-    {
-      "authors": [
-        "Santibáñez-Leal, Felipe"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24358311",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Three-Dimensional Counterexample to the Jacobian Conjecture: Exact Validation, a Proved Seed-Family Constructor, the Discriminant Wall of Non-Properness, and Planar Equivariant Rigidity",
-      "url": "https://zenodo.org/records/24358311"
-    },
-    {
-      "authors": [
-        "Erna, Guguloth",
-        "Saidulu, Vadtya",
-        "Manjusha, Chinta",
-        "Murthy, GVK",
-        "Chalampalem, Vijaya Bhaskar",
-        "Sekhar, Puthalapattu Muni"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-01",
-      "first_seen_date": "2026-11-19",
-      "id": "24358216",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A high-speed fault-tolerant vedic FIR filter architecture on FPGA using reversible logic for ML accelerator applications",
-      "url": "https://zenodo.org/records/24358216"
-    },
-    {
-      "authors": [
-        "Raxmonova Gulsevar Rahmatillayevna",
-        "Azamova Maloxat Najimovna",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24358267",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "THE ROLE OF PUBLIC-PRIVATE PARTNERSHIPS IN ENHANCING THE QUALITY OF PRESCHOOL EDUCATION",
-      "url": "https://zenodo.org/records/24358267"
-    },
-    {
-      "authors": [
-        "Raximova Zarina Faxriddin qizi",
-        "Xayitova Oybibi Kattayevna",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24358212",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "PEDAGOGICAL APPROACHES TO ORGANIZING PARA JUDO TRAINING FOR CHILDREN WITH DISABILITIES",
-      "url": "https://zenodo.org/records/24358212"
-    },
-    {
-      "authors": [
-        "Swain, Srinibas",
-        "Falkner, Nickolas"
-      ],
-      "category": "Poster",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24358075",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Developing a Teaching Assistant Community for CS, IT, and SE",
-      "url": "https://zenodo.org/records/24358075"
-    },
-    {
-      "authors": [
-        "Ali, Zainab M.",
-        "Zabin, Saad",
-        "Abbas, Iraq"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-01",
-      "first_seen_date": "2026-11-19",
-      "id": "24358056",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Internet of things-enabled fuzzy goal programming for healthcare resource allocation",
-      "url": "https://zenodo.org/records/24358056"
-    },
-    {
-      "authors": [
-        "Nazarova Asila Mamarasulovna",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-19",
-      "first_seen_date": "2026-11-19",
-      "id": "24358115",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "MAKTABGACHA TA'LIM TASHKILOTI TARBIYACHILARINING KASBIY KOMPETENTLIGINI RIVOJLANTIRISHDA REFLEKSIV YONDASHUVNING AHAMIYATI",
-      "url": "https://zenodo.org/records/24358115"
-    },
-    {
-      "authors": [
-        "Benig, Sherylou",
-        "Labangcoc, Marissa Lyn",
-        "Jontilano, Mary Rose",
-        "Bendoy, Geneveive"
-      ],
-      "category": "Journal",
-      "date": "2026-08-01",
-      "first_seen_date": "2026-11-19",
-      "id": "24357971",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Project NURTURE: Navigating Unified Responsible Parenting Towards an Upgraded Resilient Education System",
-      "url": "https://zenodo.org/records/24357971"
     }
   ],
-  "total_before_cap": 161
+  "total_before_cap": 182
 }

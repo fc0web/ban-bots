@@ -1,0 +1,307 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 21,
+    "newly_added_this_run": 21,
+    "raw_fetched": 30,
+    "seen_previously": 9
+  },
+  "fetched_at": "2026-11-24T15:15:27+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Dmitriy Leykekhman"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-23T15:31:20Z",
+      "id": "http://arxiv.org/abs/2611.30852v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.30852v1",
+      "source": "arxiv",
+      "title": "Lessons from Chess: Mathematics in the Age of AI",
+      "url": "https://arxiv.org/abs/2611.30852v1"
+    },
+    {
+      "authors": [
+        "Dingxin Zhang"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-23T14:24:22Z",
+      "id": "http://arxiv.org/abs/2611.30749v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.30749v1",
+      "source": "arxiv",
+      "title": "Notes on an elementary proof of Weil II from Hexagon",
+      "url": "https://arxiv.org/abs/2611.30749v1"
+    },
+    {
+      "authors": [
+        "Shurui Liu"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-22T22:35:19Z",
+      "id": "http://arxiv.org/abs/2611.29811v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29811v1",
+      "source": "arxiv",
+      "title": "Notes on Generative AI for Mathematical Research",
+      "url": "https://arxiv.org/abs/2611.29811v1"
+    },
+    {
+      "authors": [
+        "Vincent Tariel-Adam"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-22T21:47:00Z",
+      "id": "http://arxiv.org/abs/2611.29788v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29788v1",
+      "source": "arxiv",
+      "title": "One machine, three drawings: a didactic analysis of a teaching progression for the function concept from Grade 4 to Grade 10",
+      "url": "https://arxiv.org/abs/2611.29788v1"
+    },
+    {
+      "authors": [
+        "Franz Lemmermeyer"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-22T10:57:53Z",
+      "id": "http://arxiv.org/abs/2611.29386v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29386v1",
+      "source": "arxiv",
+      "title": "On the Number Theory of the Greeks. II. Gauss's Lemmas and Riesz Domains",
+      "url": "https://arxiv.org/abs/2611.29386v1"
+    },
+    {
+      "authors": [
+        "Franz Lemmermeyer"
+      ],
+      "category": "math.NT",
+      "date": "2026-11-22T10:46:51Z",
+      "id": "http://arxiv.org/abs/2611.29380v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29380v1",
+      "source": "arxiv",
+      "title": "On the number theory of the Greeks. I. The Fundamental Theorem of Arithmetic",
+      "url": "https://arxiv.org/abs/2611.29380v1"
+    },
+    {
+      "authors": [
+        "Carlo Gasbarri"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-21T23:07:54Z",
+      "id": "http://arxiv.org/abs/2611.29087v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29087v1",
+      "source": "arxiv",
+      "title": "The Role of Mathematicians in Mathematics",
+      "url": "https://arxiv.org/abs/2611.29087v1"
+    },
+    {
+      "authors": [
+        "Juan B. Gutiérrez"
+      ],
+      "category": "stat.AP",
+      "date": "2026-11-21T20:39:44Z",
+      "id": "http://arxiv.org/abs/2611.29032v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.29032v1",
+      "source": "arxiv",
+      "title": "A Calculus Gradient: Child Poverty, Mathematics Preparation, and First-Year College Performance at a Hispanic-Serving University",
+      "url": "https://arxiv.org/abs/2611.29032v1"
+    },
+    {
+      "authors": [
+        "Siniša Miličić"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-21T16:25:05Z",
+      "id": "http://arxiv.org/abs/2611.28899v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.28899v1",
+      "source": "arxiv",
+      "title": "Questions, Explanation and Synthesis in Service Mathematics: Course Design with Didactic Units and Hybrid Teaching",
+      "url": "https://arxiv.org/abs/2611.28899v1"
+    },
+    {
+      "authors": [
+        "Hector Giacomini"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-20T22:42:17Z",
+      "id": "http://arxiv.org/abs/2611.28384v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.28384v1",
+      "source": "arxiv",
+      "title": "Louis Bachelier's Theorie de la speculation: Circulation and Reception",
+      "url": "https://arxiv.org/abs/2611.28384v1"
+    },
+    {
+      "authors": [
+        "Antti Veilahti"
+      ],
+      "category": "math.CT",
+      "date": "2026-11-20T08:19:32Z",
+      "id": "http://arxiv.org/abs/2611.27280v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.27280v1",
+      "source": "arxiv",
+      "title": "Bridging Badiou's Gaps: Topos Theory and the Bodies of Mathematical Expression",
+      "url": "https://arxiv.org/abs/2611.27280v1"
+    },
+    {
+      "authors": [
+        "Safarova Gulzoda Ismoilovna"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "id": "24491384",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DEVELOPMENT OF EDUCATION, UPBRINGING, AND PEDAGOGICAL THOUGHT IN BUKHARA (1920–1938)",
+      "url": "https://zenodo.org/records/24491384"
+    },
+    {
+      "authors": [
+        "Legaspo, Shella Jane B.",
+        "Ajos, Maria Teresa O."
+      ],
+      "category": "Journal article",
+      "date": "2026-11-24",
+      "id": "24491194",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "BUDGETING AND FINANCIAL PLANNING PRACTICES IN PUBLIC ELEMENTARY SCHOOLS: CHALLENGES, OPPORTUNITIES, AND IMPLICATIONS FOR FINANCIAL MANAGEMENT",
+      "url": "https://zenodo.org/records/24491194"
+    },
+    {
+      "authors": [
+        "Deka, Archana",
+        "Goswami, Marami"
+      ],
+      "category": "Peer review",
+      "date": "2026-06-16",
+      "id": "20716905",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Development of Work Life Balance Scale for Primary School Teachers",
+      "url": "https://zenodo.org/records/20716905"
+    },
+    {
+      "authors": [
+        "Sobirova Shahnoz Shavqiddinovna"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "id": "24491120",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "UMUMTA'LIM MAKTABLARIDA USTOZ-SHOGIRD TIZIMINING AHAMIYATI VA UNI TAKOMILLASHTIRISH YO'LLARI",
+      "url": "https://zenodo.org/records/24491120"
+    },
+    {
+      "authors": [
+        "Skrynnik, Sergey"
+      ],
+      "category": "Publication",
+      "date": "2026-11-24",
+      "id": "24491069",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
+      "url": "https://zenodo.org/records/24491069"
+    },
+    {
+      "authors": [
+        "BARON DELGADO, JAMES JHONATAN",
+        "Chepe Rivera, Nilton John",
+        "Rojas Palacios, Luis Eden"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-24",
+      "id": "24490945",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "An ICT tools training program to improve the teaching-learning process among Regular Basic Education teachers in Cutervo, Peru, 2026: a proposal-oriented descriptive study",
+      "url": "https://zenodo.org/records/24490945"
+    },
+    {
+      "authors": [
+        "Alpala, Luis Omar",
+        "Heredia Campaña, Argenis",
+        "Quiroga-Parra, Dario J.",
+        "Montenegro, Blanca Liliana",
+        "Realpe Cabrera, Iván",
+        "Espejo Viñán, Hernán"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "id": "24490441",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Dataset S1: Documented assessable practice with enabling technologies in higher education (programme register, source register, recalculated statistics and double coding)",
+      "url": "https://zenodo.org/records/24490441"
+    },
+    {
+      "authors": [
+        "Tuxtasinov Mamarasul Rayimjon o'g'li"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "id": "24490819",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "JAMIYAT SIYOSIY ONGINING ENDOGEN VA EKZOGEN OMILLARI HAMDA ULARNING IJTIMOIY-DEMOGRAFIK JARAYONLARGA TA'SIRINING FALSAFIY ASOSLARI",
+      "url": "https://zenodo.org/records/24490819"
+    },
+    {
+      "authors": [
+        "Tuxtasinov Mamarasul Rayimjon o'g'li"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-24",
+      "id": "24490818",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SIYOSIY TAFAKKUR TRANSFORMATSIYASINING JAMIYAT DEMOGRAFIK TARAQQIYOTIGA TA'SIRI: IJTIMOIY-FALSAFIY TAHLIL",
+      "url": "https://zenodo.org/records/24490818"
+    },
+    {
+      "authors": [
+        "Puja Prempal, Ahuja",
+        "Rajesh Sachde, Nimit"
+      ],
+      "category": "Journal",
+      "date": "2026-11-24",
+      "id": "24490662",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Emotional Intelligence, Work Engagement, and Professional Effectiveness: A Critical Analysis and Performance Measure",
+      "url": "https://zenodo.org/records/24490662"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

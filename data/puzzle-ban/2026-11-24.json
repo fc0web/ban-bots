@@ -1,0 +1,41 @@
+{
+  "ban": "puzzle-ban",
+  "fetch_stats": {
+    "after_filter": 3,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 3,
+        "raw": 20
+      }
+    },
+    "new_today": 0,
+    "newly_added_this_run": 0,
+    "raw_fetched": 20,
+    "seen_previously": 3
+  },
+  "fetched_at": "2026-11-24T15:15:31+09:00",
+  "params": {
+    "categories": [
+      "cs.CC",
+      "math.CO",
+      "cs.DS",
+      "cs.DM"
+    ],
+    "keywords": [
+      "sliding puzzle",
+      "Nikoli",
+      "Sudoku",
+      "combinatorial game",
+      "NP-hard",
+      "PSPACE-complete",
+      "sliding block"
+    ],
+    "limit": 20,
+    "reldate": 180,
+    "required_keywords": [
+      "puzzle"
+    ]
+  },
+  "records": [],
+  "source": "arxiv"
+}
