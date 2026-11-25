@@ -205,11 +205,16 @@ def main() -> int:
     today_wd = is_jst_workday(now.date())
     streaks: dict[str, dict[str, int]] = {}
 
-    counters = {"ok": 0, "warn": 0, "ng": 0, "stale": 0}
+    counters = {"ok": 0, "warn": 0, "ng": 0, "stale": 0, "disabled": 0}
     problems: list[dict[str, Any]] = []
     ran_today = 0
     for ban in bans:
         bid = ban["id"]
+        # 停止中（registry の enabled=false）の盤は classify に入れず、
+        # 専用の disabled カウンタで数える。streak も進めない。
+        if not ban["enabled"]:
+            counters["disabled"] += 1
+            continue
         row = rows_by_id.get(bid)
         if row is not None:
             ran_today += 1
@@ -265,6 +270,7 @@ def main() -> int:
         "warn": counters["warn"],
         "ng": counters["ng"],
         "stale": counters["stale"],
+        "disabled": counters["disabled"],
         "problems": problems,
         "problems_truncated": max(truncated, 0),
         "counts": counts,
@@ -277,7 +283,8 @@ def main() -> int:
     print(
         f"summary: total={summary['total']} ran_today={summary['ran_today']} "
         f"ok={summary['ok']} warn={summary['warn']} ng={summary['ng']} "
-        f"stale={summary['stale']} problems={len(problems)} "
+        f"stale={summary['stale']} disabled={summary['disabled']} "
+        f"problems={len(problems)} "
         f"(truncated={summary['problems_truncated']}) "
         f"pruned={removed}"
     )
