@@ -1,0 +1,60 @@
+{
+  "ban": "puzzle-ban",
+  "fetch_stats": {
+    "after_filter": 3,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 3,
+        "raw": 20
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 20,
+    "seen_previously": 2
+  },
+  "fetched_at": "2026-11-25T13:58:42+09:00",
+  "params": {
+    "categories": [
+      "cs.CC",
+      "math.CO",
+      "cs.DS",
+      "cs.DM"
+    ],
+    "keywords": [
+      "sliding puzzle",
+      "Nikoli",
+      "Sudoku",
+      "combinatorial game",
+      "NP-hard",
+      "PSPACE-complete",
+      "sliding block"
+    ],
+    "limit": 20,
+    "reldate": 180,
+    "required_keywords": [
+      "puzzle"
+    ],
+    "sparse": true
+  },
+  "records": [
+    {
+      "authors": [
+        "Utkarsh Tiwari",
+        "Utkarsh Thanvi",
+        "Armaan Sethi",
+        "Aalok Thakkar",
+        "Neeldhara Misra"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-18T18:49:27Z",
+      "id": "http://arxiv.org/abs/2611.24918v2",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24918v2",
+      "source": "arxiv",
+      "title": "Hardness of \"Infinite Energy\" Puzzles",
+      "url": "https://arxiv.org/abs/2611.24918v2"
+    }
+  ],
+  "source": "arxiv"
+}

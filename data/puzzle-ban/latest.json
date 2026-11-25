@@ -1,9 +1,27 @@
 {
   "ban": "puzzle-ban",
   "cap": 50,
-  "count": 3,
-  "generated_at": "2026-11-24T15:15:31+09:00",
+  "count": 4,
+  "generated_at": "2026-11-25T13:58:42+09:00",
   "records": [
+    {
+      "authors": [
+        "Utkarsh Tiwari",
+        "Utkarsh Thanvi",
+        "Armaan Sethi",
+        "Aalok Thakkar",
+        "Neeldhara Misra"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-18T18:49:27Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.24918v2",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.24918v2",
+      "source": "arxiv",
+      "title": "Hardness of \"Infinite Energy\" Puzzles",
+      "url": "https://arxiv.org/abs/2611.24918v2"
+    },
     {
       "authors": [
         "Utkarsh Tiwari",
@@ -53,5 +71,5 @@
       "url": "https://arxiv.org/abs/2606.29153v1"
     }
   ],
-  "total_before_cap": 3
+  "total_before_cap": 4
 }

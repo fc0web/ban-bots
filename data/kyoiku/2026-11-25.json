@@ -1,0 +1,48 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 20,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 0,
+        "raw": 0
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 20,
+    "seen_previously": 19
+  },
+  "fetched_at": "2026-11-25T13:58:35+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Asaf Hadari",
+        "Thomas Koberda"
+      ],
+      "category": "math.HO",
+      "date": "2026-11-23T20:28:43Z",
+      "id": "http://arxiv.org/abs/2611.31523v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.31523v1",
+      "source": "arxiv",
+      "title": "The Work of Mathematical Production in the Age of AI",
+      "url": "https://arxiv.org/abs/2611.31523v1"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

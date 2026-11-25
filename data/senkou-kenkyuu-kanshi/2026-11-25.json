@@ -1,0 +1,345 @@
+{
+  "ban": "senkou-kenkyuu-kanshi",
+  "fetch_stats": {
+    "after_filter": 25,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "openalex": {
+        "after_filter": 5,
+        "raw": 5
+      },
+      "zenodo": {
+        "after_filter": 0,
+        "raw": 0
+      }
+    },
+    "new_today": 20,
+    "newly_added_this_run": 20,
+    "raw_fetched": 25,
+    "seen_previously": 5
+  },
+  "fetched_at": "2026-11-25T13:58:48+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.IT",
+        "cs.PL",
+        "cs.CC"
+      ],
+      "limit": 20,
+      "reldate": 30
+    },
+    "openalex": {
+      "limit_per_phrase": 10,
+      "reldate": 30,
+      "title_phrases": [
+        "algorithmic statistics",
+        "Kolmogorov structure function",
+        "Wyner-Ziv",
+        "emergent communication",
+        "non-termination",
+        "stochastic thermodynamics of computation",
+        "minimum description length",
+        "agreement theorem"
+      ]
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "theoretical computer science"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Christoph Kern",
+        "Alexander Firbas",
+        "Manuel Sorge"
+      ],
+      "category": "cs.DS",
+      "date": "2026-11-24T16:37:07Z",
+      "id": "http://arxiv.org/abs/2611.32927v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32927v1",
+      "source": "arxiv",
+      "title": "Algorithms and Complexity of Connectivity Switching in Graphs",
+      "url": "https://arxiv.org/abs/2611.32927v1"
+    },
+    {
+      "authors": [
+        "Anushri Jana",
+        "Kush Goradiya",
+        "Uday P Khedker"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-24T16:34:29Z",
+      "id": "http://arxiv.org/abs/2611.32920v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32920v1",
+      "source": "arxiv",
+      "title": "Increasing the Precision of IR Mapping for Incremental Data Analysis",
+      "url": "https://arxiv.org/abs/2611.32920v1"
+    },
+    {
+      "authors": [
+        "Ruiqi Wang",
+        "Jingtong Hu"
+      ],
+      "category": "cs.LG",
+      "date": "2026-11-24T16:22:03Z",
+      "id": "http://arxiv.org/abs/2611.32892v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32892v1",
+      "source": "arxiv",
+      "title": "Shared information governs multi-view planted matching",
+      "url": "https://arxiv.org/abs/2611.32892v1"
+    },
+    {
+      "authors": [
+        "Hua Sun"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T16:19:06Z",
+      "id": "http://arxiv.org/abs/2611.32886v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32886v1",
+      "source": "arxiv",
+      "title": "The Capacity of Conference Key Agreement over GHZ Networks",
+      "url": "https://arxiv.org/abs/2611.32886v1"
+    },
+    {
+      "authors": [
+        "Yogesh Dahiya",
+        "Mika Göös",
+        "Nathaniel Harms",
+        "Hamed Hatami",
+        "Pooya Hatami",
+        "Shachar Lovett",
+        "Weiqiang Yuan"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T15:50:14Z",
+      "id": "http://arxiv.org/abs/2611.32837v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32837v1",
+      "source": "arxiv",
+      "title": "Communication Complexity of Disambiguations of Gap Hamming Distance",
+      "url": "https://arxiv.org/abs/2611.32837v1"
+    },
+    {
+      "authors": [
+        "Eunghyun Lee"
+      ],
+      "category": "cond-mat.stat-mech",
+      "date": "2026-11-24T15:04:12Z",
+      "id": "http://arxiv.org/abs/2611.32766v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32766v1",
+      "source": "arxiv",
+      "title": "Ordering Information in Multispecies Long-Range Swap Processes",
+      "url": "https://arxiv.org/abs/2611.32766v1"
+    },
+    {
+      "authors": [
+        "Jingcheng He",
+        "Zinan Zhao",
+        "Wenguang Sun",
+        "Xintao Xia"
+      ],
+      "category": "stat.AP",
+      "date": "2026-11-24T14:19:33Z",
+      "id": "http://arxiv.org/abs/2611.32674v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32674v1",
+      "source": "arxiv",
+      "title": "Simultaneous Inference for Watermark Proportions in LLM-Generated Text",
+      "url": "https://arxiv.org/abs/2611.32674v1"
+    },
+    {
+      "authors": [
+        "Rafał Frączek"
+      ],
+      "category": "cs.DC",
+      "date": "2026-11-24T14:09:45Z",
+      "id": "http://arxiv.org/abs/2611.32653v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32653v1",
+      "source": "arxiv",
+      "title": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation, Reclamation, and Scaling",
+      "url": "https://arxiv.org/abs/2611.32653v1"
+    },
+    {
+      "authors": [
+        "Kamila Szewczyk"
+      ],
+      "category": "cs.SD",
+      "date": "2026-11-24T14:01:01Z",
+      "id": "http://arxiv.org/abs/2611.32641v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32641v1",
+      "source": "arxiv",
+      "title": "Lossless Re-Encoding of Vorbis and Opus Audio Files",
+      "url": "https://arxiv.org/abs/2611.32641v1"
+    },
+    {
+      "authors": [
+        "A. C. Cem Say"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T13:54:27Z",
+      "id": "http://arxiv.org/abs/2611.32633v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32633v1",
+      "source": "arxiv",
+      "title": "Lower space bounds for polynomial-time quantum computation",
+      "url": "https://arxiv.org/abs/2611.32633v1"
+    },
+    {
+      "authors": [
+        "Marco Sälzer"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T13:30:15Z",
+      "id": "http://arxiv.org/abs/2611.32595v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32595v1",
+      "source": "arxiv",
+      "title": "Degree-bounded Satisfiability of Local MPNNs with Sum Aggregation is NEXPTIME-hard",
+      "url": "https://arxiv.org/abs/2611.32595v1"
+    },
+    {
+      "authors": [
+        "Oxana Shaya",
+        "Zahra Baghali Khanian"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-24T12:42:11Z",
+      "id": "http://arxiv.org/abs/2611.32514v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32514v1",
+      "source": "arxiv",
+      "title": "Quantum Capacity with Incoherent Codes",
+      "url": "https://arxiv.org/abs/2611.32514v1"
+    },
+    {
+      "authors": [
+        "Cheng Du"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T11:21:57Z",
+      "id": "http://arxiv.org/abs/2611.32418v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32418v1",
+      "source": "arxiv",
+      "title": "Sequences for Flat-Top Beams",
+      "url": "https://arxiv.org/abs/2611.32418v1"
+    },
+    {
+      "authors": [
+        "Henning Fernau",
+        "Samuel German",
+        "Kevin Mann"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T10:10:28Z",
+      "id": "http://arxiv.org/abs/2611.32313v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32313v1",
+      "source": "arxiv",
+      "title": "Roman Hitting Functions",
+      "url": "https://arxiv.org/abs/2611.32313v1"
+    },
+    {
+      "authors": [
+        "Hengfeng Liu",
+        "Chunming Tang",
+        "Zhengchun Zhou"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T09:18:28Z",
+      "id": "http://arxiv.org/abs/2611.32240v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32240v1",
+      "source": "arxiv",
+      "title": "The Insertion-Deletion Distance of Linear Codes under Random Coordinate Permutations",
+      "url": "https://arxiv.org/abs/2611.32240v1"
+    },
+    {
+      "authors": [
+        "Iwan Qu{é}merais",
+        "Guilh{è}me Jaber",
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "category": "cs.LO",
+      "date": "2026-11-24T09:13:14Z",
+      "id": "http://arxiv.org/abs/2611.32234v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32234v1",
+      "source": "arxiv",
+      "title": "Concurrent Visibility: Higher-Order Concurrency with First-Order Store",
+      "url": "https://arxiv.org/abs/2611.32234v1"
+    },
+    {
+      "authors": [
+        "Aditya Kumar"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-24T09:02:00Z",
+      "id": "http://arxiv.org/abs/2611.32217v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32217v1",
+      "source": "arxiv",
+      "title": "Vx: A Programming Language for Scalable, Maintainable and Secure Systems",
+      "url": "https://arxiv.org/abs/2611.32217v1"
+    },
+    {
+      "authors": [
+        "Zhonghao Liang",
+        "Chenlu Jia",
+        "Qunying Liao"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:56:01Z",
+      "id": "http://arxiv.org/abs/2611.32212v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32212v1",
+      "source": "arxiv",
+      "title": "Parity-check matrices and their MDS or NMDS properties for several classes of non-GRS type linear codes",
+      "url": "https://arxiv.org/abs/2611.32212v1"
+    },
+    {
+      "authors": [
+        "Qin Du",
+        "Ziling Heng",
+        "Jun Zhang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:42:19Z",
+      "id": "http://arxiv.org/abs/2611.32192v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32192v1",
+      "source": "arxiv",
+      "title": "Self-Orthogonal Minimal Codes from n-to-1 Mappings",
+      "url": "https://arxiv.org/abs/2611.32192v1"
+    },
+    {
+      "authors": [
+        "Shu Liu",
+        "Jiang Li",
+        "Wenqi Huang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:16:57Z",
+      "id": "http://arxiv.org/abs/2611.32165v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32165v1",
+      "source": "arxiv",
+      "title": "Explicit Constructions of MDS Cyclic Codes from Rational Function Fields",
+      "url": "https://arxiv.org/abs/2611.32165v1"
+    }
+  ],
+  "source": "arxiv+zenodo+openalex"
+}

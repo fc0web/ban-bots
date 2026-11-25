@@ -2,8 +2,316 @@
   "ban": "senkou-kenkyuu-kanshi",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-24T15:15:36+09:00",
+  "generated_at": "2026-11-25T13:58:48+09:00",
   "records": [
+    {
+      "authors": [
+        "Christoph Kern",
+        "Alexander Firbas",
+        "Manuel Sorge"
+      ],
+      "category": "cs.DS",
+      "date": "2026-11-24T16:37:07Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32927v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32927v1",
+      "source": "arxiv",
+      "title": "Algorithms and Complexity of Connectivity Switching in Graphs",
+      "url": "https://arxiv.org/abs/2611.32927v1"
+    },
+    {
+      "authors": [
+        "Anushri Jana",
+        "Kush Goradiya",
+        "Uday P Khedker"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-24T16:34:29Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32920v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32920v1",
+      "source": "arxiv",
+      "title": "Increasing the Precision of IR Mapping for Incremental Data Analysis",
+      "url": "https://arxiv.org/abs/2611.32920v1"
+    },
+    {
+      "authors": [
+        "Ruiqi Wang",
+        "Jingtong Hu"
+      ],
+      "category": "cs.LG",
+      "date": "2026-11-24T16:22:03Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32892v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32892v1",
+      "source": "arxiv",
+      "title": "Shared information governs multi-view planted matching",
+      "url": "https://arxiv.org/abs/2611.32892v1"
+    },
+    {
+      "authors": [
+        "Hua Sun"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T16:19:06Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32886v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32886v1",
+      "source": "arxiv",
+      "title": "The Capacity of Conference Key Agreement over GHZ Networks",
+      "url": "https://arxiv.org/abs/2611.32886v1"
+    },
+    {
+      "authors": [
+        "Yogesh Dahiya",
+        "Mika Göös",
+        "Nathaniel Harms",
+        "Hamed Hatami",
+        "Pooya Hatami",
+        "Shachar Lovett",
+        "Weiqiang Yuan"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T15:50:14Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32837v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32837v1",
+      "source": "arxiv",
+      "title": "Communication Complexity of Disambiguations of Gap Hamming Distance",
+      "url": "https://arxiv.org/abs/2611.32837v1"
+    },
+    {
+      "authors": [
+        "Eunghyun Lee"
+      ],
+      "category": "cond-mat.stat-mech",
+      "date": "2026-11-24T15:04:12Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32766v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32766v1",
+      "source": "arxiv",
+      "title": "Ordering Information in Multispecies Long-Range Swap Processes",
+      "url": "https://arxiv.org/abs/2611.32766v1"
+    },
+    {
+      "authors": [
+        "Jingcheng He",
+        "Zinan Zhao",
+        "Wenguang Sun",
+        "Xintao Xia"
+      ],
+      "category": "stat.AP",
+      "date": "2026-11-24T14:19:33Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32674v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32674v1",
+      "source": "arxiv",
+      "title": "Simultaneous Inference for Watermark Proportions in LLM-Generated Text",
+      "url": "https://arxiv.org/abs/2611.32674v1"
+    },
+    {
+      "authors": [
+        "Rafał Frączek"
+      ],
+      "category": "cs.DC",
+      "date": "2026-11-24T14:09:45Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32653v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32653v1",
+      "source": "arxiv",
+      "title": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation, Reclamation, and Scaling",
+      "url": "https://arxiv.org/abs/2611.32653v1"
+    },
+    {
+      "authors": [
+        "Kamila Szewczyk"
+      ],
+      "category": "cs.SD",
+      "date": "2026-11-24T14:01:01Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32641v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32641v1",
+      "source": "arxiv",
+      "title": "Lossless Re-Encoding of Vorbis and Opus Audio Files",
+      "url": "https://arxiv.org/abs/2611.32641v1"
+    },
+    {
+      "authors": [
+        "A. C. Cem Say"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T13:54:27Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32633v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32633v1",
+      "source": "arxiv",
+      "title": "Lower space bounds for polynomial-time quantum computation",
+      "url": "https://arxiv.org/abs/2611.32633v1"
+    },
+    {
+      "authors": [
+        "Marco Sälzer"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T13:30:15Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32595v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32595v1",
+      "source": "arxiv",
+      "title": "Degree-bounded Satisfiability of Local MPNNs with Sum Aggregation is NEXPTIME-hard",
+      "url": "https://arxiv.org/abs/2611.32595v1"
+    },
+    {
+      "authors": [
+        "Oxana Shaya",
+        "Zahra Baghali Khanian"
+      ],
+      "category": "quant-ph",
+      "date": "2026-11-24T12:42:11Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32514v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32514v1",
+      "source": "arxiv",
+      "title": "Quantum Capacity with Incoherent Codes",
+      "url": "https://arxiv.org/abs/2611.32514v1"
+    },
+    {
+      "authors": [
+        "Cheng Du"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T11:21:57Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32418v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32418v1",
+      "source": "arxiv",
+      "title": "Sequences for Flat-Top Beams",
+      "url": "https://arxiv.org/abs/2611.32418v1"
+    },
+    {
+      "authors": [
+        "Henning Fernau",
+        "Samuel German",
+        "Kevin Mann"
+      ],
+      "category": "cs.CC",
+      "date": "2026-11-24T10:10:28Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32313v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32313v1",
+      "source": "arxiv",
+      "title": "Roman Hitting Functions",
+      "url": "https://arxiv.org/abs/2611.32313v1"
+    },
+    {
+      "authors": [
+        "Hengfeng Liu",
+        "Chunming Tang",
+        "Zhengchun Zhou"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T09:18:28Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32240v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32240v1",
+      "source": "arxiv",
+      "title": "The Insertion-Deletion Distance of Linear Codes under Random Coordinate Permutations",
+      "url": "https://arxiv.org/abs/2611.32240v1"
+    },
+    {
+      "authors": [
+        "Iwan Qu{é}merais",
+        "Guilh{è}me Jaber",
+        "Ken Sakayori",
+        "Davide Sangiorgi"
+      ],
+      "category": "cs.LO",
+      "date": "2026-11-24T09:13:14Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32234v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32234v1",
+      "source": "arxiv",
+      "title": "Concurrent Visibility: Higher-Order Concurrency with First-Order Store",
+      "url": "https://arxiv.org/abs/2611.32234v1"
+    },
+    {
+      "authors": [
+        "Aditya Kumar"
+      ],
+      "category": "cs.PL",
+      "date": "2026-11-24T09:02:00Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32217v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32217v1",
+      "source": "arxiv",
+      "title": "Vx: A Programming Language for Scalable, Maintainable and Secure Systems",
+      "url": "https://arxiv.org/abs/2611.32217v1"
+    },
+    {
+      "authors": [
+        "Zhonghao Liang",
+        "Chenlu Jia",
+        "Qunying Liao"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:56:01Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32212v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32212v1",
+      "source": "arxiv",
+      "title": "Parity-check matrices and their MDS or NMDS properties for several classes of non-GRS type linear codes",
+      "url": "https://arxiv.org/abs/2611.32212v1"
+    },
+    {
+      "authors": [
+        "Qin Du",
+        "Ziling Heng",
+        "Jun Zhang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:42:19Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32192v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32192v1",
+      "source": "arxiv",
+      "title": "Self-Orthogonal Minimal Codes from n-to-1 Mappings",
+      "url": "https://arxiv.org/abs/2611.32192v1"
+    },
+    {
+      "authors": [
+        "Shu Liu",
+        "Jiang Li",
+        "Wenqi Huang"
+      ],
+      "category": "cs.IT",
+      "date": "2026-11-24T08:16:57Z",
+      "first_seen_date": "2026-11-25",
+      "id": "http://arxiv.org/abs/2611.32165v1",
+      "license": "",
+      "pdf_url": "https://arxiv.org/pdf/2611.32165v1",
+      "source": "arxiv",
+      "title": "Explicit Constructions of MDS Cyclic Codes from Rational Function Fields",
+      "url": "https://arxiv.org/abs/2611.32165v1"
+    },
     {
       "authors": [
         "Camilo Castro-Landolt",
@@ -445,316 +753,7 @@
       "source": "zenodo",
       "title": "LVC-Sandbox",
       "url": "https://zenodo.org/records/24490597"
-    },
-    {
-      "authors": [
-        "Alan J. Aw"
-      ],
-      "category": "q-bio.PE",
-      "date": "2026-11-20T02:20:06Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26990v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26990v1",
-      "source": "arxiv",
-      "title": "Semi-regular admixed arrays: asymptotic enumeration and when information is additive",
-      "url": "https://arxiv.org/abs/2611.26990v1"
-    },
-    {
-      "authors": [
-        "Clément Canonne",
-        "Sam Polgar",
-        "Aditya Vikram Singh",
-        "Aravind Thyagarajan",
-        "Qiping Yang"
-      ],
-      "category": "cs.CC",
-      "date": "2026-11-20T01:04:11Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26951v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26951v1",
-      "source": "arxiv",
-      "title": "Verification of Statistical Properties: Redefining the Possible",
-      "url": "https://arxiv.org/abs/2611.26951v1"
-    },
-    {
-      "authors": [
-        "Christoph Berkholz",
-        "Hubie Chen"
-      ],
-      "category": "cs.LO",
-      "date": "2026-11-19T22:32:07Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26869v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26869v1",
-      "source": "arxiv",
-      "title": "Compiling Existential-Positive Queries to Bounded-Variable Fragments",
-      "url": "https://arxiv.org/abs/2611.26869v1"
-    },
-    {
-      "authors": [
-        "Hubie Chen",
-        "Yuichi Yoshida"
-      ],
-      "category": "cs.DB",
-      "date": "2026-11-19T22:26:38Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26861v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26861v1",
-      "source": "arxiv",
-      "title": "Testability of Homomorphism Inadmissibility: Property Testing Meets Database Theory",
-      "url": "https://arxiv.org/abs/2611.26861v1"
-    },
-    {
-      "authors": [
-        "Chenchao Ding",
-        "Amr Sabry"
-      ],
-      "category": "cs.PL",
-      "date": "2026-11-19T20:10:21Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26777v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26777v1",
-      "source": "arxiv",
-      "title": "The Bell Experiment, Monadically",
-      "url": "https://arxiv.org/abs/2611.26777v1"
-    },
-    {
-      "authors": [
-        "Ahrar N. Hamad",
-        "Ahmad A. Qidan",
-        "Taisir E. H. El-Gorashi",
-        "Jaafar M. H. Elmirghani"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-19T19:37:49Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26742v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26742v1",
-      "source": "arxiv",
-      "title": "DNN-Assisted Deterministic Policy Learning for Adaptive IRS-NOMA-OWC Networks",
-      "url": "https://arxiv.org/abs/2611.26742v1"
-    },
-    {
-      "authors": [
-        "Torres Mayanquer, Freddy Giovanny",
-        "Vaca, Carla",
-        "Pergueza, Jaime"
-      ],
-      "category": "Report",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24452999",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Protocolo de revisión sistemática: irradiación UV-C poscosecha de arándanos frescos: relación dosis-respuesta, calidad del reporte de la dosimetría y consistencia de los desenlaces de calidad",
-      "url": "https://zenodo.org/records/24452999"
-    },
-    {
-      "authors": [
-        "Abhishek Thakur",
-        "Zoe Papakipos",
-        "Christian Clauss",
-        "Shail",
-        "Christian Hollinger",
-        "Ian Max Andolina",
-        "Kyle Ahn",
-        "freol35241",
-        "Abhishek Suran",
-        "Benjamin Lowe",
-        "Mickaël Schoentgen",
-        "Renaud Bouckenooghe",
-        "Ibtsam Ahmad"
-      ],
-      "category": "Software",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24453033",
-      "license": "apache2.0",
-      "source": "zenodo",
-      "title": "abhiTronix/vidgear: VidGear Stable v0.3.8",
-      "url": "https://zenodo.org/records/24453033"
-    },
-    {
-      "authors": [
-        "Barry, Amy"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "23324772",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Constructing Kathy: A Biographical Sketch of Kathy Charmaz's Life and Legacy",
-      "url": "https://zenodo.org/records/23324772"
-    },
-    {
-      "authors": [
-        "Lam, Yu Ching"
-      ],
-      "category": "Software",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24453044",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "An Open-Source Benchmark for Panel-Based Ultra-Sensitive Detection of Circulating Tumor DNA from Real Tumor Mutations",
-      "url": "https://zenodo.org/records/24453044"
-    },
-    {
-      "authors": [
-        "Díaz Aguas, Brayan Alexander"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "24452797",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "La Educación Física y habilidades sociales en niños con autismo: Revisión sistemática",
-      "url": "https://zenodo.org/records/24452797"
-    },
-    {
-      "authors": [
-        "Xu, Wenjia",
-        "Chen, Xuhao",
-        "Cao, Jiaqi",
-        "Wang, Jiuniu",
-        "Wei, Zhiwei",
-        "Liu, Chunbo",
-        "Wang, Deyan",
-        "Meng, Fanchen",
-        "Peng, Mugen"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "24442075",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A sequential UAV image dataset paired with georeferenced satellite tiles for visual geo-localization",
-      "url": "https://zenodo.org/records/24442075"
-    },
-    {
-      "authors": [
-        "Rokhmawati, Andewi"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "24445044",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Public Verifiability of Carbon Credit Claims: Evidence from Indonesia's Greenhouse Gas Emission Reduction Certificate System",
-      "url": "https://zenodo.org/records/24445044"
-    },
-    {
-      "authors": [
-        "杨, 林"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24452467",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "基于三元平衡定律的太阳系行星轨道共面同向长期稳定机制研究(Research on the Long-Term Stable Mechanism of the Coplanar and Prograde Orbits of Solar System Planets Based on the Law of Triadic Balance)",
-      "url": "https://zenodo.org/records/24452467"
-    },
-    {
-      "authors": [
-        "Zheng, Jianing",
-        "Liu, Xiaolan",
-        "Yu, Jiadong"
-      ],
-      "category": "Other",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24452401",
-      "license": "",
-      "source": "zenodo",
-      "title": "Supplementary Appendix to Hierarchical Graph Swarm Learning for Personalised and Energy-Efficient Edge Intelligence",
-      "url": "https://zenodo.org/records/24452401"
-    },
-    {
-      "authors": [
-        "Jones, Megan",
-        "Craig, Michael",
-        "Dvorkin, Vladimir"
-      ],
-      "category": "Publication",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-23",
-      "id": "24404580",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Dynamic Line Ratings Counteract Transmission Investment Needs Driven by Climate Change",
-      "url": "https://zenodo.org/records/24404580"
-    },
-    {
-      "authors": [
-        "Gutiérrez-Cárdenas, Gabriel S.",
-        "Cyr, Frédéric",
-        "Oliver, Eric C. J.",
-        "Soontiens, Nancy"
-      ],
-      "category": "Software",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24432046",
-      "license": "gpl-3.0",
-      "source": "zenodo",
-      "title": "xrMHW: parallel, out-of-core detection of surface and subsurface marine heatwaves",
-      "url": "https://zenodo.org/records/24432046"
-    },
-    {
-      "authors": [
-        "Togni, Andrea"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-22",
-      "id": "20648359",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "Corresponding Dataset and Scripts for Open-Loop Spectral Doppler Estimation for Deep-Space Navigation and Radio Science",
-      "url": "https://zenodo.org/records/20648359"
-    },
-    {
-      "authors": [
-        "Yamamoto, Hilofumi"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431803",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Two tokens, load, and sequential disambiguation",
-      "url": "https://zenodo.org/records/24431803"
-    },
-    {
-      "authors": [
-        "Dr. Rusdiyanto, SE,. M. Ak,. CH,. CHt, .",
-        "Dr. H. Indra Prasetyo, SP,. MM, .",
-        "Prof. Dr. Nur Fadjrih Asyik, SE,.M.Si,. CA,. CPA, .",
-        "Nabilah Aliyyah, S.Par,. MBA, .",
-        "Rahmat Luthfi Haidar, S.AP,. M. AP, ."
-      ],
-      "category": "Presentation",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431628",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "PERTEMUAN 1_23 NOVEMBER 2026_ANALITIKA D ATA UNTUK INVESTASI_PASCA SARJANA UWP MANAJEMEN KEUANGAN",
-      "url": "https://zenodo.org/records/24431628"
     }
   ],
-  "total_before_cap": 221
+  "total_before_cap": 241
 }

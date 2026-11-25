@@ -1,9 +1,24 @@
 {
   "ban": "kokoku-ban",
   "cap": 50,
-  "count": 3,
-  "generated_at": "2026-11-24T15:15:23+09:00",
+  "count": 4,
+  "generated_at": "2026-11-25T13:58:34+09:00",
   "records": [
+    {
+      "authors": [
+        "総務省"
+      ],
+      "category": "",
+      "date": "2026-11-25T05:00:00+09:00",
+      "feed": "https://www.soumu.go.jp/news.rdf",
+      "first_seen_date": "2026-11-25",
+      "id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000613.html",
+      "license": "",
+      "mark": "未測",
+      "source": "rss",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会 デジタル広告ワーキンググループ（第19回）配布資料",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu02_04000613.html"
+    },
     {
       "authors": [
         "総務省"
@@ -50,5 +65,5 @@
       "url": "https://www.caa.go.jp/notice/entry/048138/"
     }
   ],
-  "total_before_cap": 3
+  "total_before_cap": 4
 }
