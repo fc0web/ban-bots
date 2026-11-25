@@ -208,6 +208,7 @@ def main() -> int:
     counters = {"ok": 0, "warn": 0, "ng": 0, "stale": 0, "disabled": 0}
     problems: list[dict[str, Any]] = []
     ran_today = 0
+    statuses_by_ban: dict[str, str] = {}
     for ban in bans:
         bid = ban["id"]
         # 停止中（registry の enabled=false）の盤は classify に入れず、
@@ -236,6 +237,7 @@ def main() -> int:
         streaks[bid] = {"zero_filter": zf, "zero_new": zn}
         status, reason = classify(ban, row, now, last_seen, zf, zn)
         counters[status] += 1
+        statuses_by_ban[bid] = status
         if status in ("warn", "ng", "stale") and len(problems) < MAX_PROBLEMS:
             problems.append({
                 "ban": bid,
@@ -262,6 +264,16 @@ def main() -> int:
             "new": int(row.get("records_delta", row.get("records", 0))),
         }
 
+    # 機器 40：forecaster — score yesterday's prediction (if any) and write
+    # tomorrow's. Appends to status/history.jsonl. Returns the dict embedded
+    # in summary.json under the "forecast" key.
+    try:
+        from runner import forecast
+        forecast_summary = forecast.run_forecast(
+            now, bans, rows_by_id, statuses_by_ban, common.REPO_ROOT)
+    except Exception as exc:  # defensive — forecaster must not break summarize
+        forecast_summary = {"error": f"{type(exc).__name__}: {exc}"}
+
     summary = {
         "generated_at": common.iso_jst(now),
         "total": len(bans),
@@ -276,6 +288,7 @@ def main() -> int:
         "counts": counts,
         "last_seen": {b["id"]: last_seen[b["id"]] for b in bans if b["id"] in last_seen},
         "streaks": {b["id"]: streaks[b["id"]] for b in bans if b["id"] in streaks},
+        "forecast": forecast_summary,
     }
     common.write_json(common.STATUS_DIR / "summary.json", summary)
     write_mokuroku(summary)

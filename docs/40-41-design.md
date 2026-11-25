@@ -1,9 +1,9 @@
 # 機器 40・41 設計メモ
 
-草案、2026-11-25。コードはまだ書かない。判断待ちの項目を末尾に一覧。
+草案、2026-11-25（作成）／2026-11-26（決定の反映）。
 
-- 機器 40（予測器）：毎日の summarize 直後に翌日の予測を記録し、翌日の結果が出たら点数を付ける
-- 機器 41（増幅器）：毎日のニュース盤の候補を「確かめる価値の高い順」に並べ替える
+- 機器 40（予測器）：毎日の summarize 直後に翌日の予測を記録し、翌日の結果が出たら点数を付ける。**決定済み、実装着手中。**
+- 機器 41（増幅器）：毎日のニュース盤の候補を「確かめる価値の高い順」に並べ替える。**決定済み、実装はラベルが集まってから。**
 
 ## 共通の決まり
 
@@ -12,23 +12,22 @@
 - 較正が済むまで「未較正」と明示する。
 - どちらも既存の考え方の組み合わせ。新規手法とは名乗らない。
 - 予測と並べ替えの結果は、本体の `data/<ban>/*.json` を書き換えずに別ファイルに置く。
+- **採点の前に、予測ファイルが前日の commit から変わっていないこと（git 上のファイルの指紋）を確かめ、変わっていたら採点せずに記録する。**
 
 ---
 
-## 機器 40：予測器
+## 機器 40：予測器（決定版）
 
 ### 入出力
 
 - 入力（当日の summarize の時点で揃うもの）
-  - 各盤の過去 30 日分の `after_filter`, `records_delta`, `status`, 起動の遅れ（秒）
+  - 各盤の過去 30 日分の `after_filter`, `records_delta`, `status`
   - 現在の `streaks.zero_filter`, `streaks.zero_new`
   - 稼働日カレンダー（`runner/summarize.py:is_jst_workday`）
 - 出力（翌日 1 日分の予測）
-  - `after_filter` の範囲 `[low, high]`（経験分位の 50% 区間）
-  - `records_delta` の範囲 `[low, high]`
-  - 状態分布 `{ok: p1, warn: p2, ng: p3}`（和 = 1）
-  - 起動の遅れ（秒、点予測 + 範囲）
-- 盤ごとに 1 行、CSV ではなく JSON オブジェクトの配列。
+  - `after_filter` の範囲 `[low, high]`（**80% 経験分位区間**）
+  - `records_delta` の範囲 `[low, high]`（**80% 経験分位区間**）
+  - 状態分布 `{ok: p1, warn: p2, ng: p3, stale: p4}`（和 = 1、Laplace スムージング）
 
 ### 台帳とファイル置き場
 
@@ -36,34 +35,49 @@
 predictions/
   <YYYY-MM-DD>.json         ← target_date の予測（D-1 の summarize 直後に書く）
   <YYYY-MM-DD>-score.json   ← target_date の summarize 後に書く
+status/history.jsonl        ← 盤・日ごとの status 時系列（1 盤 1 行/日、append）
 ```
 
 - D-1 の daily commit に `<D>.json` を含める。**ファイルを後から書き換えない**（固定）。
+- **`predictions/` は削除せず、ずっと残す**（`DATA_RETENTION_DAYS` の対象外、`prune_old_data` は `data/` しか見ない）。
 - `<D>-score.json` は翌日 D の summarize の中で 1 回だけ生成。再実行しても同じ内容に。
-- 保存先は repo 直下 `predictions/`。summarize の dump 対象に加える。
+- `status/history.jsonl` は 1 行 1 盤 1 日分、同じ日付の再実行は差し替えで idempotent。
+
+### 指紋チェック（fingerprint check）
+
+採点の前に `predictions/<today>.json` が前日の commit から変わっていないことを確認する：
+
+- `git log --format=%H -- predictions/<today>.json` の行数が **1 でない** → 書き換え検出
+- `git diff --quiet HEAD -- predictions/<today>.json` が **非ゼロ** → 作業ツリーで変更あり
+- どちらか失敗したら採点せず `fingerprint_check.ok = false` と理由を score ファイルに書き、`per_ban` は空にする。
 
 ### 基準との比較
 
 | 基準            | 中身                                              |
 |-----------------|---------------------------------------------------|
-| baseline-last   | 前日と同じ値を出す（範囲は ±0）                   |
-| baseline-med7   | 直近 7 日の中央値、範囲は min〜max                |
+| baseline-last   | 前日と同じ値を出す（範囲は ±0、状態は確率 1 で前日のもの） |
+| baseline-med7   | 直近 7 日の中央値、範囲は min〜max、状態は最頻値 |
 
-点数は盤ごと・基準ごとに 14 日の移動窓で記録する。予測器がどちらの基準にも勝てなければ、勝てていないと `summary.json` の `forecast_status` に書き、朝の報告に出す。
+点数は盤ごと・基準ごとに **14 稼働日** の移動窓で記録。較正状態とは独立に基準比を朝の報告に出す。
 
 ### 点数の付け方
 
-- 状態分布：Brier score  `sum((p_i - 1_{i=actual})^2)`（3 クラス合計を 1 日 1 盤で記録）
+- 状態分布：Brier score  `Σ(p_i - 1_{i=actual})²`（3〜4 クラス合計を 1 日 1 盤で記録）
 - 範囲：
   - `coverage_hit = 1 if low <= actual <= high else 0`
   - `miss = 0 if hit else min(|actual-low|, |actual-high|)`
-- 起動の遅れ：秒単位の二乗誤差 `(pred_sec - actual_sec)^2`
+  - **範囲に入った割合（hit_rate）と、それが 80% にどれだけ近いか（`proximity_to_80pct = 1 − |hit_rate − 0.8|`）** を記録
+- 起動の遅れ：当面見送り（GitHub Actions の遅延はこれまで 4〜8 時間の幅が大きく、朝の報告には影響小、別タスクで扱う）
 
-### 較正の目安
+### 較正の目安（確定）
 
-- 盤ごとに 14 **稼働日**分の点数が溜まるまで「未較正」。
-- 14 日溜まったあとも、「直近 14 日の Brier の平均が baseline-last / baseline-med7 の両方を下回っている」状態を保つまでは、`forecast_status = "not_beating_baselines"` を出す。
-- 較正済みでも、朝の報告には必ず `較正日数 N / 基準比 (勝ち|負け)` を併記する。
+- **14 稼働日固定**。それ未満は `uncalibrated`。
+- **基準に負け続けても止めない**。事実（勝ち／負け／引き分け）を出し続ける。
+- 朝の報告には **1 行**：`較正日数 N / vs baseline-last=... / vs baseline-med7=... / hit_rate=...（proximity=...）/ status=calibrated|uncalibrated`
+
+### 表示先
+
+朝の報告の各盤の行の末尾に 1 行だけ追加。盤目録 (`mokuroku.json`) の `alert_count` 計算は触らない。
 
 ### 既存手法との関係
 
@@ -76,12 +90,12 @@ predictions/
 
 ### 動く場所
 
-- `.github/workflows/daily.yml` の summarize ジョブの中で、`runner/forecast.py` を 1 回呼ぶだけ。新規 cron なし。
-- 出力ファイルは既存の `git add status data` と同じ step で commit に含める。
+- `.github/workflows/daily.yml` の summarize ジョブの中で、`runner/forecast.py` を 1 回呼ぶ。新規 cron なし。
+- 出力ファイルは既存の `git add status data` と同じ step で commit に含める（`predictions/` は明示追加）。
 
 ---
 
-## 機器 41：増幅器
+## 機器 41：増幅器（決定版、設計のみ）
 
 ### 入出力
 
@@ -95,11 +109,20 @@ predictions/
 
 ```
 data/news-ban/
-  <YYYY-MM-DD>.json        ← 本体。触らない
-  <YYYY-MM-DD>-amp.json    ← 並べ替え後 [{id, url, rank_score, rank_reasons}]
+  <YYYY-MM-DD>.json         ← 本体。触らない
+  <YYYY-MM-DD>-amp.json     ← 並べ替え後 [{id, url, rank_score, rank_reasons}]
 labels/
-  <YYYY-MM-DD>.jsonl       ← 本人の「確かめる価値高/低」のラベル
+  <YYYY-MM-DD>.jsonl        ← 本人のラベル（週末まとめて付ける）
+labels/sampled/
+  <YYYY-MM-DD>.jsonl        ← ラベルを付ける候補、各日 10 件、無作為抽出
 ```
+
+### ラベル付けの運用（確定）
+
+- ラベルは**本人のみ**、**週末にまとめて**付ける。
+- 粒度：**2 値**（価値高 = 1 / 普通 = 0）。
+- 1 日あたり **10 件を無作為抽出**して `labels/sampled/<日付>.jsonl` に書き出す。増幅器の順位・点数は見せない形で並べる（上位だけにラベルを付けると recall が測れないため）。
+- 本人は `labels/sampled/<日付>.jsonl` を見てラベルを `labels/<日付>.jsonl` に書く。
 
 ### 始めの規則（無料・ローカル判定のみ）
 
@@ -109,19 +132,16 @@ labels/
 | R2 claim-shape    | 「と発表」「と公表」「ことが分かった」「明らかにした」等 | +1 |
 | R3 measurement    | 件・円・人・％・倍・名・kg・km など測定語                | +1 |
 | R4 identifier     | 条文番号・命令番号・事件番号・識別子                     | +1 |
-| R5 source-tier    | 発行元の区分（省庁 / 独法 / 業界団体 / 二次報道）         | +0〜+2 |
+| ~~R5 source-tier~~ | （**今は作らない**。将来必要になったら別途）           | — |
 
-R5 は 4 つあるフィードが現状全部省庁 RSS で差が付かないので、較正までに区分表を本人と合意する（判断待ち）。
+### 較正の方法（確定）
 
-### 較正の方法
-
-1. 本人が `labels/<日付>.jsonl` に「確かめる価値高 = 1 / 普通 = 0」を書く（スケールの選択は判断待ち）。
-2. ラベルが **累計 30 件以上** かつ **14 稼働日分以上** 集まったら、較正に進む。
-3. 期間で分割：**規則を書くときに holdout の期間は見ない**。
-   - 例：11 月に集めたラベル → develop（規則調整）
-   - 12 月に集めたラベル → holdout（封印、評価にだけ使う）
-4. 指標：`recall@k`（holdout の「価値高」ラベルのうち、増幅器が上位 k 件に入れた割合）を、date 降順の baseline と並べて比較する。k の値は判断待ち。
-5. 較正済み後も「holdout の recall@k が baseline を上回っている」状態を保てる間だけ、朝の報告で並べ替え結果を出す。
+1. 本人が `labels/<日付>.jsonl` に「確かめる価値高 = 1 / 普通 = 0」を書く。
+2. **develop は始めた月、holdout はその翌月**（例：11 月に始めたら 12 月を holdout にする）。
+3. 規則を書くときに holdout の期間は見ない。
+4. 評価の指標：holdout のラベル 1 がある日の **top-5 リコール**（`recall@k`, **k = 5**）を、date 降順の baseline と並べて比較する。
+5. 較正済み後も「holdout の recall@5 が baseline を上回っている」状態を保てる間だけ、朝の報告で並べ替え結果を出す。
+6. **規則を書き換えたら、holdout を新しく取り直す**（以前の holdout は使わない）。
 
 ### 既存手法との関係
 
@@ -134,7 +154,8 @@ R5 は 4 つあるフィードが現状全部省庁 RSS で差が付かないの
 ### 動く場所
 
 - `runner/amplify.py` を summarize の前（または後）に 1 回呼ぶ。新規 cron なし。
-- 出力ファイルは既存の `git add status data` に含める（`data/news-ban/*-amp.json` は `data/` 配下）。
+- ラベル付けは本人の週末作業、CI 側は候補の抽出のみを自動で行う。
+- 出力ファイルは既存の `git add status data` に含める（`data/news-ban/*-amp.json`、`labels/sampled/*.jsonl`）。
 
 ---
 
@@ -142,39 +163,26 @@ R5 は 4 つあるフィードが現状全部省庁 RSS で差が付かないの
 
 | 機器 | 始めるのに必要なもの                     | 較正の目安                              |
 |------|------------------------------------------|-----------------------------------------|
-| 40   | 既存の 30 日分の履歴（概ね揃っている）   | 盤ごとに 14 稼働日の点数 + 基準比勝ち越し |
-| 41   | 本人のラベル 30 件以上 / 14 稼働日分以上 | develop・holdout の分割完了 + recall@k で baseline 超え |
+| 40   | 既存の 30 日分の履歴（概ね揃っている）   | 盤ごとに 14 稼働日の点数（勝ち負けは別勘定で出し続ける） |
+| 41   | 本人のラベル 30 件以上 / 14 稼働日分以上 | develop（始めた月）・holdout（翌月）の分割完了 + recall@5 で baseline 超え |
 
-機器 40 は履歴がすでに揃うので、着手は本人の判断待ち項目が片付き次第。
-機器 41 はラベル付けの運用が決まるまで実装に入れない。
+機器 40 は履歴がすでに揃うので、2026-11-26 に実装着手。
+機器 41 は設計メモの更新のみ、実装はラベル付けの運用が実際に回り始めてから。
 
 ---
 
-## 本人に決めてもらう点（未定、実装の着手前に必要）
+## 残っている判断待ち
 
 ### 機器 40
 
-- [ ] 範囲の水準：50% / 80% / 95% 区間のどれか
-- [ ] 較正日数：14 稼働日固定か、盤ごとに可変か
-- [ ] 表示先：朝の報告に一行、独立ページ、`status/mokuroku.json` に列を足す、のどれか
-- [ ] 基準に負け続けた場合の扱い：停止するのか、負け続けの事実だけを出すのか
-- [ ] `predictions/` の retention：いつまで残すか（案：既存の `DATA_RETENTION_DAYS = 30` に合わせる）
+- [ ] `predictions/` は Git LFS を使うか否か（JSON のサイズは小さいので当面不要の見込み）
+- [ ] 起動の遅れの予測を後から足すか（現状は見送り）
 
 ### 機器 41
 
-- [ ] ラベルを付けるのは誰（本人のみ？）、いつ（毎朝？週末まとめて？）、どこに（`labels/*.jsonl`？別タブ？）
-- [ ] ラベルの粒度：2 値（0/1）か 3 値（0/1/2）か
-- [ ] 1 日あたり何件ラベルを付けるか（全件 / 上位 10 件 / 本人の裁量）
-- [ ] develop と holdout の期間の分け方（具体的な年月日）
-- [ ] `recall@k` の k（案：k=5）
-- [ ] R5（発行元の区分表）を作るか、R5 抜きで較正を始めるか
-- [ ] 較正後に規則を書き換えたくなったときの手続き（新 holdout を取り直すか、継続）
-
-### どちらにも関わる
-
-- [ ] 「未較正」の表示方法：朝の報告の冒頭行で明示する、本文の盤ごとの行に小さく付ける、など
-- [ ] どちらを先に作るか（機器 41 の方がラベル次第でいつでも始められる。機器 40 は履歴は揃うが仕様の判断が先）
+- [ ] 1 日 10 件という抽出の件数は固定か、ニュース盤の候補数で変えるか
+- [ ] `labels/sampled/` の生成は summarize 後の仕事として自動で作るか、本人が週末だけ作るか
 
 ---
 
-草案終わり。実装は上の判断待ちが片付いてから別タスクで。
+草案終わり。機器 40 の実装は本ファイルと同時に進める。

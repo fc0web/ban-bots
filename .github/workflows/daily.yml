@@ -82,6 +82,8 @@ jobs:
           git config user.name "ban-bots"
           git config user.email "ban-bots@users.noreply.github.com"
           git add data status
+          # predictions/ は forecaster が作る。初回や失敗時は未作成でも進める。
+          [ -d predictions ] && git add predictions || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else

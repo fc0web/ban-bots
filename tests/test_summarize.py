@@ -70,6 +70,9 @@ def summary_env(tmp_path, monkeypatch):
     monkeypatch.setattr(common, "STATUS_DIR", status)
     monkeypatch.setattr(common, "DATA_DIR", data)
     monkeypatch.setattr(common, "REGISTRY_PATH", registry)
+    # Keep the forecaster from writing predictions/history.jsonl into the
+    # real repo while tests run; it reads common.REPO_ROOT by default.
+    monkeypatch.setattr(common, "REPO_ROOT", tmp_path)
     # load_registry()'s default path arg is captured at def-time, so patch
     # the function itself to always read our tmp registry.
     orig_load = common.load_registry
