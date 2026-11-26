@@ -1,0 +1,392 @@
+{
+  "bans": {
+    "fx-ban": {
+      "after_filter": {
+        "high": 4.0,
+        "low": 4.0,
+        "median": 4.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "fx-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 4,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 4.0,
+          "after_filter_range": [
+            4.0,
+            4.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "game-ban": {
+      "after_filter": {
+        "high": 2.0,
+        "low": 2.0,
+        "median": 2.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "game-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 2,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 2.0,
+          "after_filter_range": [
+            2.0,
+            2.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "kokoku-ban": {
+      "after_filter": {
+        "high": 1.0,
+        "low": 1.0,
+        "median": 1.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "kokoku-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 1,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 1.0,
+          "after_filter_range": [
+            1.0,
+            1.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "kyoiku": {
+      "after_filter": {
+        "high": 30.0,
+        "low": 30.0,
+        "median": 30.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "kyoiku",
+      "baselines": {
+        "last": {
+          "after_filter": 30,
+          "records_delta": 10,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 30.0,
+          "after_filter_range": [
+            30.0,
+            30.0
+          ],
+          "records_delta_median": 10.0,
+          "records_delta_range": [
+            10.0,
+            10.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 10.0,
+        "low": 10.0,
+        "median": 10.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "manga-anime-ban": {
+      "after_filter": {
+        "high": 8.0,
+        "low": 8.0,
+        "median": 8.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "manga-anime-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 8,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 8.0,
+          "after_filter_range": [
+            8.0,
+            8.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "news-ban": {
+      "after_filter": {
+        "high": 165.0,
+        "low": 165.0,
+        "median": 165.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "news-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 165,
+          "records_delta": 17,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 165.0,
+          "after_filter_range": [
+            165.0,
+            165.0
+          ],
+          "records_delta_median": 17.0,
+          "records_delta_range": [
+            17.0,
+            17.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 17.0,
+        "low": 17.0,
+        "median": 17.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "puzzle-ban": {
+      "after_filter": {
+        "high": 3.0,
+        "low": 3.0,
+        "median": 3.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "puzzle-ban",
+      "baselines": {
+        "last": {
+          "after_filter": 3,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 3.0,
+          "after_filter_range": [
+            3.0,
+            3.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "senkou-kenkyuu-kanshi": {
+      "after_filter": {
+        "high": 34.0,
+        "low": 34.0,
+        "median": 34.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "senkou-kenkyuu-kanshi",
+      "baselines": {
+        "last": {
+          "after_filter": 34,
+          "records_delta": 30,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 34.0,
+          "after_filter_range": [
+            34.0,
+            34.0
+          ],
+          "records_delta_median": 30.0,
+          "records_delta_range": [
+            30.0,
+            30.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 30.0,
+        "low": 30.0,
+        "median": 30.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    },
+    "uranai": {
+      "after_filter": {
+        "high": 8.0,
+        "low": 8.0,
+        "median": 8.0,
+        "method": "empirical_80pct"
+      },
+      "ban": "uranai",
+      "baselines": {
+        "last": {
+          "after_filter": 8,
+          "records_delta": 0,
+          "status": "ok"
+        },
+        "med7": {
+          "after_filter_median": 8.0,
+          "after_filter_range": [
+            8.0,
+            8.0
+          ],
+          "records_delta_median": 0.0,
+          "records_delta_range": [
+            0.0,
+            0.0
+          ],
+          "status_mode": "ok"
+        }
+      },
+      "history_days": 1,
+      "records_delta": {
+        "high": 0.0,
+        "low": 0.0,
+        "median": 0.0,
+        "method": "empirical_80pct"
+      },
+      "status_probs": {
+        "ng": 0.2,
+        "ok": 0.4,
+        "stale": 0.2,
+        "warn": 0.2
+      }
+    }
+  },
+  "generated_at": "2026-11-26T13:16:39+09:00",
+  "history_window_days": 30,
+  "quantile_level": 0.8,
+  "status_classes": [
+    "ok",
+    "warn",
+    "ng",
+    "stale"
+  ],
+  "target_date": "2026-11-27"
+}

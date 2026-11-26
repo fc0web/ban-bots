@@ -2,8 +2,151 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-25T13:58:35+09:00",
+  "generated_at": "2026-11-26T13:16:10+09:00",
   "records": [
+    {
+      "authors": [
+        "Shmalo, Yitzchak"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24548858",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A one-step nullhomotopy for Čech complexes of hypercube graphs",
+      "url": "https://zenodo.org/records/24548858"
+    },
+    {
+      "authors": [
+        "Priest, David G.",
+        "Wing, James B."
+      ],
+      "category": "Software",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24548763",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "GateLab",
+      "url": "https://zenodo.org/records/24548763"
+    },
+    {
+      "authors": [
+        "Ismoilova Rohatoy Isroil qizi",
+        "Yormatova Aziza",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24548688",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "HIND TILINI XORIJIY TIL SIFATIDA O'RGANISHNING AHAMIYATI",
+      "url": "https://zenodo.org/records/24548688"
+    },
+    {
+      "authors": [
+        "'ATIEQAH, NUR 'ATIEQAH BT MOHD ZAINUDIN"
+      ],
+      "category": "Book",
+      "date": "2026-11-25",
+      "first_seen_date": "2026-11-26",
+      "id": "24536444",
+      "license": "",
+      "source": "zenodo",
+      "title": "Probability Calculus Volume 2: Discrete and Continuous Distributions, Mathematical Expectation, Moments, and Moment-Generating Functions",
+      "url": "https://zenodo.org/records/24536444"
+    },
+    {
+      "authors": [
+        "Zhang, Wenzhao",
+        "Dou, Haoran"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24520312",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Effects of Fewer Social Media \"Likes\" on Social Conditioning Extinction and LLM Chatbot Intervention in Early Adolescents and Young Adults: A Computational Neuroscience Approach",
+      "url": "https://zenodo.org/records/24520312"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-21",
+      "first_seen_date": "2026-11-26",
+      "id": "23533556",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#963 Part 2 of 2",
+      "url": "https://zenodo.org/records/23533556"
+    },
+    {
+      "authors": [
+        "Intharah, Thanapong",
+        "Gao, Zhichao",
+        "Liu, Yiliang",
+        "Dong, Hao"
+      ],
+      "category": "Software",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24548096",
+      "license": "apache2.0",
+      "source": "zenodo",
+      "title": "SonoSpadePP: patient-faithful, real-time ultrasound synthesis from CT for teaching simulators (code and result files)",
+      "url": "https://zenodo.org/records/24548096"
+    },
+    {
+      "authors": [
+        "Hussein, M.",
+        "El-Sabagh, Hassan A.",
+        "Zahran, Faten"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24545557",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Rubric-oriented automated scoring of short computer science answers: anonymized dataset and code",
+      "url": "https://zenodo.org/records/24545557"
+    },
+    {
+      "authors": [
+        "Yoonsu Lee"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-26",
+      "id": "24547671",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Totality Theorem: Resolution of the Closed Universe Paradox through Observer-Universe Equivalence",
+      "url": "https://zenodo.org/records/24547671"
+    },
+    {
+      "authors": [
+        "Winter, Henry",
+        "Severino, MaryKay",
+        "Volunteer Scientist"
+      ],
+      "category": "Dataset",
+      "date": "2026-10-15",
+      "first_seen_date": "2026-11-26",
+      "id": "23385048",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "2024-04-08 Total Solar Eclipse ESID#789",
+      "url": "https://zenodo.org/records/23385048"
+    },
     {
       "authors": [
         "Asaf Hadari",
@@ -555,150 +698,7 @@
       "source": "zenodo",
       "title": "Frobenius fibres of arithmetic affine lines: total invariance and ramification",
       "url": "https://zenodo.org/records/24430879"
-    },
-    {
-      "authors": [
-        "Inder J. Taneja"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-22",
-      "id": "24413538",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Higher Orders Prime Magic Squares -- Part 2: Orders 6(4842), 7(4508) and 8(6144)",
-      "url": "https://zenodo.org/records/24413538"
-    },
-    {
-      "authors": [
-        "Fernández-Loría, Consuelo G.",
-        "Castillo-Sánchez, L.E.",
-        "Luna-Mendicuti, Armín A.",
-        "Ruz-Febles, Nery M.",
-        "López-Cobá, Ermilo H.",
-        "Canul-Solís, Jorge R."
-      ],
-      "category": "Journal article",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24430615",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Inteligencia Artificial en la formación de ingenieros agrónomos: Conocimiento, integración al aula, desempeño académico y alfabetización digital crítica en estudiantes del campus Tizimín del Tecnológico Nacional de México",
-      "url": "https://zenodo.org/records/24430615"
-    },
-    {
-      "authors": [
-        "Nicolas-Sans, Ruben"
-      ],
-      "category": "Software",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24430966",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "How much of the \"AI governance in higher education\" literature is about governance? A corpus-validity audit of keyword retrieval in OpenAlex (2018–2026)",
-      "url": "https://zenodo.org/records/24430966"
-    },
-    {
-      "authors": [
-        "Wu, Zhi-Juan"
-      ],
-      "category": "Report",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24410226",
-      "license": "cc-by-nc-nd-4.0",
-      "source": "zenodo",
-      "title": "Supplemental_File S1: Ethics Approval for the Study \"Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning Was Associated with Improved Medical Students' Ethics Cognition: A Quasi-Experimental Study\"",
-      "url": "https://zenodo.org/records/24410226"
-    },
-    {
-      "authors": [
-        "Annamahmatova Habiba,  Yormatova Aziza",
-        "Worldly Knowledge Publishing Centre"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24410479",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "A COMPARATIVE ANALYSIS OF CHALLENGES AND OPPORTUNITIES IN THE 21ST CENTURY",
-      "url": "https://zenodo.org/records/24410479"
-    },
-    {
-      "authors": [
-        "König, Matthias"
-      ],
-      "category": "Software",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24410363",
-      "license": "mit-license",
-      "source": "zenodo",
-      "title": "sbmlsim: SBML simulation made easy",
-      "url": "https://zenodo.org/records/24410363"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24410338",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
-      "url": "https://zenodo.org/records/24410338"
-    },
-    {
-      "authors": [
-        "Storm, Jeremy"
-      ],
-      "category": "Preprint",
-      "date": "2026-10-24",
-      "first_seen_date": "2026-11-21",
-      "id": "24410208",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Unit Zero and the Native Base Code: Abelian Variant–Invariant Polynomials, Quartic-N Smooth Minima, Continuous Time, and Exact Reconstruction of Finite-Energy Systems Within an Infinite-Energy Universe",
-      "url": "https://zenodo.org/records/24410208"
-    },
-    {
-      "authors": [
-        "Wu, Zhi-Juan"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-21",
-      "id": "24409761",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Supplemental Tables S1-S4: Integrating Ethics Discussion and Role-Playing into Anesthesia Physiology Case-Based Learning (Advances in Physiology Education)",
-      "url": "https://zenodo.org/records/24409761"
-    },
-    {
-      "authors": [
-        "Moshahary, Jwngsar",
-        "Choudhury, Mrinal",
-        "Deka, Pompy",
-        "Sarma, Bhaskarjyoti",
-        "Mishra, Sakambari",
-        "Ray, Soumik",
-        "Sarma, Ranjit",
-        "Tamang, Anant"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-20",
-      "first_seen_date": "2026-11-21",
-      "id": "24388873",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Data and Code for Phenology-Driven Mapping of Rubber Plantations in Kokrajhar, Assam, India",
-      "url": "https://zenodo.org/records/24388873"
     }
   ],
-  "total_before_cap": 183
+  "total_before_cap": 193
 }
