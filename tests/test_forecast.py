@@ -41,6 +41,36 @@ def test_laplace_probs_sum_to_one_and_smooth_zeros():
     assert p["ok"] > p["warn"] > 0
 
 
+def test_laplace_probs_skips_none_labels():
+    """status=None rows (backfilled from data files) must not bias the
+    distribution toward "ok" or any other class."""
+    only_none = forecast._laplace_probs([None, None, None], forecast.STATUS_CLASSES)
+    # With no known labels, all classes end up with the same +1 count.
+    assert sum(only_none.values()) == pytest.approx(1.0)
+    first = next(iter(only_none.values()))
+    assert all(v == pytest.approx(first) for v in only_none.values())
+    # Mix: one "ok" among nulls — "ok" rises above the others.
+    mixed = forecast._laplace_probs([None, "ok", None], forecast.STATUS_CLASSES)
+    assert mixed["ok"] > mixed["warn"]
+    assert mixed["warn"] == pytest.approx(mixed["ng"]) == pytest.approx(mixed["stale"])
+
+
+def test_predict_one_with_only_null_status_rows():
+    """A ban whose history is entirely backfilled (status=null) still
+    produces a valid prediction; status_probs becomes uniform."""
+    rows = [{"date": f"2026-11-{d:02d}", "ban": "a",
+             "af": v, "new": 0, "status": None}
+            for d, v in zip(range(17, 26), [1, 2, 3, 4, 5, 6, 7, 8, 9])]
+    pred = forecast._predict_one("a", rows)
+    assert pred["history_days"] == 9
+    assert pred["status_known_days"] == 0
+    probs = pred["status_probs"]
+    first = next(iter(probs.values()))
+    assert all(v == pytest.approx(first) for v in probs.values())
+    # Baseline-last falls back to "ok" when the most recent status is null.
+    assert pred["baselines"]["last"]["status"] == "ok"
+
+
 def test_brier_perfect_vs_worst():
     # Perfect: p(ok)=1, actual=ok  →  (1-1)² + (0-0)² + ... = 0
     assert forecast.brier_score({"ok": 1.0, "warn": 0, "ng": 0, "stale": 0}, "ok") == 0.0
@@ -165,9 +195,11 @@ def test_fingerprint_check_detects_rewrite_commit(tmp_path):
 # --- calibration windowing -----------------------------------------------
 
 def _mk_score(date: str, forecast_brier: float, last_brier: float,
-              af_hit: int = 1, nd_hit: int = 1) -> dict:
+              af_hit: int = 1, nd_hit: int = 1,
+              history_days: int = 10) -> dict:
     return {
         "date": date,
+        "history_days": history_days,
         "forecaster": {"brier": forecast_brier,
                        "af_hit": af_hit, "af_miss": 0,
                        "nd_hit": nd_hit, "nd_miss": 0},
@@ -195,3 +227,97 @@ def test_calibration_calibrated_at_14():
     # 100% hits → proximity to 80% = 1 - |1 - 0.8| = 0.8
     assert cal["hit_rate_ranges"] == pytest.approx(1.0)
     assert cal["proximity_to_80pct"] == pytest.approx(0.8)
+    assert cal["excluded_lowdata_days"] == 0
+
+
+# --- low-data exclusion from hit_rate / proximity -----------------------
+
+def test_calibration_excludes_lowdata_days_from_hit_rate():
+    """A score row whose prediction had history_days<7 is counted in
+    days_scored and in the Brier averages, but excluded from the hit_rate
+    and proximity calculation (the 80% interval would be degenerate)."""
+    lowdata = [_mk_score("2026-11-26", 0.1, 0.5, af_hit=0, nd_hit=0,
+                         history_days=1)]
+    full = [_mk_score(f"2026-11-{d:02d}", 0.1, 0.5, af_hit=1, nd_hit=1,
+                      history_days=10)
+            for d in range(27, 31)]  # 4 full-data days
+    cal = forecast.calibration_for_ban(lowdata + full, window=14)
+    assert cal["days_scored"] == 5
+    assert cal["excluded_lowdata_days"] == 1
+    # hit_rate is computed from the 4 full-data days only (all hit) → 1.0
+    assert cal["hit_rate_ranges"] == pytest.approx(1.0)
+    assert cal["proximity_to_80pct"] == pytest.approx(0.8)
+    # The excluded low-data row still contributes to the Brier average.
+    assert cal["forecaster_avg_brier"] == pytest.approx(0.1)
+
+
+def test_calibration_all_lowdata_yields_none_hit_rate():
+    """If every row in the window is low-data, hit_rate and proximity
+    are None — we don't guess from a degenerate interval."""
+    prior = [_mk_score(f"2026-11-{d:02d}", 0.1, 0.5, history_days=1)
+             for d in range(26, 29)]
+    cal = forecast.calibration_for_ban(prior, window=14)
+    assert cal["days_scored"] == 3
+    assert cal["excluded_lowdata_days"] == 3
+    assert cal["hit_rate_ranges"] is None
+    assert cal["proximity_to_80pct"] is None
+
+
+# --- score_one carries history_days through to the score doc ------------
+
+def test_score_one_embeds_history_days():
+    pred = {
+        "history_days": 1,
+        "after_filter": {"low": 5, "high": 5, "median": 5, "method": "x"},
+        "records_delta": {"low": 0, "high": 0, "median": 0, "method": "x"},
+        "status_probs": {"ok": 0.25, "warn": 0.25, "ng": 0.25, "stale": 0.25},
+        "baselines": {
+            "last": {"after_filter": 5, "records_delta": 0, "status": "ok"},
+            "med7": {},
+        },
+    }
+    s = forecast.score_one(pred, af_actual=5, nd_actual=0, status_actual="ok")
+    assert s["history_days"] == 1
+
+
+# --- backfill reconstruction matches the live history line --------------
+
+def test_backfill_reconstructs_today_matching_live(tmp_path):
+    """The backfill script's data-file reader must produce the same (af, new)
+    values that summarize already wrote to history.jsonl for today — if it
+    doesn't, we cannot trust that it's filling prior days consistently."""
+    # Simulate a data/<ban>/<today>.json like the real pipeline writes.
+    data_dir = tmp_path / "data" / "a"
+    data_dir.mkdir(parents=True)
+    (data_dir / "2026-11-26.json").write_text(json.dumps({
+        "ban": "a",
+        "fetch_stats": {"after_filter": 42, "new_today": 7, "raw_fetched": 42},
+    }), encoding="utf-8")
+    # Import the backfill helper via a sys.path hack (same layout as tests).
+    scripts_dir = Path(__file__).resolve().parent.parent / "scripts"
+    sys.path.insert(0, str(scripts_dir))
+    try:
+        import backfill_history as bf
+    finally:
+        sys.path.remove(str(scripts_dir))
+    bans = [{"id": "a", "enabled": True}]
+    rows = bf.rows_from_data_dir(tmp_path, bans)
+    assert len(rows) == 1
+    r = rows[0]
+    assert r["date"] == "2026-11-26"
+    assert r["ban"] == "a"
+    assert r["af"] == 42
+    assert r["new"] == 7
+    assert r["status"] is None
+    assert r["backfilled"] is True
+
+    # And the match verifier confirms equality against a live row.
+    live = [{"date": "2026-11-26", "ban": "a", "af": 42, "new": 7, "status": "ok"}]
+    ok, mismatches = bf.verify_today_match("2026-11-26", rows, live)
+    assert ok, mismatches
+
+    # A deliberate mismatch is detected.
+    live_bad = [{"date": "2026-11-26", "ban": "a", "af": 43, "new": 7, "status": "ok"}]
+    ok2, mismatches2 = bf.verify_today_match("2026-11-26", rows, live_bad)
+    assert not ok2
+    assert any("af=43" in m for m in mismatches2)

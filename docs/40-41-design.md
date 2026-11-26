@@ -1,6 +1,6 @@
 # 機器 40・41 設計メモ
 
-草案、2026-11-25（作成）／2026-11-26（決定の反映）。
+草案、2026-11-25（作成）／2026-11-26（決定の反映、履歴の埋め戻しと低データ除外の追記）。
 
 - 機器 40（予測器）：毎日の summarize 直後に翌日の予測を記録し、翌日の結果が出たら点数を付ける。**決定済み、実装着手中。**
 - 機器 41（増幅器）：毎日のニュース盤の候補を「確かめる価値の高い順」に並べ替える。**決定済み、実装はラベルが集まってから。**
@@ -74,6 +74,22 @@ status/history.jsonl        ← 盤・日ごとの status 時系列（1 盤 1 �
 - **14 稼働日固定**。それ未満は `uncalibrated`。
 - **基準に負け続けても止めない**。事実（勝ち／負け／引き分け）を出し続ける。
 - 朝の報告には **1 行**：`較正日数 N / vs baseline-last=... / vs baseline-med7=... / hit_rate=...（proximity=...）/ status=calibrated|uncalibrated`
+
+### 低データの日は hit_rate / proximity から除外（2026-11-26 追記）
+
+- 予測のもとになった過去日数 (`history_days`) が **7 未満** の予測は、採点は普通に行うが、**較正の `hit_rate_ranges` と `proximity_to_80pct` の計算には数えない**（履歴 1 行では区間が 1 点に潰れるため、本来の 80% 区間として扱えない）。
+- `vs_last` と `vs_med7` を支える Brier 平均には含める（これらは範囲ではなく一点の確率予測の比較なので低データでも意味がある）。
+- `summary.json` の `per_ban` に `excluded_lowdata_days`（除外した日数）を出す。
+
+### 履歴の埋め戻し（2026-11-26 一回限り）
+
+`status/history.jsonl` は 11/26 から書き始めたため、初日の予測は履歴 1 行で動いた。あと付けで 11/17〜11/25 の分を補う：
+
+- `scripts/backfill_history.py` を一度だけ走らせて、`data/<ban>/<日付>.json` の `fetch_stats.after_filter` と `fetch_stats.new_today` から `af`, `new` を埋める。
+- `status` は信頼できる当時の記録が無い場合 `null` にし、`forecast.py` の `status_probs` と `baselines` は **`null` の行を数えない**。
+- 埋め戻した行には `"backfilled": true` を付ける。
+- スクリプトは「今日の分を data から再計算 → `history.jsonl` の今日の行と一致を確認 → 一致したときだけ過去を書く」の順で走る。不一致なら停止して報告する。
+- 既に作られた `predictions/<D>.json` は後から書き換えない（指紋チェックのため）。そのため、`history_days=1` で作られた予測は翌日の採点では低データ扱いになる。
 
 ### 表示先
 

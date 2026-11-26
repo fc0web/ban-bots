@@ -31,6 +31,10 @@ BASELINE_MED_DAYS = 7
 CALIBRATION_WORKDAYS = 14
 QUANTILE_LEVEL = 0.80
 STATUS_CLASSES: tuple[str, ...] = ("ok", "warn", "ng", "stale")
+# Predictions built from fewer than this many history rows are scored but
+# excluded from calibration hit_rate / proximity (the window would be
+# unfair otherwise — e.g. a 1-row empirical interval is a single point).
+MIN_HISTORY_FOR_CALIBRATION = 7
 
 PREDICTIONS_DIR_NAME = "predictions"
 HISTORY_FILE_NAME = "history.jsonl"
@@ -126,21 +130,27 @@ def _empirical_interval(values: list[float], level: float) -> tuple[float, float
     return _quantile(values, tail), _quantile(values, 1 - tail)
 
 
-def _laplace_probs(labels: list[str], classes: tuple[str, ...]) -> dict[str, float]:
+def _laplace_probs(labels: list[str | None],
+                   classes: tuple[str, ...]) -> dict[str, float]:
     counts = {c: 1 for c in classes}  # +1 smoothing
     for lab in labels:
+        # None marks a row with no known status (e.g. backfilled from data
+        # files). Skip it — don't let it pull probabilities toward "ok".
+        if lab is None:
+            continue
         if lab in counts:
             counts[lab] += 1
     total = sum(counts.values())
     return {c: counts[c] / total for c in classes}
 
 
-def _mode(labels: list[str], default: str = "ok") -> str:
-    if not labels:
+def _mode(labels: list[str | None], default: str = "ok") -> str:
+    non_null = [l for l in labels if l is not None]
+    if not non_null:
         return default
     # Pick the most frequent; ties broken by insertion order via Python Counter.
     from collections import Counter
-    return Counter(labels).most_common(1)[0][0]
+    return Counter(non_null).most_common(1)[0][0]
 
 
 # --- prediction ---------------------------------------------------------
@@ -148,17 +158,19 @@ def _mode(labels: list[str], default: str = "ok") -> str:
 def _predict_one(ban_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
     afs = [float(r["af"]) for r in rows]
     nds = [float(r["new"]) for r in rows]
-    statuses = [r.get("status", "ok") for r in rows]
+    statuses: list[str | None] = [r.get("status") for r in rows]
+    statuses_known = [s for s in statuses if s is not None]
 
     af_low, af_high = _empirical_interval(afs, QUANTILE_LEVEL)
     nd_low, nd_high = _empirical_interval(nds, QUANTILE_LEVEL)
 
     if rows:
         last = rows[-1]
+        last_status = last.get("status")
         baseline_last = {
             "after_filter": int(last["af"]),
             "records_delta": int(last["new"]),
-            "status": last.get("status", "ok"),
+            "status": last_status if last_status is not None else "ok",
         }
     else:
         baseline_last = {"after_filter": 0, "records_delta": 0, "status": "ok"}
@@ -172,7 +184,7 @@ def _predict_one(ban_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
             "records_delta_median": _quantile(nd7, 0.5),
             "after_filter_range": [min(af7), max(af7)],
             "records_delta_range": [min(nd7), max(nd7)],
-            "status_mode": _mode([r.get("status", "ok") for r in recent7]),
+            "status_mode": _mode([r.get("status") for r in recent7]),
         }
     else:
         baseline_med7 = {}
@@ -180,6 +192,7 @@ def _predict_one(ban_id: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
     return {
         "ban": ban_id,
         "history_days": len(rows),
+        "status_known_days": len(statuses_known),
         "after_filter": {
             "low": af_low, "high": af_high,
             "median": _quantile(afs, 0.5),
@@ -316,6 +329,7 @@ def score_one(pred: dict[str, Any], af_actual: float, nd_actual: float,
         "actual": {"after_filter": af_actual,
                    "records_delta": nd_actual,
                    "status": status_actual},
+        "history_days": int(pred.get("history_days", 0)),
         "forecaster": {"af_hit": af_hit, "af_miss": af_miss,
                        "nd_hit": nd_hit, "nd_miss": nd_miss,
                        "brier": brier},
@@ -366,19 +380,33 @@ def _cmp_lower_is_better(a: float | None, b: float | None) -> str:
 def calibration_for_ban(prior: list[dict[str, Any]],
                         window: int = CALIBRATION_WORKDAYS) -> dict[str, Any]:
     """Compute rolling-window calibration stats from the last `window`
-    score rows for one ban."""
+    score rows for one ban. Rows whose prediction had fewer than
+    MIN_HISTORY_FOR_CALIBRATION rows in history are still counted in
+    days_scored and Brier averages, but excluded from hit_rate /
+    proximity (the empirical interval degenerates with too few rows)."""
     recent = prior[-window:]
     n = len(recent)
     if n == 0:
-        return {"days_scored": 0, "status": "uncalibrated",
+        return {"days_scored": 0, "excluded_lowdata_days": 0,
+                "status": "uncalibrated",
                 "vs_last": "unknown", "vs_med7": "unknown",
                 "hit_rate_ranges": None, "proximity_to_80pct": None}
 
-    af_hits = [r["forecaster"]["af_hit"] for r in recent]
-    nd_hits = [r["forecaster"]["nd_hit"] for r in recent]
-    hits = af_hits + nd_hits
-    hit_rate = sum(hits) / len(hits)
-    proximity = 1.0 - abs(hit_rate - QUANTILE_LEVEL)
+    lowdata = [r for r in recent
+               if int(r.get("history_days", 0)) < MIN_HISTORY_FOR_CALIBRATION]
+    full = [r for r in recent
+            if int(r.get("history_days", 0)) >= MIN_HISTORY_FOR_CALIBRATION]
+    excluded = len(lowdata)
+
+    if full:
+        af_hits = [r["forecaster"]["af_hit"] for r in full]
+        nd_hits = [r["forecaster"]["nd_hit"] for r in full]
+        hits = af_hits + nd_hits
+        hit_rate: float | None = sum(hits) / len(hits)
+        proximity: float | None = 1.0 - abs(hit_rate - QUANTILE_LEVEL)
+    else:
+        hit_rate = None
+        proximity = None
 
     briers = [r["forecaster"]["brier"] for r in recent]
     avg_brier = sum(briers) / n
@@ -394,6 +422,7 @@ def calibration_for_ban(prior: list[dict[str, Any]],
     status = "calibrated" if n >= window else "uncalibrated"
     return {
         "days_scored": n,
+        "excluded_lowdata_days": excluded,
         "status": status,
         "forecaster_avg_brier": avg_brier,
         "baseline_last_avg_brier": avg_last,
