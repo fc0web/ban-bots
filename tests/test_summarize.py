@@ -163,3 +163,49 @@ def test_enabled_but_no_row_is_stale_not_disabled(summary_env):
     assert s["total"] == 1
     assert s["disabled"] == 0
     assert s["stale"] == 1
+
+
+def test_only_shard_files_feed_classification(summary_env):
+    """Regression for the 2026-11-27 全盤 ng incident.
+
+    After 793f732 committed status/history.jsonl, summarize's broad glob of
+    status/*.jsonl was reading those forecaster rows (shape: {ban, date,
+    af, new, status}, no source_ok) and overwriting the shard's entry in
+    rows_by_id. Each ban then came out as `ng / source_ok=false (no detail)`.
+
+    Only the shard files (status/<int>.jsonl, per
+    common.write_status_shard) must feed classification; history.jsonl and
+    fetch-errors.jsonl must be ignored even though both carry a `ban` key.
+    """
+    _write_registry(summary_env["registry"], [
+        {"id": "a", "source": "none", "params": "{}", "freq": "daily", "enabled": "true"},
+        {"id": "b", "source": "none", "params": "{}", "freq": "daily", "enabled": "true"},
+    ])
+    # The shard — both bans source_ok=true, so they should classify ok.
+    _write_shard(summary_env["status"], [
+        _row("a", af=4, new=1),
+        _row("b", af=3, new=1),
+    ])
+    # The forecaster's rolling history — same ban ids, no source_ok.
+    # Written AFTER the shard row for the same date so a filename-sorted
+    # read (0.jsonl → history.jsonl) would clobber the shard entry if the
+    # glob is too broad.
+    (summary_env["status"] / "history.jsonl").write_text(
+        "\n".join(json.dumps(r, ensure_ascii=False) for r in [
+            {"ban": "a", "date": "2026-11-24", "af": 4, "new": 0, "status": "ok"},
+            {"ban": "b", "date": "2026-11-24", "af": 3, "new": 0, "status": "ok"},
+        ]) + "\n",
+        encoding="utf-8",
+    )
+    # A fetch-error line (since c0d6e3b these also carry `ban`).
+    (summary_env["status"] / "fetch-errors.jsonl").write_text(
+        json.dumps({"time": "2026-11-25T13:00:00+09:00", "ban": "a",
+                    "source": "x", "phrase": "", "error": "boom"}) + "\n",
+        encoding="utf-8",
+    )
+    summarize.main()
+    s = json.loads((summary_env["status"] / "summary.json").read_text(encoding="utf-8"))
+    assert s["ran_today"] == 2
+    assert s["ok"] == 2, f"shard said source_ok=true but classify saw: {s}"
+    assert s["ng"] == 0 and s["warn"] == 0 and s["stale"] == 0
+    assert s["problems"] == []

@@ -176,14 +176,16 @@ def main() -> int:
     bans = common.load_registry()
 
     # Gather every row written by any shard this run.
-    # We only want per-shard status files here. `fetch-errors.jsonl` lives
-    # in the same directory and matches `*.jsonl`, but its lines are error
-    # records, not status rows — since c0d6e3b they also carry `ban`, so
-    # without this skip the last 429 row for a given ban overwrites its
-    # real status row and the ban comes out as `source_ok=false (no detail)`.
+    # Shard files are status/<int>.jsonl (see common.write_status_shard
+    # at runner/common.py:352). Other *.jsonl in status/ — fetch-errors
+    # and the forecaster's history — also carry a `ban` key, so a broad
+    # glob clobbers each ban's shard entry in rows_by_id and the board
+    # comes out as `source_ok=false (no detail)`. That's the 2026-11-27
+    # 全盤 ng incident: history.jsonl entered the repo with 793f732 and
+    # the next day's summarize read it as if it were a shard.
     rows_by_id: dict[str, dict[str, Any]] = {}
     for p in sorted(common.STATUS_DIR.glob("*.jsonl")):
-        if p.name == "fetch-errors.jsonl":
+        if not p.stem.isdigit():
             continue
         for row in common.read_status_shard(p):
             if row.get("ban"):

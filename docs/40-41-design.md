@@ -81,6 +81,44 @@ status/history.jsonl        ← 盤・日ごとの status 時系列（1 盤 1 �
 - `vs_last` と `vs_med7` を支える Brier 平均には含める（これらは範囲ではなく一点の確率予測の比較なので低データでも意味がある）。
 - `summary.json` の `per_ban` に `excluded_lowdata_days`（除外した日数）を出す。
 
+### 仕組みが壊れた日は採点から外す（2026-11-28 追記、案のみ、未実装）
+
+2026-11-27 の daily は、取得そのものは 9 盤とも成功していたのに、summarize
+が `status/history.jsonl` を shard のファイルと取り違えて読み、全盤を
+`ng / source_ok=false (no detail)` と記録してしまった。この日の実測は盤の
+挙動ではなく仕組みの故障なので、較正と予測の勝ち負けの集計からは外したい。
+以下は案のみで、今回は実装しない。
+
+- **印**：summary.json の `ran_today > 0 かつ ng == ran_today` を満たす日を
+  「仕組みが壊れた日 (`broken_run`)」とみなし、`status/history.jsonl` の
+  その日の行に `"broken_run": true` を付ける。既存の `backfilled` と同じく
+  実 run の行とは別建ての印。
+- **採点を飛ばす**：`forecast.run_forecast` の入口でその日が `broken_run` と
+  判定された場合、`score_one` を呼ばずに `predictions/<D>-score.json` には
+  `{"skipped": "broken_run", "fingerprint_check": {"ok": …}}` だけ書く。
+  指紋チェックは普段どおり走らせる（予測ファイルが書き換えられていないか
+  は壊れた日でも確かめたい）。
+- **較正の分母から外す**：`calibration_for_ban` が score ファイルを読むとき、
+  `skipped == "broken_run"` の日は `days_scored`・`hit_rate_ranges`・
+  `proximity_to_80pct`・`vs_last / vs_med7` の Brier 平均のいずれからも
+  数えない。低データ日除外 (`MIN_HISTORY_FOR_CALIBRATION`) と直交する扱い。
+- **朝の報告**：壊れた日は盤ごとの 1 行に `broken_run` と出す。較正日数 N は
+  据え置き（`broken_run` で足踏みする）。
+
+#### 11/27 の既に書かれた記録の扱い
+
+いま `status/history.jsonl` には、11/27 の 9 行が `status: "ng"` で入って
+おり、`predictions/2026-11-27-score.json` には actual が af=0, records_delta=0,
+status=ng で記録されている。どちらも後から書き換えると指紋チェック
+（`git log --format=%H -- predictions/<today>.json` が 1 行であること）の
+前提が崩れるので、**消したり書き換えたりはしない**。代わりに、次の実装時
+に history.jsonl の 11/27 の 9 行へ `"broken_run": true` を足し、
+`predictions/2026-11-27-score.json` の横に `predictions/2026-11-27-skip.json`
+を作って「あの日の採点は較正から外す」という注記だけを置く。較正の計算は
+score ファイルと skip ファイルの両方を見て、`skip` があればその日を分母から
+外す、という形にする。score ファイルそのものは `fingerprint_check.ok=true`
+の記録として残す。
+
 ### 履歴の埋め戻し（2026-11-26 一回限り）
 
 `status/history.jsonl` は 11/26 から書き始めたため、初日の予測は履歴 1 行で動いた。あと付けで 11/17〜11/25 の分を補う：
