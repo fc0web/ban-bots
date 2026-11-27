@@ -92,10 +92,11 @@ jobs:
             # Retry push a couple of times in case of concurrent pushes.
             for i in 1 2 3; do
               if git pull --rebase --autostash && git push; then
-                break
+                exit 0
               fi
               sleep $((i * 5))
             done
+            exit 1
           fi
       # 盤の状態が全部 ng の日は workflow を赤くする。commit は上で済ませて
       # いるので、記録は残しつつ通知だけ出す。走った盤が無い（ran_today=0）
