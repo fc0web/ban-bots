@@ -1,0 +1,191 @@
+{
+  "ban": "senkou-kenkyuu-kanshi",
+  "fetch_stats": {
+    "after_filter": 34,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "openalex": {
+        "after_filter": 4,
+        "raw": 4
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 10,
+    "newly_added_this_run": 10,
+    "raw_fetched": 34,
+    "seen_previously": 24
+  },
+  "fetched_at": "2026-11-27T13:26:06+09:00",
+  "params": {
+    "arxiv": {
+      "categories": [
+        "cs.IT",
+        "cs.PL",
+        "cs.CC"
+      ],
+      "limit": 20,
+      "reldate": 30
+    },
+    "openalex": {
+      "limit_per_phrase": 10,
+      "reldate": 30,
+      "title_phrases": [
+        "algorithmic statistics",
+        "Kolmogorov structure function",
+        "Wyner-Ziv",
+        "emergent communication",
+        "non-termination",
+        "stochastic thermodynamics of computation",
+        "minimum description length",
+        "agreement theorem"
+      ]
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "theoretical computer science"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Lucas Mateo Tabares Franco",
+        "Julián Andrés Jaramillo Ospina",
+        "Juan Carlos Velásquez Franco"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-27",
+      "id": "24576614",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Céspedes bajo sequía: alga y/o húmico elevaron el α-tocoferol y el ascorbato en ambos regímenes, con correlación declarada (Zhang & Schmidt, 2000)",
+      "url": "https://zenodo.org/records/24576614"
+    },
+    {
+      "authors": [
+        "Lucas Mateo Tabares Franco",
+        "Julián Andrés Jaramillo Ospina",
+        "Juan Carlos Velásquez Franco"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-27",
+      "id": "24576611",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Medir antioxidantes al final no prueba activación: el marco de Mittler (2002) y la lectura en cuatro preguntas",
+      "url": "https://zenodo.org/records/24576611"
+    },
+    {
+      "authors": [
+        "Mosquito Alert"
+      ],
+      "category": "Software",
+      "date": "2026-11-27",
+      "id": "24576630",
+      "license": "cc-zero",
+      "source": "zenodo",
+      "title": "Sampling Effort Data",
+      "url": "https://zenodo.org/records/24576630"
+    },
+    {
+      "authors": [
+        "Shakhnoza Ravshonovna Nizamova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "id": "24576606",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DEVELOPING SPEED AND AGILITY IN ATHLETES PRACTICING MUAY TAY",
+      "url": "https://zenodo.org/records/24576606"
+    },
+    {
+      "authors": [
+        "杨, 林"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-27",
+      "id": "24576564",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "心象三元论(\"三元平衡\"与\"心象二性\"论文合集)(版本日期:26.11.27)",
+      "url": "https://zenodo.org/records/24576564"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-27",
+      "id": "24576573",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24576573"
+    },
+    {
+      "authors": [
+        "El Madah, Nada",
+        "Rashad, M. Z.",
+        "Elmougy, Samir",
+        "Sarhan, Shahenda",
+        "Handosa, Mohamed",
+        "Sakr, Rasha H."
+      ],
+      "category": "Software",
+      "date": "2026-11-27",
+      "id": "24576567",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Observability-gated fusion of sensor measurements and a neural network improves learned visual-inertial odometry",
+      "url": "https://zenodo.org/records/24576567"
+    },
+    {
+      "authors": [
+        "Aparejo, Arriza Mae",
+        "Dayrit, Shemeel Gean",
+        "Laderas, Tristan Jay",
+        "Surio, Jennylyn"
+      ],
+      "category": "Journal",
+      "date": "2026-11-27",
+      "id": "24576023",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SmartGate: An IoT-Based Student Entry System with QR Code for Mabalacat City College",
+      "url": "https://zenodo.org/records/24576023"
+    },
+    {
+      "authors": [
+        "Saidova Rayhon Bekmurodovna"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-27",
+      "id": "24576392",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SPEECH, VERSE AND PROSE IN AHMAD TARAZI'S \"FUNUN AL-BALAGHA\"",
+      "url": "https://zenodo.org/records/24576392"
+    },
+    {
+      "authors": [
+        "Fidan Mamedova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "id": "24576346",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "FORMS AND MECHANISMS OF ORGANIZING PARENT–TEACHER R",
+      "url": "https://zenodo.org/records/24576346"
+    }
+  ],
+  "source": "arxiv+zenodo+openalex"
+}

@@ -1,136 +1,179 @@
 {
   "counts": {
     "fx-ban": {
-      "after_filter": 4,
+      "after_filter": 0,
       "new": 0,
-      "raw": 100
+      "raw": 0
     },
     "game-ban": {
-      "after_filter": 2,
+      "after_filter": 0,
       "new": 0,
-      "raw": 15
+      "raw": 0
     },
     "kokoku-ban": {
-      "after_filter": 1,
+      "after_filter": 0,
       "new": 0,
-      "raw": 165
+      "raw": 0
     },
     "kyoiku": {
-      "after_filter": 30,
-      "new": 10,
-      "raw": 30
+      "after_filter": 0,
+      "new": 0,
+      "raw": 0
     },
     "manga-anime-ban": {
-      "after_filter": 8,
+      "after_filter": 0,
       "new": 0,
-      "raw": 25
+      "raw": 0
     },
     "news-ban": {
-      "after_filter": 165,
-      "new": 17,
-      "raw": 165
+      "after_filter": 0,
+      "new": 0,
+      "raw": 0
     },
     "puzzle-ban": {
-      "after_filter": 3,
+      "after_filter": 0,
       "new": 0,
-      "raw": 20
+      "raw": 0
     },
     "senkou-kenkyuu-kanshi": {
-      "after_filter": 34,
-      "new": 30,
-      "raw": 34
+      "after_filter": 0,
+      "new": 0,
+      "raw": 0
     },
     "uranai": {
-      "after_filter": 8,
+      "after_filter": 0,
       "new": 0,
-      "raw": 28
+      "raw": 0
     }
   },
   "disabled": 3,
   "forecast": {
     "calibration_window_workdays": 14,
-    "generated_at": "2026-11-26T13:16:39+09:00",
+    "generated_at": "2026-11-27T13:26:20+09:00",
     "per_ban": {
       "fx-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "game-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "kokoku-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "kyoiku": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "manga-anime-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "news-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "puzzle-ban": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "senkou-kenkyuu-kanshi": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       },
       "uranai": {
-        "days_scored": 0,
+        "baseline_last_avg_brier": 2.0,
+        "baseline_med7_avg_brier": 2.0,
+        "days_scored": 1,
+        "excluded_lowdata_days": 1,
+        "forecaster_avg_brier": 0.8800000000000002,
         "hit_rate_ranges": null,
         "proximity_to_80pct": null,
         "status": "uncalibrated",
-        "vs_last": "unknown",
-        "vs_med7": "unknown"
+        "vs_last": "win",
+        "vs_med7": "win"
       }
     },
     "quantile_level": 0.8,
-    "scoring": null,
-    "today": "2026-11-26",
-    "tomorrow": "2026-11-27",
-    "wrote_prediction_for": "2026-11-27"
+    "scoring": {
+      "date": "2026-11-27",
+      "fingerprint": {
+        "detail": "ok",
+        "ok": true
+      },
+      "scored_bans": 9
+    },
+    "today": "2026-11-27",
+    "tomorrow": "2026-11-28",
+    "wrote_prediction_for": "2026-11-28"
   },
-  "generated_at": "2026-11-26T13:16:39+09:00",
+  "generated_at": "2026-11-27T13:26:20+09:00",
   "last_seen": {
     "fx-ban": "2026-11-26T13:16:03+09:00",
     "game-ban": "2026-11-26T13:16:06+09:00",
@@ -142,48 +185,112 @@
     "senkou-kenkyuu-kanshi": "2026-11-26T13:16:21+09:00",
     "uranai": "2026-11-26T13:16:24+09:00"
   },
-  "ng": 0,
-  "ok": 9,
-  "problems": [],
+  "ng": 9,
+  "ok": 0,
+  "problems": [
+    {
+      "ban": "fx-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "game-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "kokoku-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "kyoiku",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "manga-anime-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "news-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "puzzle-ban",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "senkou-kenkyuu-kanshi",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    },
+    {
+      "ban": "uranai",
+      "checked_at": "",
+      "freq": "daily",
+      "reason": "source_ok=false (no detail)",
+      "status": "ng"
+    }
+  ],
   "problems_truncated": 0,
   "ran_today": 9,
   "stale": 0,
   "streaks": {
     "fx-ban": {
-      "zero_filter": 0,
-      "zero_new": 2
+      "zero_filter": 1,
+      "zero_new": 0
     },
     "game-ban": {
-      "zero_filter": 0,
-      "zero_new": 2
+      "zero_filter": 1,
+      "zero_new": 0
     },
     "kokoku-ban": {
-      "zero_filter": 0,
-      "zero_new": 1
+      "zero_filter": 1,
+      "zero_new": 0
     },
     "kyoiku": {
-      "zero_filter": 0,
+      "zero_filter": 1,
       "zero_new": 0
     },
     "manga-anime-ban": {
-      "zero_filter": 0,
-      "zero_new": 2
+      "zero_filter": 1,
+      "zero_new": 0
     },
     "news-ban": {
-      "zero_filter": 0,
+      "zero_filter": 1,
       "zero_new": 0
     },
     "puzzle-ban": {
-      "zero_filter": 0,
-      "zero_new": 1
+      "zero_filter": 1,
+      "zero_new": 0
     },
     "senkou-kenkyuu-kanshi": {
-      "zero_filter": 0,
+      "zero_filter": 1,
       "zero_new": 0
     },
     "uranai": {
-      "zero_filter": 0,
-      "zero_new": 2
+      "zero_filter": 1,
+      "zero_new": 0
     }
   },
   "total": 12,

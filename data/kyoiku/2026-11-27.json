@@ -1,0 +1,164 @@
+{
+  "ban": "kyoiku",
+  "fetch_stats": {
+    "after_filter": 30,
+    "by_source": {
+      "arxiv": {
+        "after_filter": 20,
+        "raw": 20
+      },
+      "zenodo": {
+        "after_filter": 10,
+        "raw": 10
+      }
+    },
+    "new_today": 10,
+    "newly_added_this_run": 10,
+    "raw_fetched": 30,
+    "seen_previously": 20
+  },
+  "fetched_at": "2026-11-27T13:25:56+09:00",
+  "params": {
+    "arxiv": {
+      "category": "math.HO",
+      "limit": 20
+    },
+    "zenodo": {
+      "limit": 10,
+      "q": "mathematics education"
+    }
+  },
+  "records": [
+    {
+      "authors": [
+        "Shakhnoza Ravshonovna Nizamova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "id": "24576606",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DEVELOPING SPEED AND AGILITY IN ATHLETES PRACTICING MUAY TAY",
+      "url": "https://zenodo.org/records/24576606"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-27",
+      "id": "24576573",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24576573"
+    },
+    {
+      "authors": [
+        "Aparejo, Arriza Mae",
+        "Dayrit, Shemeel Gean",
+        "Laderas, Tristan Jay",
+        "Surio, Jennylyn"
+      ],
+      "category": "Journal",
+      "date": "2026-11-27",
+      "id": "24576023",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SmartGate: An IoT-Based Student Entry System with QR Code for Mabalacat City College",
+      "url": "https://zenodo.org/records/24576023"
+    },
+    {
+      "authors": [
+        "Fidan Mamedova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "id": "24576346",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "FORMS AND MECHANISMS OF ORGANIZING PARENT–TEACHER R",
+      "url": "https://zenodo.org/records/24576346"
+    },
+    {
+      "authors": [
+        "Dadamirzayeva, Mashxura",
+        "Xusayinova, Goʻzal"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-03",
+      "id": "24576335",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "EKOLOGIK VA RAQAMLI VOSITALAR INTEGRATSIYASI (PHYGITAL) ASOSIDA 6–8 YOSHLI BOLALARDA MUHANDISLIK FIKRLASHNI RIVOJLANTIRISH METODIKASI",
+      "url": "https://zenodo.org/records/24576335"
+    },
+    {
+      "authors": [
+        "Matta, David (Daoud)"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-27",
+      "id": "24576332",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thinking Without Understanding: From von Neumann to Harari",
+      "url": "https://zenodo.org/records/24576332"
+    },
+    {
+      "authors": [
+        "Otondo-Briceño, Maite",
+        "Mayor-Ruiz, Cristina",
+        "Hernández-de-la-Torre, Elena"
+      ],
+      "category": "Journal article",
+      "date": "2021-08-15",
+      "id": "24575900",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Análisis de los incidentes críticos de la identidad profesional docente del profesorado principiante de educación especial",
+      "url": "https://zenodo.org/records/24575900"
+    },
+    {
+      "authors": [
+        "Khalilova Mohinurbonu Jalol qizi",
+        "Yusupova Muhabbat Anatolyevna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "id": "24576140",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DESIGNING AND IMPLEMENTING CASE STUDY ACTIVITIES TO ENHANCE FIRST-YEAR ENGLISH MAJORS' CRITICAL THINKING SKILLS",
+      "url": "https://zenodo.org/records/24576140"
+    },
+    {
+      "authors": [
+        "Bailey, Denis"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-27",
+      "id": "24575953",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Construction and Reconstruction of Human Option-Sets",
+      "url": "https://zenodo.org/records/24575953"
+    },
+    {
+      "authors": [
+        "Egi Rivaldi Gumilar, Siti Denty Lukman, Slamet Tri Wahyudi"
+      ],
+      "category": "Publication",
+      "date": "2026-11-27",
+      "id": "24575772",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Free Education as a Constitutional Responsibility of the State in Realizing Sustainable Human Development in Indonesia",
+      "url": "https://zenodo.org/records/24575772"
+    }
+  ],
+  "source": "arxiv+zenodo"
+}

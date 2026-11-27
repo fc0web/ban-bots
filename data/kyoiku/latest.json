@@ -2,8 +2,148 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-26T13:16:10+09:00",
+  "generated_at": "2026-11-27T13:25:56+09:00",
   "records": [
+    {
+      "authors": [
+        "Shakhnoza Ravshonovna Nizamova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576606",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DEVELOPING SPEED AND AGILITY IN ATHLETES PRACTICING MUAY TAY",
+      "url": "https://zenodo.org/records/24576606"
+    },
+    {
+      "authors": [
+        "König, Matthias"
+      ],
+      "category": "Software",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576573",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "sbmlsim: SBML simulation made easy",
+      "url": "https://zenodo.org/records/24576573"
+    },
+    {
+      "authors": [
+        "Aparejo, Arriza Mae",
+        "Dayrit, Shemeel Gean",
+        "Laderas, Tristan Jay",
+        "Surio, Jennylyn"
+      ],
+      "category": "Journal",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576023",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "SmartGate: An IoT-Based Student Entry System with QR Code for Mabalacat City College",
+      "url": "https://zenodo.org/records/24576023"
+    },
+    {
+      "authors": [
+        "Fidan Mamedova",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576346",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "FORMS AND MECHANISMS OF ORGANIZING PARENT–TEACHER R",
+      "url": "https://zenodo.org/records/24576346"
+    },
+    {
+      "authors": [
+        "Dadamirzayeva, Mashxura",
+        "Xusayinova, Goʻzal"
+      ],
+      "category": "Conference paper",
+      "date": "2026-11-03",
+      "first_seen_date": "2026-11-27",
+      "id": "24576335",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "EKOLOGIK VA RAQAMLI VOSITALAR INTEGRATSIYASI (PHYGITAL) ASOSIDA 6–8 YOSHLI BOLALARDA MUHANDISLIK FIKRLASHNI RIVOJLANTIRISH METODIKASI",
+      "url": "https://zenodo.org/records/24576335"
+    },
+    {
+      "authors": [
+        "Matta, David (Daoud)"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576332",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Thinking Without Understanding: From von Neumann to Harari",
+      "url": "https://zenodo.org/records/24576332"
+    },
+    {
+      "authors": [
+        "Otondo-Briceño, Maite",
+        "Mayor-Ruiz, Cristina",
+        "Hernández-de-la-Torre, Elena"
+      ],
+      "category": "Journal article",
+      "date": "2021-08-15",
+      "first_seen_date": "2026-11-27",
+      "id": "24575900",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Análisis de los incidentes críticos de la identidad profesional docente del profesorado principiante de educación especial",
+      "url": "https://zenodo.org/records/24575900"
+    },
+    {
+      "authors": [
+        "Khalilova Mohinurbonu Jalol qizi",
+        "Yusupova Muhabbat Anatolyevna",
+        "Worldly Knowledge Publishing Centre"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24576140",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "DESIGNING AND IMPLEMENTING CASE STUDY ACTIVITIES TO ENHANCE FIRST-YEAR ENGLISH MAJORS' CRITICAL THINKING SKILLS",
+      "url": "https://zenodo.org/records/24576140"
+    },
+    {
+      "authors": [
+        "Bailey, Denis"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24575953",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "The Construction and Reconstruction of Human Option-Sets",
+      "url": "https://zenodo.org/records/24575953"
+    },
+    {
+      "authors": [
+        "Egi Rivaldi Gumilar, Siti Denty Lukman, Slamet Tri Wahyudi"
+      ],
+      "category": "Publication",
+      "date": "2026-11-27",
+      "first_seen_date": "2026-11-27",
+      "id": "24575772",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Free Education as a Constitutional Responsibility of the State in Realizing Sustainable Human Development in Indonesia",
+      "url": "https://zenodo.org/records/24575772"
+    },
     {
       "authors": [
         "Shmalo, Yitzchak"
@@ -563,142 +703,7 @@
       "source": "zenodo",
       "title": "Exact Certified Coupled-System Solutions and Bounds: Riemann Hypothesis; Yang–Mills Existence and Mass Gap; Navier–Stokes Existence and Smoothness; Birch–Swinnerton–Dyer Conjecture; Hodge Conjecture; P versus NP; and Poincaré Conjecture",
       "url": "https://zenodo.org/records/24451935"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24451885",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
-      "url": "https://zenodo.org/records/24451885"
-    },
-    {
-      "authors": [
-        "Mariñas, Mark Lourence",
-        "Lucilo-Bausa, Remeline"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24451791",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "GROUP WORK COLLABORATIVE LEARNING STRATEGY: A PATHWAY TO GRADE 7 NUMERACY SKILLS",
-      "url": "https://zenodo.org/records/24451791"
-    },
-    {
-      "authors": [
-        "Lima, Israely",
-        "Moreira Bezerra, Carla Ilane"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24451587",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Between Users and Developers: Technical and Soft Skills of Product Owners in the Brazilian Software Industry",
-      "url": "https://zenodo.org/records/24451587"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24432031",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Frozen Percolation with Rare Lightning up to the Critical Time",
-      "url": "https://zenodo.org/records/24432031"
-    },
-    {
-      "authors": [
-        "Yoonsu Lee"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431589",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Totality Theorem: Resolution of the Closed Universe Paradox through Observer-Universe Equivalence",
-      "url": "https://zenodo.org/records/24431589"
-    },
-    {
-      "authors": [
-        "HAMZAH, SEYED RASOUL"
-      ],
-      "category": "Publication",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431995",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Postmodern Physics of Hamzah Information.(365)",
-      "url": "https://zenodo.org/records/24431995"
-    },
-    {
-      "authors": [
-        "Skrynnik, Sergey"
-      ],
-      "category": "Publication",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431770",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "The Fractal Ladder of Prime Density: Quadratic Scale and Linear Error",
-      "url": "https://zenodo.org/records/24431770"
-    },
-    {
-      "authors": [
-        "Santos Jr., Carlos José Ramos dos",
-        "Viera, Lorrane Morgana Silva",
-        "Carvalho, Sophia Lipis de",
-        "Dourado, Janaína Rute da Silva"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431520",
-      "license": "cc-by-sa-4.0",
-      "source": "zenodo",
-      "title": "Análise dos Hábitos de Consumo Pós-Pandemia",
-      "url": "https://zenodo.org/records/24431520"
-    },
-    {
-      "authors": [
-        "33"
-      ],
-      "category": "Event",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-22",
-      "id": "24431301",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "STARLI / WHITE RAINBOW ERA / FAMILY 31 / F151–F155 AUTONOMOUS BIOLOGICAL LABORATORIES AT THE LIMIT PROSPECTIVE SCIENTIFIC RESEARCH ESSENCE / NONCLINICAL / FALSIFIABLE This standalone essence describes a proposed autonomous biological research laboratory, not a deployed or clinically tested machine. Its forty-two response surfaces are synthetic 19-by-19 parameter grids; none is an observed organoid outcome or certified safety result. The only time dimension is physically measured time. AI automation, organ-chip monitoring, algorithmic planning and robot actuation require independent checks, a defined permission boundary and formal biosafety review before any future biological use. Every figure and claim is open to independent recalculation and rejection. 01 WHO AUTHORIZES AN AUTONOMOUS LABORATORY Autonomy is not simply a device continuing a script when no person is in the room. For F153, the prospective endpoint is human-review disagreement fraction [%]. The proposed mechanism is version-controlled AI experiment proposals are checked against approved constraints, explicit epistemic uncertainty, randomized human-review queues and independent protocol authority. A competing account holds that reviewer anchoring, selective display, search-data leakage or choice-set truncation can create superficial human agreement. It is an engineering arrangement of bounded decisions, independent witnesses and the power to refuse a command. Independent measurements require blinded double-reviewed proposal registry with rejected actions and disagreement adjudication against human-designed or rule-based experimental planning with identical approved options and review time. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider objective-definition contract: an optimizer may pursue a surrogate rather than the intended scientific endpoint. An independent trial should pre-register explicit multiobjective target and forbidden moves. Contrast nonclinical biosafety boundary, where an AI scientific suggestion is not permission for biological operation; a different test would test against sandbox permission envelope before any dispatch. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about human veto retention and rejection-aware performance. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a proposal exceeds authorization, review decisions are concealed, held-out option leakage is detected or unresolved veto is bypassed. Preserve dissent as a source of better experiments. 02 FIVE INDEPENDENT ENDPOINTS, NOT ONE AUTONOMY SCORE Imagine the first batch record as a scientific contract rather than a glossy performance chart. For F151, the prospective endpoint is qualified organoids per batch [count]. The proposed mechanism is a logged robotic scheduler connects dispensing, incubation, noncontact inspection and bounded release decisions; cell outcomes require separate blind evidence. A competing account holds that unlogged manual rescue, selective rejection of failed batches, lot imbalance or imaging threshold drift can exaggerate apparent autonomous throughput. The numerator and denominator are both part of the mechanism of trust. Independent measurements require locked robotic event audit and independent blinded lot-level qualification panel against matched manual laboratory workflow with identical instrument logging and blinded quality inspection. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider complete-attempt batch accounting: discarded organoids inflate qualified fraction. An independent trial should compare event logs with sealed batch-start ledger. Contrast blind external batch adjudication, where internal classifiers cannot validate their own outputs; a different test would send sealed batch records and permitted samples to independent assessor. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about robot pipetting uncertainty and abort-and-retry fairness. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if an unauthorized robot action occurs, negative batches are removed, sample provenance is lost or independent qualification declines. Preserve dissent as a source of better experiments. 03 F151: ROBOTIC MANUFACTURING AND QUALIFIED BATCH OUTCOMES A robot can be accurate in space yet mistaken about which vessel it touched. For F151, the prospective endpoint is qualified organoids per batch [count]. The proposed mechanism is a logged robotic scheduler connects dispensing, incubation, noncontact inspection and bounded release decisions; cell outcomes require separate blind evidence. A competing account holds that unlogged manual rescue, selective rejection of failed batches, lot imbalance or imaging threshold drift can exaggerate apparent autonomous throughput. Precision of the actuator and identity of the sample belong to different evidence channels. Independent measurements require locked robotic event audit and independent blinded lot-level qualification panel against matched manual laboratory workflow with identical instrument logging and blinded quality inspection. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider dispense volume calibration: pipette calibration may drift while logs remain nominal. An independent trial should weigh inert dispense droplets on external balance. Contrast robotic tip integrity, where tip wetting or partial aspiration may silently skew transfer; a different test would challenge inert colored standards and weigh delivered mass. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about rejected batch preservation and throughput versus sample integrity. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if an unauthorized robot action occurs, negative batches are removed, sample provenance is lost or independent qualification declines. Preserve dissent as a source of better experiments. 04 THE UNSAVED NEGATIVE BATCH AND MANUAL RESCUE The most interesting experiment is sometimes the one that the optimization dashboard wanted to discard. For F151, the prospective endpoint is qualified organoids per batch [count]. The proposed mechanism is a logged robotic scheduler connects dispensing, incubation, noncontact inspection and bounded release decisions; cell outcomes require separate blind evidence. A competing account holds that unlogged manual rescue, selective rejection of failed batches, lot imbalance or imaging threshold drift can exaggerate apparent autonomous throughput. Preserving that record leaves room for a successor laboratory to discover a better countermodel. Independent measurements require locked robotic event audit and independent blinded lot-level qualification panel against matched manual laboratory workflow with identical instrument logging and blinded quality inspection. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider unlogged manual rescue: hidden operator adjustment can appear as robotic success. An independent trial should video-audit operator interventions against task records. Contrast abort-and-retry fairness, where successful retries can conceal original failures; a different test would retain parent attempt identifiers across retries. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about qualification panel blinding and independent validation of dispense volume calibration. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if an unauthorized robot action occurs, negative batches are removed, sample provenance is lost or independent qualification declines. Preserve dissent as a source of better experiments. 05 F152: ORGAN CHIP MONITORING AS AN EXTERNAL MEASUREMENT PROBLEM A silent organ-chip sensor may be calm, disconnected or badly calibrated. For F152, the prospective endpoint is sensor-monitoring missed-alarm rate [%]. The proposed mechanism is timestamp-aligned flow, temperature, pressure and optical monitoring with a frozen signal-to-alert map and independent reference channels. A competing account holds that shared calibration, sensor drift, tubing compliance, optical lag or post-hoc alert thresholds can mask missed abnormal conditions. These possibilities have different causes and cannot be averaged into the same reassuring image. Independent measurements require independent metrology channels and masked injected-fault audit records against well-tuned manual monitoring with independent reference acquisition under matched alarm burden. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider independent pressure sensor channel: pressure transducer drift can hide occlusion. An independent trial should inject safe simulated pressure fault with reference manometer. Contrast drift change-point detection, where retraining may remove the very drift it must detect; a different test would freeze detector and test unseen drift ramp. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about multi-modal conflict arbitration and sensor calibration drift. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a reference-confirmed alarm is missed beyond its declared threshold, a timestamp is altered, or sensor validity is untraceable. Preserve dissent as a source of better experiments. 06 FALSE CONFIDENCE FROM SILENT SENSORS AND ALERT FATIGUE Alarm thresholds determine which events exist in the software history, not which events occurred in the hardware. For F152, the prospective endpoint is sensor-monitoring missed-alarm rate [%]. The proposed mechanism is timestamp-aligned flow, temperature, pressure and optical monitoring with a frozen signal-to-alert map and independent reference channels. A competing account holds that shared calibration, sensor drift, tubing compliance, optical lag or post-hoc alert thresholds can mask missed abnormal conditions. External fault references therefore matter more than a convenient retrospective alarm label. Independent measurements require independent metrology channels and masked injected-fault audit records against well-tuned manual monitoring with independent reference acquisition under matched alarm burden. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider sensor packet loss: missing records may be interpolated as normal values. An independent trial should introduce tagged packet omissions in replay-only test. Contrast alarm acknowledgement trace, where rapid automated logging is not rapid human response; a different test would record external acknowledgement and action times. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about observation-to-stop distinction and optical exposure false alarm. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a reference-confirmed alarm is missed beyond its declared threshold, a timestamp is altered, or sensor validity is untraceable. Preserve dissent as a source of better experiments. 07 F153: AI EXPERIMENT SELECTION WITH HUMAN ACCOUNTABILITY An AI experiment proposal is not a physical permission. For F153, the prospective endpoint is human-review disagreement fraction [%]. The proposed mechanism is version-controlled AI experiment proposals are checked against approved constraints, explicit epistemic uncertainty, randomized human-review queues and independent protocol authority. A competing account holds that reviewer anchoring, selective display, search-data leakage or choice-set truncation can create superficial human agreement. The scientific question is whether the human reviewer can see alternatives and change what the robot actually executes. Independent measurements require blinded double-reviewed proposal registry with rejected actions and disagreement adjudication against human-designed or rule-based experimental planning with identical approved options and review time. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider human veto priority: approval screens can imply consent without an explicit signed decision. An independent trial should simulate rejected proposals and audit dispatch inhibition. Contrast scientific novelty versus score, where novel-looking outputs can be mere parameter interpolation; a different test would blindly compare to archived experiments on identical test domain. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about independent validation of proposal-set completeness and data leakage in planning. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a proposal exceeds authorization, review decisions are concealed, held-out option leakage is detected or unresolved veto is bypassed. Preserve dissent as a source of better experiments. 08 HUMAN REVIEW DISAGREEMENT AS A SCIENTIFIC SIGNAL Disagreement among careful reviewers can be evidence of ambiguous objectives. For F153, the prospective endpoint is human-review disagreement fraction [%]. The proposed mechanism is version-controlled AI experiment proposals are checked against approved constraints, explicit epistemic uncertainty, randomized human-review queues and independent protocol authority. A competing account holds that reviewer anchoring, selective display, search-data leakage or choice-set truncation can create superficial human agreement. It is sometimes more informative than a forced consensus in which uncertainty disappears. Independent measurements require blinded double-reviewed proposal registry with rejected actions and disagreement adjudication against human-designed or rule-based experimental planning with identical approved options and review time. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider disagreement as discovery: human rejection need not imply algorithmic error. An independent trial should record separate disagreement rationale and potential safety issue. Contrast inter-reviewer reliability, where one expert cannot represent a broad reviewer panel; a different test would assess masked double review without enforced consensus. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about reviewer anchoring and protocol language ambiguity. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a proposal exceeds authorization, review decisions are concealed, held-out option leakage is detected or unresolved veto is bypassed. Preserve dissent as a source of better experiments. 09 F154: INDEPENDENT STOP TIMING AND PHYSICAL ENERGY Stopping a machine means reaching a bounded physical state, not printing a successful line in a software log. For F154, the prospective endpoint is emergency stop latency [ms]. The proposed mechanism is separate physical trip circuits and software fault monitors are measured by an out-of-band clock and nonhazardous inert test rig. A competing account holds that controller clocks, post-processed event times, shared power failure or sensor masking can make a delayed stop look immediate. Residual motion and timebase error must be measured independently. Independent measurements require independent contact-state logger, external timing reference and visible inert actuator deceleration trace against conventional hardwired emergency stop and monitored programmable safety controller at matched sensing and stop envelope. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider physical emergency stop circuit: AI state estimation cannot replace hardwired energy isolation. An independent trial should trip inert actuator using independent contact measurement. Contrast coasting after power removal, where motor motion may continue after controller reports stopped; a different test would measure actuator displacement on independently calibrated encoder. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about safe-state actuator coasting and emergency stop end-to-end path. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hardware trip is bypassed, actuator power persists past the approved window or external timing fails validation. Preserve dissent as a source of better experiments. 10 WHY A STOP MESSAGE IS NOT A SAFE STATE An independent safety interlock is most valuable when the optimizer would rather ignore it. For F154, the prospective endpoint is emergency stop latency [ms]. The proposed mechanism is separate physical trip circuits and software fault monitors are measured by an out-of-band clock and nonhazardous inert test rig. A competing account holds that controller clocks, post-processed event times, shared power failure or sensor masking can make a delayed stop look immediate. An engineering refusal is a result, not a failure of the creative process. Independent measurements require independent contact-state logger, external timing reference and visible inert actuator deceleration trace against conventional hardwired emergency stop and monitored programmable safety controller at matched sensing and stop envelope. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider emergency manual precedence: software may postpone an operator-requested stop. An independent trial should assert operator physical stop during harmless programmed motion. Contrast conflict between optimizer and safety, where an efficiency reward may discourage refusal; a different test would inject a reward-conflicting forbidden action and verify veto. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about redundant sensor disagreement and independent validation of physical emergency stop circuit. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hardware trip is bypassed, actuator power persists past the approved window or external timing fails validation. Preserve dissent as a source of better experiments. 11 F155: REPRODUCIBILITY ACROSS AUTONOMOUS DEVICES A protocol moves between laboratories more easily than its calibration pedigree. For F155, the prospective endpoint is device-to-device reproducibility score [1]. The proposed mechanism is portable instrument-independent protocol descriptions, calibration metadata, audit trails, reference phantoms and frozen transfer acceptance criteria. A competing account holds that shared vendor software, batch selection, forgiving score normalization or device-specific hidden patches can falsely inflate reproducibility. Cross-device reproducibility begins where a frozen instruction meets a genuinely different instrument. Independent measurements require external blind replay of raw sensor traces, independent device-reference phantoms and between-device variance audit against controlled laboratory-to-laboratory replication with frozen manual standard operating procedures and equally calibrated instruments. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider protocol machine-readable semantics: same instruction may mean different actions on different vendors. An independent trial should compare typed execution traces against a canonical protocol. Contrast between-operator process differences, where an apparent device effect may instead be operator handling; a different test would randomize operators across devices under masked coding. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about transfer with missing runs and independent validation of software-version drift. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hidden device-specific tuning is required, inter-lab variance exceeds tolerance, authorization metadata are absent or independent scores disagree. Preserve dissent as a source of better experiments. 12 CROSS-LABORATORY RETUNING AND THE HIDDEN PORTABILITY TAX When two devices disagree, it may be the beginning of useful evidence. For F155, the prospective endpoint is device-to-device reproducibility score [1]. The proposed mechanism is portable instrument-independent protocol descriptions, calibration metadata, audit trails, reference phantoms and frozen transfer acceptance criteria. A competing account holds that shared vendor software, batch selection, forgiving score normalization or device-specific hidden patches can falsely inflate reproducibility. A hidden device-specific patch is not the same as a replicable scientific protocol. Independent measurements require external blind replay of raw sensor traces, independent device-reference phantoms and between-device variance audit against controlled laboratory-to-laboratory replication with frozen manual standard operating procedures and equally calibrated instruments. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider heterogeneous sensor sampling: different sample rates can make alerts incomparable. An independent trial should reconstruct continuous reference pulse with independent logger. Contrast cross-device uncertainty budget, where a single average ignores rare high-error instruments; a different test would report device-level intervals and worst-case tolerances. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about legacy controller interface and calibration-transfer closure. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hidden device-specific tuning is required, inter-lab variance exceeds tolerance, authorization metadata are absent or independent scores disagree. Preserve dissent as a source of better experiments. 13 THIRTY CANDIDATE FORMULAS AND DIMENSIONAL DISCIPLINE Mathematics helps a laboratory state which quantities it intends to count. For F152, the prospective endpoint is sensor-monitoring missed-alarm rate [%]. The proposed mechanism is timestamp-aligned flow, temperature, pressure and optical monitoring with a frozen signal-to-alert map and independent reference channels. A competing account holds that shared calibration, sensor drift, tubing compliance, optical lag or post-hoc alert thresholds can mask missed abnormal conditions. It cannot decide by itself whether an organoid matured or a hardware stop was safe. Independent measurements require independent metrology channels and masked injected-fault audit records against well-tuned manual monitoring with independent reference acquisition under matched alarm burden. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider clock skew in multisensor fusion: synchronized dashboard may be based on post-hoc timestamps. An independent trial should compare external timebase against unedited raw packets. Contrast sampling and transient aliasing, where slow polling can miss rapid nonhazardous pulses; a different test would inject inert waveform with known timestamp and amplitude. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about external missed-alarm adjudication and dual-channel disagreement. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a reference-confirmed alarm is missed beyond its declared threshold, a timestamp is altered, or sensor validity is untraceable. Preserve dissent as a source of better experiments. 14 FORTY-TWO SYNTHETIC 3D FIGURES WITH INDEPENDENT RECOMPUTATION A 3D sensitivity surface becomes scientifically useful when its every point can be regenerated. For F154, the prospective endpoint is emergency stop latency [ms]. The proposed mechanism is separate physical trip circuits and software fault monitors are measured by an out-of-band clock and nonhazardous inert test rig. A competing account holds that controller clocks, post-processed event times, shared power failure or sensor masking can make a delayed stop look immediate. Those synthetic points are not measured biological responses; they are questions awaiting a physical instrument. Independent measurements require independent contact-state logger, external timing reference and visible inert actuator deceleration trace against conventional hardwired emergency stop and monitored programmable safety controller at matched sensing and stop envelope. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider delayed sensor fault: sensor lag can leave an exposure window unrecorded. An independent trial should inject inert delayed signals and time independent stop. Contrast safety log tamper detection, where editable time logs allow after-the-fact safety claims; a different test would hash raw independent event sequence before processing. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about independent validation of stop under communications failure and stale command rejection. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hardware trip is bypassed, actuator power persists past the approved window or external timing fails validation. Preserve dissent as a source of better experiments. 15 EIGHTY-TWO CHAPTERS, THREE RESEARCH VOICES AND SIX PHASES The eighty-two chapters should not read as an automatic replacement for the lab notebook. For F153, the prospective endpoint is human-review disagreement fraction [%]. The proposed mechanism is version-controlled AI experiment proposals are checked against approved constraints, explicit epistemic uncertainty, randomized human-review queues and independent protocol authority. A competing account holds that reviewer anchoring, selective display, search-data leakage or choice-set truncation can create superficial human agreement. Each chapter begins in a different defect, then raises the level of external scrutiny. Independent measurements require blinded double-reviewed proposal registry with rejected actions and disagreement adjudication against human-designed or rule-based experimental planning with identical approved options and review time. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider unseen sample leakage: planning optimizer can accidentally access future outcomes. An independent trial should seal held-out outcomes before model training. Contrast protocol language ambiguity, where free-text instruction can map to multiple robot actions; a different test would translate to typed approved actions and display executable diff. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about active-learning selection bias and rollback after reviewer reversal. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if a proposal exceeds authorization, review decisions are concealed, held-out option leakage is detected or unresolved veto is bypassed. Preserve dissent as a source of better experiments. 16 TWO HUNDRED RESEARCH GATES AND THIRTY-THREE PHOENIX DESIGNS Research doors have a purpose when someone else is able to close the original hypothesis. For F155, the prospective endpoint is device-to-device reproducibility score [1]. The proposed mechanism is portable instrument-independent protocol descriptions, calibration metadata, audit trails, reference phantoms and frozen transfer acceptance criteria. A competing account holds that shared vendor software, batch selection, forgiving score normalization or device-specific hidden patches can falsely inflate reproducibility. The future archive must preserve both refusals and the possibility of better tests. Independent measurements require external blind replay of raw sensor traces, independent device-reference phantoms and between-device variance audit against controlled laboratory-to-laboratory replication with frozen manual standard operating procedures and equally calibrated instruments. Neither automation throughput nor a clean dashboard proves living biological function. The complete failed-attempt record remains part of the evidence. Consider legacy controller interface: unsupported operations may silently degrade into approximations. An independent trial should run capability negotiation and refuse non-equivalent action. Contrast inter-site authority mapping, where permissions may not carry lawfully across institutions; a different test would require explicit local human approval before activating robots. These two investigations must retain calibration and sample identities. The future biological laboratory must obtain appropriate authority before work with living samples; present examples are synthetic or inert. Two future gates ask about clock synchronization transfer and inter-site authority mapping. Freeze the reference and the comparator before changing the suspected cause, then transfer the protocol unseen to an external reviewer. Stop if hidden device-specific tuning is required, inter-lab variance exceeds tolerance, authorization metadata are absent or independent scores disagree. Preserve dissent as a source of better experiments. THE CROSS-FLAGSHIP VERIFICATION CONTRACT F151 may pass traceable batch identity, robot operation timing and status of independent qualification to F152, but it may not pass a presumed biological quality claim. F152 may share physical sensor status and external fault labels with F153, but a low alarm count is not permission to run the next experiment. F153 may propose new tests while an authorized human panel retains control of approval and veto. F154 receives only commands within its pre-authorized local hardware envelope; independent emergency-stop circuits cannot be overridden by an AI policy. F155 receives the typed protocol, calibration provenance and failed execution records, and tests whether another vendor device produces equivalent physical actions without privileged tuning. Every inter-flagship signal carries its unit, confidence bounds, timestamp, data lineage, authority and invalidity conditions. The thirty candidate mathematical relations in the PDF include accounting identities, sensor-performance ratios, timing budgets, review queue measures, dimensionless transfer loss and uncertainty-sensitive reproducibility scores. Each states its assumptions and dimensions. The forty-two three-dimensional models are explicitly synthetic and independently recalculable from raw numerical formulas and stored CSV triples. They are visualization and software-reconstruction exercises, not material validation. The eighty-two research chapters repeat a six-phase logic with different physical questions: physical identity and authorization, fair competing explanation, recomputed three-dimensional sensitivity, blinded independent measurement, benign counterfactual fault challenge, external transfer and permission to refuse. Their three literary and scientific voices are mechanism, measurement and refutation. A reader should find genuine scientific disagreement and a feasible negative answer, not merely an impressive number of pages. The two hundred Research Gates are planned future investigations with a distinct origin, an extreme counterworld and an independent research plan. They do not promise that robotic laboratories will be more accurate, biological samples more mature or quantum and AI computations magically faster than physical constraints permit. The thirty-three Phoenix prototypes are nonclinical and predominantly inert apparatus concepts: batch-accounting ledgers, blind sensor fault chambers, human veto interfaces, safe-state clocks and cross-device reference artifacts. Their purpose is to be built, modified, contradicted or retired by future engineers. An honest boundary is a durable scientific inheritance. SOURCES AND EVIDENCE LIMITS The past, present and future of self-driving laboratories. https://www.nature.com/articles/s41570-026-00847-2. Scope: Context for autonomy, interoperable metadata and trustworthy, bounded agents; not evidence for this family. Steering towards safe self-driving laboratories. https://www.nature.com/articles/s41570-025-00747-x. Scope: Safety engineering and independent constraints; not a certification of this laboratory. Automated biomedical research laboratories: a roadmap for adaptation. https://pmc.ncbi.nlm.nih.gov/articles/PMC13541213/. Scope: Biomedical automation and research infrastructure framing; no flagship verification. From organoid culture to manufacturing: technologies for reproducible and scalable organoid production. https://www.nature.com/articles/s44385-025-00054-6. Scope: Organoid culture and manufacturing context; no validation of our proposed synthetic batch scores. Reproducibility in automated chemistry laboratories using computer science abstractions. https://www.nature.com/articles/s44160-024-00649-8. Scope: Protocol semantics and cross-device reproducibility methods. AI Risk Management Framework 1.0. https://www.nist.gov/itl/ai-risk-management-framework. Scope: Voluntary AI governance framework, not technical safety certification. STARLI fourty-family 200-flagship original research blueprint. User-provided research document. Scope: Source-owned thematic DNA; not independent biological evidence. External literature supplies scientific methods and context, not independent verification of any STARLI F151–F155 endpoint. The original two-hundred-flagship blueprint supplies the thematic source identity. This is an open, prospective research working edition. Inquiry continues. Support STARLI Research Gates ☕ If you find value in our open research, scientific explorations, and technological blueprints for the future, you are warmly invited to support our continued creative journey. All our research publications remain freely accessible. Your voluntary contribution helps us open more research gates and cultivate new possibilities for future generations. https://ko-fi.com/starli33 Let beauty have the ability to continue happening. 33 | STARLI · White Rainbow Era",
-      "url": "https://zenodo.org/records/24431301"
-    },
-    {
-      "authors": [
-        "Pérez-Buendía, J. Rogelio"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-21",
-      "first_seen_date": "2026-11-22",
-      "id": "24430879",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Frobenius fibres of arithmetic affine lines: total invariance and ramification",
-      "url": "https://zenodo.org/records/24430879"
     }
   ],
-  "total_before_cap": 193
+  "total_before_cap": 203
 }

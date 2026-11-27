@@ -1,0 +1,272 @@
+{
+  "fingerprint_check": {
+    "detail": "ok",
+    "ok": true
+  },
+  "per_ban": {
+    "fx-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 4.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 4.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 4.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    },
+    "game-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 2.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 2.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 2.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    },
+    "kokoku-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 1.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 1.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 1.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    },
+    "kyoiku": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 30.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 10.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 30.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 10.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 30.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 0,
+        "nd_miss": 10.0
+      },
+      "history_days": 1
+    },
+    "manga-anime-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    },
+    "news-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 165.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 17.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 165.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 17.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 165.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 0,
+        "nd_miss": 17.0
+      },
+      "history_days": 1
+    },
+    "puzzle-ban": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 3.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 3.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 3.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    },
+    "senkou-kenkyuu-kanshi": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 34.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 30.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 34.0,
+        "brier": 2.0,
+        "nd_hit": 0,
+        "nd_miss": 30.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 34.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 0,
+        "nd_miss": 30.0
+      },
+      "history_days": 1
+    },
+    "uranai": {
+      "actual": {
+        "after_filter": 0.0,
+        "records_delta": 0.0,
+        "status": "ng"
+      },
+      "baseline_last": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "baseline_med7": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 2.0,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "forecaster": {
+        "af_hit": 0,
+        "af_miss": 8.0,
+        "brier": 0.8800000000000002,
+        "nd_hit": 1,
+        "nd_miss": 0.0
+      },
+      "history_days": 1
+    }
+  },
+  "quantile_level": 0.8,
+  "scored_at": "2026-11-27T13:26:20+09:00",
+  "scored_date": "2026-11-27"
+}
