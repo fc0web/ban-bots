@@ -1,0 +1,74 @@
+{
+  "ban": "uranai",
+  "fetch_stats": {
+    "after_filter": 8,
+    "by_source": {
+      "pubmed": {
+        "after_filter": 8,
+        "raw": 8
+      },
+      "rss": {
+        "after_filter": 0,
+        "raw": 20
+      }
+    },
+    "new_today": 1,
+    "newly_added_this_run": 1,
+    "raw_fetched": 28,
+    "seen_previously": 7
+  },
+  "fetched_at": "2026-11-28T13:05:58+09:00",
+  "params": {
+    "pubmed": {
+      "queries": [
+        {
+          "limit": 5,
+          "q": "astrology"
+        },
+        {
+          "limit": 5,
+          "q": "Barnum effect"
+        },
+        {
+          "limit": 5,
+          "q": "divination"
+        }
+      ],
+      "reldate": 30
+    },
+    "rss": {
+      "feeds": [
+        "https://www.caa.go.jp/news.rss"
+      ],
+      "include_keywords": [
+        "霊感",
+        "開運",
+        "占い",
+        "祈祷",
+        "スピリチュアル",
+        "霊視"
+      ],
+      "limit_per_feed": 10
+    },
+    "sparse": true
+  },
+  "records": [
+    {
+      "authors": [
+        "Dash J",
+        "Rout D",
+        "Das S"
+      ],
+      "category": "Journal of ethnobiology and ethnomedicine",
+      "date": "2026 Nov 13",
+      "id": "pubmed:43099569",
+      "license": "",
+      "mark": "未測",
+      "query": "divination",
+      "source": "pubmed",
+      "title": "Socio-ecological perspective and ethnobotanical significance of timber-yielding plants in the ritual practices of Jagannath temple, Puri, India.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43099569/"
+    }
+  ],
+  "source": "pubmed+rss"
+}

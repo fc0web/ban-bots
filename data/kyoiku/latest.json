@@ -2,8 +2,152 @@
   "ban": "kyoiku",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-27T13:25:56+09:00",
+  "generated_at": "2026-11-28T13:05:45+09:00",
   "records": [
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617841",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PHOTONIC REGENERATIVE MATERIALS AND FOUR-DIMENSIONAL BIOFABRICATION FAMILY 15 · F141–F150 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F141 | Light-Crosslinked Hydrogels and Biomimetic Tissue Scaffolds Primary endpoint: shear modulus [Pa]. Minimum prototype: a versioned offline/inert record of mechanical archive. Strong comparator: Nonresponsive gel. Rival: water content changes. Independent stop: Stop for unresolved water content changes, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F142 | Light-Controlled Extracellular Matrix Remodeling Materials Primary endpoint: modulus retention [1]. Minimum prototype: a versioned offline/inert record of mechanical and composition ledger. Strong comparator: Static matrix phantom. Rival: dehydration. Independent stop: Stop for unresolved dehydration, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F143 | Photoresponsive Materials and Cellular Mechanical Microenvironments Primary endpoint: modulus gradient [Pa/m]. Minimum prototype: a versioned offline/inert record of spatial modulus map. Strong comparator: Homogeneous phantom. Rival: indentation depth bias. Independent stop: Stop for unresolved indentation depth bias, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F144 | Optical Microrobot-Assisted Tissue Assembly Primary endpoint: inert assembly error [m]. Minimum prototype: a versioned offline/inert record of phantom registration map. Strong comparator: Fixed fixture. Rival: sample motion. Independent stop: Stop for unresolved sample motion, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F145 | Photonic Interfaces and Temporal Regulation of Regenerative Signals Primary endpoint: archived marker delay [s]. Minimum prototype: a versioned offline/inert record of authorized time series. Strong comparator: Time-only model. Rival: clock drift. Independent stop: Stop for unresolved clock drift, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F146 | 4D Morphological Evolution of Photocontrolled Biomaterials Primary endpoint: shape strain [1]. Minimum prototype: a versioned offline/inert record of inert shape history. Strong comparator: Static coupon. Rival: thermal expansion. Independent stop: Stop for unresolved thermal expansion, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F147 | Photonic Chips and Neural Regenerative Microenvironments Primary endpoint: normalized archived state error [1]. Minimum prototype: a versioned offline/inert record of independent authorized record. Strong comparator: Static reference. Rival: batch confounding. Independent stop: Stop for unresolved batch confounding, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F148 | Optical Fabrication of Biomimetic Microvasculature Primary endpoint: phantom hydraulic resistance [Pa s/m^3]. Minimum prototype: a versioned offline/inert record of inert flow-pressure ledger. Strong comparator: Reference tube. Rival: bypass leakage. Independent stop: Stop for unresolved bypass leakage, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F149 | Photoresponsive Materials and Candidate Skin Regeneration Systems Primary endpoint: phantom fill fraction [1]. Minimum prototype: a versioned offline/inert record of inert 3D image. Strong comparator: Passive filler. Rival: swelling mistaken for repair. Independent stop: Stop for unresolved swelling mistaken for repair, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F150 | Function Phototoxicity and Safety Boundaries of Photonic Regeneration Primary endpoint: joint evidence gap [1]. Minimum prototype: a versioned offline/inert record of separate function and adverse records. Strong comparator: Matched control archive. Rival: selective reporting. Independent stop: Stop for unresolved selective reporting, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24617841"
+    },
+    {
+      "authors": [
+        "Arbelo Ramos, Jose P."
+      ],
+      "category": "Preprint",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617624",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "A Quadratic-Form Proof of Band Monotonicity and Gap Closure for Hill's Equation",
+      "url": "https://zenodo.org/records/24617624"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617744",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "OPTICALLY CONTROLLED MICROROBOTICS AND ORGAN-ON-A-CHIP SYSTEMS FAMILY 14 · F131–F140 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F131 | Optical Microrobots and Microfluidic Life Chips Primary endpoint: inert placement RMSE [m]. Minimum prototype: a versioned offline/inert record of phantom trajectory. Strong comparator: Passive tracer reference. Rival: flow-induced drift. Independent stop: Stop for unresolved flow-induced drift, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F132 | Photonic Sensing Coupled to Skin Chips Primary endpoint: apparent permeability [m/s]. Minimum prototype: a versioned offline/inert record of tracer flux ledger. Strong comparator: Reference membrane. Rival: edge bypass. Independent stop: Stop for unresolved edge bypass, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F133 | Optical Microrobots and Liver Chips Primary endpoint: apparent solute removal [kg/s]. Minimum prototype: a versioned offline/inert record of mass balance archive. Strong comparator: Inert empty chip. Rival: adsorption to walls. Independent stop: Stop for unresolved adsorption to walls, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F134 | Optical Microrobots and Kidney Chips Primary endpoint: apparent clearance [m^3/s]. Minimum prototype: a versioned offline/inert record of flow and tracer ledger. Strong comparator: Reference filter. Rival: unmeasured outlet. Independent stop: Stop for unresolved unmeasured outlet, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F135 | Photonic Chips and Neural Tissue Interfaces Primary endpoint: signal contrast [1]. Minimum prototype: a versioned offline/inert record of independent recorded waveform. Strong comparator: Electrical reference archive. Rival: optical artifact. Independent stop: Stop for unresolved optical artifact, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F136 | Optical Microrobots and Myocardial Tissue Chips Primary endpoint: cross-modal delay [s]. Minimum prototype: a versioned offline/inert record of synchronized force and electrical record. Strong comparator: Independent timing reference. Rival: clock offset. Independent stop: Stop for unresolved clock offset, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F137 | Photonic Sensing and Vascularized Tissue Chips Primary endpoint: volumetric flow [m^3/s]. Minimum prototype: a versioned offline/inert record of tracer and volume ledger. Strong comparator: Calibrated flow reference. Rival: leak flow. Independent stop: Stop for unresolved leak flow, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F138 | Optical Microrobots and Organoid Culture Primary endpoint: archived morphology fraction [1]. Minimum prototype: a versioned offline/inert record of authorized 3D image archive. Strong comparator: Independent manual annotation. Rival: segmentation bias. Independent stop: Stop for unresolved segmentation bias, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F139 | Photonic Microrobots and Multi-Organ Chip Coupling Primary endpoint: tracer mass closure [1]. Minimum prototype: a versioned offline/inert record of inert mass ledger. Strong comparator: Isolated compartment model. Rival: hidden adsorption. Independent stop: Stop for unresolved hidden adsorption, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F140 | Phototoxicity and Biocompatibility Limits of Optically Controlled Life Chips Primary endpoint: maximum adverse margin [1]. Minimum prototype: a versioned offline/inert record of independent adverse endpoint archive. Strong comparator: Matched historical control. Rival: survivor bias. Independent stop: Stop for unresolved survivor bias, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24617744"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617643",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PHOTONIC LIFE SCIENCE AND NANOSCALE BIOSENSING FAMILY 13 · F121–F130 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F121 | Silicon Microring Resonators for Molecular Sensing Primary endpoint: index sensitivity [m/RIU]. Minimum prototype: a versioned offline/inert record of calibrated spectrum. Strong comparator: Reference ring. Rival: temperature crosstalk. Independent stop: Stop for unresolved temperature crosstalk, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F122 | Label-Free Protein Detection with Photonic Chips Primary endpoint: analytical sensitivity [signal/concentration]. Minimum prototype: a versioned offline/inert record of certified standard record. Strong comparator: Orthogonal assay archive. Rival: nonspecific adsorption. Independent stop: Stop for unresolved nonspecific adsorption, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F123 | Interferometric Biomolecular Sensing Primary endpoint: phase shift [rad]. Minimum prototype: a versioned offline/inert record of phase and blank trace. Strong comparator: Reference arm. Rival: thermal phase shift. Independent stop: Stop for unresolved thermal phase shift, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F124 | Photonic Chip Analysis of Extracellular Vesicles Primary endpoint: classification accuracy [1]. Minimum prototype: a versioned offline/inert record of blinded archived labels. Strong comparator: Orthogonal particle characterization. Rival: protein aggregates. Independent stop: Stop for unresolved protein aggregates, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F125 | Raman Photonic Chips and Molecular Fingerprints Primary endpoint: spectral SNR [1]. Minimum prototype: a versioned offline/inert record of baseline-corrected spectra. Strong comparator: Benchtop raman reference. Rival: fluorescence background. Independent stop: Stop for unresolved fluorescence background, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F126 | Identification of Plant Active Molecules with Photonic Chips Primary endpoint: concentration RMSE [mol/m^3]. Minimum prototype: a versioned offline/inert record of certified chemical spectra. Strong comparator: Chromatography reference archive. Rival: coeluting compounds. Independent stop: Stop for unresolved coeluting compounds, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F127 | Optical Chips and Cellular Redox Sensing Primary endpoint: optical redox proxy [1]. Minimum prototype: a versioned offline/inert record of dual-channel intensity record. Strong comparator: Orthogonal redox archive. Rival: spectral bleed-through. Independent stop: Stop for unresolved spectral bleed-through, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F128 | Photonic Measurement of Longevity-Associated Molecules Primary endpoint: concentration error [mol/m^3]. Minimum prototype: a versioned offline/inert record of calibrated archive. Strong comparator: Reference chemical assay. Rival: matrix interference. Independent stop: Stop for unresolved matrix interference, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F129 | Multimodal Photonic Biosensing Fusion Primary endpoint: held-out prediction gain [1]. Minimum prototype: a versioned offline/inert record of independent labeled archive. Strong comparator: Best single modality. Rival: shared calibration error. Independent stop: Stop for unresolved shared calibration error, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F130 | Selectivity and Detection Limits of Photonic Biosensing Primary endpoint: illustrative detection limit [concentration]. Minimum prototype: a versioned offline/inert record of blank and reference traces. Strong comparator: Validated reference assay. Rival: heteroscedastic noise. Independent stop: Stop for unresolved heteroscedastic noise, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24617643"
+    },
+    {
+      "authors": [
+        "Coffey, Emily B. J.",
+        "Augereau, Thomas M. D.",
+        "Bouteiller, Yann",
+        "Brooks, Mary",
+        "Calvel, Anne",
+        "Chikopela, Theresa",
+        "Kumral, Deniz",
+        "Robillard, Rebecca",
+        "Schönauer, Monika",
+        "Sharp, Andréanne",
+        "St-Onge, David",
+        "Varesco, Giorgio",
+        "Wu, Kangrui",
+        "Beltrame, Giovanni"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616805",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Portiloop: accelerating non-invasive biosignal research through an open, real-time platform",
+      "url": "https://zenodo.org/records/24616805"
+    },
+    {
+      "authors": [
+        "Duquette, Joshua"
+      ],
+      "category": "Software",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616739",
+      "license": "agpl-3.0-or-later",
+      "source": "zenodo",
+      "title": "Planum",
+      "url": "https://zenodo.org/records/24616739"
+    },
+    {
+      "authors": [
+        "Hattori, Minoru",
+        "Hasunuma, Naoko"
+      ],
+      "category": "Software",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24615519",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Reproducibility materials for \"Generative AI as a Consultation/Chat Partner, Psychosocial Distress Indicators, and Human Support Among Japanese University Students\" (version R2)",
+      "url": "https://zenodo.org/records/24615519"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616679",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PHOTONIC SWARM MANUFACTURING AND THREE-DIMENSIONAL NANOASSEMBLY FAMILY 12 · F111–F120 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F111 | Optical Tweezers-Assisted Precision Nanoparticle Assembly Primary endpoint: assembly RMSE [m]. Minimum prototype: a versioned offline/inert record of inert coordinate map. Strong comparator: Fixed fixture. Rival: projection artifact. Independent stop: Stop for unresolved projection artifact, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F112 | Cooperative 3D Manufacturing with Optical Microrobots Primary endpoint: part acceptance fraction [1]. Minimum prototype: a versioned offline/inert record of independent geometry inspection. Strong comparator: Single-agent assembly. Rival: excluded rejects. Independent stop: Stop for unresolved excluded rejects, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F113 | Two-Photon Polymerization and Micro/Nano Printing Primary endpoint: feature width error [m]. Minimum prototype: a versioned offline/inert record of dimension and shrinkage ledger. Strong comparator: Calibrated standard feature. Rival: post-print contraction. Independent stop: Stop for unresolved post-print contraction, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F114 | Optical Field-Induced Colloidal Crystal Self-Assembly Primary endpoint: local hexatic order [1]. Minimum prototype: a versioned offline/inert record of neighbor-angle map. Strong comparator: Random packing reference. Rival: finite field-of-view bias. Independent stop: Stop for unresolved finite field-of-view bias, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F115 | Photonic Swarms and Microscale Part Handling Primary endpoint: placement error [m]. Minimum prototype: a versioned offline/inert record of independent registration. Strong comparator: Fixed gripper reference. Rival: part identity swap. Independent stop: Stop for unresolved part identity swap, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F116 | Optical Manufacturing of Multimaterial Microstructures Primary endpoint: material assignment fraction [1]. Minimum prototype: a versioned offline/inert record of composition map. Strong comparator: Single-material reference. Rival: contrast mistaken for chemistry. Independent stop: Stop for unresolved contrast mistaken for chemistry, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F117 | Autonomous Defect Repair in Optical Manufacturing Primary endpoint: functional recovery ratio [1]. Minimum prototype: a versioned offline/inert record of pre/post independent function. Strong comparator: Replacement reference. Rival: cosmetic closure. Independent stop: Stop for unresolved cosmetic closure, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F118 | Photonic Swarms and Assembly of 4D Intelligent Materials Primary endpoint: time-dependent shape RMSE [m]. Minimum prototype: a versioned offline/inert record of registered 3D history. Strong comparator: Static assembly reference. Rival: fixture motion. Independent stop: Stop for unresolved fixture motion, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F119 | Closed-Loop Quality Control in Photonic Microfactories Primary endpoint: missed defect fraction [1]. Minimum prototype: a versioned offline/inert record of blind quality log. Strong comparator: Fixed quality inspection. Rival: inspection selection. Independent stop: Stop for unresolved inspection selection, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F120 | Resolution Throughput and Cost Limits of Photonic Swarm Manufacturing Primary endpoint: accepted throughput [1/s]. Minimum prototype: a versioned offline/inert record of complete yield-time-cost ledger. Strong comparator: Conventional microfabrication. Rival: unreported failures. Independent stop: Stop for unresolved unreported failures, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24616679"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616111",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "OPTICALLY CONTROLLED ROBOTIC SWARMS AND DISTRIBUTED INTELLIGENCE FAMILY 11 · F101–F110 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F101 | Self-Organization Dynamics of Optically Controlled Micro/Nanoswarms Primary endpoint: velocity polarization [1]. Minimum prototype: a versioned offline/inert record of identity-resolved simulation tracks. Strong comparator: Independent-agent null. Rival: common external drift. Independent stop: Stop for unresolved common external drift, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F102 | Multi-Beam Control of Heterogeneous Robotic Swarms Primary endpoint: worst position error [m]. Minimum prototype: a versioned offline/inert record of class-resolved trajectory. Strong comparator: Single common field baseline. Rival: identity confusion. Independent stop: Stop for unresolved identity confusion, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F103 | Optical Field-Driven Swarm Formation Reconfiguration Primary endpoint: pair-distance RMSE [m]. Minimum prototype: a versioned offline/inert record of pairwise geometry record. Strong comparator: Fixed formation. Rival: rigid pose ambiguity. Independent stop: Stop for unresolved rigid pose ambiguity, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F104 | Distributed Task Allocation in Micro/Nanorobot Swarms Primary endpoint: task completion fraction [1]. Minimum prototype: a versioned offline/inert record of assignment and outcome ledger. Strong comparator: Centralized assignment. Rival: duplicate counting. Independent stop: Stop for unresolved duplicate counting, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F105 | Local Communication and Cooperation in Photonic Swarms Primary endpoint: message delivery probability [1]. Minimum prototype: a versioned offline/inert record of message identity log. Strong comparator: No-link reference. Rival: shared signal mistaken for communication. Independent stop: Stop for unresolved shared signal mistaken for communication, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F106 | Autonomous Obstacle Avoidance and Collision Control in Optical Swarms Primary endpoint: contact event fraction [1]. Minimum prototype: a versioned offline/inert record of synthetic collision ledger. Strong comparator: Fixed separation policy. Rival: missed occlusions. Independent stop: Stop for unresolved missed occlusions, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F107 | Photonic Swarms and Quantum Optimization Primary endpoint: equal-budget loss improvement [1]. Minimum prototype: a versioned offline/inert record of solver resource and outcome ledger. Strong comparator: Best classical heuristic. Rival: unmatched stopping time. Independent stop: Stop for unresolved unmatched stopping time, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F108 | Autonomous Sensing and Information Fusion in Swarm Robots Primary endpoint: state estimation RMSE [native unit]. Minimum prototype: a versioned offline/inert record of independent state archive. Strong comparator: Single-sensor model. Rival: common sensor bias. Independent stop: Stop for unresolved common sensor bias, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F109 | Fault Isolation and Tolerance in Photonic Swarms Primary endpoint: fault identification rate [1]. Minimum prototype: a versioned offline/inert record of labeled simulated failures. Strong comparator: Centralized diagnostic. Rival: fault label leakage. Independent stop: Stop for unresolved fault label leakage, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F110 | Bandwidth and Stability Limits of Large Optical Swarms Primary endpoint: updates per agent [1/s]. Minimum prototype: a versioned offline/inert record of scheduler and residual ledger. Strong comparator: Fixed-rate reference. Rival: hidden communication overhead. Independent stop: Stop for unresolved hidden communication overhead, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24616111"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616008",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PHOTONIC NEURAL NETWORKS AND OPTICAL ARTIFICIAL INTELLIGENCE FAMILY 10 · F091–F100 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F091 | Optical Matrix Multiplication and Neural Network Computing Primary endpoint: relative matrix error [1]. Minimum prototype: a versioned offline/inert record of calibrated transfer matrix. Strong comparator: Digital matrix multiply. Rival: detector nonlinearity. Independent stop: Stop for unresolved detector nonlinearity, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F092 | Silicon Photonic Deep Learning Accelerator Chips Primary endpoint: energy per correct inference [J]. Minimum prototype: a versioned offline/inert record of system power and accuracy ledger. Strong comparator: Matched electronic accelerator. Rival: omitted conversion energy. Independent stop: Stop for unresolved omitted conversion energy, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F093 | Nonlinear Activation in Photonic Neural Networks Primary endpoint: local activation slope [output/input]. Minimum prototype: a versioned offline/inert record of transfer function trace. Strong comparator: Linear optical model. Rival: detector saturation. Independent stop: Stop for unresolved detector saturation, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F094 | Photonic Reservoir Computing and Time Series Primary endpoint: normalized forecast RMSE [1]. Minimum prototype: a versioned offline/inert record of held-out sequence. Strong comparator: Linear autoregression. Rival: future data leakage. Independent stop: Stop for unresolved future data leakage, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F095 | Photonic Spiking Neural Networks Primary endpoint: event rate [1/s]. Minimum prototype: a versioned offline/inert record of timestamped event record. Strong comparator: Digital spiking reference. Rival: detector afterpulses. Independent stop: Stop for unresolved detector afterpulses, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F096 | Weight Calibration in Photonic AI Chips Primary endpoint: weight RMSE [1]. Minimum prototype: a versioned offline/inert record of independent weight readout. Strong comparator: Fixed calibration. Rival: thermal crosstalk. Independent stop: Stop for unresolved thermal crosstalk, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F097 | Noise and Precision in Photonic Neural Networks Primary endpoint: power signal-to-noise ratio [1]. Minimum prototype: a versioned offline/inert record of repeated output record. Strong comparator: Noise-matched digital model. Rival: correlated errors. Independent stop: Stop for unresolved correlated errors, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F098 | Photonic AI and Real-Time Microrobot Control Primary endpoint: offline tracking RMSE [m]. Minimum prototype: a versioned offline/inert record of independent simulator trajectory. Strong comparator: Digital controller. Rival: unmodeled latency. Independent stop: Stop for unresolved unmodeled latency, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F099 | Autonomous Learning Interfaces for Optical AI Primary endpoint: held-out loss improvement [1]. Minimum prototype: a versioned offline/inert record of chronological evaluation ledger. Strong comparator: Frozen model. Rival: test contamination. Independent stop: Stop for unresolved test contamination, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F100 | Latency Energy and Accuracy of Photonic Versus Electronic AI Primary endpoint: energy per correct inference [J]. Minimum prototype: a versioned offline/inert record of equal-task system ledger. Strong comparator: Optimized electronic inference. Rival: unmatched precision. Independent stop: Stop for unresolved unmatched precision, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24616008"
+    },
     {
       "authors": [
         "Shakhnoza Ravshonovna Nizamova",
@@ -568,142 +712,7 @@
       "source": "zenodo",
       "title": "JAMIYAT SIYOSIY ONGINING ENDOGEN VA EKZOGEN OMILLARI HAMDA ULARNING IJTIMOIY-DEMOGRAFIK JARAYONLARGA TA'SIRINING FALSAFIY ASOSLARI",
       "url": "https://zenodo.org/records/24490819"
-    },
-    {
-      "authors": [
-        "Tuxtasinov Mamarasul Rayimjon o'g'li"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-24",
-      "first_seen_date": "2026-11-24",
-      "id": "24490818",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "SIYOSIY TAFAKKUR TRANSFORMATSIYASINING JAMIYAT DEMOGRAFIK TARAQQIYOTIGA TA'SIRI: IJTIMOIY-FALSAFIY TAHLIL",
-      "url": "https://zenodo.org/records/24490818"
-    },
-    {
-      "authors": [
-        "Puja Prempal, Ahuja",
-        "Rajesh Sachde, Nimit"
-      ],
-      "category": "Journal",
-      "date": "2026-11-24",
-      "first_seen_date": "2026-11-24",
-      "id": "24490662",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Emotional Intelligence, Work Engagement, and Professional Effectiveness: A Critical Analysis and Performance Measure",
-      "url": "https://zenodo.org/records/24490662"
-    },
-    {
-      "authors": [
-        "Yang-Hui He"
-      ],
-      "category": "math.AG",
-      "date": "2026-11-20T01:51:40Z",
-      "first_seen_date": "2026-11-23",
-      "id": "http://arxiv.org/abs/2611.26974v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.26974v1",
-      "source": "arxiv",
-      "title": "Calabi-Yau at 50: mathematical discovery in the age of AI",
-      "url": "https://arxiv.org/abs/2611.26974v1"
-    },
-    {
-      "authors": [
-        "Smith, Jess",
-        "Shelton, Ryann"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "23324619",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Reading, Reflecting, and Refining: A Duoethnography on Developing Feedback Practices for Doctoral Student Writing",
-      "url": "https://zenodo.org/records/23324619"
-    },
-    {
-      "authors": [
-        "Shmalo, Yitzchak"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24453134",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Exact spectral gaps of block hit-and-run samplers on the Euclidean ball",
-      "url": "https://zenodo.org/records/24453134"
-    },
-    {
-      "authors": [
-        "Rokhmawati, Andewi"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-22",
-      "first_seen_date": "2026-11-23",
-      "id": "24445044",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Public Verifiability of Carbon Credit Claims: Evidence from Indonesia's Greenhouse Gas Emission Reduction Certificate System",
-      "url": "https://zenodo.org/records/24445044"
-    },
-    {
-      "authors": [
-        "Deng, Zhu",
-        "Huang, Xiaoting",
-        "Liu, Zhu"
-      ],
-      "category": "Dataset",
-      "date": "2026-11-06",
-      "first_seen_date": "2026-11-23",
-      "id": "23998845",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Near-real-time monthly CO2 emissions across China's provinces from 2019 to 2025",
-      "url": "https://zenodo.org/records/23998845"
-    },
-    {
-      "authors": [
-        "Gualiza, Gretchin"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24452125",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Academic Behavior and Self-Determination Skills of Deaf and Hard-of-Hearing Learners in A Special Education Setting",
-      "url": "https://zenodo.org/records/24452125"
-    },
-    {
-      "authors": [
-        "Samputon, Vivian"
-      ],
-      "category": "Journal article",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24452013",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Teacher Resilience and Compassion Fatigue Among Special Education Teachers",
-      "url": "https://zenodo.org/records/24452013"
-    },
-    {
-      "authors": [
-        "Storm, Jeremy"
-      ],
-      "category": "Preprint",
-      "date": "2026-11-23",
-      "first_seen_date": "2026-11-23",
-      "id": "24451935",
-      "license": "cc-by-4.0",
-      "source": "zenodo",
-      "title": "Exact Certified Coupled-System Solutions and Bounds: Riemann Hypothesis; Yang–Mills Existence and Mass Gap; Navier–Stokes Existence and Smoothness; Birch–Swinnerton–Dyer Conjecture; Hodge Conjecture; P versus NP; and Poincaré Conjecture",
-      "url": "https://zenodo.org/records/24451935"
     }
   ],
-  "total_before_cap": 203
+  "total_before_cap": 213
 }

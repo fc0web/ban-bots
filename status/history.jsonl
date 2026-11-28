@@ -97,3 +97,12 @@
 {"af": 0, "ban": "puzzle-ban", "date": "2026-11-27", "new": 0, "status": "ng"}
 {"af": 0, "ban": "senkou-kenkyuu-kanshi", "date": "2026-11-27", "new": 0, "status": "ng"}
 {"af": 0, "ban": "uranai", "date": "2026-11-27", "new": 0, "status": "ng"}
+{"af": 4, "ban": "fx-ban", "date": "2026-11-28", "new": 0, "status": "ok"}
+{"af": 2, "ban": "game-ban", "date": "2026-11-28", "new": 0, "status": "ok"}
+{"af": 0, "ban": "kokoku-ban", "date": "2026-11-28", "new": 0, "status": "ok"}
+{"af": 30, "ban": "kyoiku", "date": "2026-11-28", "new": 10, "status": "ok"}
+{"af": 8, "ban": "manga-anime-ban", "date": "2026-11-28", "new": 0, "status": "ok"}
+{"af": 184, "ban": "news-ban", "date": "2026-11-28", "new": 26, "status": "ok"}
+{"af": 3, "ban": "puzzle-ban", "date": "2026-11-28", "new": 0, "status": "ok"}
+{"af": 34, "ban": "senkou-kenkyuu-kanshi", "date": "2026-11-28", "new": 10, "status": "ok"}
+{"af": 8, "ban": "uranai", "date": "2026-11-28", "new": 1, "status": "ok"}

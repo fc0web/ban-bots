@@ -1,122 +1,58 @@
 {
-  "alert": true,
-  "alert_count": 9,
-  "color": "red",
+  "alert": false,
+  "alert_count": 0,
+  "color": "green",
   "counts": {
     "fx-ban": {
-      "after_filter": 0,
+      "after_filter": 4,
       "new": 0,
-      "raw": 0
+      "raw": 103
     },
     "game-ban": {
-      "after_filter": 0,
+      "after_filter": 2,
       "new": 0,
-      "raw": 0
+      "raw": 15
     },
     "kokoku-ban": {
       "after_filter": 0,
       "new": 0,
-      "raw": 0
+      "raw": 184
     },
     "kyoiku": {
-      "after_filter": 0,
-      "new": 0,
-      "raw": 0
+      "after_filter": 30,
+      "new": 10,
+      "raw": 30
     },
     "manga-anime-ban": {
-      "after_filter": 0,
+      "after_filter": 8,
       "new": 0,
-      "raw": 0
+      "raw": 25
     },
     "news-ban": {
-      "after_filter": 0,
-      "new": 0,
-      "raw": 0
+      "after_filter": 184,
+      "new": 26,
+      "raw": 184
     },
     "puzzle-ban": {
-      "after_filter": 0,
+      "after_filter": 3,
       "new": 0,
-      "raw": 0
+      "raw": 20
     },
     "senkou-kenkyuu-kanshi": {
-      "after_filter": 0,
-      "new": 0,
-      "raw": 0
+      "after_filter": 34,
+      "new": 10,
+      "raw": 34
     },
     "uranai": {
-      "after_filter": 0,
-      "new": 0,
-      "raw": 0
+      "after_filter": 8,
+      "new": 1,
+      "raw": 28
     }
   },
-  "generated_at": "2026-11-27T13:26:20+09:00",
-  "ng": 9,
-  "ok": 0,
-  "problems": [
-    {
-      "ban": "fx-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "game-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "kokoku-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "kyoiku",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "manga-anime-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "news-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "puzzle-ban",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "senkou-kenkyuu-kanshi",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    },
-    {
-      "ban": "uranai",
-      "checked_at": "",
-      "freq": "daily",
-      "reason": "source_ok=false (no detail)",
-      "status": "ng"
-    }
-  ],
+  "generated_at": "2026-11-28T13:06:08+09:00",
+  "ng": 0,
+  "ok": 9,
+  "problems": [],
   "problems_truncated": 0,
   "ran_today": 9,
   "stale": 0,

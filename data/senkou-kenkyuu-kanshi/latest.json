@@ -2,8 +2,158 @@
   "ban": "senkou-kenkyuu-kanshi",
   "cap": 50,
   "count": 50,
-  "generated_at": "2026-11-27T13:26:06+09:00",
+  "generated_at": "2026-11-28T13:05:56+09:00",
   "records": [
+    {
+      "authors": [
+        "Soares Valentim, Victor Hugo"
+      ],
+      "category": "Software",
+      "date": "2026-11-26",
+      "first_seen_date": "2026-11-28",
+      "id": "24617384",
+      "license": "gpl-3.0",
+      "source": "zenodo",
+      "title": "ziviSynthi AKS: An Open-Source Pin-Matrix Synthesizer Firmware Inspired by the EMS Synthi AKS",
+      "url": "https://zenodo.org/records/24617384"
+    },
+    {
+      "authors": [
+        "Subedi, Shiba"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617768",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Twenty-Five Years of Earthquake Science and Disaster Risk Reduction in Nepal: Before and After the Mw 7.9 Gorkha Earthquake",
+      "url": "https://zenodo.org/records/24617768"
+    },
+    {
+      "authors": [
+        "33"
+      ],
+      "category": "Event",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617643",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "PHOTONIC LIFE SCIENCE AND NANOSCALE BIOSENSING FAMILY 13 · F121–F130 · STARLI · WHITE RAINBOW ERA Silicon Photonics × Optically Controlled Nanorobotics × Quantum Photonic Intelligence × 4D Autonomous Regeneration 33 × STARLI | Research Working Edition v1.0 Let light become the language of knowledge, the instrument of renewal, and a pathway toward a civilization capable of caring for its own future. Prospective, nonclinical research proposals. Only offline simulations, synthetic records, inert phantoms and legally authorized existing nonclinical archives are considered. No new live-cell procedures, human or animal interventions, stimulation, implants or autonomous deployment are prescribed. No therapeutic efficacy, functional recovery or quantum advantage is established. Ten flagship studies F121 | Silicon Microring Resonators for Molecular Sensing Primary endpoint: index sensitivity [m/RIU]. Minimum prototype: a versioned offline/inert record of calibrated spectrum. Strong comparator: Reference ring. Rival: temperature crosstalk. Independent stop: Stop for unresolved temperature crosstalk, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F122 | Label-Free Protein Detection with Photonic Chips Primary endpoint: analytical sensitivity [signal/concentration]. Minimum prototype: a versioned offline/inert record of certified standard record. Strong comparator: Orthogonal assay archive. Rival: nonspecific adsorption. Independent stop: Stop for unresolved nonspecific adsorption, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F123 | Interferometric Biomolecular Sensing Primary endpoint: phase shift [rad]. Minimum prototype: a versioned offline/inert record of phase and blank trace. Strong comparator: Reference arm. Rival: thermal phase shift. Independent stop: Stop for unresolved thermal phase shift, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F124 | Photonic Chip Analysis of Extracellular Vesicles Primary endpoint: classification accuracy [1]. Minimum prototype: a versioned offline/inert record of blinded archived labels. Strong comparator: Orthogonal particle characterization. Rival: protein aggregates. Independent stop: Stop for unresolved protein aggregates, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F125 | Raman Photonic Chips and Molecular Fingerprints Primary endpoint: spectral SNR [1]. Minimum prototype: a versioned offline/inert record of baseline-corrected spectra. Strong comparator: Benchtop raman reference. Rival: fluorescence background. Independent stop: Stop for unresolved fluorescence background, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F126 | Identification of Plant Active Molecules with Photonic Chips Primary endpoint: concentration RMSE [mol/m^3]. Minimum prototype: a versioned offline/inert record of certified chemical spectra. Strong comparator: Chromatography reference archive. Rival: coeluting compounds. Independent stop: Stop for unresolved coeluting compounds, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F127 | Optical Chips and Cellular Redox Sensing Primary endpoint: optical redox proxy [1]. Minimum prototype: a versioned offline/inert record of dual-channel intensity record. Strong comparator: Orthogonal redox archive. Rival: spectral bleed-through. Independent stop: Stop for unresolved spectral bleed-through, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F128 | Photonic Measurement of Longevity-Associated Molecules Primary endpoint: concentration error [mol/m^3]. Minimum prototype: a versioned offline/inert record of calibrated archive. Strong comparator: Reference chemical assay. Rival: matrix interference. Independent stop: Stop for unresolved matrix interference, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F129 | Multimodal Photonic Biosensing Fusion Primary endpoint: held-out prediction gain [1]. Minimum prototype: a versioned offline/inert record of independent labeled archive. Strong comparator: Best single modality. Rival: shared calibration error. Independent stop: Stop for unresolved shared calibration error, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint.. F130 | Selectivity and Detection Limits of Photonic Biosensing Primary endpoint: illustrative detection limit [concentration]. Minimum prototype: a versioned offline/inert record of blank and reference traces. Strong comparator: Validated reference assay. Rival: heteroscedastic noise. Independent stop: Stop for unresolved heteroscedastic noise, invalid domain, missing source identity, calibration failure, incompatible resource boundaries or any missing/failed mandatory constraint..",
+      "url": "https://zenodo.org/records/24617643"
+    },
+    {
+      "authors": [
+        "Santos Araújo, Ana Carla",
+        "Guimaraes, Gabriella",
+        "Fernandes, Thiago"
+      ],
+      "category": "Journal article",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24617287",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Desenvolvimento de Novos Produtos à Luz da Transição para a Economia Circular: Uma Revisão Sistemática da Literatura",
+      "url": "https://zenodo.org/records/24617287"
+    },
+    {
+      "authors": [
+        "Coffey, Emily B. J.",
+        "Augereau, Thomas M. D.",
+        "Bouteiller, Yann",
+        "Brooks, Mary",
+        "Calvel, Anne",
+        "Chikopela, Theresa",
+        "Kumral, Deniz",
+        "Robillard, Rebecca",
+        "Schönauer, Monika",
+        "Sharp, Andréanne",
+        "St-Onge, David",
+        "Varesco, Giorgio",
+        "Wu, Kangrui",
+        "Beltrame, Giovanni"
+      ],
+      "category": "Preprint",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616805",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Portiloop: accelerating non-invasive biosignal research through an open, real-time platform",
+      "url": "https://zenodo.org/records/24616805"
+    },
+    {
+      "authors": [
+        "Das, Raju",
+        "Goswami, Nayanjyoti"
+      ],
+      "category": "Peer review",
+      "date": "2026-09-21",
+      "first_seen_date": "2026-11-28",
+      "id": "24616549",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Traditional Food Practices and Cultural Continuity among the Mising of Lakhipur and Thekeraguri Villages in Assam",
+      "url": "https://zenodo.org/records/24616549"
+    },
+    {
+      "authors": [
+        "SaberiKamarposhti, Morteza"
+      ],
+      "category": "Software",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616730",
+      "license": "mit-license",
+      "source": "zenodo",
+      "title": "Code and data for: Barren plateaus meet class imbalance: shot-noise limits and optimal measurement allocation for training variational quantum classifiers on rare classes",
+      "url": "https://zenodo.org/records/24616730"
+    },
+    {
+      "authors": [
+        "José Maranhão da Silva Neto; Glicia Mesquita Martiniano Mendonça; Dario Brito Calçada"
+      ],
+      "category": "Publication",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616881",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "FERRAMENTAS DIGITAIS PARA VIGILÂNCIA EPIDEMIOLÓGICA NOS SERVIÇOS DE SAÚDE: UM MAPEAMENTO SISTEMÁTICO DA LITERATURA",
+      "url": "https://zenodo.org/records/24616881"
+    },
+    {
+      "authors": [
+        "Venansius, Glenn Christiadi",
+        "Nicholas",
+        "Edward, Alexander",
+        "Aryuni, Mediana"
+      ],
+      "category": "Dataset",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24616579",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Dataset Evaluasi Aplikasi Web Monitoring Status Gizi Balita di Puskesmas Kecamatan Sawah Besar",
+      "url": "https://zenodo.org/records/24616579"
+    },
+    {
+      "authors": [
+        "Hattori, Minoru",
+        "Hasunuma, Naoko"
+      ],
+      "category": "Software",
+      "date": "2026-11-28",
+      "first_seen_date": "2026-11-28",
+      "id": "24615519",
+      "license": "cc-by-4.0",
+      "source": "zenodo",
+      "title": "Reproducibility materials for \"Generative AI as a Consultation/Chat Partner, Psychosocial Distress Indicators, and Human Support Among Japanese University Students\" (version R2)",
+      "url": "https://zenodo.org/records/24615519"
+    },
     {
       "authors": [
         "Lucas Mateo Tabares Franco",
@@ -597,161 +747,7 @@
       "source": "zenodo",
       "title": "2024-04-08 Total Solar Eclipse ESID#963 Part 2 of 2",
       "url": "https://zenodo.org/records/23533556"
-    },
-    {
-      "authors": [
-        "Christoph Kern",
-        "Alexander Firbas",
-        "Manuel Sorge"
-      ],
-      "category": "cs.DS",
-      "date": "2026-11-24T16:37:07Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32927v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32927v1",
-      "source": "arxiv",
-      "title": "Algorithms and Complexity of Connectivity Switching in Graphs",
-      "url": "https://arxiv.org/abs/2611.32927v1"
-    },
-    {
-      "authors": [
-        "Anushri Jana",
-        "Kush Goradiya",
-        "Uday P Khedker"
-      ],
-      "category": "cs.PL",
-      "date": "2026-11-24T16:34:29Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32920v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32920v1",
-      "source": "arxiv",
-      "title": "Increasing the Precision of IR Mapping for Incremental Data Analysis",
-      "url": "https://arxiv.org/abs/2611.32920v1"
-    },
-    {
-      "authors": [
-        "Ruiqi Wang",
-        "Jingtong Hu"
-      ],
-      "category": "cs.LG",
-      "date": "2026-11-24T16:22:03Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32892v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32892v1",
-      "source": "arxiv",
-      "title": "Shared information governs multi-view planted matching",
-      "url": "https://arxiv.org/abs/2611.32892v1"
-    },
-    {
-      "authors": [
-        "Hua Sun"
-      ],
-      "category": "cs.IT",
-      "date": "2026-11-24T16:19:06Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32886v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32886v1",
-      "source": "arxiv",
-      "title": "The Capacity of Conference Key Agreement over GHZ Networks",
-      "url": "https://arxiv.org/abs/2611.32886v1"
-    },
-    {
-      "authors": [
-        "Yogesh Dahiya",
-        "Mika Göös",
-        "Nathaniel Harms",
-        "Hamed Hatami",
-        "Pooya Hatami",
-        "Shachar Lovett",
-        "Weiqiang Yuan"
-      ],
-      "category": "cs.CC",
-      "date": "2026-11-24T15:50:14Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32837v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32837v1",
-      "source": "arxiv",
-      "title": "Communication Complexity of Disambiguations of Gap Hamming Distance",
-      "url": "https://arxiv.org/abs/2611.32837v1"
-    },
-    {
-      "authors": [
-        "Eunghyun Lee"
-      ],
-      "category": "cond-mat.stat-mech",
-      "date": "2026-11-24T15:04:12Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32766v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32766v1",
-      "source": "arxiv",
-      "title": "Ordering Information in Multispecies Long-Range Swap Processes",
-      "url": "https://arxiv.org/abs/2611.32766v1"
-    },
-    {
-      "authors": [
-        "Jingcheng He",
-        "Zinan Zhao",
-        "Wenguang Sun",
-        "Xintao Xia"
-      ],
-      "category": "stat.AP",
-      "date": "2026-11-24T14:19:33Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32674v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32674v1",
-      "source": "arxiv",
-      "title": "Simultaneous Inference for Watermark Proportions in LLM-Generated Text",
-      "url": "https://arxiv.org/abs/2611.32674v1"
-    },
-    {
-      "authors": [
-        "Rafał Frączek"
-      ],
-      "category": "cs.DC",
-      "date": "2026-11-24T14:09:45Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32653v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32653v1",
-      "source": "arxiv",
-      "title": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation, Reclamation, and Scaling",
-      "url": "https://arxiv.org/abs/2611.32653v1"
-    },
-    {
-      "authors": [
-        "Kamila Szewczyk"
-      ],
-      "category": "cs.SD",
-      "date": "2026-11-24T14:01:01Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32641v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32641v1",
-      "source": "arxiv",
-      "title": "Lossless Re-Encoding of Vorbis and Opus Audio Files",
-      "url": "https://arxiv.org/abs/2611.32641v1"
-    },
-    {
-      "authors": [
-        "A. C. Cem Say"
-      ],
-      "category": "cs.CC",
-      "date": "2026-11-24T13:54:27Z",
-      "first_seen_date": "2026-11-25",
-      "id": "http://arxiv.org/abs/2611.32633v1",
-      "license": "",
-      "pdf_url": "https://arxiv.org/pdf/2611.32633v1",
-      "source": "arxiv",
-      "title": "Lower space bounds for polynomial-time quantum computation",
-      "url": "https://arxiv.org/abs/2611.32633v1"
     }
   ],
-  "total_before_cap": 281
+  "total_before_cap": 291
 }
